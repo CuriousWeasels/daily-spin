@@ -10,7 +10,9 @@ Live at https://curiousweasels.github.io/daily-spin/
 3. **Research.** Downloads the full text of each story's 2-3 source articles. Sites that block this fall back to the RSS blurb.
 4. **Writer** (Message Batches API, half price). One full article per story with a headline, dek, "Catch up", "Why it matters", body, and topic tags.
 5. **Briefing** (1 call). Picks the front-page lead and writes "5 Things in 60 Seconds" and the "Number of the Day".
-6. **Render.** Front page (`docs/index.html`) plus one page per article (`docs/articles/`), each with related coverage at the bottom.
+6. **Photos** (1 call). Each article proposes a photo search; `images.py` finds openly licensed candidates on Wikimedia Commons (Openverse as fallback; CC BY, CC BY-SA, CC0 and public domain only), and Claude picks one or none. Photos are labeled illustrative, with credits under them and in a Photo credits list.
+7. **Cartoon** (1 call). Sonnet draws a single-panel editorial cartoon for the lead story as SVG (symbols only, never real people). It is sanitized and saved to `docs/comics/`. If drawing fails, the edition still publishes.
+8. **Render.** Front page (`docs/index.html`) plus one page per article (`docs/articles/`), each with related coverage at the bottom.
 
 ## Changing the design
 

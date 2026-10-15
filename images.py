@@ -1,8 +1,8 @@
-"""Openly licensed illustrative photos from Openverse (Creative Commons and public domain),
-plus a sanitizer for the Claude-drawn cartoon SVG.
+"""Openly licensed illustrative photos from Wikimedia Commons and Openverse (Creative Commons and
+public domain), plus a sanitizer for the Claude-drawn cartoon SVG.
 
-Openverse's anonymous API allows ~20 requests a minute and ~200 a day, so searches are spaced
-out; an edition needs about 20.
+Wikimedia Commons is searched first; Openverse (anonymous: ~20 requests a minute, ~200 a day)
+is the fallback. Searches are spaced out; an edition needs about 20.
 """
 
 import html
@@ -18,7 +18,7 @@ API = "https://api.openverse.org/v1/images/"
 USER_AGENT = "DailySpinBot/0.3 (+https://curiousweasels.github.io/daily-spin/)"
 LICENSES = "by,by-sa,cc0,pdm"     # reuse allowed with attribution; no NC/ND
 CANDIDATES = 8
-SPACING = 3.3                     # seconds between searches, under the burst limit
+SPACING = 1.0                     # seconds between searches; polite to Commons and under Openverse limits
 LICENSE_LABELS = {"by": "CC BY", "by-sa": "CC BY-SA", "cc0": "CC0", "pdm": "Public domain"}
 
 
@@ -91,9 +91,10 @@ def search_commons(query: str) -> list[dict]:
 
 
 def search(query: str) -> list[dict]:
-    """Openverse first (wider range of sources), Wikimedia Commons if it is slow or finds nothing."""
-    results = search_openverse(query)
-    return results or search_commons(query)
+    """Wikimedia Commons first (fast and reliable from GitHub's servers, where Openverse times out),
+    then Openverse for its wider range of sources when Commons finds nothing."""
+    results = search_commons(query)
+    return results or search_openverse(query)
 
 
 def search_openverse(query: str) -> list[dict]:

@@ -250,6 +250,11 @@ For markets articles: a figure between a 1px ink top rule and a hairline bottom 
 ### Wire Digest ("Elsewhere on the wire")
 An inline run under a hairline: a Franklin label head, then links in Soft Ink with Hairline Tan underlines that darken to ink on hover, each followed by its muted source, separated by small square tan markers.
 
+### Imagery
+- **Edition cartoon:** one per edition, on the lead. A single-panel editorial cartoon drawn by Claude as flat SVG line art in the page palette (ink line work, white and gray fills, one claret accent, oxford blue only for charts or water), uppercase Arial labels on objects, no real people. It sits above the lead headline in a 1px ink frame with the punchline set in italic display serif beneath and a muted "Cartoon: The Daily Spin, drawn by AI" credit. Served as an image file so nothing in it can run.
+- **Illustrative photos:** openly licensed stock (CC BY, CC BY-SA, CC0, public domain) from Wikimedia Commons, chosen by Claude to show the subject, never identifiable private people or victims. Section leads take a 3:2 photo with a plain-text credit beneath; stacked and rail stories take an 84px square thumbnail floated beside the dek; related-coverage cards take a 16:9 picture; articles take a 3:2 photo with a fully linked credit marked "Illustrative photo, not from the events described." Square corners, no filters, Market Stock Gray as the loading ground.
+- **Credits:** every front-page photo is credited with links in the Photo credits list at the foot of the front page, which also states that the photos illustrate subjects rather than events.
+
 ### Motion
 - **Edition opening** (first visit per session, skipped under reduced motion): masthead double rule scales out from centre (760ms), lead headline lines unmask from below one after another (760ms each, 120ms stagger) once the display face has loaded, standfirst and wire line fade in, sparklines plot (1100ms, staggered) and their dots settle after. All on the house ease, `cubic-bezier(.16,1,.3,1)`.
 - **Headline continuity:** cross-document view transitions; each story headline shares a transition name with its article title so it morphs (480ms) while the page cross-fades.
