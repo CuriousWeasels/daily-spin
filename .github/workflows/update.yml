@@ -5,12 +5,15 @@ on:
     - cron: "0 0,12 * * *"   # every 12 hours (00:00 and 12:00 UTC)
   workflow_dispatch:          # lets you click "Run workflow" manually
 
+concurrency: update-news
+
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 240   # the article batch usually takes minutes, rarely longer
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

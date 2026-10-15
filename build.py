@@ -1,242 +1,308 @@
-"""Fetch free news feeds, have Claude Haiku rewrite the top stories with a
-satirical tone, and write a static site to docs/.
+"""Build The Daily Spin: fetch free news, have Claude Sonnet write satirical
+full-length articles, and write a static newspaper site to docs/.
 
-    python build.py            # full run (needs ANTHROPIC_API_KEY)
-    python build.py --no-ai    # skip Claude; shows raw headlines (free, for testing layout)
+Pipeline per run:
+  1. Editor   (one call per section)  picks the top stories, grouping outlets that cover the same event
+  2. Fetch    full article text from each story's sources
+  3. Writer   (Message Batches API, 50% cheaper)  writes one article per story
+  4. Briefing (one call)  picks the lead, writes "5 Things" and the "Number of the Day"
+
+    python build.py                    # full run (needs ANTHROPIC_API_KEY)
+    python build.py --per-section 2    # smaller, cheaper test run
+    python build.py --no-ai            # no Claude at all: placeholder articles, for layout only
 """
 
 import argparse
-import csv
-import html
-import io
 import json
 import re
 import sys
-import urllib.request
+import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
-import feedparser
-from pydantic import BaseModel
+from anthropic.lib._parse._transform import transform_schema
+from pydantic import BaseModel, ValidationError
 
-from render import render_site
-from sources import INDICATORS, SECTIONS
+import fetch
+from prompts import BRIEFING_PROMPT, EDITOR_PROMPT, WRITER_PROMPT
+from render import write_site
+from sources import SECTIONS
 
-MODEL = "claude-haiku-5-5"
-STORIES_PER_SECTION = 6
-MAX_CANDIDATES = 45          # headlines sent to Claude per section
-MAX_AGE = timedelta(hours=48)
-USER_AGENT = "Mozilla/5.0 (compatible; SatireNewsBot/0.1)"
+MODEL = "claude-sonnet-5-5"
+EFFORT = "medium"
+STORIES_PER_SECTION = 5
+SOURCES_PER_STORY = 3
+BATCH_TIMEOUT = 3 * 60 * 60        # seconds; most batches finish in minutes
+PRICE_IN, PRICE_OUT = 2.00, 10.00  # Sonnet 5.5, $ per 1M tokens (batch is half)
 
-ROOT = Path(__file__).parent
-OUT_DIR = ROOT / "docs"
+# Real-time calls opt into server-side fallback: if Sonnet 5.5 declines a request
+# in a category Anthropic reroutes, the API retries it on another model in the same call.
+FALLBACK = {"betas": ["server-side-fallback-2026-07-01"], "fallbacks": "default"}
 
-SYSTEM_PROMPT = """You are the head writer of "The Daily Spin", a satirical news digest.
-Think The Onion's deadpan meets a sharp Bloomberg columnist: readers should laugh AND come away accurately informed.
-
-You receive a numbered list of real headlines with short summaries from several outlets. Your job:
-1. Pick the most important stories for the section (prefer stories several outlets cover, real consequences, big numbers). Skip duplicates, listicles, deals/coupons, podcasts, and opinion pieces.
-2. Rewrite each one entirely in your own words. Never copy sentences or distinctive phrases from the summaries.
-
-Rules for the writing:
-- The facts must stay true. Who, what, where, and every number must match the source. Never invent quotes, numbers, people, or events. If a detail isn't in the source, leave it out.
-- The humor lives in framing, word choice, and dry asides, not in fake facts.
-- Punch up at the powerful (governments, central banks, CEOs, markets, hype cycles). Never mock victims, casualties, or vulnerable people. For stories involving deaths, war casualties, or disasters, keep the tone dry and restrained, or skip the joke and simply be clear.
-- Headline: punchy, under 14 words, funny but still tells you what happened.
-- Summary: 2-4 sentences. First sentence states plainly what actually happened. Then the wit.
-- Plain language a smart non-expert understands. Explain jargon (e.g. what a yield move means) in a quick aside."""
+OUT_DIR = Path(__file__).parent / "docs"
 
 
-class Story(BaseModel):
-    source_ids: list[int]   # ids of the input items this story is based on
+class Pick(BaseModel):
+    source_ids: list[int]
+    working_title: str
+
+
+class EditorPicks(BaseModel):
+    stories: list[Pick]
+
+
+class Article(BaseModel):
     headline: str
-    summary: str
+    dek: str
+    catch_up: str
+    why_it_matters: str
+    body: list[str]
+    topics: list[str]
 
 
-class SectionDraft(BaseModel):
-    stories: list[Story]
+class NumberOfTheDay(BaseModel):
+    figure: str
+    explanation: str
 
 
-# ---------------------------------------------------------------- fetching
-
-def fetch_bytes(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+class Briefing(BaseModel):
+    lead_index: int
+    five_things: list[str]
+    number_of_the_day: NumberOfTheDay
 
 
-def clean_text(raw: str, limit: int = 400) -> str:
-    text = re.sub(r"<[^>]+>", " ", raw or "")
-    text = re.sub(r"\s+", " ", html.unescape(text)).strip()
-    return text[:limit]
+class Costs:
+    def __init__(self):
+        self.usd = 0.0
+
+    def add(self, usage, batch: bool = False) -> None:
+        factor = 0.5 if batch else 1.0
+        tokens_in = (usage.input_tokens + (usage.cache_creation_input_tokens or 0) * 1.25
+                     + (usage.cache_read_input_tokens or 0) * 0.1)
+        self.usd += factor * (tokens_in * PRICE_IN + usage.output_tokens * PRICE_OUT) / 1e6
 
 
-def fetch_feed(source: str, url: str) -> list[dict]:
-    try:
-        parsed = feedparser.parse(fetch_bytes(url))
-    except Exception as e:  # network errors, timeouts, 403s...
-        print(f"  ! {source}: {e}", file=sys.stderr)
-        return []
-    now = datetime.now(timezone.utc)
-    items = []
-    for entry in parsed.entries[:30]:
-        stamp = entry.get("published_parsed") or entry.get("updated_parsed")
-        published = datetime(*stamp[:6], tzinfo=timezone.utc) if stamp else None
-        if published and now - published > MAX_AGE:
-            continue
-        title = clean_text(entry.get("title", ""), 200)
-        if not title or not entry.get("link"):
-            continue
-        items.append({
-            "source": source,
-            "title": title,
-            "summary": clean_text(entry.get("summary", "")),
-            "url": entry.get("link"),
-            "published": published.isoformat() if published else None,
-        })
-    print(f"  {source}: {len(items)} items")
-    return items
+def listing(items: list[dict]) -> str:
+    return "\n".join(f"[{it['id']}] ({it['source']}) {it['title']} -- {it['summary']}" for it in items)
 
 
-def gather_section(feeds: dict) -> list[dict]:
-    with ThreadPoolExecutor(max_workers=8) as pool:
-        results = pool.map(lambda kv: fetch_feed(*kv), feeds.items())
-    # Interleave feeds so no single outlet dominates the candidate list.
-    per_feed = [r for r in results if r]
-    items, seen = [], set()
-    for i in range(max((len(r) for r in per_feed), default=0)):
-        for feed_items in per_feed:
-            if i < len(feed_items):
-                item = feed_items[i]
-                key = re.sub(r"[^a-z0-9]", "", item["title"].lower())[:60]
-                if key not in seen:
-                    seen.add(key)
-                    items.append(item)
-    for idx, item in enumerate(items[:MAX_CANDIDATES]):
-        item["id"] = idx
-    return items[:MAX_CANDIDATES]
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:60]
 
 
-def fetch_indicators() -> list[dict]:
-    out = []
-    for ind in INDICATORS:
-        url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={ind['id']}"
-        try:
-            rows = list(csv.reader(io.StringIO(fetch_bytes(url).decode())))[1:]
-            rows = [(d, float(v)) for d, v in rows if v not in ("", ".")]
-            date, value = rows[-1]
-            if ind.get("yoy"):
-                value = (value / rows[-13][1] - 1) * 100
-            prev = rows[-2][1] if not ind.get("yoy") else (rows[-2][1] / rows[-14][1] - 1) * 100
-            out.append({"label": ind["label"], "value": round(value, 2),
-                        "change": round(value - prev, 2), "unit": ind["unit"], "as_of": date})
-        except Exception as e:
-            print(f"  ! FRED {ind['id']}: {e}", file=sys.stderr)
-    return out
+# ---------------------------------------------------------------- 1. editor
 
-
-# ---------------------------------------------------------------- rewriting
-
-def rewrite_section(client, title: str, items: list[dict], indicators: list[dict]) -> tuple[list[dict], tuple[int, int]]:
-    listing = "\n".join(
-        f"[{it['id']}] ({it['source']}) {it['title']} -- {it['summary']}" for it in items
-    )
-    extra = ""
-    if title.startswith("Markets") and indicators:
-        nums = "; ".join(f"{i['label']}: {i['value']}{i['unit']} (as of {i['as_of']})" for i in indicators)
-        extra = f"\n\nLatest official data you may reference (these numbers are accurate): {nums}"
-    prompt = (
-        f"Section: {title}\n"
-        f"Pick the top {STORIES_PER_SECTION} stories and rewrite them. "
-        f"In source_ids, list every input id the story draws on.{extra}\n\n{listing}"
-    )
-    response = client.messages.parse(
+def pick_stories(client, costs: Costs, title: str, items: list[dict], n: int) -> list[Pick]:
+    response = client.beta.messages.parse(
         model=MODEL,
         max_tokens=16000,
-        system=SYSTEM_PROMPT,
-        output_config={"effort": "medium"},
-        messages=[{"role": "user", "content": prompt}],
-        output_format=SectionDraft,
+        system=EDITOR_PROMPT,
+        output_config={"effort": EFFORT},
+        messages=[{"role": "user", "content": f"Section: {title}\nPick the top {n} stories.\n\n{listing(items)}"}],
+        output_format=EditorPicks,
+        **FALLBACK,
     )
-    u = response.usage
-    usage = (u.input_tokens, u.output_tokens)
-    print(f"  {title}: {u.input_tokens} in / {u.output_tokens} out tokens")
+    costs.add(response.usage)
     if response.stop_reason == "refusal" or response.parsed_output is None:
-        print(f"  ! {title}: model declined ({response.stop_reason}); using raw headlines", file=sys.stderr)
-        return raw_stories(items), usage
+        print(f"  ! editor declined {title} ({response.stop_reason})", file=sys.stderr)
+        return []
+    valid = {it["id"] for it in items}
+    picks = []
+    for p in response.parsed_output.stories:
+        p.source_ids = [i for i in p.source_ids if i in valid][:SOURCES_PER_STORY]
+        if p.source_ids:
+            picks.append(p)
+    return picks[:n]
 
-    by_id = {it["id"]: it for it in items}
-    stories = []
-    for s in response.parsed_output.stories[:STORIES_PER_SECTION]:
-        refs = [by_id[i] for i in s.source_ids if i in by_id]
-        if not refs:  # never publish a story we can't link back to a real source
+
+# ---------------------------------------------------------------- 3. writer (batch)
+
+def writer_request(story: dict, indicators: list[dict]) -> dict:
+    parts = [f"Section: {story['section_title']}\n"]
+    for i, src in enumerate(story["source_items"], 1):
+        parts.append(f"=== SOURCE {i}: {src['source']} ===\nHeadline: {src['title']}\n{src['text']}\n")
+    if story["section"] == "markets" and indicators:
+        nums = "; ".join(f"{i['label']}: {i['value']}{i['unit']} (as of {i['as_of']})" for i in indicators)
+        parts.append(f"Latest official data (accurate, usable as a source): {nums}\n")
+    parts.append("Write the article.")
+    return {
+        "custom_id": story["id"][:64],
+        "params": {
+            "model": MODEL,
+            "max_tokens": 16000,
+            "system": [{"type": "text", "text": WRITER_PROMPT, "cache_control": {"type": "ephemeral"}}],
+            "output_config": {"effort": EFFORT,
+                              "format": {"type": "json_schema", "schema": transform_schema(Article)}},
+            "messages": [{"role": "user", "content": "\n".join(parts)}],
+        },
+    }
+
+
+def write_articles(client, costs: Costs, stories: list[dict], indicators: list[dict]) -> dict[str, Article]:
+    batch = client.messages.batches.create(requests=[writer_request(s, indicators) for s in stories])
+    print(f"  batch {batch.id}: {len(stories)} articles queued")
+    started, canceled = time.monotonic(), False
+    while batch.processing_status != "ended":
+        if not canceled and time.monotonic() - started > BATCH_TIMEOUT:
+            print("  ! batch timed out; keeping whatever finished", file=sys.stderr)
+            client.messages.batches.cancel(batch.id)
+            canceled = True
+        time.sleep(30)
+        batch = client.messages.batches.retrieve(batch.id)
+        c = batch.request_counts
+        print(f"  ... {c.succeeded} done, {c.processing} writing, {c.errored} errored")
+
+    articles = {}
+    for result in client.messages.batches.results(batch.id):
+        if result.result.type != "succeeded":
+            print(f"  ! {result.custom_id}: {result.result.type}", file=sys.stderr)
             continue
-        stories.append({
-            "headline": s.headline,
-            "summary": s.summary,
-            "sources": [{"name": r["source"], "url": r["url"]} for r in refs],
-            "published": refs[0]["published"],
-        })
-    return stories, usage
+        msg = result.result.message
+        costs.add(msg.usage, batch=True)
+        if msg.stop_reason != "end_turn":
+            print(f"  ! {result.custom_id}: stopped ({msg.stop_reason})", file=sys.stderr)
+            continue
+        text = next((b.text for b in msg.content if b.type == "text"), "")
+        try:
+            articles[result.custom_id] = Article.model_validate_json(text)
+        except ValidationError as e:
+            print(f"  ! {result.custom_id}: bad JSON ({e.error_count()} errors)", file=sys.stderr)
+    return articles
 
 
-def raw_stories(items: list[dict]) -> list[dict]:
-    return [{
-        "headline": it["title"],
-        "summary": it["summary"],
-        "sources": [{"name": it["source"], "url": it["url"]}],
-        "published": it["published"],
-    } for it in items[:STORIES_PER_SECTION]]
+# ---------------------------------------------------------------- 4. briefing
+
+def write_briefing(client, costs: Costs, articles: list[dict]) -> Briefing | None:
+    lines = [
+        f"[{i}] ({a['section_title']}) {a['headline']} -- {a['dek']} {' '.join(a['body'][:2])}"
+        for i, a in enumerate(articles)
+    ]
+    response = client.beta.messages.parse(
+        model=MODEL,
+        max_tokens=16000,
+        system=BRIEFING_PROMPT,
+        output_config={"effort": EFFORT},
+        messages=[{"role": "user", "content": "\n\n".join(lines)}],
+        output_format=Briefing,
+        **FALLBACK,
+    )
+    costs.add(response.usage)
+    if response.stop_reason == "refusal" or response.parsed_output is None:
+        return None
+    b = response.parsed_output
+    if not 0 <= b.lead_index < len(articles):
+        b.lead_index = 0
+    return b
+
+
+# ---------------------------------------------------------------- no-AI placeholders
+
+def placeholder(story: dict) -> Article:
+    src = story["source_items"][0]
+    return Article(headline=src["title"], dek=src["summary"][:160],
+                   catch_up="(Placeholder: AI writing is off.)", why_it_matters="(Placeholder.)",
+                   body=[s["summary"] for s in story["source_items"]], topics=[])
 
 
 # ---------------------------------------------------------------- main
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--no-ai", action="store_true", help="skip Claude, show raw headlines")
+    parser.add_argument("--no-ai", action="store_true", help="skip Claude; placeholder articles")
+    parser.add_argument("--per-section", type=int, default=STORIES_PER_SECTION)
     args = parser.parse_args()
 
     client = None
     if not args.no_ai:
         import anthropic
-        client = anthropic.Anthropic()
+        client = anthropic.Anthropic(max_retries=6)
+    costs = Costs()
+    now = datetime.now(timezone.utc)
+    stamp = f"{now:%Y-%m-%d-%H%M}"
 
     print("Fetching indicators...")
-    indicators = fetch_indicators()
+    indicators = fetch.fetch_indicators()
 
-    sections, tokens_in, tokens_out = [], 0, 0
-    for key, cfg in SECTIONS.items():
-        print(f"Fetching {cfg['title']}...")
-        items = gather_section(cfg["feeds"])
+    print("Fetching feeds...")
+    candidates = {key: fetch.gather_section(cfg["feeds"]) for key, cfg in SECTIONS.items()}
+
+    print("Editor picking stories...")
+    def picks_for(key):
+        items = candidates[key]
         if not items:
-            stories = []
-        elif client:
-            stories, (i, o) = rewrite_section(client, cfg["title"], items, indicators)
-            tokens_in, tokens_out = tokens_in + i, tokens_out + o
-        else:
-            stories = raw_stories(items)
-        sections.append({"key": key, "title": cfg["title"], "stories": stories})
+            return []
+        if client is None:
+            return [Pick(source_ids=[it["id"]], working_title=it["title"]) for it in items[:args.per_section]]
+        return pick_stories(client, costs, SECTIONS[key]["title"], items, args.per_section)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        all_picks = dict(zip(candidates, pool.map(picks_for, candidates)))
 
-    now = datetime.now(timezone.utc)
-    # Haiku 5.5 list price: $0.10 / 1M input, $0.50 / 1M output
-    cost = tokens_in / 1e6 * 0.10 + tokens_out / 1e6 * 0.50
+    stories, used = [], {key: set() for key in candidates}
+    for key, picks in all_picks.items():
+        by_id = {it["id"]: it for it in candidates[key]}
+        for rank, p in enumerate(picks):
+            used[key].update(p.source_ids)
+            stories.append({
+                "id": f"{stamp}-{key}{rank}-{slugify(p.working_title)}",
+                "section": key,
+                "section_title": SECTIONS[key]["title"],
+                "rank": rank,
+                "source_items": [by_id[i] for i in p.source_ids],
+            })
+    print(f"  {len(stories)} stories picked")
+
+    print("Fetching full article text...")
+    fetch.fetch_fulltexts([src for s in stories for src in s["source_items"]])
+
+    print("Writing articles...")
+    if client:
+        written = write_articles(client, costs, stories, indicators)
+    else:
+        written = {s["id"][:64]: placeholder(s) for s in stories}
+
+    articles = []
+    for s in stories:
+        art = written.get(s["id"][:64])
+        if art is None:
+            continue
+        articles.append({
+            **art.model_dump(),
+            "id": s["id"],
+            "section": s["section"],
+            "section_title": s["section_title"],
+            "rank": s["rank"],
+            "sources": [{"name": x["source"], "url": x["url"]} for x in s["source_items"]],
+            "published": s["source_items"][0]["published"],
+        })
+    print(f"  {len(articles)} articles written")
+    if not articles:
+        sys.exit("No articles were written; leaving the site unchanged.")
+
+    print("Writing front-page briefing...")
+    briefing = write_briefing(client, costs, articles) if client else None
+
+    # Headlines we didn't write up become "Elsewhere on the wire" links.
+    wire = {key: [{"title": it["title"], "source": it["source"], "url": it["url"]}
+                  for it in items if it["id"] not in used[key]][:8]
+            for key, items in candidates.items()}
+
     data = {
         "generated_at": now.isoformat(),
         "model": MODEL if client else None,
-        "cost_usd": round(cost, 5),
+        "cost_usd": round(costs.usd, 4),
         "indicators": indicators,
-        "sections": sections,
+        "briefing": briefing.model_dump() if briefing else None,
+        "articles": articles,
+        "wire": wire,
     }
-
-    OUT_DIR.mkdir(exist_ok=True)
     archive = OUT_DIR / "data" / "archive"
     archive.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(data, indent=2, ensure_ascii=False)
     (OUT_DIR / "data" / "latest.json").write_text(payload, encoding="utf-8")
-    (archive / f"{now:%Y-%m-%d_%H%M}.json").write_text(payload, encoding="utf-8")
-    (OUT_DIR / "index.html").write_text(render_site(data), encoding="utf-8")
-    print(f"Done. Wrote {OUT_DIR / 'index.html'}  (est. API cost this run: ${cost:.4f})")
+    (archive / f"{stamp}.json").write_text(payload, encoding="utf-8")
+    write_site(data, OUT_DIR)
+    print(f"Done. {len(articles)} articles. Estimated API cost this run: ${costs.usd:.3f}")
 
 
 if __name__ == "__main__":

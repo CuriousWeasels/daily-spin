@@ -1,46 +1,43 @@
-# The Daily Spin (MVP)
+# The Daily Spin
 
-A satirical news digest. Every 12 hours it:
+A satirical but informative newspaper, rebuilt every 12 hours from free news sources and written by Claude Sonnet 5.5.
+Live at https://curiousweasels.github.io/daily-spin/
 
-1. Pulls headlines from free RSS feeds (`sources.py`) across Geopolitics, AI, Technology, and Markets.
-2. Pulls key numbers (2Y/10Y yields, Fed funds, CPI, unemployment) from FRED's free CSV endpoint.
-3. Sends each section's headlines to **Claude Haiku 5.5**, which picks the top 6 and rewrites them in a satirical tone (facts unchanged, every story links to its sources).
-4. Writes a static page to `docs/index.html`.
+## How a new edition is made
 
-## Run it locally
+1. **Fetch.** Headlines from free RSS feeds (`sources.py`) plus key numbers from FRED (yields, Fed funds, CPI, unemployment).
+2. **Editor** (1 Sonnet call per section). Picks the top 5 stories and groups outlets covering the same event.
+3. **Research.** Downloads the full text of each story's 2-3 source articles. Sites that block this fall back to the RSS blurb.
+4. **Writer** (Message Batches API, half price). One full article per story with a headline, dek, "Catch up", "Why it matters", body, and topic tags.
+5. **Briefing** (1 call). Picks the front-page lead and writes "5 Things in 60 Seconds" and the "Number of the Day".
+6. **Render.** Front page (`docs/index.html`) plus one page per article (`docs/articles/`), each with related coverage at the bottom.
+
+## Changing the voice
+
+All writing instructions live in `prompts.py`. The style is "explainer comedy": plain fact first, "Translation:" asides for jargon, humor that comes from how things actually work, and strict no-invented-facts rules.
+
+## Running locally
 
 ```
-.venv\Scripts\python build.py --no-ai     # free: raw headlines only, to check feeds/layout
-set ANTHROPIC_API_KEY=sk-ant-...           # PowerShell: $env:ANTHROPIC_API_KEY="sk-ant-..."
-.venv\Scripts\python build.py             # full run with Claude
+.venv\Scripts\python build.py --no-ai            # free: placeholder text, for layout only
+$env:ANTHROPIC_API_KEY="sk-ant-..."               # PowerShell
+.venv\Scripts\python build.py --per-section 2    # cheap test (8 articles)
+.venv\Scripts\python build.py                    # full edition (20 articles)
 ```
 
-Then open `docs/index.html` in a browser.
+Every run prints its estimated API cost.
 
-## Paying for it with your Max plan API credits
+## Costs and knobs (in `build.py`)
 
-Max 5x includes $100/month of API credits (Max 20x: $200). They are separate from your chat usage and expire at the end of each billing cycle.
+- `MODEL`: `claude-sonnet-5-5`. Switch to `claude-haiku-5-5` for about 1/20 the cost, with flatter jokes.
+- `STORIES_PER_SECTION`: 5, so 20 articles per edition.
+- `EFFORT`: `medium`. `low` is cheaper; `high` thinks harder.
 
-1. Claim the credits into a Console organization (see "API credits for Max and Team plans" in the Claude docs).
-2. In the Console, create an API key.
-3. Optional but smart: set a monthly spend limit in the Console.
+Your Max plan's monthly API credits pay for this ($100 on Max 5x, $200 on Max 20x). They are claimed into a Console organization and reset each billing cycle. Set a spend limit on the workspace in the Console as a safety net.
 
-Estimated cost: ~4 Haiku calls per run, about $0.01 per run, so roughly **$0.50/month** at 2 runs a day.
-Each run prints its estimated cost.
+## Auto-update (GitHub Actions + Pages)
 
-## Auto-update every 12 hours (GitHub Actions + GitHub Pages, both free)
-
-1. Create a GitHub repo and push this folder.
-2. Repo → Settings → Secrets and variables → Actions → New secret: `ANTHROPIC_API_KEY`.
-3. Repo → Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/docs`.
-4. Actions tab → "Update news" → Run workflow (to test right away).
-
-`.github/workflows/update.yml` runs at 00:00 and 12:00 UTC, rebuilds, and commits `docs/`.
-GitHub cron can be a few minutes late. That's normal.
-
-## Files
-
-- `sources.py`: feeds and indicators. Edit freely.
-- `build.py`: fetch → rewrite → write. The satire style rules live in `SYSTEM_PROMPT`.
-- `render.py`: the (intentionally ugly) HTML.
-- `docs/data/archive/`: JSON of every run.
+`.github/workflows/update.yml` runs at 00:00 and 12:00 UTC, builds, and commits `docs/`, which GitHub Pages serves.
+To run it right away: Actions tab → "Update news" → Run workflow.
+The API key is the repo secret `ANTHROPIC_API_KEY`. To replace an expired key:
+`gh secret set ANTHROPIC_API_KEY --repo CuriousWeasels/daily-spin`
