@@ -94,7 +94,9 @@
           "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T12:03:51+00:00"
+      "published": "2026-10-15T12:03:51+00:00",
+      "wire_headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+      "wire_source": "BBC World"
     },
     {
       "headline": "Black Sea Tanker Burns Off Romania as NATO Members Weigh Which Article to Read Aloud",
@@ -134,7 +136,9 @@
           "url": "https://www.dw.com/en/india-urges-russia-ukraine-to-protect-black-sea-shipping/a-79662826?maca=en-rss-en-world-4025-rdf"
         }
       ],
-      "published": "2026-10-15T11:12:54+00:00"
+      "published": "2026-10-15T11:12:54+00:00",
+      "wire_headline": "Eight crew missing after drone attack leaves tanker ablaze off Romania's coast",
+      "wire_source": "BBC World"
     },
     {
       "headline": "Ukraine's Drones Regain Satellite Access After Brief Lesson in Who Owns the Sky",
@@ -176,7 +180,9 @@
           "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T08:46:09+00:00"
+      "published": "2026-10-15T08:46:09+00:00",
+      "wire_headline": "Ukraine says its Starshield access is back",
+      "wire_source": "NPR World"
     },
     {
       "headline": "Saudi Arabia Weighs Asian Cup Delay as Houthi Strikes Empty Riyadh's Skies",
@@ -214,7 +220,9 @@
           "url": "https://www.aljazeera.com/sports/2026/10/15/asian-cup-in-saudi-arabia-could-be-postponed-by-a-year-amid-houthi-attacks?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T10:52:12+00:00"
+      "published": "2026-10-15T10:52:12+00:00",
+      "wire_headline": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
+      "wire_source": "Al Jazeera"
     },
     {
       "headline": "Britain Asks Interpol to Notice That Argentina's Arrest Requests Are, Technically, About Politics",
@@ -247,7 +255,9 @@
           "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests"
         }
       ],
-      "published": "2026-10-13T17:42:03+00:00"
+      "published": "2026-10-13T17:42:03+00:00",
+      "wire_headline": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+      "wire_source": "The Guardian"
     },
     {
       "headline": "Eight States Sue OpenAI, Alleging ChatGPT Was Marketed as Safe for Kids",
@@ -279,7 +289,9 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
         }
       ],
-      "published": "2026-10-14T21:11:28+00:00"
+      "published": "2026-10-14T21:11:28+00:00",
+      "wire_headline": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "wire_source": "The Verge AI"
     },
     {
       "headline": "Google Ships Gemini 4 Argon, Discovers Rivals Also Own Calendars",
@@ -320,7 +332,9 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
         }
       ],
-      "published": "2026-10-13T18:00:49+00:00"
+      "published": "2026-10-13T18:00:49+00:00",
+      "wire_headline": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "Anthropic Posts $16.8 Billion Quarter, Investors Wonder Why It Isn't Bigger",
@@ -354,7 +368,9 @@
           "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
         }
       ],
-      "published": "2026-10-15T09:50:43+00:00"
+      "published": "2026-10-15T09:50:43+00:00",
+      "wire_headline": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "OpenAI Engineer Allegedly Bugged Executive Room With Toilet Paper and a Chatbot",
@@ -390,7 +406,9 @@
           "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/"
         }
       ],
-      "published": "2026-10-14T16:41:49+00:00"
+      "published": "2026-10-14T16:41:49+00:00",
+      "wire_headline": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "wire_source": "Ars Technica AI"
     },
     {
       "headline": "406 Scientists Ask AI Labs to Unplug the Internet; Anthropic Notes Your Fridge Is Listening",
@@ -427,7 +445,9 @@
           "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
         }
       ],
-      "published": "2026-10-13T18:50:44+00:00"
+      "published": "2026-10-13T18:50:44+00:00",
+      "wire_headline": "406 scientists demand AI models be cut off from the internet immediately",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "Eight States Sue OpenAI, Alleging ChatGPT Was Marketed as Safer Than It Was",
@@ -459,7 +479,9 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
         }
       ],
-      "published": "2026-10-14T21:11:28+00:00"
+      "published": "2026-10-14T21:11:28+00:00",
+      "wire_headline": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "wire_source": "The Verge"
     },
     {
       "headline": "OpenAI Finds Spy Device in Toilet Paper, Uses Own AI to Investigate",
@@ -496,7 +518,9 @@
           "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "published": "2026-10-14T16:41:49+00:00"
+      "published": "2026-10-14T16:41:49+00:00",
+      "wire_headline": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "wire_source": "Ars Technica"
     },
     {
       "headline": "Hackers Turn 700 French Supermarkets Into Ovens by Guessing a Password Printed in the Firmware",
@@ -529,7 +553,9 @@
           "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/"
         }
       ],
-      "published": "2026-10-14T21:35:09+00:00"
+      "published": "2026-10-14T21:35:09+00:00",
+      "wire_headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
+      "wire_source": "Ars Technica"
     },
     {
       "headline": "Anthropic Shows Investors Its Profits and Its Warnings, Hopes They Read Only One",
@@ -562,7 +588,9 @@
           "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "published": "2026-10-15T11:34:55+00:00"
+      "published": "2026-10-15T11:34:55+00:00",
+      "wire_headline": "AI giant Anthropic woos potential investors ahead of stock market debut",
+      "wire_source": "BBC Technology"
     },
     {
       "headline": "Microsoft and Japan Shut Down Scam Supermarket That Sold Fake Accounts by the Billion Message",
@@ -636,7 +664,9 @@
           "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
         }
       ],
-      "published": "2026-10-14T13:53:28+00:00"
+      "published": "2026-10-14T13:53:28+00:00",
+      "wire_headline": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+      "wire_source": "CNBC Economy"
     },
     {
       "headline": "Wholesale Prices Rise 6.3%, Giving Consumers a Preview of What They Will Soon Be Paying",
@@ -673,7 +703,9 @@
           "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317"
         }
       ],
-      "published": "2026-10-15T12:55:15+00:00"
+      "published": "2026-10-15T12:55:15+00:00",
+      "wire_headline": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "wire_source": "CNBC Markets"
     },
     {
       "headline": "AI Stocks Lose $1 Trillion in Four Days, Blame Interest Rates, China and a Newspaper Column",
@@ -714,7 +746,9 @@
           "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
         }
       ],
-      "published": "2026-10-15T12:52:40+00:00"
+      "published": "2026-10-15T12:52:40+00:00",
+      "wire_headline": "Nvidia, AMD, Micron fall as AI stock sell-off deepens",
+      "wire_source": "CNBC Markets"
     },
     {
       "headline": "CoreWeave's AI Bonds Fall to 81 Cents, Offering Investors a 15% Yield and a Lesson",
@@ -754,7 +788,9 @@
           "url": "https://www.investing.com/news/stock-market-news/ai-credit-default-swap-spreads-widen-sharply-4950549"
         }
       ],
-      "published": "2026-10-15T11:17:00+00:00"
+      "published": "2026-10-15T11:17:00+00:00",
+      "wire_headline": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+      "wire_source": "MarketWatch"
     },
     {
       "headline": "Treasury Tells IMF to Check Its Forecasts, Then Bets $40 Trillion Debt on Growth Forecast",
@@ -791,7 +827,9 @@
           "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
         }
       ],
-      "published": "2026-10-15T12:40:58+00:00"
+      "published": "2026-10-15T12:40:58+00:00",
+      "wire_headline": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "wire_source": "CNBC Economy"
     }
   ],
   "wire": {

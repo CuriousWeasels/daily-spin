@@ -12,6 +12,10 @@ Live at https://curiousweasels.github.io/daily-spin/
 5. **Briefing** (1 call). Picks the front-page lead and writes "5 Things in 60 Seconds" and the "Number of the Day".
 6. **Render.** Front page (`docs/index.html`) plus one page per article (`docs/articles/`), each with related coverage at the bottom.
 
+## Changing the design
+
+All markup, styles, and motion live in `render.py`. After editing it, run `.venv\Scripts\python rerender.py` to rebuild every page from the saved data (no API calls, free), then commit `docs/`.
+
 ## Changing the voice
 
 All writing instructions live in `prompts.py`. The style is "explainer comedy": plain fact first, "Translation:" asides for jargon, humor that comes from how things actually work, and strict no-invented-facts rules.

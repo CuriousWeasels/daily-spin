@@ -279,6 +279,8 @@ def main() -> None:
             "section_title": s["section_title"],
             "rank": s["rank"],
             "sources": [{"name": x["source"], "url": x["url"]} for x in s["source_items"]],
+            "wire_headline": s["source_items"][0]["title"],
+            "wire_source": s["source_items"][0]["source"],
             "published": s["source_items"][0]["published"],
         })
     print(f"  {len(articles)} articles written")

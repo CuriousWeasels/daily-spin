@@ -94,7 +94,9 @@
           "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T12:03:51+00:00"
+      "published": "2026-10-15T12:03:51+00:00",
+      "wire_headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+      "wire_source": "BBC World"
     },
     {
       "headline": "Black Sea Tanker Fires Test NATO's Favorite Tool: A Meeting About Having a Meeting",
@@ -135,7 +137,9 @@
           "url": "https://www.dw.com/en/india-urges-russia-ukraine-to-protect-black-sea-shipping/a-79662826?maca=en-rss-en-world-4025-rdf"
         }
       ],
-      "published": "2026-10-15T11:12:54+00:00"
+      "published": "2026-10-15T11:12:54+00:00",
+      "wire_headline": "Eight crew missing after drone attack leaves tanker ablaze off Romania's coast",
+      "wire_source": "BBC World"
     },
     {
       "headline": "Ukraine's Drones Get Their Satellite Link Back, Pending Whoever Owns the Switch",
@@ -175,7 +179,9 @@
           "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T08:46:09+00:00"
+      "published": "2026-10-15T08:46:09+00:00",
+      "wire_headline": "Ukraine says its Starshield access is back",
+      "wire_source": "NPR World"
     },
     {
       "headline": "Saudi Arabia Keeps Asian Cup on Schedule While Missiles Reschedule Everything Else",
@@ -212,7 +218,9 @@
           "url": "https://www.aljazeera.com/sports/2026/10/15/asian-cup-in-saudi-arabia-could-be-postponed-by-a-year-amid-houthi-attacks?traffic_source=rss"
         }
       ],
-      "published": "2026-10-15T10:52:12+00:00"
+      "published": "2026-10-15T10:52:12+00:00",
+      "wire_headline": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
+      "wire_source": "Al Jazeera"
     },
     {
       "headline": "North Korea and China Open Bridge Finished in 2014, Just as Soon as Someone Built the Road",
@@ -249,7 +257,9 @@
           "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-world-4025-rdf"
         }
       ],
-      "published": "2026-10-15T08:12:00+00:00"
+      "published": "2026-10-15T08:12:00+00:00",
+      "wire_headline": "North Korea, China open border bridge after 12-year delay",
+      "wire_source": "DW"
     },
     {
       "headline": "Eight States Sue OpenAI, Each Filing Separately, to Ask Whether ChatGPT Is Safe for Children",
@@ -281,7 +291,9 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
         }
       ],
-      "published": "2026-10-14T21:11:28+00:00"
+      "published": "2026-10-14T21:11:28+00:00",
+      "wire_headline": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "wire_source": "The Verge AI"
     },
     {
       "headline": "OpenAI Engineer Allegedly Bugs Boardroom With Toilet Paper and Chatbot Advice",
@@ -317,7 +329,9 @@
           "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/"
         }
       ],
-      "published": "2026-10-14T16:41:49+00:00"
+      "published": "2026-10-14T16:41:49+00:00",
+      "wire_headline": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "wire_source": "Ars Technica AI"
     },
     {
       "headline": "Google Releases Gemini 4 Argon, Discovers Frontier Is Crowded Again",
@@ -357,7 +371,9 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
         }
       ],
-      "published": "2026-10-13T18:00:49+00:00"
+      "published": "2026-10-13T18:00:49+00:00",
+      "wire_headline": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "Anthropic Posts $16.8 Billion Quarter, Disappoints Investors Who Hoped for a Bigger Number to Be Disappointed By",
@@ -388,7 +404,9 @@
           "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
         }
       ],
-      "published": "2026-10-15T09:50:43+00:00"
+      "published": "2026-10-15T09:50:43+00:00",
+      "wire_headline": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "406 Scientists Ask AI Labs to Unplug the Thing They Plugged In",
@@ -421,7 +439,9 @@
           "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/"
         }
       ],
-      "published": "2026-10-13T18:50:44+00:00"
+      "published": "2026-10-13T18:50:44+00:00",
+      "wire_headline": "406 scientists demand AI models be cut off from the internet immediately",
+      "wire_source": "The Decoder"
     },
     {
       "headline": "Hackers Heat 700 French Supermarkets to 50°C, Exploiting Passwords Anyone Could Calculate",
@@ -453,7 +473,9 @@
           "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/"
         }
       ],
-      "published": "2026-10-14T21:35:09+00:00"
+      "published": "2026-10-14T21:35:09+00:00",
+      "wire_headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
+      "wire_source": "Ars Technica"
     },
     {
       "headline": "Microsoft and Japan Shut Down Scam Marketplace That Ran Like a Normal Online Store",
@@ -517,7 +539,9 @@
           "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
         }
       ],
-      "published": "2026-10-14T12:55:06+00:00"
+      "published": "2026-10-14T12:55:06+00:00",
+      "wire_headline": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "wire_source": "Ars Technica"
     },
     {
       "headline": "Schools and Libraries Ask FCC Not to Unplug the Internet They Use",
@@ -550,7 +574,9 @@
           "url": "https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/"
         }
       ],
-      "published": "2026-10-14T20:15:56+00:00"
+      "published": "2026-10-14T20:15:56+00:00",
+      "wire_headline": "Schools across US protest FCC plan that could disconnect kids from Internet",
+      "wire_source": "Ars Technica"
     },
     {
       "headline": "Open Source Stops Asking About AI, While One Chatbot Files a Murder Tip",
@@ -582,7 +608,9 @@
           "url": "https://www.theregister.com/security/2026/10/15/x-purges-13000-accounts-linked-to-suspected-meddling-ahead-of-us-midterms/5303234"
         }
       ],
-      "published": "2026-10-15T12:45:59+00:00"
+      "published": "2026-10-15T12:45:59+00:00",
+      "wire_headline": "X purges 13,000 accounts linked to suspected meddling ahead of US midterms",
+      "wire_source": "Hacker News"
     },
     {
       "headline": "Inflation Hits 3.7% as Gasoline Does Half the Work and Everyone Else Helps",
@@ -623,7 +651,9 @@
           "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
         }
       ],
-      "published": "2026-10-14T13:53:28+00:00"
+      "published": "2026-10-14T13:53:28+00:00",
+      "wire_headline": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+      "wire_source": "CNBC Economy"
     },
     {
       "headline": "Wholesale Prices Jump 6.3%, Giving Fed Fresh Reason to Look Busy",
@@ -662,7 +692,9 @@
           "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317"
         }
       ],
-      "published": "2026-10-15T13:04:21+00:00"
+      "published": "2026-10-15T13:04:21+00:00",
+      "wire_headline": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "wire_source": "CNBC Markets"
     },
     {
       "headline": "AI Stocks Lose $1 Trillion in Four Days, Blame Interest Rates, China, and Year 2029",
@@ -703,7 +735,9 @@
           "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
         }
       ],
-      "published": "2026-10-15T12:52:40+00:00"
+      "published": "2026-10-15T12:52:40+00:00",
+      "wire_headline": "Nvidia, AMD, Micron fall as AI stock sell-off deepens",
+      "wire_source": "CNBC Markets"
     },
     {
       "headline": "CoreWeave's AI Bonds Fall to 81 Cents, Offering Investors a Discount on Optimism",
@@ -744,7 +778,9 @@
           "url": "https://www.investing.com/news/stock-market-news/ai-credit-default-swap-spreads-widen-sharply-4950549"
         }
       ],
-      "published": "2026-10-15T11:17:00+00:00"
+      "published": "2026-10-15T11:17:00+00:00",
+      "wire_headline": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+      "wire_source": "MarketWatch"
     },
     {
       "headline": "Treasury Adviser Says IMF Forecasts Are Messy, Cites Debt Warning It Would Prefer Not to Hear",
@@ -780,7 +816,9 @@
           "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
         }
       ],
-      "published": "2026-10-15T12:40:58+00:00"
+      "published": "2026-10-15T12:40:58+00:00",
+      "wire_headline": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "wire_source": "CNBC Economy"
     }
   ],
   "wire": {
