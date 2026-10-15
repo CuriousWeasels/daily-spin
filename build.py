@@ -24,7 +24,8 @@ from anthropic.lib._parse._transform import transform_schema
 from pydantic import BaseModel, ValidationError
 
 import fetch
-from prompts import BRIEFING_PROMPT, EDITOR_PROMPT, WRITER_PROMPT
+import images
+from prompts import BRIEFING_PROMPT, CARTOONIST_PROMPT, EDITOR_PROMPT, PHOTO_PICKER_PROMPT, WRITER_PROMPT
 from render import write_site
 from sources import SECTIONS
 
@@ -58,6 +59,24 @@ class Article(BaseModel):
     why_it_matters: str
     body: list[str]
     topics: list[str]
+    image_query: str
+
+
+class PhotoChoice(BaseModel):
+    story: int
+    candidate: int          # -1 when no candidate fits
+
+
+class PhotoChoices(BaseModel):
+    choices: list[PhotoChoice]
+
+
+class Cartoon(BaseModel):
+    concept: str
+    caption: str
+    alt: str
+    svg: str
+    skip: bool
 
 
 class NumberOfTheDay(BaseModel):
@@ -199,13 +218,84 @@ def write_briefing(client, costs: Costs, articles: list[dict]) -> Briefing | Non
     return b
 
 
+# ---------------------------------------------------------------- 5. photos
+
+def add_photos(client, costs: Costs, articles: list[dict]) -> None:
+    """Find an openly licensed illustrative photo per article; Claude picks among the candidates."""
+    found = images.search_all([a.get("image_query", "") for a in articles])
+    blocks = []
+    for i, (a, cands) in enumerate(zip(articles, found)):
+        if cands:
+            options = "\n".join(f"  ({j}) {c['title']} -- tags: {', '.join(c['tags'])}" for j, c in enumerate(cands))
+            blocks.append(f"[{i}] {a['headline']} (search: {a.get('image_query', '')})\n{options}")
+    if not blocks:
+        return
+    response = client.beta.messages.parse(
+        model=MODEL,
+        max_tokens=16000,
+        system=PHOTO_PICKER_PROMPT,
+        output_config={"effort": "low"},
+        messages=[{"role": "user", "content": "\n\n".join(blocks)}],
+        output_format=PhotoChoices,
+        **FALLBACK,
+    )
+    costs.add(response.usage)
+    if response.stop_reason == "refusal" or response.parsed_output is None:
+        print(f"  ! photo picker declined ({response.stop_reason})", file=sys.stderr)
+        return
+    for ch in response.parsed_output.choices:
+        if 0 <= ch.story < len(articles) and 0 <= ch.candidate < len(found[ch.story]):
+            articles[ch.story]["image"] = images.to_image(found[ch.story][ch.candidate])
+    print(f"  {sum(1 for a in articles if a.get('image'))} of {len(articles)} articles have a photo")
+
+
+# ---------------------------------------------------------------- 6. cartoon
+
+def draw_cartoon(client, costs: Costs, a: dict) -> dict | None:
+    """A Claude-drawn single-panel cartoon for the lead story, saved as a sanitized SVG file."""
+    story = (f"Section: {a['section_title']}\nHeadline: {a['headline']}\nSubheadline: {a['dek']}\n"
+             f"Why it matters: {a['why_it_matters']}\n\n" + "\n\n".join(a["body"]))
+    with client.beta.messages.stream(
+        model=MODEL,
+        max_tokens=48000,
+        system=CARTOONIST_PROMPT,
+        output_config={"effort": "high"},
+        messages=[{"role": "user", "content": story}],
+        output_format=Cartoon,
+        **FALLBACK,
+    ) as stream:
+        msg = stream.get_final_message()
+    costs.add(msg.usage)
+    if msg.stop_reason != "end_turn":
+        print(f"  ! cartoon not drawn ({msg.stop_reason})", file=sys.stderr)
+        return None
+    try:
+        cartoon = msg.parsed_output or Cartoon.model_validate_json(
+            next(b.text for b in msg.content if b.type == "text"))
+    except (ValidationError, StopIteration):
+        print("  ! cartoon came back malformed", file=sys.stderr)
+        return None
+    if cartoon.skip:
+        print(f"  cartoonist skipped this story: {cartoon.concept}")
+        return None
+    svg = images.sanitize_svg(cartoon.svg)
+    if svg is None:
+        print("  ! cartoon SVG failed validation", file=sys.stderr)
+        return None
+    path = OUT_DIR / "comics" / f"{a['id']}.svg"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(svg, encoding="utf-8")
+    print(f"  cartoon: {cartoon.concept}")
+    return {"file": f"comics/{a['id']}.svg", "caption": cartoon.caption, "alt": cartoon.alt}
+
+
 # ---------------------------------------------------------------- no-AI placeholders
 
 def placeholder(story: dict) -> Article:
     src = story["source_items"][0]
     return Article(headline=src["title"], dek=src["summary"][:160],
                    catch_up="(Placeholder: AI writing is off.)", why_it_matters="(Placeholder.)",
-                   body=[s["summary"] for s in story["source_items"]], topics=[])
+                   body=[s["summary"] for s in story["source_items"]], topics=[], image_query="")
 
 
 # ---------------------------------------------------------------- main
@@ -289,6 +379,23 @@ def main() -> None:
 
     print("Writing front-page briefing...")
     briefing = write_briefing(client, costs, articles) if client else None
+
+    if client:
+        # Images are extras: if either step fails, the edition still publishes without them.
+        print("Finding photos...")
+        try:
+            add_photos(client, costs, articles)
+        except Exception as e:
+            print(f"  ! photos skipped: {e}", file=sys.stderr)
+        lead = articles[briefing.lead_index if briefing else 0]
+        print("Drawing the cartoon...")
+        try:
+            comic = draw_cartoon(client, costs, lead)
+        except Exception as e:
+            print(f"  ! cartoon skipped: {e}", file=sys.stderr)
+            comic = None
+        if comic:
+            lead["comic"] = comic
 
     # Headlines we didn't write up become "Elsewhere on the wire" links.
     wire = {key: [{"title": it["title"], "source": it["source"], "url": it["url"]}

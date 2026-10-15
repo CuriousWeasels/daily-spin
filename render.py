@@ -133,6 +133,26 @@ nav.sections a:hover::after, nav.sections a:focus-visible::after, nav.sections a
             margin:0 0 6px; text-wrap:balance; }
 .story p { margin:0 0 6px; font-size:.95rem; line-height:1.45; color:var(--ink-2); }
 
+/* images: openly licensed photos and the edition cartoon */
+.photo { margin:0 0 14px; }
+.photo img, img.card { display:block; width:100%; height:auto; aspect-ratio:3 / 2; object-fit:cover; background:var(--paper-2); }
+img.card { aspect-ratio:16 / 9; margin-bottom:10px; }
+img.thumb { float:right; width:84px; height:84px; object-fit:cover; margin:3px 0 6px 14px; background:var(--paper-2); }
+.story.has-thumb::after { content:""; display:block; clear:both; }
+.credit { font-family:var(--sans); font-size:.75rem; color:var(--muted); margin-top:6px; line-height:1.45; }
+.credit a, .credits a { text-decoration:underline; text-decoration-color:var(--rule); text-underline-offset:2px; }
+.credit a:hover, .credits a:hover { text-decoration-color:var(--ink); }
+.comic { margin:0 0 18px; }
+.comic img { display:block; width:100%; height:auto; border:1px solid var(--rule-strong); background:#fff; }
+.comic figcaption { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:4px 16px; padding-top:8px; }
+.comic-caption { font-family:var(--display); font-style:italic; font-size:1.18rem; line-height:1.3; color:var(--ink); }
+.comic-credit { font-family:var(--sans); font-size:.75rem; color:var(--muted); }
+.credits { padding:20px 0 26px; border-top:1px solid var(--rule); margin-top:12px; }
+.credits ul { list-style:none; padding:0; margin:10px 0 0; columns:2 360px; column-gap:28px; }
+.credits li { font-family:var(--sans); font-size:.75rem; color:var(--muted); line-height:1.5; margin-bottom:6px; break-inside:avoid; }
+.credits b { color:var(--ink-2); font-weight:600; }
+.edition-open .lead .comic, .edition-open .lead .photo { animation:settle 700ms var(--ease) 150ms both; }
+
 /* ---------- sections ---------- */
 .section { padding:22px 0 8px; scroll-margin-top:16px; }
 .section-head { display:flex; align-items:baseline; justify-content:space-between; gap:16px; border-top:3px solid var(--rule-strong);
@@ -511,12 +531,68 @@ def _byline(a: dict, right: str) -> str:
             f'<span>{right}</span></div>')
 
 
-def _story(a: dict, root: str, top: bool = False, section_label: bool = False, paras: int = 1) -> str:
+# ---------------------------------------------------------------- images
+
+def _img(img: dict, cls: str = "", eager: bool = False) -> str:
+    load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    return (f'<img class="{cls}" src="{escape(img["src"])}" width="{img["width"]}" height="{img["height"]}" '
+            f'alt="{escape(img["title"])}" {load} decoding="async" referrerpolicy="no-referrer">')
+
+
+def _credit_text(img: dict) -> str:
+    who = f'{escape(img["creator"])} / ' if img.get("creator") else ""
+    return f'Illustrative photo: {who}{escape(img["license"])}, via {escape(img["source"])}'
+
+
+def _credit_links(img: dict) -> str:
+    title = f'<a href="{escape(img["landing_url"])}" target="_blank" rel="noopener">{escape(img["title"])}</a>'
+    who = ""
+    if img.get("creator"):
+        name = escape(img["creator"])
+        who = (f' by <a href="{escape(img["creator_url"])}" target="_blank" rel="noopener">{name}</a>'
+               if img.get("creator_url") else f" by {name}")
+    lic = (f'<a href="{escape(img["license_url"])}" target="_blank" rel="noopener">{escape(img["license"])}</a>'
+           if img.get("license_url") else escape(img["license"]))
+    return f'{title}{who}, {lic}, via {escape(img["source"])}'
+
+
+def _comic_figure(comic: dict, root: str, eager: bool = False) -> str:
+    load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    return (f'<figure class="comic"><img src="{root}{escape(comic["file"])}" width="1200" height="800" '
+            f'alt="{escape(comic["alt"])}" {load} decoding="async">'
+            f'<figcaption><span class="comic-caption">{escape(comic["caption"])}</span>'
+            f'<span class="comic-credit">Cartoon: The Daily Spin, drawn by AI</span></figcaption></figure>')
+
+
+def _lead_figure(a: dict) -> str:
+    """Front-page lead art: the cartoon when there is one, otherwise the photo (plain-text credit;
+    the linked credit is in the Photo credits list, since this sits inside the lead's link)."""
+    if a.get("comic"):
+        return _comic_figure(a["comic"], "", eager=True)
+    if a.get("image"):
+        return (f'<figure class="photo">{_img(a["image"], eager=True)}'
+                f'<figcaption class="credit">{_credit_text(a["image"])}</figcaption></figure>')
+    return ""
+
+
+def _story(a: dict, root: str, top: bool = False, section_label: bool = False, paras: int = 1,
+           media: str = "") -> str:
+    """media: "" none, "photo" a captioned photo above the headline, "thumb" a small square beside it,
+    "card" a 16:9 picture above the headline."""
     sec = f'<span class="sec">{escape(a["section_title"])}</span> &middot; ' if section_label else ""
     dek_cls = ' class="standfirst"' if top else ""
     excerpt = "".join(f'<p>{escape(p)}</p>' for p in a["body"][:paras]) if top else ""
-    return (f'<a class="story{" top" if top else ""}" href="{_link(a, root)}">'
+    img, art = a.get("image"), ""
+    if img and media == "photo":
+        art = f'<figure class="photo">{_img(img)}<figcaption class="credit">{_credit_text(img)}</figcaption></figure>'
+    elif img and media == "thumb":
+        art = _img(img, "thumb")
+    elif img and media == "card":
+        art = _img(img, "card")
+    return (f'<a class="story{" top" if top else ""}{" has-thumb" if art and media == "thumb" else ""}" href="{_link(a, root)}">'
+            f'{art if media != "thumb" else ""}'
             f'<h3 style="view-transition-name:{_vt(a)}">{_hl(a["headline"])}</h3>'
+            f'{art if media == "thumb" else ""}'
             f'<p{dek_cls}>{escape(a["dek"])}</p>{excerpt}'
             f'<div class="meta">{sec}{_read_time(a)} min read</div></a>')
 
@@ -541,6 +617,16 @@ def _ears(data: dict) -> tuple[str, str]:
     return left, right
 
 
+def _photo_credits(arts: list[dict], lead: dict) -> str:
+    rows = [f'<li><b>{escape(a["headline"])}:</b> {_credit_links(a["image"])}</li>'
+            for a in arts if a.get("image") and not (a is lead and a.get("comic"))]
+    if not rows:
+        return ""
+    return (f'<section class="credits" aria-label="Photo credits"><h2 class="col-head">Photo credits</h2>'
+            f'<p class="meta">Photos are openly licensed stock images that illustrate the subject of each story; they do not '
+            f'show the events described.</p><ul>{"".join(rows)}</ul></section>')
+
+
 # ---------------------------------------------------------------- pages
 
 def render_front(data: dict) -> str:
@@ -552,6 +638,7 @@ def render_front(data: dict) -> str:
 
     excerpt = "".join(f"<p>{escape(p)}</p>" for p in lead["body"][:2])
     lead_html = f"""<a class="lead" href="{_link(lead, '')}">
+{_lead_figure(lead)}
 <h2 style="view-transition-name:{_vt(lead)}">{_hl(lead["headline"])}</h2>
 {LINE_SPLIT}
 <p class="standfirst">{escape(lead["dek"])}</p>
@@ -578,7 +665,7 @@ def render_front(data: dict) -> str:
         number = (f'<div class="number"><h2 class="col-head">Number of the Day</h2><div class="big">{escape(n["figure"])}</div>'
                   f'<p>{escape(n["explanation"])}</p></div>')
     rail = (f'<aside class="rail" aria-label="Top stories">{number}<h2 class="col-head">Top Stories</h2>'
-            f'{"".join(_story(a, "", section_label=True) for a in rail_stories)}</aside>')
+            f'{"".join(_story(a, "", section_label=True, media="thumb") for a in rail_stories)}</aside>')
 
     shown = {id(lead)} | {id(a) for a in rail_stories}
     sections = []
@@ -587,14 +674,14 @@ def render_front(data: dict) -> str:
         if not sec:
             continue
         top, rest = sec[0], sec[1:]
-        stack = f'<div>{"".join(_story(a, "") for a in rest)}</div>' if rest else ""
+        stack = f'<div>{"".join(_story(a, "", media="thumb") for a in rest)}</div>' if rest else ""
         has_table = key == "markets" and any(i.get("history") for i in data["indicators"])
         table = f'<div class="table-col">{_markets_table(data["indicators"])}</div>' if has_table else ""
         grid_cls = "grid markets-grid" if table else "grid"
         count = sum(1 for a in arts if a["section"] == key)
         sections.append(f'<section class="section" id="{key}"><div class="section-head"><h2>{escape(cfg["title"])}</h2>'
                         f'<span class="meta">{count} stories this edition</span></div>'
-                        f'<div class="{grid_cls}">{_story(top, "", top=True, paras=(3 if table else 2) if len(rest) >= 3 else 1)}{stack}{table}</div>'
+                        f'<div class="{grid_cls}">{_story(top, "", top=True, paras=(3 if table else 2) if len(rest) >= 3 else 1, media="photo")}{stack}{table}</div>'
                         f'{_wire(data["wire"].get(key, []))}</section>')
 
     t = datetime.fromisoformat(gen)
@@ -609,6 +696,7 @@ def render_front(data: dict) -> str:
 <main>
 <div class="front">{whats}{lead_html}{rail}</div>
 {"".join(sections)}
+{_photo_credits(arts, lead)}
 </main>
 </div>"""
     return _page("The Daily Spin", body, "", OPEN_GATE)
@@ -632,7 +720,13 @@ def render_article(a: dict, data: dict) -> str:
     first_by_outlet = {s["name"]: s["url"] for s in reversed(a["sources"])}
     sources = ", ".join(f'<a href="{escape(url)}" target="_blank" rel="noopener">{escape(name)}</a>'
                         for name, url in reversed(first_by_outlet.items()))
-    related = "".join(f"<div>{_story(r, root, section_label=True)}</div>" for r in _related(a, data["articles"]))
+    related = "".join(f"<div>{_story(r, root, section_label=True, media='card')}</div>" for r in _related(a, data["articles"]))
+    art = ""
+    if a.get("comic"):
+        art = _comic_figure(a["comic"], root, eager=True)
+    elif a.get("image"):
+        art = (f'<figure class="photo">{_img(a["image"], eager=True)}<figcaption class="credit">Illustrative photo, '
+               f'not from the events described: {_credit_links(a["image"])}</figcaption></figure>')
     body = f"""<header class="topbar"><div class="wrap"><a class="logo" href="{root}index.html">The Daily Spin</a>
 {_nav(root, False, a["section"])}</div><div class="progress" aria-hidden="true"></div></header>
 <div class="wrap">
@@ -642,6 +736,7 @@ def render_article(a: dict, data: dict) -> str:
 <p class="standfirst">{escape(a["dek"])}</p>
 {_wire_line(a)}
 {_byline(a, f'{_when(data["generated_at"])} &middot; {_read_time(a)} min read')}
+{art}
 <div class="explain"><section><h2>Catch up</h2>{escape(a["catch_up"])}</section>
 <section><h2>Why it matters</h2>{escape(a["why_it_matters"])}</section></div>
 {_chart_for(a, data["indicators"])}
