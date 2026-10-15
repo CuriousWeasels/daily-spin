@@ -7,7 +7,7 @@ You receive a numbered list of real headlines with short summaries from several 
 - Group items from different outlets that cover the same event into ONE story and list all their ids, best-sourced first.
 - Prefer events with real consequences, stories several outlets cover, and hard news.
 - Skip opinion columns, listicles, deals and coupons, podcasts, how-tos, video-only items, and live-blog shells.
-- Never pick two stories about the same event.
+- Never pick two stories about the same event, and skip events listed as already covered in other sections, even if this section's angle differs.
 - Rank most important first. The working_title is a plain, factual description for internal use."""
 
 WRITER_PROMPT = """You write for The Daily Spin, a satirical but genuinely informative newspaper laid out like the Wall Street Journal or Financial Times. Readers come to laugh and leave actually understanding the news.

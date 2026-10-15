@@ -112,11 +112,18 @@ def fetch_indicators() -> list[dict]:
             rows = list(csv.reader(io.StringIO(fetch_bytes(url).decode())))[1:]
             rows = [(d, float(v)) for d, v in rows if v not in ("", ".")]
             date, value = rows[-1]
+            prev = rows[-2][1]
             if ind.get("yoy"):
-                value = (value / rows[-13][1] - 1) * 100
-                prev = (rows[-2][1] / rows[-14][1] - 1) * 100
-            else:
-                prev = rows[-2][1]
+                # Match by calendar date, not row count: FRED series can have gaps
+                # (e.g. no October 2025 CPI because of the government shutdown).
+                by_date = dict(rows)
+                def yoy(d: str) -> float | None:
+                    base = by_date.get(f"{int(d[:4]) - 1}{d[4:]}")
+                    return (by_date[d] / base - 1) * 100 if base else None
+                value, prev = yoy(date), yoy(rows[-2][0])
+                if value is None:
+                    raise ValueError("no value 12 months earlier")
+                prev = value if prev is None else prev
             out.append({"label": ind["label"], "value": round(value, 2),
                         "change": round(value - prev, 2), "unit": ind["unit"], "as_of": date})
         except Exception as e:

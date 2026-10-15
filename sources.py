@@ -52,6 +52,7 @@ INDICATORS = [
     {"id": "DGS2", "label": "2Y Treasury", "unit": "%"},
     {"id": "DGS10", "label": "10Y Treasury", "unit": "%"},
     {"id": "DFF", "label": "Fed Funds", "unit": "%"},
-    {"id": "CPIAUCSL", "label": "CPI inflation (YoY)", "unit": "%", "yoy": True},
+    # Not seasonally adjusted: the series behind the headline YoY number the BLS reports.
+    {"id": "CPIAUCNS", "label": "CPI inflation (YoY)", "unit": "%", "yoy": True},
     {"id": "UNRATE", "label": "Unemployment", "unit": "%"},
 ]

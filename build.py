@@ -17,7 +17,6 @@ import json
 import re
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -93,13 +92,17 @@ def slugify(text: str) -> str:
 
 # ---------------------------------------------------------------- 1. editor
 
-def pick_stories(client, costs: Costs, title: str, items: list[dict], n: int) -> list[Pick]:
+def pick_stories(client, costs: Costs, title: str, items: list[dict], n: int, already: list[str]) -> list[Pick]:
+    prompt = f"Section: {title}\nPick the top {n} stories."
+    if already:
+        covered = "\n".join(f"- {t}" for t in already)
+        prompt += f"\n\nAlready covered in other sections. Do not pick these events again:\n{covered}"
     response = client.beta.messages.parse(
         model=MODEL,
         max_tokens=16000,
         system=EDITOR_PROMPT,
         output_config={"effort": EFFORT},
-        messages=[{"role": "user", "content": f"Section: {title}\nPick the top {n} stories.\n\n{listing(items)}"}],
+        messages=[{"role": "user", "content": f"{prompt}\n\n{listing(items)}"}],
         output_format=EditorPicks,
         **FALLBACK,
     )
@@ -228,15 +231,18 @@ def main() -> None:
     candidates = {key: fetch.gather_section(cfg["feeds"]) for key, cfg in SECTIONS.items()}
 
     print("Editor picking stories...")
-    def picks_for(key):
-        items = candidates[key]
+    # Sections run in order so each editor knows what earlier sections already
+    # took; otherwise a story like an AI lawsuit lands in both AI and Technology.
+    all_picks, already = {}, []
+    for key, items in candidates.items():
         if not items:
-            return []
-        if client is None:
-            return [Pick(source_ids=[it["id"]], working_title=it["title"]) for it in items[:args.per_section]]
-        return pick_stories(client, costs, SECTIONS[key]["title"], items, args.per_section)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        all_picks = dict(zip(candidates, pool.map(picks_for, candidates)))
+            picks = []
+        elif client is None:
+            picks = [Pick(source_ids=[it["id"]], working_title=it["title"]) for it in items[:args.per_section]]
+        else:
+            picks = pick_stories(client, costs, SECTIONS[key]["title"], items, args.per_section, already)
+        all_picks[key] = picks
+        already += [p.working_title for p in picks]
 
     stories, used = [], {key: set() for key in candidates}
     for key, picks in all_picks.items():
