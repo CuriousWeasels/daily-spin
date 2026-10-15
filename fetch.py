@@ -111,8 +111,6 @@ def fetch_indicators() -> list[dict]:
         try:
             rows = list(csv.reader(io.StringIO(fetch_bytes(url).decode())))[1:]
             rows = [(d, float(v)) for d, v in rows if v not in ("", ".")]
-            date, value = rows[-1]
-            prev = rows[-2][1]
             if ind.get("yoy"):
                 # Match by calendar date, not row count: FRED series can have gaps
                 # (e.g. no October 2025 CPI because of the government shutdown).
@@ -120,12 +118,18 @@ def fetch_indicators() -> list[dict]:
                 def yoy(d: str) -> float | None:
                     base = by_date.get(f"{int(d[:4]) - 1}{d[4:]}")
                     return (by_date[d] / base - 1) * 100 if base else None
-                value, prev = yoy(date), yoy(rows[-2][0])
-                if value is None:
-                    raise ValueError("no value 12 months earlier")
-                prev = value if prev is None else prev
-            out.append({"label": ind["label"], "value": round(value, 2),
-                        "change": round(value - prev, 2), "unit": ind["unit"], "as_of": date})
+                rows = [(d, yoy(d)) for d, _ in rows]
+                rows = [(d, v) for d, v in rows if v is not None]
+            date, value = rows[-1]
+            prev = rows[-2][1]
+            # Recent history for the sparkline: ~3 months of daily data, 2 years of monthly.
+            span = 24 if ind.get("monthly") else 66
+            out.append({"id": ind["id"], "label": ind["label"], "kind": ind.get("kind", "rate"),
+                        "value": round(value, 2), "change": round(value - prev, 2),
+                        "change_pct": round((value / prev - 1) * 100, 2) if prev else 0.0,
+                        "unit": ind["unit"], "as_of": date,
+                        "history": [round(v, 3) for _, v in rows[-span:]],
+                        "since": rows[-span:][0][0]})
         except Exception as e:
             print(f"  ! FRED {ind['id']}: {e}", file=sys.stderr)
     return out

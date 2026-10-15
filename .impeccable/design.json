@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T00:00:00Z",
+  "title": "Design System: The Daily Spin",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Financial Pink Paper",
+        "canonical": "oklch(96.1% 0.021 67.6)",
+        "tonalRamp": [
+          "#110903",
+          "#2c231a",
+          "#4a4036",
+          "#695f55",
+          "#8b8076",
+          "#aea398",
+          "#d3c7bb",
+          "#f8ece0"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Deeper Pink Stock",
+        "canonical": "oklch(92.7% 0.031 64.3)",
+        "tonalRamp": [
+          "#100a05",
+          "#2c231c",
+          "#4a4037",
+          "#6b5f54",
+          "#8d8073",
+          "#b2a294",
+          "#d7c6b6",
+          "#feebda"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Press Ink",
+        "canonical": "oklch(20.9% 0.010 52.9)",
+        "tonalRamp": [
+          "#0f0a07",
+          "#292421",
+          "#46413d",
+          "#66605c",
+          "#87817d",
+          "#aaa39f",
+          "#cfc7c3",
+          "#f4ede8"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(33.6% 0.014 54.1)",
+        "tonalRamp": [
+          "#100a06",
+          "#2b231f",
+          "#48403b",
+          "#685f5a",
+          "#8a807a",
+          "#ada39d",
+          "#d1c7c1",
+          "#f7ece6"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Umber",
+        "canonical": "oklch(49.1% 0.019 52.3)",
+        "tonalRamp": [
+          "#120905",
+          "#2d231d",
+          "#4b3f39",
+          "#6a5e57",
+          "#8c7f78",
+          "#afa29a",
+          "#d4c6be",
+          "#faebe3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Tan",
+        "canonical": "oklch(84.7% 0.037 61.9)",
+        "tonalRamp": [
+          "#120903",
+          "#2e2319",
+          "#4d3f34",
+          "#6e5e51",
+          "#917f70",
+          "#b5a190",
+          "#dbc4b2",
+          "#ffead8"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Rule Strong (Press Ink)",
+        "canonical": "oklch(20.9% 0.010 52.9)",
+        "tonalRamp": [
+          "#0f0a07",
+          "#292421",
+          "#46413d",
+          "#66605c",
+          "#87817d",
+          "#aaa39f",
+          "#cfc7c3",
+          "#f4ede8"
+        ]
+      },
+      "claret": {
+        "role": "primary",
+        "displayName": "Masthead Claret",
+        "canonical": "oklch(42.8% 0.144 10.6)",
+        "tonalRamp": [
+          "#2c0002",
+          "#520015",
+          "#7a0f30",
+          "#9f374e",
+          "#c25e70",
+          "#e58493",
+          "#ffabb8",
+          "#ffd3df"
+        ]
+      },
+      "data": {
+        "role": "secondary",
+        "displayName": "Oxford Data Blue",
+        "canonical": "oklch(42.2% 0.106 254.7)",
+        "tonalRamp": [
+          "#00062f",
+          "#002352",
+          "#144277",
+          "#36639a",
+          "#5a85ba",
+          "#80a8db",
+          "#a6ccfd",
+          "#cef2ff"
+        ]
+      },
+      "up": {
+        "role": "tertiary",
+        "displayName": "Ledger Green",
+        "canonical": "oklch(46.5% 0.112 154.7)",
+        "tonalRamp": [
+          "#001400",
+          "#00310c",
+          "#005127",
+          "#1c7344",
+          "#4b9467",
+          "#73b78b",
+          "#9cdab0",
+          "#c5ffd7"
+        ]
+      },
+      "down": {
+        "role": "tertiary",
+        "displayName": "Ledger Red",
+        "canonical": "oklch(47.8% 0.170 28.6)",
+        "tonalRamp": [
+          "#310000",
+          "#590000",
+          "#820000",
+          "#ac2a22",
+          "#cf5649",
+          "#f27e70",
+          "#ffa697",
+          "#ffcfc0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "masthead": {
+        "displayName": "Masthead",
+        "purpose": "The nameplate only; uppercase, semi-condensed, with a small raised italic 'The'."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Front-page lead and article titles; condensed, balanced wrap."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads; semi-condensed 800."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Ordinary story headlines in the rail and section stacks."
+      },
+      "standfirst": {
+        "displayName": "Standfirst",
+        "purpose": "One-sentence deks under lead, top stories, and article titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base reading text."
+      },
+      "body-article": {
+        "displayName": "Article Body",
+        "purpose": "Long-form article paragraphs, 68ch max, display drop cap on the first."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase Franklin column heads, explainer labels, wire digest head."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Bylines, read times, ears, utility line, axes, sources; tabular."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Market values in the markets band; tabular."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-house",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "The single easing for every transition and the edition opening."
+      },
+      {
+        "name": "underline-draw",
+        "value": "background-size 360ms ease-house",
+        "purpose": "Headline underline draws left to right on hover and focus."
+      },
+      {
+        "name": "nav-underline",
+        "value": "transform scaleX 280ms ease-house",
+        "purpose": "Claret 2px nav underline on hover, focus, current page."
+      },
+      {
+        "name": "arrow-nudge",
+        "value": "translateX(4px) 240ms ease-house",
+        "purpose": "Continue-reading arrow on hover and focus."
+      },
+      {
+        "name": "wire-underline",
+        "value": "text-decoration-color 200ms",
+        "purpose": "Wire and source link underline darkens from tan to ink."
+      },
+      {
+        "name": "rule-out",
+        "value": "scaleX 0 to 1, 760ms ease-house, 120ms delay",
+        "purpose": "Edition opening: masthead double rule draws from centre."
+      },
+      {
+        "name": "plate",
+        "value": "clip-path inset(0 0 100% 0) + translateY(.18em) to rest, 760ms ease-house, 240ms + 120ms per line",
+        "purpose": "Edition opening: lead headline unmasks line by line after the display face loads."
+      },
+      {
+        "name": "settle",
+        "value": "opacity 0 to 1, 600ms ease-house at 700ms (end dots 300ms ease-out)",
+        "purpose": "Edition opening: standfirst, wire line, sparkline end dots."
+      },
+      {
+        "name": "plot",
+        "value": "stroke-dashoffset 1 to 0, 1100ms ease-house, staggered per cell",
+        "purpose": "Edition opening: sparklines draw."
+      },
+      {
+        "name": "view-transition",
+        "value": "root out 160ms ease-in; in 300ms ease-house +40ms; named groups 480ms ease-house",
+        "purpose": "Cross-document headline-to-title morph."
+      },
+      {
+        "name": "progress",
+        "value": "scaleX(var(--p)) updated per animation frame on scroll",
+        "purpose": "Article reading-progress rule in claret."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "opening skipped, view transitions off, hover transitions instant",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1060px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Section Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Centred uppercase Franklin section links closed by a 1px ink rule; claret underline draws from the left on hover, focus, and current page.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Geopolitics</a><a href=\"#\">AI</a><a href=\"#\">Technology</a><a href=\"#\">Markets &amp; Economy</a></nav>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-nav{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;padding:10px 0;background:var(--paper);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);font-family:var(--sans);font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;} .ds-nav a{position:relative;padding:3px 0;color:var(--ink);text-decoration:none;} .ds-nav a::after{content:\"\";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--claret);transform:scaleX(0);transform-origin:left;transition:transform 280ms var(--ease);} .ds-nav a:hover::after,.ds-nav a:focus-visible::after,.ds-nav a[aria-current]::after{transform:scaleX(1);} .ds-nav a:focus-visible{outline:2px solid var(--claret);outline-offset:3px;}"
+    },
+    {
+      "name": "Masthead Ear",
+      "kind": "custom",
+      "refersTo": "masthead-ear",
+      "description": "Meta block between two 1px ink rules flanking the nameplate; bold ink first line.",
+      "html": "<div class=\"ds-ear\"><b>In this edition</b>20 stories from 14 outlets<br>4 sections, rewritten with a straight face</div>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-ear{background:var(--paper);font-family:var(--sans);font-size:.75rem;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);padding:8px 0;max-width:220px;} .ds-ear b{display:block;color:var(--ink);font-weight:700;font-size:.82rem;}"
+    },
+    {
+      "name": "Market Cell",
+      "kind": "card",
+      "refersTo": "market-cell",
+      "description": "One figure of the markets band on Deeper Pink Stock: name, as-of date, value, change, oxford-blue sparkline with end dot.",
+      "html": "<div class=\"ds-mk\"><div class=\"ds-top\"><span class=\"ds-name\">10-yr Treasury</span><span class=\"ds-asof\">Oct 14</span></div><div class=\"ds-fig\"><span class=\"ds-val\">4.12%</span><span class=\"ds-chg ds-up\">+0.04</span></div><span class=\"ds-sp\"><svg viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M0 70 L20 60 L40 72 L60 40 L80 45 L100 25\" fill=\"none\" stroke=\"#1f4e86\" stroke-width=\"1.5\" vector-effect=\"non-scaling-stroke\"/></svg><i class=\"ds-dot\"></i></span></div>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-mk{max-width:230px;padding:9px 14px 8px;background:var(--paper-2);border-bottom:1px solid var(--rule-strong);font-family:var(--sans);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-top{display:flex;justify-content:space-between;gap:8px;font-size:.72rem;} .ds-name{font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);} .ds-asof{color:var(--muted);} .ds-fig{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:1px;} .ds-val{font-size:1.15rem;font-weight:700;letter-spacing:-.01em;} .ds-chg{font-size:.8rem;font-weight:600;} .ds-up{color:var(--up);} .ds-sp{position:relative;display:block;height:22px;margin-top:3px;} .ds-sp svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;} .ds-dot{position:absolute;left:100%;top:25%;width:5px;height:5px;border-radius:50%;background:var(--data);transform:translate(-50%,-50%);}"
+    },
+    {
+      "name": "Story Unit",
+      "kind": "card",
+      "refersTo": "story",
+      "description": "Serif headline, Soft Ink dek, meta line with claret section tag; hairline separator; underline draws on hover.",
+      "html": "<a class=\"ds-story\" href=\"#\"><h3><span class=\"ds-hl\">Central bank discovers interest rates can also go sideways</span></h3><p>Officials insist this was always the plan.</p><div class=\"ds-meta\"><span class=\"ds-sec\">Markets &amp; Economy</span> &middot; 3 min read</div></a>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-story{display:block;max-width:300px;padding:0 0 14px;border-bottom:1px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;} .ds-story h3{font-family:var(--serif);font-weight:700;font-size:1.14rem;line-height:1.25;letter-spacing:-.005em;margin:0 0 6px;text-wrap:balance;} .ds-hl{background:linear-gradient(currentColor,currentColor) no-repeat 0 94%/0% 1px;-webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-size 360ms var(--ease);} .ds-story:hover .ds-hl,.ds-story:focus-visible .ds-hl{background-size:100% 1px;} .ds-story:focus-visible{outline:2px solid var(--claret);outline-offset:3px;} .ds-story p{margin:0 0 6px;font-family:var(--serif);font-size:.95rem;line-height:1.45;color:var(--ink-2);} .ds-meta{font-family:var(--sans);font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums;} .ds-sec{color:var(--claret);font-weight:700;}"
+    },
+    {
+      "name": "Column Head",
+      "kind": "custom",
+      "refersTo": "col-head",
+      "description": "Uppercase Franklin label under a 3px ink rule; heads every column and the markets table.",
+      "html": "<h2 class=\"ds-col-head\">5 Things in 60 Seconds</h2>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-col-head{font-family:var(--sans);font-size:.78rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--ink);border-top:3px solid var(--rule-strong);padding-top:8px;margin:0;background:var(--paper);}"
+    },
+    {
+      "name": "Explainer Panel",
+      "kind": "custom",
+      "refersTo": "explainer-label",
+      "description": "Two-part Catch up / Why it matters panel under a 3px ink rule, divided by a hairline column rule.",
+      "html": "<div class=\"ds-explain\"><section><h2>Catch up</h2>Prices rose again, led by petrol.</section><section><h2>Why it matters</h2>Rate cuts just got harder to justify.</section></div>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-explain{display:grid;grid-template-columns:1fr 1fr;border-top:3px solid var(--rule-strong);border-bottom:1px solid var(--rule);background:var(--paper);} .ds-explain section{padding:12px 0 14px;font-family:var(--serif);font-size:1rem;line-height:1.5;color:var(--ink-2);} .ds-explain section:first-child{padding-right:20px;} .ds-explain section+section{border-left:1px solid var(--rule);padding-left:20px;} .ds-explain h2{margin:0 0 6px;font-family:var(--sans);font-size:.75rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--claret);}"
+    },
+    {
+      "name": "Continue Reading Link",
+      "kind": "button",
+      "refersTo": "more-link",
+      "description": "Claret Franklin text link with a drawn arrow that nudges 4px right on hover; the system has no filled buttons.",
+      "html": "<a class=\"ds-more\" href=\"#\">Continue reading <svg width=\"15\" height=\"10\" viewBox=\"0 0 15 10\" aria-hidden=\"true\"><path d=\"M1 5h12M9 1.2 12.8 5 9 8.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-more{display:inline-flex;align-items:center;gap:8px;font-family:var(--sans);font-size:.8rem;font-weight:700;color:var(--claret);text-decoration:none;} .ds-more svg{transition:transform 240ms var(--ease);} .ds-more:hover svg,.ds-more:focus-visible svg{transform:translateX(4px);} .ds-more:focus-visible{outline:2px solid var(--claret);outline-offset:3px;}"
+    },
+    {
+      "name": "Wire Digest",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Elsewhere on the wire: inline run of tan-underlined links with muted sources and square tan separators.",
+      "html": "<div class=\"ds-wire\"><h3>Elsewhere on the wire</h3><a href=\"#\">Ports reopen after strike</a> <span class=\"ds-src\">Reuters</span><span class=\"ds-sep\" aria-hidden=\"true\"></span><a href=\"#\">Chipmaker raises outlook</a> <span class=\"ds-src\">AP</span></div>",
+      "css": ":host{--paper:#fcf0e4;--paper-2:#f6e3d2;--ink:#1c1714;--ink-2:#3d3530;--muted:#6a5e57;--rule:#dfc8b5;--rule-strong:#1c1714;--claret:#8c1f3c;--data:#1f4e86;--up:#0b6b3c;--down:#a8231c;--display:'Noto Serif Display',Georgia,serif;--serif:'Source Serif 4',Georgia,serif;--sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-wire{padding:12px 0 18px;border-top:1px solid var(--rule);background:var(--paper);font-family:var(--serif);font-size:.9rem;line-height:1.6;} .ds-wire h3{display:inline;margin:0 8px 0 0;font-family:var(--sans);font-size:.75rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--ink);} .ds-wire a{color:var(--ink-2);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px;transition:text-decoration-color 200ms;} .ds-wire a:hover,.ds-wire a:focus-visible{text-decoration-color:var(--ink);} .ds-wire a:focus-visible{outline:2px solid var(--claret);outline-offset:3px;} .ds-src{font-family:var(--sans);font-size:.75rem;color:var(--muted);} .ds-sep{display:inline-block;width:4px;height:4px;background:var(--rule);vertical-align:middle;margin:0 10px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pink Paper, Played Straight",
+    "overview": "The Daily Spin dresses as a premium financial daily in the Wall Street Journal and Financial Times tradition and never winks. Warm financial-pink newsprint, near-black ink, hairline column rules, a heavy-light double rule under a centred uppercase masthead, and a band of real FRED figures with drawn sparklines give it the gravity of a paper of record; the deadpan satire lives entirely in the words. The craft bar is the real papers themselves, not a generic news portal.\n\nDensity is broadsheet density: a three-column front page (briefing, lead, rail), multi-column section grids, a markets table, and a wire digest, all separated by rules rather than whitespace and boxes. Surfaces are flat paper. Hierarchy comes from type weight, width, and rule weight. Article pages narrow to a single 740px reading column with a drop cap, a two-part explainer panel, and, for markets stories, a FRED line chart. Colour is scarce: one claret accent, one oxford blue reserved for data.\n\nMotion is ceremonial and brief: the edition opens once per session (the masthead double rule draws out, the lead headline unmasks line by line, sparklines plot), headlines morph into article titles across page navigations, and hover states draw underlines. All of it yields to `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Financial-pink paper ground (owner-pinned) with near-black ink.",
+      "Three type voices: condensed high-contrast display serif, text serif, Franklin gothic for labels and figures.",
+      "Rule weight as hierarchy: 3px ink heads, 1px ink closes, 1px pink-brown hairline separates.",
+      "One claret accent; oxford blue only for plotted data; green and red only for change figures.",
+      "Flat, square-cornered, shadowless; the only round shapes are data dots.",
+      "Tabular lining figures wherever numbers appear."
+    ],
+    "rules": [
+      {
+        "name": "The One Claret Rule",
+        "body": "Claret is the only accent and marks the paper's own voice: section tags, explainer labels, the number of the day, interaction underlines. It never fills a surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue Means Data Rule",
+        "body": "Oxford blue appears only where a real series is plotted. If it is not a FRED line or its end value, it is not blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Pink Ground Rule",
+        "body": "The financial-pink ground is an owner-pinned identity decision, not a tint to tune. Never swap it for white or cream.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Display serif for headlines and the nameplate, text serif for anything read as prose, Franklin gothic for anything read as information. A label is never set in serif; a paragraph is never set in gothic.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every number in Franklin (markets, tables, ears, timestamps, axes) uses tabular numerals so columns of figures align.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Column Rule",
+        "body": "Columns are divided by 1px Hairline Tan rules, never by gutters alone or by boxes. When columns stack, the vertical rule becomes a horizontal one.",
+        "section": "layout"
+      },
+      {
+        "name": "The Rule Weight Rule",
+        "body": "A 3px Press Ink rule heads a column or section; a 1px Press Ink rule closes a band (nav, markets band, table header, top bar, footer); a 1px Hairline Tan rule separates items within a column. The masthead's 3px-over-1px double rule is the one heavy-light pair.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flush to the Rule Exception",
+        "body": "Following newspaper convention, text sits flush against its rules: labels start 8px under the heading rule with no horizontal inset, outer columns carry no outer padding, and ears sit directly between their two ink rules. This is deliberate, not missing padding.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Newsprint Rule",
+        "body": "Nothing lifts off the page. If an element needs emphasis, give it a heavier rule or a heavier weight, never a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the financial-pink paper ground on every page; it is owner-pinned.",
+      "Do separate columns and items with hairline rules and head them with the 3px ink rule.",
+      "Do set every label, figure, byline, and table in Libre Franklin with tabular numerals.",
+      "Do run headlines in the condensed display serif with balanced wrapping, and long text in Source Serif 4 capped at 68ch.",
+      "Do reserve oxford blue for plotted FRED data and green/red for change figures.",
+      "Do keep the original wire headline visible, struck through in claret, and the sources line on every article.",
+      "Do gate every animation behind `prefers-reduced-motion` and let the page render in its final state without JavaScript."
+    ],
+    "donts": [
+      "Don't add box-shadows, rounded corners, or card backgrounds; the only tinted surface is the markets band and the only circles are data dots.",
+      "Don't use claret as a fill or for data, or blue for links.",
+      "Don't set labels or section tags above headlines; section tags live in the meta line and byline below.",
+      "Don't add photographs, illustrations, or invented logos; there are none to use.",
+      "Don't pad text away from its rules to \"fix\" the flush newspaper setting."
+    ]
+  }
+}

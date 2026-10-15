@@ -3,3 +3,8 @@ __pycache__/
 .env
 .preview/
 .claude/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/decision-payload*.json
+.impeccable/questions/*
+!.impeccable/questions/roll.json

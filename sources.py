@@ -46,13 +46,20 @@ SECTIONS = {
     },
 }
 
-# Key economic numbers from FRED's public CSV endpoint (no API key needed).
+# Key market and economic numbers from FRED's public CSV endpoint (no API key needed).
 # "yoy": True turns a price index into a year-over-year % change.
+# "kind" sets how a figure is shown: "rate" (a % level; change in points, the default),
+# "index" (a level; change in %), "usd" (a dollar price; change in %), "level" (change in points).
 INDICATORS = [
+    {"id": "SP500", "label": "S&P 500", "unit": "", "kind": "index"},
+    {"id": "NASDAQCOM", "label": "Nasdaq", "unit": "", "kind": "index"},
+    {"id": "VIXCLS", "label": "VIX", "unit": "", "kind": "level"},
+    {"id": "DCOILBRENTEU", "label": "Brent crude", "unit": "", "kind": "usd"},
+    {"id": "DTWEXBGS", "label": "Dollar index", "unit": "", "kind": "index"},
     {"id": "DGS2", "label": "2Y Treasury", "unit": "%"},
     {"id": "DGS10", "label": "10Y Treasury", "unit": "%"},
     {"id": "DFF", "label": "Fed Funds", "unit": "%"},
     # Not seasonally adjusted: the series behind the headline YoY number the BLS reports.
-    {"id": "CPIAUCNS", "label": "CPI inflation (YoY)", "unit": "%", "yoy": True},
-    {"id": "UNRATE", "label": "Unemployment", "unit": "%"},
+    {"id": "CPIAUCNS", "label": "CPI inflation (YoY)", "unit": "%", "yoy": True, "monthly": True},
+    {"id": "UNRATE", "label": "Unemployment", "unit": "%", "monthly": True},
 ]
