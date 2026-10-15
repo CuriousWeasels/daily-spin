@@ -38,7 +38,7 @@ Funny and informative in equal measure: the jokes are how the reader learns. Eve
 - Voice: explainer comedy, deadpan, dry, never zany; punches up at the powerful, never mocks victims; restrained on tragedies.
 - Must keep (in any form): "5 Things in 60 Seconds" with "Number of the Day", the market data strip, and the "Catch up" / "Why it matters" explainers on every article.
 - Must disclose: satire written by AI from real reporting, with links to the original sources.
-- Standing visual preference (owner's decision, 2026-10-15): a premium financial paper in the Wall Street Journal / Financial Times tradition, executed at their craft level. After exploring other worlds, the owner chose this over every alternative. The first, simpler newspaper version was not good enough; the bar is WSJ and FT themselves, with real gravitas, rich typography, a dense markets presence, and luxurious detail.
+- Standing visual preference (owner's decision, 2026-10-15): a premium financial paper in the Wall Street Journal / Financial Times tradition, executed at their craft level. After exploring other worlds, the owner chose this over every alternative. The first, simpler newspaper version was not good enough; the bar is WSJ and FT themselves, with real gravitas, rich typography, a dense markets presence, and luxurious detail. The page ground is white, WSJ-style (owner's choice on 2026-10-15, replacing the FT-style pink).
 
 ## Evidence on Hand
 

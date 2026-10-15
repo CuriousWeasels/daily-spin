@@ -2,13 +2,13 @@
 name: The Daily Spin
 description: A premium financial daily in the WSJ/FT tradition, played perfectly straight so the satire lands.
 colors:
-  paper: "#fcf0e4"
-  paper-2: "#f6e3d2"
-  ink: "#1c1714"
-  ink-2: "#3d3530"
-  muted: "#6a5e57"
-  rule: "#dfc8b5"
-  rule-strong: "#1c1714"
+  paper: "#ffffff"
+  paper-2: "#f5f4f1"
+  ink: "#1a1a1a"
+  ink-2: "#3a3a3a"
+  muted: "#5f5f5f"
+  rule: "#d9d9d6"
+  rule-strong: "#1a1a1a"
   claret: "#8c1f3c"
   data: "#1f4e86"
   up: "#0b6b3c"
@@ -124,18 +124,18 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Pink Paper, Played Straight"**
+**Creative North Star: "The Paper of Record, Played Straight"**
 
-The Daily Spin dresses as a premium financial daily in the Wall Street Journal and Financial Times tradition and never winks. Warm financial-pink newsprint, near-black ink, hairline column rules, a heavy-light double rule under a centred uppercase masthead, and a band of real FRED figures with drawn sparklines give it the gravity of a paper of record; the deadpan satire lives entirely in the words. The craft bar is the real papers themselves, not a generic news portal.
+The Daily Spin dresses as a premium financial daily in the Wall Street Journal and Financial Times tradition and never winks. Crisp white newsprint, near-black ink, hairline column rules, a heavy-light double rule under a centred uppercase masthead, and a band of real FRED figures with drawn sparklines give it the gravity of a paper of record; the deadpan satire lives entirely in the words. The craft bar is the real papers themselves, not a generic news portal.
 
 Density is broadsheet density: a three-column front page (briefing, lead, rail), multi-column section grids, a markets table, and a wire digest, all separated by rules rather than whitespace and boxes. Surfaces are flat paper. Hierarchy comes from type weight, width, and rule weight. Article pages narrow to a single 740px reading column with a drop cap, a two-part explainer panel, and, for markets stories, a FRED line chart. Colour is scarce: one claret accent, one oxford blue reserved for data.
 
 Motion is ceremonial and brief: the edition opens once per session (the masthead double rule draws out, the lead headline unmasks line by line, sparklines plot), headlines morph into article titles across page navigations, and hover states draw underlines. All of it yields to `prefers-reduced-motion`.
 
 **Key Characteristics:**
-- Financial-pink paper ground (owner-pinned) with near-black ink.
+- White paper ground (the owner's choice) with near-black ink.
 - Three type voices: condensed high-contrast display serif, text serif, Franklin gothic for labels and figures.
-- Rule weight as hierarchy: 3px ink heads, 1px ink closes, 1px pink-brown hairline separates.
+- Rule weight as hierarchy: 3px ink heads, 1px ink closes, 1px warm-gray hairline separates.
 - One claret accent; oxford blue only for plotted data; green and red only for change figures.
 - Flat, square-cornered, shadowless; the only round shapes are data dots.
 - Tabular lining figures wherever numbers appear.
@@ -154,8 +154,8 @@ A warm, near-monochrome newsprint palette with one claret accent and one data bl
 - **Ledger Green** (up) and **Ledger Red** (down): change figures in the markets band and markets table, nothing else. Unchanged values use Muted Umber.
 
 ### Neutral
-- **Financial Pink Paper**: the page ground and the sticky article top bar.
-- **Deeper Pink Stock**: the one tinted surface, the markets band behind the five figures.
+- **Newsprint White**: the page ground and the sticky article top bar.
+- **Market Stock Gray**: the one tinted surface, the markets band behind the market figures.
 - **Press Ink**: headlines, body text, and every strong rule (Rule Strong carries the same value in its structural role).
 - **Soft Ink**: standfirsts, story deks, explainer text, secondary copy.
 - **Muted Umber**: metadata, timestamps, ears, axis labels, table headers, source lines.
@@ -166,7 +166,7 @@ A warm, near-monochrome newsprint palette with one claret accent and one data bl
 
 **The Blue Means Data Rule.** Oxford blue appears only where a real series is plotted. If it is not a FRED line or its end value, it is not blue.
 
-**The Pink Ground Rule.** The financial-pink ground is an owner-pinned identity decision, not a tint to tune. Never swap it for white or cream.
+**The White Ground Rule.** The page ground is white, the owner's choice after trying the FT-style pink. Never tint it pink, cream or beige; the markets band is the only tinted surface.
 
 ## Typography
 
@@ -210,7 +210,7 @@ Responsive: at 1060px the masthead ears drop, the briefing moves below the lead 
 
 ## Elevation & Depth
 
-Flat newsprint. There are no shadows anywhere in the system. Depth is conveyed only by the single tinted surface (Deeper Pink Stock behind the markets band) and by rule weight. The sticky article top bar separates from the page with a 1px ink rule and an opaque paper background, not a shadow. Chart end dots get a 2px paper-coloured ring so they sit cleanly on the line.
+Flat newsprint. There are no shadows anywhere in the system. Depth is conveyed only by the single tinted surface (Market Stock Gray behind the markets band) and by rule weight. The sticky article top bar separates from the page with a 1px ink rule and an opaque paper background, not a shadow. Chart end dots get a 2px paper-coloured ring so they sit cleanly on the line.
 
 **The Flat Newsprint Rule.** Nothing lifts off the page. If an element needs emphasis, give it a heavier rule or a heavier weight, never a shadow.
 
@@ -228,7 +228,7 @@ Square corners throughout: rules, bands, panels, table cells, the briefing's 7px
 Utility line in Muted Umber meta (edition time, model credit), then a three-part grid: left ear, centred uppercase nameplate, right ear. Each ear is a 220px block of meta between two 1px ink rules with a bold Press Ink first line (left: "Edition of HH:MM UTC" and the next edition; right: "In this edition", the story and outlet count). Below: the italic display motto flanked by hairline flourishes, then the 3px-over-1px double rule. Ears drop at 1060px, and their edition time moves into the utility line.
 
 ### Markets Band
-Five equal cells on Deeper Pink Stock, each separated by a hairline rule, closed by a 1px ink rule. Each cell has an uppercase Franklin name and muted as-of date on top, the figure with its green or red change below, then a 22px sparkline in oxford blue with an end dot.
+Ten cells in a five-by-two grid on Market Stock Gray, each separated by a hairline rule, closed by a 1px ink rule. Each cell has an uppercase Franklin name and muted as-of date on top, the figure with its green or red change below, then a 22px sparkline in oxford blue with an end dot.
 
 ### Markets Table
 A full-width Franklin table under a "Markets at a Glance" column head: uppercase muted 0.7rem headers right-aligned over a 1px ink rule, hairline row rules, bold first column, tabular figures, and a 64px trend column holding a 16px sparkline.
@@ -258,7 +258,7 @@ An inline run under a hairline: a Franklin label head, then links in Soft Ink wi
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep the financial-pink paper ground on every page; it is owner-pinned.
+- **Do** keep the white paper ground on every page; the owner chose it over the FT-style pink.
 - **Do** separate columns and items with hairline rules and head them with the 3px ink rule.
 - **Do** set every label, figure, byline, and table in Libre Franklin with tabular numerals.
 - **Do** run headlines in the condensed display serif with balanced wrapping, and long text in Source Serif 4 capped at 68ch.

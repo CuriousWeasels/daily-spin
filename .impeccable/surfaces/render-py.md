@@ -16,7 +16,7 @@ Constraints: static files, mobile-first comfort, prefers-reduced-motion respecte
 
 THESIS: A premium financial daily in the WSJ/FT tradition, played straight at their craft level, so the deadpan satire lands harder. It refuses the generic news-portal card grid and the thin first-draft broadsheet.
 
-OWN-WORLD: Warm financial-pink newsprint ground, near-black ink, claret as the only accent and oxford blue for data. A sharp transitional serif carries the headlines and text, Franklin-style gothic carries labels and figures. Hairline column rules and a heavy-light double rule under the masthead. A markets band of real FRED figures with drawn sparklines.
+OWN-WORLD: Clean white newsprint ground (changed from FT-style pink at the owner's request), near-black ink, claret as the only accent and oxford blue for data. A sharp transitional serif carries the headlines and text, Franklin-style gothic carries labels and figures. Hairline column rules and a heavy-light double rule under the masthead. A markets band of real FRED figures with drawn sparklines.
 
 STORY: The reader sees the edition's gravity, catches up through the "What's News" briefing column, reads the lead, and dives into any section; articles read like a quality paper with the receipts shown.
 

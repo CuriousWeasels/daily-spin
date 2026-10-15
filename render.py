@@ -29,17 +29,17 @@ ARROW = ('<svg class="arrow" width="15" height="10" viewBox="0 0 15 10" aria-hid
 
 CSS = """
 :root {
-  --paper:#fcf0e4; --paper-2:#f6e3d2; --ink:#1c1714; --ink-2:#3d3530; --muted:#6a5e57;
-  --rule:#dfc8b5; --rule-strong:#1c1714; --claret:#8c1f3c; --data:#1f4e86; --up:#0b6b3c; --down:#a8231c;
+  --paper:#ffffff; --paper-2:#f5f4f1; --ink:#1a1a1a; --ink-2:#3a3a3a; --muted:#5f5f5f;
+  --rule:#d9d9d6; --rule-strong:#1a1a1a; --claret:#8c1f3c; --data:#1f4e86; --up:#0b6b3c; --down:#a8231c;
   --display:'Noto Serif Display',Georgia,serif; --serif:'Source Serif 4',Georgia,serif;
   --sans:'Libre Franklin','Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
   --ease:cubic-bezier(.16,1,.3,1);
 }
 * { box-sizing:border-box; }
-html { scrollbar-color:#cdb29d var(--paper); -webkit-text-size-adjust:100%; }
+html { scrollbar-color:#c4c4c0 var(--paper); -webkit-text-size-adjust:100%; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--serif); font-size:17px; line-height:1.55;
        font-optical-sizing:auto; text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased; }
-::selection { background:#efcfc0; color:var(--ink); }
+::selection { background:#f1d6dd; color:var(--ink); }
 a { color:inherit; text-decoration:none; }
 :focus-visible { outline:2px solid var(--claret); outline-offset:3px; }
 .wrap { max-width:1260px; margin:0 auto; padding:0 20px; }
@@ -477,7 +477,7 @@ def _page(title: str, body: str, root: str, head_extra: str = "") -> str:
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fcf0e4">
+<meta name="theme-color" content="#ffffff">
 <title>{escape(title)}</title>
 {"".join(f'<link rel="preload" href="{root}fonts/{f}" as="font" type="font/woff2" crossorigin>' for f in FONT_PRELOADS)}
 <link rel="stylesheet" href="{root}fonts/fonts.css">
