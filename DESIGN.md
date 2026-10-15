@@ -176,7 +176,7 @@ A warm, near-monochrome newsprint palette with one claret accent and one data bl
 
 **Character:** A sharp, high-contrast transitional display serif squeezed to condensed and semi-condensed widths gives headlines the urgency of a financial front page; a sturdy text serif carries long reading; a Franklin gothic does every job a gothic does on a real paper: labels, figures, bylines, tables.
 
-**Delivery exception:** all three families are currently loaded from Google Fonts (`display=swap`, Georgia and Arial fallbacks). Self-hosting is pending owner approval; until then the external request is a known exception, not a pattern to copy.
+**Delivery:** all three families are self-hosted in `docs/fonts/` (latin and latin-ext subsets only, `font-display: swap`, Georgia and Arial fallbacks), fetched from Google Fonts by `get_fonts.py` and licensed under the SIL Open Font License 1.1 (license texts sit beside the files). Pages link `fonts/fonts.css` and preload the upright Noto Serif Display and Source Serif 4 latin files. No page requests a third-party font host; to add a weight or width, extend `CSS_URL` in `get_fonts.py` and rerun it.
 
 ### Hierarchy
 - **Masthead** (900, semi-condensed, uppercase, clamp 2.7rem to 5.4rem, line-height 0.95): the nameplate only, with an italic 500 "The" set small and raised. Condensed width under 760px. The same face at 1.3 to 1.45rem names the paper in the article top bar and footer.

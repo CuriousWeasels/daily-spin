@@ -19,9 +19,9 @@ from pathlib import Path
 
 from sources import SECTIONS
 
-FONTS = ("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,500..900;1,62.5..100,400..600"
-         "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600"
-         "&family=Libre+Franklin:wght@400..800&display=swap")
+# Fonts are self-hosted in docs/fonts/ (downloaded by get_fonts.py); the two faces the first
+# screen needs are preloaded so the masthead and headlines don't wait on the stylesheet.
+FONT_PRELOADS = ("noto-serif-display-normal-latin.woff2", "source-serif-4-normal-latin.woff2")
 
 ARROW = ('<svg class="arrow" width="15" height="10" viewBox="0 0 15 10" aria-hidden="true">'
          '<path d="M1 5h12M9 1.2 12.8 5 9 8.8" fill="none" stroke="currentColor" stroke-width="1.5" '
@@ -479,8 +479,8 @@ def _page(title: str, body: str, root: str, head_extra: str = "") -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#fcf0e4">
 <title>{escape(title)}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="{FONTS}" rel="stylesheet">
+{"".join(f'<link rel="preload" href="{root}fonts/{f}" as="font" type="font/woff2" crossorigin>' for f in FONT_PRELOADS)}
+<link rel="stylesheet" href="{root}fonts/fonts.css">
 <link rel="stylesheet" href="{root}style.css">
 {head_extra}
 </head><body>{body}

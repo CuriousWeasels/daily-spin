@@ -14,7 +14,9 @@ Live at https://curiousweasels.github.io/daily-spin/
 
 ## Changing the design
 
-All markup, styles, and motion live in `render.py`. After editing it, run `.venv\Scripts\python rerender.py` to rebuild every page from the saved data (no API calls, free), then commit `docs/`.
+All markup, styles, and motion live in `render.py`. After editing it, run `.venv\Scripts\python rerender.py` to rebuild every page from the saved data (no API calls, free), then commit `docs/`. The visual system is documented in `DESIGN.md`.
+
+Fonts are self-hosted in `docs/fonts/`. To change weights or widths, edit `CSS_URL` in `get_fonts.py` and run `.venv\Scripts\python get_fonts.py`.
 
 ## Changing the voice
 
