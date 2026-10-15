@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-10-15T12:29:14.570366+00:00",
+  "model": null,
+  "cost_usd": 0.0,
+  "indicators": [
+    {
+      "label": "2Y Treasury",
+      "value": 4.79,
+      "change": -0.01,
+      "unit": "%",
+      "as_of": "2026-10-13"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": 5.21,
+      "change": -0.03,
+      "unit": "%",
+      "as_of": "2026-10-13"
+    },
+    {
+      "label": "Fed Funds",
+      "value": 3.88,
+      "change": 0.0,
+      "unit": "%",
+      "as_of": "2026-10-13"
+    },
+    {
+      "label": "CPI inflation (YoY)",
+      "value": 4.02,
+      "change": 0.31,
+      "unit": "%",
+      "as_of": "2026-09-01"
+    },
+    {
+      "label": "Unemployment",
+      "value": 4.2,
+      "change": 0.1,
+      "unit": "%",
+      "as_of": "2026-09-01"
+    }
+  ],
+  "sections": [
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "stories": [
+        {
+          "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "published": "2026-10-15T12:03:51+00:00"
+        },
+        {
+          "headline": "Ukrainians fear US intelligence cuts as Russian strikes intensify",
+          "summary": "Reduced missile warnings increase threat to civilians as Trump pushes an 'energy ceasefire' and peace negotiations.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss"
+            }
+          ],
+          "published": "2026-10-15T11:45:39+00:00"
+        },
+        {
+          "headline": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
+          "summary": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report . More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, ac",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch"
+            }
+          ],
+          "published": "2026-10-15T08:00:25+00:00"
+        },
+        {
+          "headline": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
+          "summary": "Social Security benefits are set to get a boost to offset rising consumer prices. And, streamer Hasan Piker says the GOP's \"guilt-by-association politics\" won't drag Democrats down in the midterms.",
+          "sources": [
+            {
+              "name": "NPR World",
+              "url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia"
+            }
+          ],
+          "published": "2026-10-15T11:31:25+00:00"
+        },
+        {
+          "headline": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+          "summary": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+          "sources": [
+            {
+              "name": "DW",
+              "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-world-4025-rdf"
+            }
+          ],
+          "published": "2026-10-15T11:27:00+00:00"
+        },
+        {
+          "headline": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+          "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary.",
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "published": "2026-10-15T10:05:29+00:00"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI",
+      "stories": [
+        {
+          "headline": "Figma announces new features to define how agents work on its platform",
+          "summary": "Figma is also releasing its code layers feature in open beta.",
+          "sources": [
+            {
+              "name": "TechCrunch AI",
+              "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
+            }
+          ],
+          "published": "2026-10-15T04:30:00+00:00"
+        },
+        {
+          "headline": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+          "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
+          "sources": [
+            {
+              "name": "The Verge AI",
+              "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+            }
+          ],
+          "published": "2026-10-15T12:00:00+00:00"
+        },
+        {
+          "headline": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
+          "sources": [
+            {
+              "name": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/"
+            }
+          ],
+          "published": "2026-10-15T12:10:00+00:00"
+        },
+        {
+          "headline": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
+          "summary": "Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic's Q3 revenue hits $16.8B but grow",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
+            }
+          ],
+          "published": "2026-10-15T09:50:43+00:00"
+        },
+        {
+          "headline": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+          "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+          "sources": [
+            {
+              "name": "Ars Technica AI",
+              "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
+            }
+          ],
+          "published": "2026-10-14T21:15:56+00:00"
+        },
+        {
+          "headline": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+          "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+          "sources": [
+            {
+              "name": "TechCrunch AI",
+              "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+            }
+          ],
+          "published": "2026-10-15T01:01:32+00:00"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "title": "Technology",
+      "stories": [
+        {
+          "headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
+          "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/"
+            }
+          ],
+          "published": "2026-10-14T21:35:09+00:00"
+        },
+        {
+          "headline": "Ledger’s new hardware wallet is an Android phone without the phone",
+          "summary": "Ledger has announced its latest crypto-centric hardware effort, the Android-based Atom, a device that resembles a phone but is instead designed to be used alongside one. It arrives at a tricky time for Ledger, which has been forced to cease sales of some of its hardware across southeast Asia following hardware tampering in its supply […]",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android"
+            }
+          ],
+          "published": "2026-10-15T12:00:00+00:00"
+        },
+        {
+          "headline": "AI giant Anthropic woos potential investors ahead of stock market debut",
+          "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+          "sources": [
+            {
+              "name": "BBC Technology",
+              "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "published": "2026-10-15T11:34:55+00:00"
+        },
+        {
+          "headline": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+          "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
+            }
+          ],
+          "published": "2026-10-14T21:15:56+00:00"
+        },
+        {
+          "headline": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+          "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+            }
+          ],
+          "published": "2026-10-15T12:00:00+00:00"
+        },
+        {
+          "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+          "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+          "sources": [
+            {
+              "name": "BBC Technology",
+              "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "published": "2026-10-14T15:54:04+00:00"
+        }
+      ]
+    },
+    {
+      "key": "markets",
+      "title": "Markets & Economy",
+      "stories": [
+        {
+          "headline": "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
+          "summary": "The U.S. military has reportedly drawn up options for strikes on Iran that include the potential use of one of the biggest non-nuclear bombs in its arsenal.",
+          "sources": [
+            {
+              "name": "CNBC Markets",
+              "url": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html"
+            }
+          ],
+          "published": "2026-10-15T10:44:57+00:00"
+        },
+        {
+          "headline": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+          "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+          "sources": [
+            {
+              "name": "CNBC Economy",
+              "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+            }
+          ],
+          "published": "2026-10-15T12:11:15+00:00"
+        },
+        {
+          "headline": "There’s a ‘monstrous bull market’ developing under the surface of the S&P 500. This hedge-fund manager tells you where it’s at.",
+          "summary": "The index may not move much because the stocks with the biggest weightings lag, but there’s a bull market starting to bubble elsewhere, says a hedge-fund manager.",
+          "sources": [
+            {
+              "name": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4?mod=mw_rss_topstories"
+            }
+          ],
+          "published": "2026-10-15T12:08:00+00:00"
+        },
+        {
+          "headline": "StoneX cuts Spotify to Hold on margin pressure, label costs",
+          "summary": "",
+          "sources": [
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/stonex-cuts-spotify-to-hold-on-margin-pressure-label-costs-4951550"
+            }
+          ],
+          "published": "2026-10-15T12:17:24+00:00"
+        },
+        {
+          "headline": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+          "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+          "sources": [
+            {
+              "name": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm"
+            }
+          ],
+          "published": "2026-10-13T18:00:00+00:00"
+        },
+        {
+          "headline": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
+          "summary": "SK Hynix, Samsung and Micron have been some of the hardest-hit names in the latest tech sell-off.",
+          "sources": [
+            {
+              "name": "CNBC Markets",
+              "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
+            }
+          ],
+          "published": "2026-10-15T12:15:09+00:00"
+        }
+      ]
+    }
+  ]
+}
