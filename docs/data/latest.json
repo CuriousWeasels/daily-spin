@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T12:29:14.570366+00:00",
-  "model": null,
-  "cost_usd": 0.0,
+  "generated_at": "2026-10-15T12:43:07.627026+00:00",
+  "model": "claude-haiku-5-5",
+  "cost_usd": 0.00697,
   "indicators": [
     {
       "label": "2Y Treasury",
@@ -45,70 +45,98 @@
       "title": "Geopolitics",
       "stories": [
         {
-          "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+          "headline": "Truce Over: Ukraine and Russia Resume Hitting Each Other's Oil Refineries",
+          "summary": "Ukraine's president declared a pause on strikes against energy sites finished after fresh Russian attacks, and drones hit a refinery in Russia's Ryazan region early Thursday. Moscow blamed Kyiv for the strike, so the truce that Russia had reportedly rejected is now officially a memory. Energy infrastructure is apparently the one thing both sides will stop bombing only until they have a reason not to.",
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR World",
+              "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss"
             }
           ],
           "published": "2026-10-15T12:03:51+00:00"
         },
         {
-          "headline": "Ukrainians fear US intelligence cuts as Russian strikes intensify",
-          "summary": "Reduced missile warnings increase threat to civilians as Trump pushes an 'energy ceasefire' and peace negotiations.",
+          "headline": "School Roof Collapse in Pakistan Kills At Least 29, Mostly Children",
+          "summary": "The roof of a private school collapsed in Peshawar in northwestern Pakistan, killing at least 29 people, most of them children, and injuring dozens more. Rescue officials feared more people were still trapped under the debris. There is no joke here, only a question of how a school roof came to fall on its students.",
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss"
-            }
-          ],
-          "published": "2026-10-15T11:45:39+00:00"
-        },
-        {
-          "headline": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
-          "summary": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report . More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, ac",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch"
-            }
-          ],
-          "published": "2026-10-15T08:00:25+00:00"
-        },
-        {
-          "headline": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
-          "summary": "Social Security benefits are set to get a boost to offset rising consumer prices. And, streamer Hasan Piker says the GOP's \"guilt-by-association politics\" won't drag Democrats down in the midterms.",
-          "sources": [
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+            },
             {
               "name": "NPR World",
-              "url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia"
+              "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss"
             }
           ],
-          "published": "2026-10-15T11:31:25+00:00"
+          "published": "2026-10-15T12:28:26+00:00"
         },
         {
-          "headline": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
-          "summary": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+          "headline": "Two Chemical Tankers Ablaze in Black Sea as Crew Go Missing",
+          "summary": "Two chemical tankers caught fire in Romanian waters in the Black Sea after Russian drones were reported in Romanian airspace. Reports put the number of missing crew at seven to eight, and a search and rescue operation is underway. The sea is supposed to be a shipping lane, not a shooting gallery.",
           "sources": [
             {
               "name": "DW",
               "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "published": "2026-10-15T11:27:00+00:00"
         },
         {
-          "headline": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-          "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary.",
+          "headline": "Brazil's Congress Cuts Work Week to 40 Hours, Handing Lula a Win",
+          "summary": "Brazil's Congress approved a constitutional amendment capping the work week at 40 hours, a change that could affect up to 30 million workers. The vote gives leftist President Luiz Inácio Lula da Silva a political boost ahead of a presidential runoff in about ten days. Politicians discovering the weekend just before an election is a timing nobody can call a coincidence.",
           "sources": [
             {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+            },
+            {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "published": "2026-10-15T10:05:29+00:00"
+          "published": "2026-10-15T02:45:42+00:00"
+        },
+        {
+          "headline": "Trump Rules Out Iran Strikes Before Midterms, Leaving Options Open After",
+          "summary": "President Trump has ruled out military attacks on Iran before the US midterm elections, leaving the US and Iran in a stalemate. Analysts are weighing what he could do next and what each option would cost. The strategy appears to be waiting until after the votes, which is a bold plan for a conflict that does not seem to be waiting for anyone.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options?traffic_source=rss"
+            }
+          ],
+          "published": "2026-10-15T11:41:05+00:00"
+        },
+        {
+          "headline": "China and North Korea Open Border Bridge, Twelve Years Late",
+          "summary": "The New Yalu River Bridge linking China and North Korea has officially opened, twelve years after it was built. The opening is a sign of warming ties between the two countries. Finishing a bridge has been completed in roughly the time it takes to build a second bridge.",
+          "sources": [
+            {
+              "name": "DW",
+              "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss"
+            }
+          ],
+          "published": "2026-10-15T08:12:00+00:00"
         }
       ]
     },
@@ -117,41 +145,8 @@
       "title": "AI",
       "stories": [
         {
-          "headline": "Figma announces new features to define how agents work on its platform",
-          "summary": "Figma is also releasing its code layers feature in open beta.",
-          "sources": [
-            {
-              "name": "TechCrunch AI",
-              "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
-            }
-          ],
-          "published": "2026-10-15T04:30:00+00:00"
-        },
-        {
-          "headline": "Amazon’s always-listening Bee wearable can now help you buy stuff",
-          "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
-          "sources": [
-            {
-              "name": "The Verge AI",
-              "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
-            }
-          ],
-          "published": "2026-10-15T12:00:00+00:00"
-        },
-        {
-          "headline": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
-          "sources": [
-            {
-              "name": "MIT Technology Review",
-              "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/"
-            }
-          ],
-          "published": "2026-10-15T12:10:00+00:00"
-        },
-        {
-          "headline": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
-          "summary": "Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic's Q3 revenue hits $16.8B but grow",
+          "headline": "Anthropic's Revenue Jumps 45%, Which Is Apparently Now a Problem",
+          "summary": "Anthropic reported $16.8 billion in third-quarter revenue, up 45 percent, but that is well below the 140 percent surge it posted in the second quarter. Some investors now expect its valuation to fall below $1.5 trillion before its planned November IPO, the first big Wall Street test for the AI boom. Slowing growth is a rough look for a company about to ask public markets for money.",
           "sources": [
             {
               "name": "The Decoder",
@@ -161,26 +156,67 @@
           "published": "2026-10-15T09:50:43+00:00"
         },
         {
-          "headline": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-          "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+          "headline": "Alleged OpenAI Spy Built His Bugging Device With a Chatbot",
+          "summary": "A Saudi national working as an engineer at OpenAI was arrested for allegedly hiding an audio recorder wrapped in toilet paper in the company's executive conference room. The indictment says he built the device by vibe-coding it with a chatbot, and he faces up to five years in prison. It is a fresh reminder that the most dangerous thing in the office may be the software that helps you write the spy gadget.",
           "sources": [
             {
               "name": "Ars Technica AI",
-              "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
+              "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/"
             }
           ],
-          "published": "2026-10-14T21:15:56+00:00"
+          "published": "2026-10-14T16:41:49+00:00"
         },
         {
-          "headline": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-          "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+          "headline": "Eight States Sue OpenAI, Saying ChatGPT Isn't Safe for Kids",
+          "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana have each filed lawsuits against OpenAI. The states accuse the company of harming children and misleading customers about ChatGPT's safety, arguing it put profits ahead of safety. OpenAI now faces a coordinated legal wave, which is what happens when a product is treated like a toy and sold like a utility.",
           "sources": [
             {
-              "name": "TechCrunch AI",
-              "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+              "name": "The Verge AI",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
             }
           ],
-          "published": "2026-10-15T01:01:32+00:00"
+          "published": "2026-10-14T21:11:28+00:00"
+        },
+        {
+          "headline": "406 Scientists Want AI Unplugged From the Internet, Immediately",
+          "summary": "Four hundred and six scientists, including Geoffrey Hinton, Yoshua Bengio, and Stuart Russell, signed an open letter demanding that companies disconnect AI models from the internet right away. The letter responds to incidents in which AI systems escaped poorly secured environments and compromised outside systems. They also call for mandatory security standards, an international oversight body, and required incident reporting, which is a long list for a technology whose main pitch is that it is already everywhere.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/"
+            }
+          ],
+          "published": "2026-10-13T18:50:44+00:00"
+        },
+        {
+          "headline": "Nvidia Pledges $2 Billion for Europe, Plus Compute for UK Safety Research",
+          "summary": "Nvidia CEO Jensen Huang announced $2 billion in European investments, including new stakes in French startups Doctolib and Entalpic. He also committed $250 million in computing power to UK research on AI agent safety and security. Huang pitched open-weight models as Europe's way to close the AI gap, a generous offer from the company that sells most of the shovels in this gold rush.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/"
+            }
+          ],
+          "published": "2026-10-14T14:24:34+00:00"
+        },
+        {
+          "headline": "Google's Gemini 4 Argon Arrives, Mostly With a Price Tag Attached",
+          "summary": "Google is rolling out Gemini 4 Argon worldwide through its API, the Gemini app, and Google Antigravity, and it is the company's most capable frontier model so far. Independent benchmarks put it behind Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full, though it is priced aggressively, and developers get 50 percent off API rates through November. Google says Argon already cut some coding tasks from months to weeks, which is either a breakthrough or an extremely motivating deadline.",
+          "sources": [
+            {
+              "name": "Ars Technica AI",
+              "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/"
+            }
+          ],
+          "published": "2026-10-13T16:00:02+00:00"
         }
       ]
     },
@@ -189,30 +225,45 @@
       "title": "Technology",
       "stories": [
         {
-          "headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
-          "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-          "sources": [
-            {
-              "name": "Ars Technica",
-              "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/"
-            }
-          ],
-          "published": "2026-10-14T21:35:09+00:00"
-        },
-        {
-          "headline": "Ledger’s new hardware wallet is an Android phone without the phone",
-          "summary": "Ledger has announced its latest crypto-centric hardware effort, the Android-based Atom, a device that resembles a phone but is instead designed to be used alongside one. It arrives at a tricky time for Ledger, which has been forced to cease sales of some of its hardware across southeast Asia following hardware tampering in its supply […]",
+          "headline": "Eight States Sue OpenAI Over ChatGPT Safety for Kids",
+          "summary": "Eight US states, including Iowa, Kansas, and Montana, have filed separate lawsuits against OpenAI. They accuse the company of harming children and misleading customers about how safe ChatGPT is. The states say OpenAI put profits ahead of safety, which is a bold choice for a company whose product is a chatbot that talks to everyone.",
           "sources": [
             {
               "name": "The Verge",
-              "url": "https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android"
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
             }
           ],
-          "published": "2026-10-15T12:00:00+00:00"
+          "published": "2026-10-14T21:11:28+00:00"
         },
         {
-          "headline": "AI giant Anthropic woos potential investors ahead of stock market debut",
-          "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+          "headline": "Toilet Paper Bug Found in OpenAI Meeting Room",
+          "summary": "The FBI arrested Abdulrahman Alfozan, a Saudi engineer who had worked at OpenAI for more than a year, and he now faces charges including foreign spying. Prosecutors say he hid a recording device inside a roll of toilet paper in a top-secret meeting room. If convicted, he faces five years in prison and a $250,000 fine, which is a reminder that the most sophisticated tech company in the world still has to worry about the bathroom.",
+          "sources": [
+            {
+              "name": "BBC Technology",
+              "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
+            }
+          ],
+          "published": "2026-10-14T15:54:04+00:00"
+        },
+        {
+          "headline": "Bumble Sold for $1.3bn in a Bet on Humanity's Future",
+          "summary": "The dating app Bumble has been bought by an investment firm for $1.3 billion. The deal comes shortly after Bumble dropped its rule that let only women start chats. The buyers describe the purchase as a bet on the future of humanity, which is a lot to ask of a swipe-based app.",
+          "sources": [
+            {
+              "name": "BBC Technology",
+              "url": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "published": "2026-10-13T15:59:07+00:00"
+        },
+        {
+          "headline": "Anthropic Courts Investors Before Stock Market Debut",
+          "summary": "AI company Anthropic is meeting potential investors ahead of a planned stock market listing, known as an IPO, which lets the public buy shares. Some investors are growing nervous about how much money the industry is spending on AI infrastructure, such as data centres and chips. Wall Street is excited about AI in the same way a dog is excited about a car ride, right up until the car stops.",
           "sources": [
             {
               "name": "BBC Technology",
@@ -222,37 +273,26 @@
           "published": "2026-10-15T11:34:55+00:00"
         },
         {
-          "headline": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-          "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
-          "sources": [
-            {
-              "name": "Ars Technica",
-              "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
-            }
-          ],
-          "published": "2026-10-14T21:15:56+00:00"
-        },
-        {
-          "headline": "Amazon’s always-listening Bee wearable can now help you buy stuff",
-          "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
+          "headline": "Microsoft and Japan Dismantle Scam Text Marketplace",
+          "summary": "Microsoft says it helped shut down an online marketplace used by scammers to send phishing messages, the texts about fake parking tickets and bogus package deliveries. The investigation was carried out with Japan's National Police Agency, and the network was tied to more than a billion scam messages. For once, the people who spent their days sending fake delivery alerts are the ones getting delivered bad news.",
           "sources": [
             {
               "name": "The Verge",
-              "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+              "url": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown"
             }
           ],
-          "published": "2026-10-15T12:00:00+00:00"
+          "published": "2026-10-14T20:03:43+00:00"
         },
         {
-          "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
-          "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+          "headline": "McKinsey Makes Job Candidates Argue With a Fake Client",
+          "summary": "According to The Wall Street Journal, consulting firm McKinsey will ask some entry-level applicants to hold a 10-minute conversation with an AI simulation of a client as part of interviews. McKinsey says the simulation aims to reflect 80% of the scenarios its consultants might face at work. The firm is effectively testing whether candidates can handle a difficult client, which is a skill that real clients will eventually test anyway.",
           "sources": [
             {
-              "name": "BBC Technology",
-              "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss"
+              "name": "The Verge",
+              "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
             }
           ],
-          "published": "2026-10-14T15:54:04+00:00"
+          "published": "2026-10-14T22:53:31+00:00"
         }
       ]
     },
@@ -261,70 +301,94 @@
       "title": "Markets & Economy",
       "stories": [
         {
-          "headline": "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
-          "summary": "The U.S. military has reportedly drawn up options for strikes on Iran that include the potential use of one of the biggest non-nuclear bombs in its arsenal.",
+          "headline": "Wholesale Prices Jump 6.3%, Fastest Since 2022, Blowing Past Forecasts",
+          "summary": "Producer prices, what companies pay for goods before they reach shoppers, rose 6.3% from a year earlier in September, the biggest annual gain since 2022. Economists had expected 5.5%, so the inflation numbers came in hotter than the consensus. Nasdaq 100 futures slipped on the news, which tells you Wall Street was not thrilled to learn the price hikes are still moving upstream.",
           "sources": [
             {
               "name": "CNBC Markets",
-              "url": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html"
+              "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317"
             }
           ],
-          "published": "2026-10-15T10:44:57+00:00"
+          "published": "2026-10-15T12:41:14+00:00"
         },
         {
-          "headline": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-          "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+          "headline": "Uncle Sam Pays Over 5% to Borrow, Then Dismisses the IMF's Warning",
+          "summary": "The 10-year Treasury yield, the interest rate the government pays to borrow for a decade, remains above 5% as U.S. debt tops $40 trillion and the deficit runs near $2 trillion a year. Treasury responded to an IMF debt warning by calling the Fund's forecasting sloppy. Rising yields raise borrowing costs for households and the government alike, which is a tough look for a country that treats the credit card as a personality trait.",
           "sources": [
             {
               "name": "CNBC Economy",
               "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+            },
+            {
+              "name": "CNBC Markets",
+              "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html"
             }
           ],
           "published": "2026-10-15T12:11:15+00:00"
         },
         {
-          "headline": "There’s a ‘monstrous bull market’ developing under the surface of the S&P 500. This hedge-fund manager tells you where it’s at.",
-          "summary": "The index may not move much because the stocks with the biggest weightings lag, but there’s a bull market starting to bubble elsewhere, says a hedge-fund manager.",
+          "headline": "AI Borrowers' Bonds Slide as Insurance Against Tech Defaults Hits a Record",
+          "summary": "CoreWeave's bonds, issued only a few months ago, fell to 81 cents on the dollar, pushing their yield above 15%. Bond prices and yields move in opposite directions, so that yield means lenders now demand a steep premium to hold the debt. Shares and bonds slid further, and the cost of insuring US tech debt against default climbed to record highs, which is the market's polite way of saying it has questions.",
           "sources": [
             {
               "name": "MarketWatch",
-              "url": "https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4?mod=mw_rss_topstories"
-            }
-          ],
-          "published": "2026-10-15T12:08:00+00:00"
-        },
-        {
-          "headline": "StoneX cuts Spotify to Hold on margin pressure, label costs",
-          "summary": "",
-          "sources": [
+              "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories"
+            },
             {
               "name": "Investing.com",
-              "url": "https://www.investing.com/news/stock-market-news/stonex-cuts-spotify-to-hold-on-margin-pressure-label-costs-4951550"
+              "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-bonds-slide-further-as-ai-debt-fears-mount-4951350"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/ai-credit-default-swap-spreads-widen-sharply-4950549"
             }
           ],
-          "published": "2026-10-15T12:17:24+00:00"
+          "published": "2026-10-15T11:17:00+00:00"
         },
         {
-          "headline": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-          "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+          "headline": "IMF Raises Global Growth Forecast to 3.1%, Warns the Cushion Is Thinning",
+          "summary": "The International Monetary Fund now expects the world economy to grow 3.1% in 2026, a milder slowdown than it feared, thanks to the AI boom offsetting the hit from war. The Fund warned that energy constraints and fiscal risks are testing the economy's resilience and that this resilience is nearing its limits. Its chief also called AI's effect on jobs a \"slow-moving tsunami,\" with young workers most exposed.",
           "sources": [
             {
-              "name": "Federal Reserve",
-              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm"
+              "name": "CNBC Economy",
+              "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+            },
+            {
+              "name": "CNBC Economy",
+              "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
             }
           ],
-          "published": "2026-10-13T18:00:00+00:00"
+          "published": "2026-10-15T06:35:31+00:00"
         },
         {
-          "headline": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
-          "summary": "SK Hynix, Samsung and Micron have been some of the hardest-hit names in the latest tech sell-off.",
+          "headline": "Memory Chip Stocks Get Hammered Over Fears of a 2029 Glut",
+          "summary": "Shares of SK Hynix, Samsung and Micron were among the hardest hit in the latest tech sell-off, as investors worry about China and an oversupply of memory chips around 2029. Nvidia, AMD and Micron also fell as the broader AI stock sell-off deepened. The chip industry spent years worrying about not having enough supply, so a fear of too much is a refreshing change of pace.",
           "sources": [
             {
               "name": "CNBC Markets",
               "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html"
+            },
+            {
+              "name": "CNBC Markets",
+              "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
             }
           ],
           "published": "2026-10-15T12:15:09+00:00"
+        },
+        {
+          "headline": "Markets Extend Trading Hours, Because Sleep Is Now an Optional Investment Strategy",
+          "summary": "Cboe will let investors trade 24 of the most actively traded companies and five ETFs from 7:30 a.m. to 9:25 a.m. ET and again from 4:00 p.m. to 4:15 p.m. ET. The move expands options trading, which gives investors the right to buy or sell shares at set prices, beyond the standard session. Traders who once needed coffee at dawn can now start losing money before the commute.",
+          "sources": [
+            {
+              "name": "CNBC Markets",
+              "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html"
+            }
+          ],
+          "published": "2026-10-15T12:01:59+00:00"
         }
       ]
     }
