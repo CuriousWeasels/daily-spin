@@ -93,6 +93,11 @@ nav.sections a:hover::after, nav.sections a:focus-visible::after, nav.sections a
 .mk .fig { display:flex; justify-content:space-between; align-items:baseline; gap:8px; margin-top:1px; }
 .mk .val { font-size:1.15rem; font-weight:700; letter-spacing:-.01em; }
 .mk .chg { font-size:.8rem; font-weight:600; }
+.ext { font-family:var(--sans); font-size:.75rem; color:var(--muted); margin-top:2px; line-height:1.35; font-variant-numeric:tabular-nums; }
+.ext b { color:var(--ink); font-weight:600; }
+.ext .up, .ext .down, .ext .flat { font-weight:600; }
+.mtable tr.ext-row td { padding-top:0; text-align:left; }
+.mtable tr:has(+ tr.ext-row) td { border-bottom:0; padding-bottom:2px; }
 .sp { position:relative; display:block; height:22px; margin-top:3px; }
 .sp svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
 .spark { fill:none; stroke:var(--data); stroke-width:1.5; vector-effect:non-scaling-stroke; stroke-linejoin:round; }
@@ -333,7 +338,7 @@ CHART_KEYWORDS = [
     (("vix", "volatility"), "VIXCLS"),
     (("dollar", "currency"), "DTWEXBGS"),
     (("fed ", "rate hike", "interest rate", "federal reserve", "wholesale", "producer price"), "DFF"),
-    (("stocks", "s&p", "wall street", "shares"), "SP500"),
+    (("stocks", "s&p", "wall street", "shares", "spy"), "SPY"),
 ]
 
 
@@ -415,16 +420,32 @@ def _spark(values: list[float], delay_ms: int = 300) -> str:
             f'<i class="dot" style="left:{ex:.2f}%;top:{ey:.2f}%;--d:{delay_ms}ms"></i></span>')
 
 
+def _session_line(ind: dict, with_time: bool = True) -> str:
+    """Pre-market or after-hours figure for live-quoted series such as SPY."""
+    ses = ind.get("session")
+    if not ses:
+        return ""
+    chg, cls = _signed(ses["change_pct"], "%")
+    when = ses["time"] if ses.get("date") == ind["as_of"] else f'{_short_date(ses["date"])}, {ses["time"]}'
+    time_html = f'<span class="when"> &middot; {escape(when)}</span>' if with_time else ""
+    return (f'<div class="ext">{escape(ses["label"])} <b>${ses["price"]:,.2f}</b> <span class="{cls}">{chg}</span>'
+            f'{time_html}</div>')
+
+
 def _markets(indicators: list[dict]) -> str:
     if not indicators:
         return ""
     cells = []
     for i, ind in enumerate(indicators):
         chg, cls = _change(ind)
-        cells.append(f'<div class="mk"><div class="top"><span class="name">{escape(ind["label"])}</span>'
-                     f'<span class="asof">{_short_date(ind["as_of"])}</span></div>'
+        ses = ind.get("session")
+        # With an extended session, the corner shows when that latest quote was taken.
+        asof = (f'{_short_date(ses["date"])}, {ses["time"]}' if ses else _short_date(ind["as_of"]))
+        title = f' title="Regular close {_short_date(ind["as_of"])}"' if ses else ""
+        cells.append(f'<div class="mk"{title}><div class="top"><span class="name">{escape(ind["label"])}</span>'
+                     f'<span class="asof">{escape(asof)}</span></div>'
                      f'<div class="fig"><span class="val">{_value(ind)}</span><span class="chg {cls}">{chg}</span></div>'
-                     f'{_spark(ind.get("history", []), 260 + i * 60)}</div>')
+                     f'{_session_line(ind, with_time=False)}{_spark(ind.get("history", []), 260 + i * 60)}</div>')
     return f'<section class="markets" aria-label="Market data">{"".join(cells)}</section>'
 
 
@@ -435,6 +456,8 @@ def _markets_table(indicators: list[dict]) -> str:
         wchg, wcls = _window_change(ind)
         rows.append(f'<tr><td>{escape(ind["label"])}</td><td>{_value(ind)}</td><td class="{cls}">{chg}</td>'
                     f'<td class="{wcls}">{wchg}</td><td class="trend">{_spark(ind.get("history", []))}</td></tr>')
+        if ind.get("session"):
+            rows.append(f'<tr class="ext-row"><td colspan="5">{_session_line(ind)}</td></tr>')
     return (f'<table class="mtable"><caption><h3 class="col-head">Markets at a Glance</h3></caption>'
             f'<thead><tr><th scope="col">Series</th><th scope="col">Last</th><th scope="col">Chg</th>'
             f'<th scope="col">Period</th><th scope="col"><span style="position:absolute;left:-9999px">Trend</span></th></tr></thead>'
@@ -469,7 +492,8 @@ def _chart(ind: dict) -> str:
     decimals = 0 if step >= 1 else 1 if step >= .1 else 2
     labels = "".join(f'<span class="yt" style="top:{yp(t):.2f}%">{t:,.{decimals}f}</span>' for t in ticks)
     ey = yp(h[-1])
-    unit = {"rate": "per cent", "usd": "US dollars per barrel", "index": "index level", "level": "index level"}[ind.get("kind", "rate")]
+    unit = ind.get("unit_label") or {"rate": "per cent", "usd": "US dollars", "index": "index level",
+                                     "level": "index level"}[ind.get("kind", "rate")]
     since = ind.get("since")
     start = datetime.fromisoformat(since).strftime("%b %Y") if since else ""
     return (f'<figure class="chart"><figcaption><b>{escape(ind["label"])}</b>{unit}, latest {_value(ind)}</figcaption>'

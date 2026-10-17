@@ -145,7 +145,10 @@ def writer_request(story: dict, indicators: list[dict]) -> dict:
     for i, src in enumerate(story["source_items"], 1):
         parts.append(f"=== SOURCE {i}: {src['source']} ===\nHeadline: {src['title']}\n{src['text']}\n")
     if story["section"] == "markets" and indicators:
-        nums = "; ".join(f"{i['label']}: {i['value']}{i['unit']} (as of {i['as_of']})" for i in indicators)
+        nums = "; ".join(
+            f"{i['label']}: {i['value']}{i['unit']} (as of {i['as_of']})"
+            + (f", {i['session']['label'].lower()} {i['session']['price']} ({i['session']['time']})" if i.get("session") else "")
+            for i in indicators)
         parts.append(f"Latest official data (accurate, usable as a source): {nums}\n")
     parts.append("Write the article.")
     return {
@@ -304,7 +307,21 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-ai", action="store_true", help="skip Claude; placeholder articles")
     parser.add_argument("--per-section", type=int, default=STORIES_PER_SECTION)
+    parser.add_argument("--markets-only", action="store_true",
+                        help="refresh market data on the current edition and re-render; no Claude calls, free")
     args = parser.parse_args()
+
+    if args.markets_only:
+        latest = OUT_DIR / "data" / "latest.json"
+        data = json.loads(latest.read_text(encoding="utf-8"))
+        data["indicators"] = fetch.fetch_indicators()
+        latest.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        write_site(data, OUT_DIR)
+        spy = next((i for i in data["indicators"] if i["id"] == "SPY"), None)
+        print(f"Markets refreshed: {len(data['indicators'])} series; SPY "
+              + (f"{spy['value']} with {spy['session']['label'].lower()} {spy['session']['price']}"
+                 if spy and spy.get("session") else (f"{spy['value']} (no extended session)" if spy else "unavailable")))
+        return
 
     client = None
     if not args.no_ai:

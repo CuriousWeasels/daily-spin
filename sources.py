@@ -51,10 +51,11 @@ SECTIONS = {
 # "kind" sets how a figure is shown: "rate" (a % level; change in points, the default),
 # "index" (a level; change in %), "usd" (a dollar price; change in %), "level" (change in points).
 INDICATORS = [
-    {"id": "SP500", "label": "S&P 500", "unit": "", "kind": "index"},
+    # SPY comes from live quote feeds, not FRED: regular close plus pre-market / after-hours (see fetch_spy).
+    {"id": "SPY", "label": "SPY", "unit": "", "kind": "usd", "source": "quote", "unit_label": "US dollars per share"},
     {"id": "NASDAQCOM", "label": "Nasdaq", "unit": "", "kind": "index"},
     {"id": "VIXCLS", "label": "VIX", "unit": "", "kind": "level"},
-    {"id": "DCOILBRENTEU", "label": "Brent crude", "unit": "", "kind": "usd"},
+    {"id": "DCOILBRENTEU", "label": "Brent crude", "unit": "", "kind": "usd", "unit_label": "US dollars per barrel"},
     {"id": "DTWEXBGS", "label": "Dollar index", "unit": "", "kind": "index"},
     {"id": "DGS2", "label": "2Y Treasury", "unit": "%"},
     {"id": "DGS10", "label": "10Y Treasury", "unit": "%"},
