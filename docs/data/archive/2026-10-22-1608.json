@@ -1,0 +1,1910 @@
+{
+  "generated_at": "2026-10-22T16:08:25.921967+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.327,
+  "indicators": [
+    {
+      "id": "SPY",
+      "label": "SPY",
+      "kind": "usd",
+      "unit": "",
+      "unit_label": "US dollars per share",
+      "value": 764.95,
+      "change": -8.12,
+      "change_pct": -1.05,
+      "as_of": "2026-10-22",
+      "history": [
+        747.41,
+        738.18,
+        738.93,
+        739.09,
+        740.86,
+        729.46,
+        741.69,
+        747.03,
+        757.67,
+        771.33,
+        769.79,
+        768.56,
+        773.26,
+        773.03,
+        770.56,
+        772.49,
+        777.88,
+        776.34,
+        772.67,
+        767.45,
+        769.06,
+        762.6,
+        765.72,
+        763.47,
+        765.91,
+        766.08,
+        771.1,
+        769.35,
+        767.05,
+        761.78,
+        765.16,
+        773.17,
+        770.19,
+        765.96,
+        762.4,
+        757.83,
+        764.29,
+        760.88,
+        757.39,
+        754.05,
+        762.6,
+        761.69,
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        764.925
+      ],
+      "since": "2026-07-22",
+      "session": null
+    },
+    {
+      "id": "NASDAQCOM",
+      "label": "Nasdaq",
+      "kind": "index",
+      "value": 26702.86,
+      "change": 278.04,
+      "change_pct": 1.05,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        25837.21,
+        25690.9,
+        25137.69,
+        24975.82,
+        24932.08,
+        24876.91,
+        24442.94,
+        25122.18,
+        25373.85,
+        25913.9,
+        26584.99,
+        26363.44,
+        26348.35,
+        26690.62,
+        26605.36,
+        26445.45,
+        26588.49,
+        26803.03,
+        26729.16,
+        26644.91,
+        26289.71,
+        26331.09,
+        26067.17,
+        26180.45,
+        25980.19,
+        26151.3,
+        26130.2,
+        26541.35,
+        26402.42,
+        26370.89,
+        26099.77,
+        26217.83,
+        26584.06,
+        26506.99,
+        26421.41,
+        26253.34,
+        26081.72,
+        26333.04,
+        26186.41,
+        25981.57,
+        25978.42,
+        26418.3,
+        26522.55,
+        27122.09,
+        27244.28,
+        26936.04,
+        26939.37,
+        27068.72,
+        26820.38,
+        26797.54,
+        26861.06,
+        26871.6,
+        27190.86,
+        27477.31,
+        27599.89,
+        27538.69,
+        27193.34,
+        27366.17,
+        27245.9,
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03,
+        26430.89,
+        26424.82,
+        26702.86
+      ],
+      "since": "2026-07-21"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "kind": "level",
+      "value": 16.68,
+      "change": -0.63,
+      "change_pct": -3.64,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        16.64,
+        18.7,
+        18.58,
+        18.67,
+        18.21,
+        20.66,
+        17.09,
+        15.99,
+        15.86,
+        16.5,
+        15.81,
+        15.15,
+        14.9,
+        15.46,
+        15.28,
+        14.55,
+        14.63,
+        14.25,
+        15.19,
+        15.84,
+        14.89,
+        16.01,
+        15.13,
+        15.85,
+        15.45,
+        15.21,
+        14.51,
+        14.43,
+        14.92,
+        16.34,
+        15.2,
+        14.32,
+        14.53,
+        15.3,
+        15.72,
+        16.46,
+        17.84,
+        15.84,
+        17.1,
+        17.2,
+        17.71,
+        15.44,
+        14.81,
+        14.87,
+        14.21,
+        15.18,
+        15.67,
+        14.87,
+        16.07,
+        16.04,
+        16.34,
+        16.39,
+        15.31,
+        15.52,
+        15.01,
+        15.08,
+        15.41,
+        14.84,
+        15.21,
+        15.27,
+        16.87,
+        16.46,
+        19.99,
+        18.44,
+        17.31,
+        16.68
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DCOILBRENTEU",
+      "label": "Brent crude",
+      "kind": "usd",
+      "value": 115.22,
+      "change": -3.6,
+      "change_pct": -3.03,
+      "unit": "",
+      "unit_label": "US dollars per barrel",
+      "as_of": "2026-10-20",
+      "history": [
+        86.99,
+        93.85,
+        94.12,
+        105.32,
+        100.31,
+        91.82,
+        85.51,
+        91.95,
+        91.91,
+        96.95,
+        88.9,
+        86.47,
+        86.65,
+        89.65,
+        87.62,
+        92.74,
+        93.26,
+        92.52,
+        92.03,
+        92.02,
+        92.43,
+        95.29,
+        92.37,
+        94.0,
+        96.92,
+        92.71,
+        88.24,
+        87.77,
+        90.18,
+        89.75,
+        96.02,
+        97.59,
+        100.52,
+        102.24,
+        104.47,
+        106.12,
+        109.51,
+        120.98,
+        118.06,
+        121.25,
+        130.8,
+        127.84,
+        121.18,
+        119.66,
+        116.15,
+        114.89,
+        117.45,
+        120.92,
+        116.01,
+        119.97,
+        113.96,
+        115.91,
+        114.82,
+        135.51,
+        125.51,
+        125.44,
+        126.0,
+        130.18,
+        130.03,
+        129.95,
+        125.78,
+        126.55,
+        126.35,
+        119.33,
+        118.82,
+        115.22
+      ],
+      "since": "2026-07-20"
+    },
+    {
+      "id": "DTWEXBGS",
+      "label": "Dollar index",
+      "kind": "index",
+      "value": 121.4,
+      "change": -0.16,
+      "change_pct": -0.14,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-16",
+      "history": [
+        120.309,
+        120.331,
+        120.531,
+        120.54,
+        120.578,
+        120.574,
+        120.907,
+        120.71,
+        120.774,
+        120.625,
+        120.789,
+        119.675,
+        119.703,
+        119.695,
+        119.598,
+        119.388,
+        119.511,
+        119.065,
+        119.119,
+        119.179,
+        119.118,
+        119.185,
+        118.903,
+        118.814,
+        118.983,
+        118.333,
+        118.255,
+        118.063,
+        118.32,
+        118.228,
+        118.446,
+        118.358,
+        118.748,
+        118.568,
+        118.657,
+        118.53,
+        118.127,
+        118.073,
+        117.913,
+        117.883,
+        118.079,
+        118.213,
+        118.692,
+        118.882,
+        118.921,
+        119.349,
+        119.513,
+        119.401,
+        119.593,
+        120.117,
+        120.552,
+        120.33,
+        120.696,
+        121.03,
+        120.969,
+        121.788,
+        121.385,
+        121.271,
+        120.898,
+        121.256,
+        121.447,
+        121.602,
+        121.443,
+        122.004,
+        121.569,
+        121.405
+      ],
+      "since": "2026-07-15"
+    },
+    {
+      "id": "DGS2",
+      "label": "2Y Treasury",
+      "kind": "rate",
+      "value": 4.79,
+      "change": 0.02,
+      "change_pct": 0.42,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-20",
+      "history": [
+        4.18,
+        4.21,
+        4.26,
+        4.31,
+        4.37,
+        4.33,
+        4.31,
+        4.26,
+        4.22,
+        4.23,
+        4.28,
+        4.25,
+        4.2,
+        4.18,
+        4.25,
+        4.19,
+        4.25,
+        4.22,
+        4.2,
+        4.15,
+        4.17,
+        4.19,
+        4.19,
+        4.19,
+        4.19,
+        4.24,
+        4.24,
+        4.17,
+        4.19,
+        4.2,
+        4.34,
+        4.34,
+        4.39,
+        4.39,
+        4.34,
+        4.37,
+        4.39,
+        4.43,
+        4.56,
+        4.63,
+        4.65,
+        4.67,
+        4.74,
+        4.67,
+        4.76,
+        4.76,
+        4.71,
+        4.85,
+        4.87,
+        4.81,
+        4.92,
+        4.89,
+        4.88,
+        4.78,
+        4.83,
+        4.84,
+        4.79,
+        4.77,
+        4.75,
+        4.8,
+        4.79,
+        4.82,
+        4.77,
+        4.74,
+        4.77,
+        4.79
+      ],
+      "since": "2026-07-17"
+    },
+    {
+      "id": "DGS10",
+      "label": "10Y Treasury",
+      "kind": "rate",
+      "value": 5.12,
+      "change": -0.03,
+      "change_pct": -0.58,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-20",
+      "history": [
+        4.55,
+        4.6,
+        4.63,
+        4.67,
+        4.71,
+        4.69,
+        4.65,
+        4.61,
+        4.67,
+        4.68,
+        4.75,
+        4.7,
+        4.63,
+        4.63,
+        4.69,
+        4.65,
+        4.72,
+        4.7,
+        4.68,
+        4.63,
+        4.68,
+        4.72,
+        4.71,
+        4.65,
+        4.69,
+        4.74,
+        4.7,
+        4.64,
+        4.66,
+        4.67,
+        4.73,
+        4.75,
+        4.79,
+        4.79,
+        4.77,
+        4.78,
+        4.8,
+        4.83,
+        4.95,
+        4.96,
+        4.97,
+        5.0,
+        5.01,
+        4.94,
+        5.01,
+        4.96,
+        4.96,
+        5.11,
+        5.18,
+        5.17,
+        5.24,
+        5.26,
+        5.29,
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15,
+        5.12
+      ],
+      "since": "2026-07-17"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds",
+      "kind": "rate",
+      "value": 3.88,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-20",
+      "history": [
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+      ],
+      "since": "2026-08-16"
+    },
+    {
+      "id": "CPIAUCNS",
+      "label": "CPI inflation (YoY)",
+      "kind": "rate",
+      "value": 3.74,
+      "change": 0.34,
+      "change_pct": 10.04,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        2.441,
+        2.598,
+        2.749,
+        2.888,
+        3.0,
+        2.822,
+        2.391,
+        2.311,
+        2.355,
+        2.669,
+        2.705,
+        2.916,
+        3.013,
+        2.735,
+        2.677,
+        2.386,
+        2.414,
+        3.256,
+        3.811,
+        4.249,
+        3.531,
+        3.365,
+        3.397,
+        3.738
+      ],
+      "since": "2024-09-01"
+    },
+    {
+      "id": "UNRATE",
+      "label": "Unemployment",
+      "kind": "rate",
+      "value": 4.2,
+      "change": 0.1,
+      "change_pct": 2.44,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+      ],
+      "since": "2024-09-01"
+    }
+  ],
+  "briefing": {
+    "lead_index": 0,
+    "five_things": [
+      "The U.S. and Israel have reportedly drawn up plans for a short, intensive strike on Iran's nuclear, energy and missile targets after the November 3 midterms, a timeline that is presumably a scheduling coincidence.",
+      "Russia freed 74-year-old American Stephen Hubbard during envoy Steve Witkoff's visit, while Putin called the U.S. proposals lacking in substance, so the prisoner was the only thing that left the meeting finished.",
+      "Houthi drone and missile attacks killed two people at Dammam's airport in Saudi Arabia and two more in the Eastern Province, suggesting the ceasefire was more of an intermission.",
+      "Two critical PHP flaws, found with help from OpenAI and Google models, were patched after Amazon said they were already being broadly exploited, which is bad news for the large share of websites running PHP and the bars that host their dog photos.",
+      "Brent crude rose 2.8% to $111.81 on reports of post-midterm U.S. strike plans on Iran, because markets will happily trade on a war that has not started yet."
+    ],
+    "number_of_the_day": {
+      "figure": "1,115 basis points",
+      "explanation": "That is what it costs to insure CoreWeave's debt against default, which is the market's polite way of saying it has read the balance sheet."
+    }
+  },
+  "articles": [
+    {
+      "headline": "U.S. and Israel Reportedly Schedule Iran Strike for Day After Voters Finish Having Opinions",
+      "dek": "Officials are said to be planning a short, intensive operation after the November 3 midterms, weeks after the president said no attack would come before them.",
+      "catch_up": "The U.S. and Israel launched a war against Iran in late February, and the U.S. last struck Iran in early September. Talks to end the conflict have stalled, and the U.S. maintains a blockade of Iranian oil exports.",
+      "why_it_matters": "High energy prices from the war are already hurting the president's party in the polls, and renewed fighting could affect oil flows through the Strait of Hormuz and the price of fuel. For Iranians, it would mean more economic hardship and likely more internet restrictions.",
+      "body": [
+        "The U.S. and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections, a person briefed on war planning told NPR. Iran said it is prepared. The timing is a coincidence in the way that a dentist appointment scheduled after your wedding photos is a coincidence.",
+        "The New York Times reported on Wednesday, citing senior U.S. officials, that the two countries have developed specific plans for a short but intensive operation. Targets would reportedly include nuclear facilities, energy infrastructure, and Iran's stockpile of missiles and drones. One official told the paper the aim would be to extract diplomatic concessions by further weakening Iran's economy. Translation: bombing as a negotiating technique, used when the negotiating has not produced any negotiating.",
+        "The politics are not subtle. DW notes that polls show high energy prices from the war are hurting Donald Trump's Republican Party. On October 8, the president posted that the U.S. would not attack Iran before the midterms, citing productive discussions with Tehran. Israel holds its own election on October 27, and Prime Minister Benjamin Netanyahu has campaigned on regime change in Iran. After November 3, DW says, Trump may feel less politically constrained, which is a diplomatic way of saying that voters are the last item on the pre-war checklist.",
+        "The preparations are visible. Axios reported in early October that the Pentagon told Central Command to finish preparations for resuming major combat operations. Two U.S. carrier strike groups are in the Arabian Sea, with a third expected by late November. Trump told Newsmax he was considering a strike on Pickaxe Mountain near Natanz, where U.S. officials say sensitive nuclear material may have been moved underground. CNN reported he is weighing a MOAB, a bomb whose blast wave is mostly above ground, which DW says limits its usefulness against underground sites. Translation: a very large bomb for a problem that is under a mountain.",
+        "Iran says it has been busy too. An adviser to President Masoud Pezeshkian told DW that Tehran's strategy is about preserving the regime rather than matching U.S. strength, and pointed to the rapid replacement of killed senior officials. Reuters, citing Iranian officials, reported that Iran is preparing for renewed attacks rather than a deal, and is dragging out talks to weaken Trump before the midterms. So both sides appear to be using the negotiations mainly as a calendar.",
+        "Iran has also warned Gulf neighbors that U.S. bases and critical infrastructure could be targets if they help any new operation. Foreign Minister Abbas Araghchi said Iran would give diplomacy another chance given evidence of sincerity, but that choosing war would bring an even greater strategic failure for the U.S. Iran's latest offer, passed through Qatari mediators, would reopen Hormuz under Iranian control in exchange for lifting the blockade, releasing frozen assets and ending military action. Washington says the nuclear program must top the agenda, so the two sides are negotiating different meetings.",
+        "One wrinkle is Iran's leverage. The Wall Street Journal, citing Kpler ship-tracking data, reported that Hormuz oil flows are approaching prewar levels as the U.S. escorts tankers and shippers accept more risk for bigger payoffs. That raises questions about whether Iran's grip on the strait is slipping, though a new round of strikes could change that quickly.",
+        "For Iranians, the stakes are less strategic. A Tehran doctor told DW, anonymously because speaking to media is dangerous, that the economic situation has become extremely bad. Asked about underground nuclear sites, another woman said: \"They are inside mountains.\" It is the one point on which she and the bomb planners seem to agree. Watch November 4."
+      ],
+      "topics": [
+        "iran",
+        "united states",
+        "israel",
+        "midterm elections"
+      ],
+      "image_query": "aircraft carrier at sea",
+      "id": "2026-10-22-1608-geopolitics0-us-and-israel-reportedly-planning-possible-attack-on-iran-af",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/is-iran-ready-for-another-major-us-attack-after-midterm-elections/a-79734082?maca=en-rss-en-world-4025-rdf"
+        }
+      ],
+      "wire_headline": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+      "wire_source": "NPR World",
+      "published": "2026-10-22T08:56:58+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Flickr_-_Official_U.S._Navy_Imagery_-_Aircraft_carrier_at_sea..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_Aircraft_carrier_at_sea..jpg",
+        "width": 1280,
+        "height": 852,
+        "title": "Flickr - Official U.S. Navy Imagery - Aircraft carrier at sea.",
+        "creator": "Mass Communication Specialist Seaman Ricardo R. Guzman/U.S. Navy",
+        "creator_url": "",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Aircraft_carrier_at_sea..jpg",
+        "source": "Wikimedia Commons"
+      },
+      "comic": {
+        "file": "comics/2026-10-22-1608-geopolitics0-us-and-israel-reportedly-planning-possible-attack-on-iran-af.svg",
+        "caption": "No strike before the midterms, he promised. After that, the calendar is wide open.",
+        "alt": "A smiling official in a suit stands between a ballot box and a large black bomb marked NOV 4, with one hand resting on the bomb behind his back. A wall calendar shows NOV 3, and his speech bubble claims nothing is planned before the vote."
+      }
+    },
+    {
+      "headline": "Russia Frees Jailed American, Declines to Read Envoy's Peace Papers Closely",
+      "dek": "Putin released 74-year-old Stephen Hubbard during Steve Witkoff's ninth visit, then called the envoy's proposals lacking in substance and agreed to talks after November 10.",
+      "catch_up": "Stephen Hubbard, an American, was captured by Russian forces and sentenced in 2024 to seven years in a closed trial on mercenary charges, which he denies. US envoy Steve Witkoff has been shuttling between Kyiv's side and Moscow to push a peace deal.",
+      "why_it_matters": "A freed prisoner is a real human outcome, but the Kremlin's cool reception of the US proposals suggests the war's core disputes remain untouched. Whether sanctions are paused or imposed shapes how much pressure Moscow feels to negotiate.",
+      "body": [
+        "Russian President Vladimir Putin announced on Wednesday that Stephen Hubbard, a jailed American, had been released, doing so during talks in St. Petersburg with US special envoy Steve Witkoff. According to DW, Putin said Hubbard was already at the airport, and Witkoff said he was \"going home to his family.\" NPR identified Hubbard as a 74-year-old Michigan native and said the release followed a request from President Trump. It is the rare diplomatic meeting in which the most concrete deliverable arrived before anyone sat down to discuss the actual war.",
+        "Hubbard was captured by Russian forces and convicted of being a mercenary, a charge he denies, and sentenced to seven years at a closed trial in 2024. Translation: a closed trial is one where the public is not invited, which tends to simplify the appeals process.",
+        "Mr. Trump said on Truth Social that he had asked Putin directly in a phone call last week. He wrote that the United States was \"not required to give anything in return,\" and that no swap was needed. In a follow-up post, he said \"numerous people\" had called to apologize for criticizing his suspension of a new round of sanctions, which he described as a necessary concession. Translation: the United States gave nothing, except the thing he says it had to give. Readers are invited to hold both statements at once, as the administration evidently does.",
+        "The goodwill ended roughly where the paperwork began. Witkoff told Putin he had brought \"some papers,\" which he described as ideas for a peace deal between Russia and Ukraine, to be read at Putin's leisure. According to DW, the Kremlin afterward said the proposals \"lacked substance\" and would not be of real use. Leisure, it appears, was brief.",
+        "Still, Putin agreed \"in principle\" to resume talks with Russian, Ukrainian and US delegates after November 10. Foreign affairs adviser Yuri Ushakov said they should focus on building a security system for Russia and Ukraine after the conflict ends. Translation: Moscow is willing to discuss what comes after the war, which is not the same as discussing how it stops. Ushakov also said a first-ever meeting of the leaders of China, Russia and the United States was being prepared, in Beijing.",
+        "This was the ninth Witkoff-Putin meeting, and it came a day after Witkoff met Ukrainian President Volodymyr Zelenskyy in Norway. Zelenskyy told \"Fox & Friends\" that the front line should be frozen as a first step toward ceasefire talks. German Chancellor Friedrich Merz said any capitulation by Ukraine would be \"a capitulation by all of us.\" The European Union, which sent delegates from several member states to Oslo, said it expects Washington to brief it on the St. Petersburg talks, which is how Europe often learns the content of meetings about Europe.",
+        "Norwegian Prime Minister Jonas Gahr Store said Witkoff plans to return to Oslo, and that the Russians may be \"looking for opportunities for diplomacy.\" That is possible. It is also possible that opportunities, like prisoners, can be released at no cost when the alternative is a new round of sanctions. Watch what happens after November 10."
+      ],
+      "topics": [
+        "russia",
+        "ukraine",
+        "steve witkoff",
+        "peace talks"
+      ],
+      "image_query": "St. Petersburg Russia skyline",
+      "id": "2026-10-22-1608-geopolitics1-putin-frees-jailed-american-stephen-hubbard-during-witkoff-t",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-rdf"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6010509/former-u-s-ambassador-to-ukraine-william-taylor-on-trumps-embrace-of-russia"
+        }
+      ],
+      "wire_headline": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+      "wire_source": "DW",
+      "published": "2026-10-21T13:56:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/St._Petersburg%27s_skyline_%2821152403441%29.jpg/1280px-St._Petersburg%27s_skyline_%2821152403441%29.jpg",
+        "width": 1280,
+        "height": 644,
+        "title": "St. Petersburg's skyline (21152403441)",
+        "creator": "Jorge Láscar from Melbourne, Australia",
+        "creator_url": "https://www.flickr.com/people/8721758@N06",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:St._Petersburg%27s_skyline_(21152403441).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Alberta Votes 76% to Stay in Canada, Separatists Find Silver Lining in the Other 24%",
+      "dek": "Unofficial results show roughly three in four Albertans rejected starting a path to independence, and the separatists are already planning to remove the premier instead.",
+      "catch_up": "Albertans voted Monday on 10 questions, one of which asked whether to remain in Canada or begin a legal process that could lead to a second vote on separation. The province has long-running grievances with Ottawa, and its separatist movement has grown inside the governing United Conservative Party.",
+      "why_it_matters": "The result removes, for now, the prospect of a long period of constitutional uncertainty in Canada's oil-producing province, which investors and businesses had worried could prompt capital flight. It also shows that Albertan frustration with Ottawa is real but does not translate into wanting to leave.",
+      "body": [
+        "Albertans voted overwhelmingly to remain in Canada, according to unofficial results from Elections Alberta reported by The Guardian. With nearly 1.9 million votes counted, roughly 76% backed staying and 24% backed starting a process toward separation. The separatists responded by describing a three-to-one defeat as evidence that a quarter of the province is dissatisfied, which is technically true and also how every losing campaign describes arithmetic.",
+        "The question was not, strictly speaking, about independence. Translation: voters were asked whether to begin a legal process that could lead to a second vote, which is a referendum about whether to hold a referendum. This frustrated separatists, though the margin suggests the extra step was not what stood between them and victory. It was one of 10 questions on the ballot, covering immigration, healthcare, education and the province's constitutional powers. Elections Alberta said the remaining results could take days.",
+        "Prime Minister Mark Carney, who grew up in Edmonton, said Albertans had chosen unity and said the result would let the country accelerate efforts to diversify trade and build major infrastructure. Before the vote he had warned that a ballot cast to send a message would be a dangerous bluff. Conservative leader Pierre Poilievre, whose seat is in Alberta, told supporters that Albertans were not quitters. It is rare for the prime minister and the opposition leader to deliver the same message in the same province, and it suggests how seriously Ottawa took the exercise.",
+        "Pollster David Coletto told the Guardian that Albertans saw the exercise as a distraction. He described a general sadness about energy spent on the vote rather than on what they see as more real threats, including the Trump administration. His summary was that the marriage may be rocky, but very few want it to end. One radio host put a price on the exercise, posting that someone owes Albertans $130 million for a theatrical waste of taxpayers' money.",
+        "The political damage may land closer to home. Premier Danielle Smith, who holds her job in large part because separatists within the United Conservative Party helped oust her predecessor Jason Kenney, has spent recent months trying to placate both separatists and federalists. The Guardian reported that the referendum became a liability for her party, whose support has fallen, including a by-election loss in a former stronghold. She said Albertans voted for a stronger Alberta in a united Canada, a line that gives the winning side most of the credit.",
+        "Separatist leader Jeffrey Rath told Global News that independence will remain a dream as long as Smith, whom he called an avowed federalist, stays in power. He plans to push for a special general meeting of the party to remove her. So a movement that lost a province-wide vote by about 50 points now intends to win a vote among party members, a much smaller electorate where the rules are friendlier.",
+        "Calgary Mayor Jeromy Farkas, an opponent of independence, cautioned that no result will permanently settle the matter because separatists see it as a long-term project. Keith Wilson, another separatist leader, said at least a quarter of Albertans feel the province needs better treatment. Watch the party meeting: the next test of separatism will be held inside the premier's own party, where the electorate is smaller and the ballots are cheaper."
+      ],
+      "topics": [
+        "alberta",
+        "canada",
+        "separatism",
+        "mark carney"
+      ],
+      "image_query": "Alberta prairie landscape",
+      "id": "2026-10-22-1608-geopolitics2-alberta-voters-overwhelmingly-reject-independence-referendum",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
+        }
+      ],
+      "wire_headline": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+      "wire_source": "The Guardian",
+      "published": "2026-10-20T16:24:05+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Prairie_Alberta.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Prairie Alberta",
+        "creator": "Zeitlupe",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Zeitlupe",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Prairie_Alberta.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "North Korea Prepares to Restart Border Loudspeakers, Reviving Sixteen-Month Pause in Shouting",
+      "dek": "Kim Yo-jong says the speakers will be ready within days along the whole border, while Seoul says any response would be 'proportional' but undecided.",
+      "catch_up": "North and South Korea have long blasted propaganda across their border, and the South halted its broadcasts in June 2025 to ease tensions. Relations have worsened since a September landmine blast injured three South Korean soldiers.",
+      "why_it_matters": "Loudspeaker wars are cheap, but they are a reliable gauge of how bad relations are, and they raise the odds of a misjudged reaction along one of the most heavily armed borders on earth. For South Korean border residents, it may also mean noise.",
+      "body": [
+        "North Korea said it will restart propaganda loudspeakers aimed at South Korea, with Kim Yo-jong, sister of leader Kim Jong-un, saying they would be ready within days along the entire border. According to The Guardian, the statement ran on state news agency KCNA on Thursday, a day after she said the speakers would operate along the whole frontier from some time in October. It is the diplomatic equivalent of announcing that you will be turning the stereo back on, directed at neighbors you have just described as hostile.",
+        "The practice has a long history. Both countries have used giant loudspeakers to broadcast across the border, the Guardian noted, with the North in recent years favoring haunting bestial howls, and the South choosing K-pop and news criticizing Pyongyang. Translation: psychological warfare, in which one side tries to demoralize the other with animal noises and the other responds with pop music. Each side appears to believe it has the stronger material.",
+        "If the broadcasts resume, they would be the first loudspeaker exchange in 16 months. South Korean president Lee Jae Myung suspended the Southern broadcasts days into his presidency in June 2025 to ease tensions, and the military dismantled its speakers that August. That leaves the South in the awkward position of having disarmed unilaterally in a contest where the other side kept its equipment, and apparently did maintenance on it.",
+        "Indeed, Seoul's joint chiefs of staff said they had observed routine maintenance on the North's loudspeakers before Kim Yo-jong's statements. A defence ministry spokesperson said that if the North goes ahead, 'naturally there would have to be a proportional measure', while making clear no decision had been made. Translation: we will respond in kind, though we have not yet worked out with what, since we took down our speakers.",
+        "The backdrop is grim. Tensions have risen since September, when a landmine blast south of the military demarcation line injured three South Korean soldiers, two seriously. Seoul and the UN command, which oversees the 1953 armistice that halted but did not end the Korean war, concluded it was a North Korean anti-personnel mine and an armistice violation. Pyongyang denied responsibility and called it a 'self-staged farce'.",
+        "Meanwhile the North keeps building. Since Kim Jong-un declared in December 2023 that the two Koreas were 'two states hostile to each other', it has laid mines, strung barbed wire and erected anti-tank barriers. On Wednesday Kim Yo-jong toured fortification points with Pak Jong-chon, a marshal and adviser to the defence ministry, and said the border had been 'clearly blocked and turned into a fortress more thoroughly'. She added that her brother wants it to be 'a permanent line never to be crossed'.",
+        "Seoul says North Korean troops have repeatedly crossed the 250km demarcation line during that construction, which is an interesting way to build a line never to be crossed. South Korean soldiers have answered with loudspeaker warnings and warning shots, which the North calls provocations by 'armed rogues'. So the loudspeakers, in a sense, already exist in limited form. The new plan simply gives them a larger audience and a playlist.",
+        "What to watch: whether Seoul reinstalls its own speakers, and what 'proportional' turns out to mean. If the answer involves K-pop, the North has at least been warned."
+      ],
+      "topics": [
+        "north korea",
+        "south korea",
+        "korean peninsula",
+        "propaganda"
+      ],
+      "image_query": "loudspeakers border fence",
+      "id": "2026-10-22-1608-geopolitics3-north-korea-to-resume-propaganda-broadcasts-toward-south-kor",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea"
+        }
+      ],
+      "wire_headline": "North Korea says it will resume propaganda broadcasts across border into South Korea",
+      "wire_source": "NPR World",
+      "published": "2026-10-22T06:36:07+00:00"
+    },
+    {
+      "headline": "Houthis Hit Saudi Airport, Proving Four-Year Ceasefire Was Mostly a Long Intermission",
+      "dek": "Two people died at Dammam's King Fahd International Airport, and two more died from drone debris in the oil-rich Eastern Province, as the Houthi-Saudi conflict widens.",
+      "catch_up": "Yemen's civil war began in 2014 and escalated in 2015 when a Saudi-led coalition intervened. An informal ceasefire that held for about four years began unraveling in July, when the Houthis announced a maritime embargo against Saudi Arabia.",
+      "why_it_matters": "Attacks on airports, oil facilities and a shipping chokepoint raise the risk of higher energy prices and disrupted travel. The foreign workers among the dead also show who is exposed when the war reaches civilian infrastructure.",
+      "body": [
+        "Yemen's Houthi movement said it attacked an airport in eastern Saudi Arabia on Wednesday evening, and Saudi authorities said two people were killed and eight injured, according to the BBC. The Saudi General Authority of Civil Aviation identified the dead at King Fahd International Airport in Dammam as a Saudi citizen and an Indian resident. It did not say what kind of attack it was, which is one way of describing an event without describing it.",
+        "The Houthis were somewhat more forthcoming. They said the airport was among several sites targeted with drones and missiles over the previous 48 hours. Translation: the group is publishing a list of targets the way a restaurant publishes a specials board, except the customers did not order.",
+        "Separately, the Saudi energy ministry said two more people were killed on Wednesday morning by debris from a drone intercepted elsewhere in Eastern Province. The drone was reportedly aimed at an Aramco processing facility in the Shaybah oil field, and a contractor's vehicle was set ablaze. The ministry identified the dead as residents from the Philippines and Nepal. Houthi military spokesman Yahya Sarea did not claim that attack, a rare moment of restraint in a week otherwise short on it.",
+        "Sarea did name other targets: the Saudi defence ministry headquarters in Riyadh, an Aramco facility in Yanbu, and Abha International Airport. The Saudi-led coalition said it intercepted four drones over Eastern Province on Wednesday night and four more over Riyadh and Medina provinces on Thursday. Interception is the policy of shooting things down before they arrive, and debris is what happens to the part of the policy that works.",
+        "The Saudi authorities say at least 21 people have been killed in Houthi attacks on Saudi airports since the start of October. That includes a missile strike on Riyadh's international airport on 10 October that killed 13 and injured 308, which the BBC described as the deadliest attack in Saudi Arabia in more than a decade. The Houthis say they are retaliating for Saudi air strikes on territory they control in western Yemen.",
+        "The casualty counts there are disputed by source. Houthi-run health authorities say 155 civilians have been killed since the war flared up three months ago, while the government's health ministry says at least 1,574 people have died over the same period. The fighting has displaced more than 256,000 people. The two sides agree on very little, but both agree the number is not small.",
+        "The widening matters beyond Arabia. The Houthis seized part of Yemen's south-western Red Sea coast near the Bab al-Mandab Strait in September, a chokepoint for global shipping. The BBC says their advance contributed to a rise in oil prices, following six months of war between the US, Israel and Iran. Pro-government forces say they have retaken territory overlooking the strait with Saudi air support, but fierce fighting continues there and around Taiz, Marib, al-Jawf, Dhale and Shabwa.",
+        "The diplomatic signals are not calming. The BBC reported that the US has ordered some diplomats to leave Saudi Arabia and that the UK plans to deploy jets to help defend the kingdom. When governments start moving staff out and aircraft in, it usually means they have read the same list of targets as everyone else."
+      ],
+      "topics": [
+        "yemen",
+        "saudi arabia",
+        "houthis",
+        "oil prices"
+      ],
+      "image_query": "airport terminal",
+      "id": "2026-10-22-1608-geopolitics4-houthi-attack-on-airport-in-eastern-saudi-arabia-kills-two",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+      "wire_source": "BBC World",
+      "published": "2026-10-22T13:46:33+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Alejandro_Velasco_Astete_International_Airport_-_Terminal_building.jpg/1280px-Alejandro_Velasco_Astete_International_Airport_-_Terminal_building.jpg",
+        "width": 1280,
+        "height": 720,
+        "title": "Alejandro Velasco Astete International Airport - Terminal building",
+        "creator": "AgainErick",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:AgainErick&action=edit&redlink=1",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Alejandro_Velasco_Astete_International_Airport_-_Terminal_building.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "AI Finds 20-Year-Old PHP Flaw; Internet Asked to Unplug Itself Until Further Notice",
+      "dek": "Two bugs in the language behind much of the web, found with OpenAI and Google models, are being exploited broadly, and officials are suggesting some sites simply go offline.",
+      "catch_up": "PHP, a programming language used by an estimated 70 percent of websites by some accounts, was patched this week for two critical flaws dubbed PHP2Shell. AI models from OpenAI and Google helped uncover the bugs, which had gone unnoticed for roughly two decades.",
+      "why_it_matters": "If you run a website, especially an old one, you need to patch or go offline, and some abandoned corners of the internet may simply not come back. It is also a preview of a world in which AI finds, and attackers weaponize, long-buried flaws faster than humans can fix them.",
+      "body": [
+        "Two critical vulnerabilities in PHP, the programming language behind a large share of the web, were patched on Wednesday after being found with help from AI models from OpenAI and Google. According to Ars Technica, the flaws sat undetected for more than a decade. The fix arrived roughly in time for Amazon to report that they were already being \"broadly exploited in the wild.\"",
+        "The scale is the point. The Verge reports that by some accounts up to 70 percent of websites use PHP in some capacity, including Wikipedia, WordPress and Drupal. Translation: when this language catches a cold, the internet gets a fever, and a surprising number of local bars lose their dog photos.",
+        "The bugs are Remote Code Execution flaws, according to security firm watchTowr, as relayed by The Verge. Translation: an attacker can make your server run their instructions instead of yours. PHP's developers rated the severity 9.2 out of 10, which in security terms is the point at which the advisory stops suggesting and starts pleading.",
+        "Hence the unusual official advice. The NSA told organizations using PHP to update immediately or take systems offline, and Britain's National Cyber Security Centre gave similar guidance. Ars Technica reported that some European governments were pulling sites down while they patched, and The Verge noted that Dutch and Finnish agencies did so as a precaution. Translation: the recommended cybersecurity strategy was, briefly, to turn it off.",
+        "Attackers did not wait for the memo. Amazon said it spotted an exploitation attempt four days before public disclosure. Cloudflare CEO Matthew Prince said his network saw thousands of attempts in the 10 hours before the announcement, \"hundreds of thousands\" in the two hours after, and \"millions\" by the following night, as quoted by The Verge. Disclosure, it turns out, is also the starting gun.",
+        "The flaws are not new. Wiz said they have existed for about 20 years, but exploiting them required \"an exceptionally complex chain of steps\" at the edge of what human researchers could manage. Wiz also explained that language models can automatically adapt an exploit across PHP versions, configurations and memory layouts, which turns an artisanal hack into a mass-production line.",
+        "OpenAI says a researcher at Calif used GPT-5.6 Sol under its Patch-the-Planet initiative to find the flaws before attackers did, and a GitHub tool lets operators check whether their version is affected. Wiz found them independently using its Wiz Atlas platform plus Google's Gemini 4 Argon and GPT-5.6 Sol. The fix was coordinated over two months in five phases with PHP developers, Wiz, Cloudflare, CISA and the White House. The Decoder notes OpenAI wants this to become a repeatable framework, and expects similar findings to \"increase sharply in the coming months.\"",
+        "The cleanup has a catch: the flaw reaches back about 20 years of PHP versions, many no longer supported. The Verge reports that the Internet Archive was briefly knocked offline and recovered, while two Japanese mobile games, World Quest and Save My Demonic World, are shutting down because developers say their old tech cannot be patched. For abandoned sites, the security update is effectively a retirement notice.",
+        "The Verge quoted Wiz's Ami Luttwak calling it the most severe AI vulnerability ever found. The defenders got a head start, per the plan. The attackers, per Amazon, got four days. Watch next for how many sites patch, how many quietly vanish, and whether the next batch of AI-found bugs arrives with a longer lead time."
+      ],
+      "topics": [
+        "php",
+        "cybersecurity",
+        "openai",
+        "google"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-22-1608-ai0-critical-php-vulnerabilities-found-by-ai-models-gpt-5-6-sol-",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down"
+        }
+      ],
+      "wire_headline": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+      "wire_source": "The Decoder",
+      "published": "2026-10-21T19:45:01+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Anthropic Releases Claude Duet, an Assistant That Works While You Sleep and Asks Permission Before Spending",
+      "dek": "The research-preview app runs in the background on its own cloud computer, connects to more than 6,000 plugins, and will not move your money between accounts under any circumstances.",
+      "catch_up": "Anthropic has launched a research preview of Claude Duet, a standalone app in which an AI agent handles work tasks in the background. It joins a crowded field that includes Grok Bot, Meta's Muse and OpenAI's Dots.",
+      "why_it_matters": "Agents that can send messages and make purchases for you turn AI from a thing you consult into a thing that acts, which makes the approval rules and security safeguards the real product. For small businesses, the pitch is fewer dropped invoices; the risk is trusting a system that, by its maker's own admission, can misjudge urgency.",
+      "body": [
+        "Anthropic has released a research preview of Claude Duet, an app in which an AI agent keeps working on tasks while the user is away, according to The Decoder and TechCrunch. It runs on iOS, Android and the web, is built on Claude Opus 5.5, and is open through a waitlist to Pro and Max subscribers in the US. Team and Enterprise plans are not included yet. The company has, in effect, built an employee that never leaves the office and is also not in the office.",
+        "The main difference from the regular Claude app is direction. In the chat app, you show up and ask for things. With Duet, The Decoder reported, the agent shows up first: a short morning summary of the important items from connected apps, then silence unless something needs attention. Translation: the assistant has moved from waiting by the phone to calling you.",
+        "Tasks are assigned by text or voice in a single ongoing thread, and the work happens on a virtual machine. Translation: a virtual machine is a rented computer in a data center with its own browser, which is why your laptop can be closed and your phone can be in a drawer. Duet plugs into services such as Gmail, Slack, Stripe, Docusign and Shopify through more than 6,000 connectors and plugins from the Claude Marketplace. Anthropic's examples include tracking down unpaid invoices, drafting payment reminders and getting payroll ready, which is to say the tasks small business owners avoid most.",
+        "Then comes the part that matters most: permission. Anthropic says Duet can read, draft and prepare on its own, but before it sends a message, makes a payment, signs a document or deletes anything, it shows what it plans to do and waits for approval. Trading securities and moving money between accounts are off limits even if the user says yes. For purchases it uses Stripe Link with a virtual card, so the real card number is never shared, and TechCrunch adds that Shopify's Shop Pay is also supported.",
+        "The safeguards go further. The Decoder reported that the agent never sees passwords or login tokens directly, and that Anthropic applied defenses from its browser research against prompt injections. Translation: a prompt injection is a hidden instruction planted in a web page or email telling the AI to do something its owner never asked. Anthropic also built a new classifier, a screening system that checks each message for leaks of sensitive data. By default it should refuse requests for credit card numbers and government ID details, and health or personal finance information gets through only when the user explicitly says so.",
+        "Anthropic is notably candid about limits. The early version can misread a message thread, misjudge urgency and miss things that arrive between checks. It is weaker at personal errands such as booking tickets, and TechCrunch noted it cannot show its browser use as it happens. Anthropic says it checks connected accounts only every few hours, because constant checking would burn through subscription limits much faster. The assistant that never sleeps, it turns out, is rationed.",
+        "The market context is a pile-up. The Decoder said SpaceXAI opened the Grok Bot beta in August, followed in September by Meta's Muse and OpenAI's Dots. TechCrunch's list of rivals also includes Hark, Instinct and Fo, and noted that many competitors are leaning toward business use. Anthropic's answer is to position Duet for professionals and small business owners with, in its words, more on their plates than they can track.",
+        "What to watch next: how Anthropic tunes when the agent should interrupt, and how Duet eventually fits with the main Claude app, a question the company calls open. Until then the two run separately, which is at least one more arrangement in which the user is the one coordinating the assistants."
+      ],
+      "topics": [
+        "anthropic",
+        "ai agents",
+        "claude",
+        "openai"
+      ],
+      "image_query": "office desk laptop smartphone",
+      "id": "2026-10-22-1608-ai1-anthropic-launches-claude-duet-always-on-agent-app",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+        }
+      ],
+      "wire_headline": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+      "wire_source": "The Decoder",
+      "published": "2026-10-22T08:35:22+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Focused_individual_working_on_a_laptop_at_a_desk_with_a_planner_and_smartphone_in_a_cozy_indoor_setting.jpg/1280px-Focused_individual_working_on_a_laptop_at_a_desk_with_a_planner_and_smartphone_in_a_cozy_indoor_setting.jpg",
+        "width": 1280,
+        "height": 854,
+        "title": "Focused individual working on a laptop at a desk with a planner and smartphone in a cozy indoor setting",
+        "creator": "Shixart1985",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Focused_individual_working_on_a_laptop_at_a_desk_with_a_planner_and_smartphone_in_a_cozy_indoor_setting.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "US Bans DeepSeek From Federal Computers; Investors Respond With $15 Billion",
+      "dek": "Two days after Washington ordered civilian agencies to remove the Chinese AI lab's technology, Bloomberg reports DeepSeek raised about 100 billion yuan.",
+      "catch_up": "DeepSeek, a Hangzhou-based AI lab, rattled US tech in early 2025 with a free, open-weight reasoning model. The U.S. has now ordered federal civilian agencies to remove its technology over security concerns.",
+      "why_it_matters": "The funding suggests US restrictions are not cutting off Chinese AI labs from capital, and that rivalry in AI is increasingly funded domestically on both sides. It also hints at how crowded and expensive the global AI race has become.",
+      "body": [
+        "Two days after the U.S. ordered federal civilian agencies to remove DeepSeek's technology from their systems over security concerns, the Chinese AI lab raised roughly $15 billion, or about 100 billion yuan, Bloomberg reported, as relayed by TechCrunch. It is one of the largest funding rounds in China. As penalties go, this one has a distinctive feature: the penalized party got richer.",
+        "Potential investors include battery maker CATL and Tencent, the company behind WeChat, among others, according to the report. Translation: a firm that makes batteries for cars and a firm that makes a messaging app both concluded that the most sensible place for large sums of money is a language model lab. This is the logic of the current AI market, in which everybody is adjacent to AI and nobody wants to be left out of the round.",
+        "The new money follows a June round in which DeepSeek raised more than $7 billion at a $50 billion valuation. The company was also reportedly seeking another $1.5 billion at a valuation near $71 billion in July, with a possible IPO in China as early as next year. Translation: an IPO is when a private company lets the public buy in, usually just after private investors have decided the price is high enough to be worth selling into.",
+        "According to the report, the startup is ramping up spending on AI infrastructure and on open models for both domestic and international markets, even as it faces restrictions in the U.S. The expansion could intensify competition among Chinese rivals. Those rivals are not short of funding either: Moonshot AI, developer of Kimi, secured $2 billion at a $20 billion valuation in May, and Manus AI raised more than $500 million earlier this month.",
+        "The public markets are in on it as well. Zhipu AI and MiniMax, which both listed in Hong Kong in January, have market capitalizations of roughly $29 billion and $7.2 billion respectively, TechCrunch said. That means the sector now has a price tag visible to anyone with a brokerage account, which is generally when sober assessments of value begin.",
+        "DeepSeek was founded in 2023 by Liang Wenfeng, who previously co-founded the quantitative hedge fund High-Flyer, which helped finance the lab's early development. Translation: a firm that trades on math paid for a firm that sells math. Liang still holds an estimated 81.6% of the Chinese operating entity, according to ownership data analyzed by WireScreen, so he is raising billions without having sold much of the company.",
+        "DeepSeek did not immediately respond to TechCrunch's request for comment. Its position may be summed up by the figures themselves. Washington's message was that the technology is a security risk. Investors' message was a 100 billion yuan cheque. Which signal prevails will depend on whether the next restriction costs more than the next round raises."
+      ],
+      "topics": [
+        "deepseek",
+        "china",
+        "ai funding",
+        "us restrictions"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-22-1608-ai2-deepseek-reportedly-raises-15b-days-after-us-ordered-federal",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        }
+      ],
+      "wire_headline": "DeepSeek reportedly raises $15B days after US restrictions",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-22T13:11:13+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Google Cloud Adds OpenAI Models, Hosting Every Rival Its Own Gemini Team Fears",
+      "dek": "Google Cloud is now the only major provider offering Gemini, Claude and OpenAI models together, all billed on one invoice.",
+      "catch_up": "Google sells cloud computing to businesses and also builds Gemini, its own AI model. It has already hosted Anthropic's Claude, and now it is adding OpenAI's GPT-6 and 6.1 models too.",
+      "why_it_matters": "Companies can switch between rival AI models without changing vendors or contracts, which could push model providers to compete harder on price and performance. It also shows that in AI, selling the infrastructure may pay better than winning the model race.",
+      "body": [
+        "Google Cloud will now offer OpenAI's models alongside its own Gemini and Anthropic's Claude, making it the only large cloud provider with all three, according to The Decoder and Ars Technica. Three models are involved: GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna. Google, in other words, has opened a store that stocks its competitors' best products and placed them on the shelf next to its own.",
+        "The Decoder reported that the models launch as a private preview for select enterprise customers, with sign-ups open. Astra is aimed at demanding work like coding and research. Sol is a cheaper option with similar performance, and Luna is a fast, cost-efficient model for everyday use. Ars Technica noted that Astra will naturally cost the most to run.",
+        "The models will also appear in Gemini for Business and in Antigravity, which Ars Technica describes as Google's agent-powered coding tool. Ars called that arguably the more important part. Translation: the tool Google built to show off Gemini's coding abilities will also let users pick the other company's model for the job.",
+        "The commercial logic is in the billing. According to The Decoder, all charges run through a single Google Cloud bill and count toward existing contracts. Ars Technica added that the models run entirely on Google's infrastructure, with transactions handled through the Google Cloud Marketplace. Translation: a company that has already promised Google a certain amount of spending can now use that promise to buy a competitor's AI, and Google still gets the money. Ars said this makes it easy for businesses to use GPT models in place of whatever they used before.",
+        "Google's system also supports moving workloads between models based on performance, latency and efficiency, Ars reported. In plain English, a customer can send easy tasks to the cheap model and hard ones to the expensive model, and the software can help decide. The Decoder said Google states that customer data will not be used for training.",
+        "There is an awkward side. The Decoder pointed out a recurring tension at Google: computing capacity used to serve cloud customers strengthens the biggest rivals of its own Gemini team. It said this resource conflict reportedly even pushed researcher Noam Shazeer, described as a two-billion-dollar hire, back to OpenAI. That is a notable cost of running a business that depends on both customers and competitors needing the same chips.",
+        "OpenAI, for its part, notes that Microsoft remains its primary cloud partner, according to Ars Technica. So the arrangement is less a new romance than an open relationship with a very large landlord. The thing to watch is whether Gemini customers on Google Cloud stay loyal when a rival model is one click away, and who ends up with the bigger share of the invoice."
+      ],
+      "topics": [
+        "google cloud",
+        "openai",
+        "anthropic",
+        "enterprise ai"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-22-1608-ai3-openai-models-come-to-google-cloud-alongside-gemini-and-clau",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+        }
+      ],
+      "wire_headline": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+      "wire_source": "The Decoder",
+      "published": "2026-10-21T17:44:22+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Meta Invents New Class of Shares to Pay for AI, Keep Control",
+      "dek": "The company will issue non-voting stock from 2027 to fund AI, acquisitions and employee pay, while capital spending guidance for this year tops out at $145 billion.",
+      "catch_up": "Meta reported third-quarter earnings on Wednesday and said it will create a new class of non-voting shares, with trading beginning in 2027. The money is meant for AI initiatives, possible acquisitions and employee compensation.",
+      "why_it_matters": "Investors who buy the new shares would be funding Meta's AI buildout without getting a vote on how it is run. Anyone who holds Meta stock should expect more dilution-style tradeoffs as AI spending climbs.",
+      "body": [
+        "Meta said Wednesday, as part of its third-quarter earnings report, that it will issue a new class of non-voting shares to help pay for its AI ambitions. According to The Verge, the stock will also go toward potential acquisitions and employee compensation, and trading is set to begin in 2027. In short, Meta would like your money for the future of artificial intelligence, and would like your opinion on it considerably less.",
+        "Translation: non-voting stock is ownership with the steering wheel removed. Buyers get a claim on the company's profits but no say in who runs it or what it builds. For a company that has already decided where it is going and just needs fuel, this is a tidy arrangement.",
+        "Meta's press release was candid about the motive. It said the scale of investment needed to compete, sustain growth and expand infrastructure amid the AI transformation is \"significant.\" Chief financial officer Susan Li told analysts the shares will \"expand our funding tools\" and give flexibility to invest behind what she called unprecedented momentum driven by AI. Translation: the current funding tools are apparently running out of room to hold the bills.",
+        "The bills are large. The Verge reported that Meta now expects capital expenditures, meaning money spent on data centers, chips and other physical things, of $135 billion to $145 billion this year. That is up from a previous range of $130 billion to $145 billion. Raising the bottom of a range by $5 billion is the corporate version of admitting the lower number was always decorative.",
+        "The money goes to building and promoting sprawling data centers, poaching top talent from rivals such as OpenAI, and building models meant to rival those of other tech giants. Employee compensation is on the new share list for a reason: in this market, talent is paid in stock, and stock has to come from somewhere.",
+        "The sales pitch has some evidence behind it. Meta launched an AI agent called Muse in September, which can clean out an email inbox, book restaurant reservations and plan trips. The Muse app shot to the top of app stores and reached 10 million US downloads this week, and Meta also rolled out a model called Muse Wonder.",
+        "There have been snags. The Verge reported that a tech YouTuber said the agent gave his address to a stranger on Facebook Marketplace, and that Meta paused Muse's conversation-sharing feature after researchers found chats publicly available on the web. An assistant that books your dinner and also publishes your diary is a useful product, just not the intended one.",
+        "What to watch: 2027 is a while away, and the pitch to investors will be tested by whether the spending turns into revenue before then. Until the shares arrive, Meta is asking the market to trust it on AI, which is easier when trust is the only thing the buyers are being asked to provide."
+      ],
+      "topics": [
+        "meta",
+        "ai spending",
+        "stock offerings",
+        "muse"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-22-1608-ai4-meta-to-create-new-class-of-non-voting-shares-to-fund-ai-pus",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+        }
+      ],
+      "wire_headline": "Meta to create a new class of shares to fund AI push",
+      "wire_source": "The Verge AI",
+      "published": "2026-10-21T21:30:02+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Musk Confirms He Is Considering Merging His Two Trillion-Dollar Companies, Is Not on Committee Reviewing It",
+      "dek": "Special committees at Tesla and SpaceX will weigh a deal that would combine a $1.5 trillion carmaker with a $2 trillion rocket firm, and the man who runs both says he is conflicted.",
+      "catch_up": "Elon Musk has spent the past year pulling his businesses under fewer banners, with SpaceX absorbing xAI and X before its stock market debut in June. On Tuesday he told analysts that a merger with Tesla is under active consideration.",
+      "why_it_matters": "A Tesla-SpaceX merger would be the largest in history and would reshape what Tesla shareholders actually own. Tesla owners are unlikely to notice much change soon, but the company's priorities could tilt further toward AI and away from cars.",
+      "body": [
+        "Elon Musk said on Tuesday that he is actively considering merging Tesla and SpaceX, according to the BBC. Asked on a call with analysts whether it would be a good idea, he said: \"Yes.\" It is a rare case of a chief executive answering a yes-or-no question with the yes.",
+        "The mechanics are less breezy. Musk said special committees have been formed at both companies to examine a deal, that they have not agreed terms, and that there is \"no guarantee\" they will. Translation: special committees are groups of supposedly independent directors who negotiate on behalf of shareholders when the person on both sides of a deal is the same man. Musk said he is not on either one and described himself as a \"conflicted party\" as chief executive of both firms.",
+        "The numbers are large enough to need their own committee. Tesla is valued at roughly $1.5 trillion and SpaceX at $2 trillion, which the BBC said would make this the largest merger ever. SpaceX's stock rose 8% in after-hours trading on the comments, and Tesla's rose 2%. Markets, it seems, enjoy a hypothetical.",
+        "The case for the deal, as Musk described it, rests on overlap in chips, artificial intelligence and software. Tesla brings cars, robots and self-driving technology. SpaceX brings rockets, data centres, satellites and telecoms. The two have already launched Terafab, a joint effort to make computer chips, which the BBC read as a sign Musk sees them working better together. The Tesla Roadster unveiled last week, powered by SpaceX rocket thrusters, was described by one analyst as a \"symbolic embodiment\" of the idea.",
+        "SpaceX is not exactly a quiet tenant. Revenue over the first nine months rose to $27bn from $13.7bn, yet the company lost $1.1bn over that period, despite a $4.4bn profit in the latest quarter. Its cloud compute business, which rents capacity to firms such as Anthropic and Google, brought in $7.5bn in three months, far more than Starlink's $5.2bn. Tesla, meanwhile, reported third-quarter sales of $28.05bn against $28.1bn a year earlier, a dip so slight it could be a rounding opinion.",
+        "Shareholders get a vote, and at least 50% of Tesla's must approve, a threshold Musk called \"quite a high hurdle.\" Investors have been accommodating before: last year they approved a pay package for Musk valued at around $1tn. David Nicholson of The Futurum Group put the odds at \"100%\" and said it is only a matter of when. Musk himself said calling it a certainty would be \"overstating\" things.",
+        "Analysts see who wins. Dan Sheehan of Telos Wealth Advisors said the deal would not add to Musk's wealth but \"concentrates it further in one stock.\" The BBC reported the merger would also give Musk more voting control than he has at Tesla today, which is exactly the sort of detail the special committee is meant to notice. Tesla shareholders, Sheehan said, would likely hold a \"smaller slice of a much larger and more complex business,\" and there is no real precedent for how a public company like Tesla gets priced in such a deal.",
+        "For drivers, experts expect little near-term change, with cars described as almost \"an afterthought\" next to the AI ambitions. Tesla is already narrowing its lineup to the Model Y and Model 3 and building Optimus humanoid robots at a California plant. Regulatory scrutiny is possible, particularly if Democrats gain seats in next month's midterms.",
+        "Musk, for his part, compared even discussing the topic to \"tap dancing through a minefield.\" The committees will now try to price the dance. Watch for terms, and for what exactly a Tesla share turns into."
+      ],
+      "topics": [
+        "elon musk",
+        "tesla",
+        "spacex",
+        "mergers"
+      ],
+      "image_query": "rocket launch pad",
+      "id": "2026-10-22-1608-technology0-musk-confirms-tesla-and-spacex-merger-under-consideration",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-21T08:42:49+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg/1280px-Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg",
+        "width": 1280,
+        "height": 851,
+        "title": "Sound suppression water system test at KSC Launch Pad 39A",
+        "creator": "NASA",
+        "creator_url": "",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "EA Closes BioWare, Citing Desire to Align Talent With Opportunity by Removing Talent",
+      "dek": "The studio behind Mass Effect and Dragon Age is shut after more than three decades, as its newly private, debt-laden owner trims 400 jobs company-wide.",
+      "catch_up": "BioWare, founded in Edmonton in 1995, was bought by Electronic Arts in 2007 and went on to make Mass Effect, Dragon Age and Star Wars: Knights of the Old Republic. EA was taken private last year in a $55 billion deal led by Silver Lake, Saudi Arabia's Public Investment Fund and Jared Kushner's Affinity Partners.",
+      "why_it_matters": "Players of long-running story-driven series lose a studio and the next Mass Effect, while the closure shows what private ownership with heavy debt can mean for creative teams. It also hints at where the money is expected to come from: sports franchises, live services and microtransactions.",
+      "body": [
+        "Electronic Arts has closed BioWare, the studio behind Mass Effect, Dragon Age, Neverwinter Nights and Star Wars: Knights of the Old Republic, according to Ars Technica. BioWare announced the news on social media Wednesday afternoon, saying that \"after more than three decades of shared adventures, BioWare is closing and early development on the next Mass Effect project is ending.\" It is rare for a company to describe a shutdown as an adventure that has concluded, but it is a genre BioWare knows.",
+        "The announcement landed minutes after Bloomberg reported 400 job cuts across EA, including 50 at BioWare, citing a person familiar with the company's plans. Translation: the leak arrived first, and the official statement followed to confirm that the leak had been modest. Ars did not say what happens to the remaining staff beyond the 50 named in that report.",
+        "EA executives, according to Bloomberg, told staff the company is making \"deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth.\" Translation: talent will be aligned with opportunity, and where no opportunity can be found, the talent will be aligned with the exit. In this case the opportunity was apparently not Mass Effect.",
+        "The history makes the corporate phrasing more vivid. EA bought BioWare in 2007, before Mass Effect and Dragon Age had become what they are now. Then-CEO John Riccitiello called it one of \"the most respected studios in the industry\" and said the deal would help \"drive long-term value for our shareholders.\" That was a reasonable thing to say at the time.",
+        "Those shareholders are now gone. EA went private last year in a $55 billion deal led by Silver Lake, Saudi Arabia's Public Investment Fund and Jared Kushner's Affinity Partners. Ars reports that analysts warned then to expect layoffs, studio closures and sales of intellectual property, since the company was now heavily in debt and would lean harder on live services, annual sports franchises and microtransactions.",
+        "The mechanism is not mysterious. A buyout of this size is typically financed in part with borrowed money, and the debt belongs to the company, not the buyers. Interest must be paid whether or not anyone finishes a thirty-hour role-playing game, a product that takes years, costs a great deal and cannot be sold again every August with updated rosters.",
+        "For fans, the practical result is that a franchise with a devoted following loses its original home just as early development on its next installment stops. For EA's owners, the bet is that players will spend more on games that can be monetized continuously. Whether that bet pays off will be visible in future earnings, though now that the company is private, fewer people will be shown them."
+      ],
+      "topics": [
+        "ea",
+        "bioware",
+        "video games",
+        "layoffs"
+      ],
+      "image_query": "video game controller",
+      "id": "2026-10-22-1608-technology1-ea-shuts-down-bioware-cancels-next-mass-effect-and-lays-off-",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/"
+        }
+      ],
+      "wire_headline": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-21T19:12:16+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/1280px-Nintendo-Switch-Pro-Controller-FL.jpg",
+        "width": 1280,
+        "height": 996,
+        "title": "Nintendo-Switch-Pro-Controller-FL",
+        "creator": "Evan-Amos",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Evan-Amos",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Hackers Commandeer 333 Tor Exit Nodes, Discover Reused Password Remains Internet's Most Reliable Exploit",
+      "dek": "Attackers redirected SSH traffic and tried to coax email into plaintext across hundreds of relays, according to a Tor volunteer's report, beginning with a password someone used twice.",
+      "catch_up": "Tor routes traffic through volunteer-run relays, and exit nodes are the last hop before the open internet. Ars Technica reported that unknown attackers took over 333 of them in a campaign to intercept SSH logins and unencrypted email.",
+      "why_it_matters": "Tor is meant to protect people who cannot afford to be watched, and an exit node sees whatever traffic is not otherwise encrypted. The episode shows that a privacy network is only as strong as the weakest password on its management servers, and that users who click through security warnings are doing the attacker's work for him.",
+      "body": [
+        "Unknown attackers hijacked 333 Tor exit nodes and reconfigured them to redirect SSH connections to servers they controlled and to favor unencrypted email, according to a report published Tuesday by a Tor volunteer who goes by Kaba and relayed by Ars Technica. Translation: exit nodes are the last stop before Tor traffic reaches the ordinary internet, which makes them an excellent place to stand if you wish to listen to people who believed they were anonymous.",
+        "The origin story is modest. According to Tor volunteers, the attacker got into a Tor management server in late August using a valid password that had been reused elsewhere. Translation: the most sophisticated privacy network in common use was briefly defended by the same security policy as a gym locker room.",
+        "From there the attacker installed Ebury, a Linux backdoor first discovered 12 years ago, which suggests the toolkit did not need to be new, merely patient. The attacker then connected to a second Tor server, called Switzerland2, over SSH using an RSA key that investigators could not find among its authorized keys, for reasons nobody has explained. Ars Technica notes that investigators have also not established how the attackers gained control of all the underlying servers behind the 333 relays.",
+        "The reconfiguration came in two parts. First, SSH traffic passing through the affected exit nodes was redirected to one of 12 attacker-controlled interception servers. Users who saw the warning that the SSH host key had changed, and proceeded anyway, would then type their passwords into a machine belonging to someone else. Translation: a host key is the server's identity card, and the warning means the card does not match the face.",
+        "Second, the exit nodes blocked ports 25, 465, 587, 993 and 995, which handle encrypted email, while leaving the unencrypted ones open. The idea, per the report, was that email services might downgrade to plaintext when the secure route failed, at which point the attackers could read the messages. It is unclear whether any such downgrade succeeded. This is a plan that depends on software being too polite to refuse.",
+        "The affected window for the email interception ran from October 2 to October 5. Tor volunteers had already outlined the initial compromise and the email attempt, but Tuesday's report added the count of compromised nodes and the SSH redirection scheme. Kaba wrote that ordinary web traffic passed through as usual, so a user routed through an infected node would notice nothing until trying SSH on port 22. Kaba said that is exactly what happened on Friday morning, and a warning followed.",
+        "The practical lesson is unglamorous. Do not dismiss changed-host-key warnings, do not let email fall back to plaintext, and do not reuse passwords, including on the servers that run the anonymity network. The attackers, for their part, remain unknown, and the mysteries in the timeline suggest the investigation has some distance left to travel."
+      ],
+      "topics": [
+        "tor",
+        "cybersecurity",
+        "ssh",
+        "privacy"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-22-1608-technology2-333-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-ste",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/"
+        }
+      ],
+      "wire_headline": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-22T11:30:33+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Musk Reportedly Capped Ukraine's Starlink Speeds, Then Credited Trump With the Decision",
+      "dek": "The Wall Street Journal says Elon Musk personally ordered a 160 kph limit that hobbled Ukrainian drones, though both he and the president have denied it.",
+      "catch_up": "Ukraine relies on Starlink and its military cousin Starshield to connect drones and other equipment on the front line. Last week a speed cap on the military service abruptly cut connections for fast-moving hardware.",
+      "why_it_matters": "A single private executive appears able to degrade a wartime ally's military capabilities with a settings change, and no one in government seems sure who is supposed to be in charge of that. For anyone relying on privately owned infrastructure, that is a useful thing to learn.",
+      "body": [
+        "The Wall Street Journal reported that SpaceX CEO Elon Musk ordered the throttling of Starlink service that caught Ukraine's air assault forces off guard last week. This contradicts Musk's own claim that decisions about the military version of Starlink are made by the US military and President Trump. Trump has denied ordering the restrictions, which leaves the decision with the one party who claimed it belonged to somebody else.",
+        "The Journal, citing unnamed US officials and people familiar with the matter, wrote that the move \"sparked panic in Kyiv and confusion inside the Trump administration.\" Ars Technica noted that one source said Musk spoke with Trump and White House officials beforehand, but that Musk made the final call. Translation: he may have asked for opinions, but the button was his.",
+        "The mechanism is simple and a little unsettling. According to the Associated Press, the cap cuts the data connection whenever a terminal moves faster than 160 kph (100 mph), which is common for Ukrainian drones equipped with Starshield. In this story, \"speed\" does not mean internet speed. It means how fast the drone is flying, so the limit effectively tells a drone it may only fight at a pace the enemy finds convenient.",
+        "The AP said the restriction forced drones to fly slower than usual, making them easier for Russian weapons to target or evade. The Journal went further, reporting that some offensive and interceptor drones were rendered virtually useless. An interceptor drone that must slow down to stay online is a bit like a smoke detector that works only when the house is not on fire.",
+        "The timing is the awkward part. The Journal reported that the decision came after both Musk and Trump criticized Ukraine for attacking Russian diesel refineries. Nobody has to prove a causal link for readers to notice the sequence: public complaint first, throttling second, denials third.",
+        "There is also a naming problem. Ars Technica notes that officials often use Starlink and Starshield interchangeably, and Ukraine has used both the commercial service and the military variant. Ukrainian officials have been clear, however, that their objection concerns new restrictions on Starshield. The brand confusion helps with deniability, which is a feature no one listed in the product description.",
+        "What to watch next is whether the White House or the Pentagon clarifies who actually holds authority over a military service that runs on a private company's satellites. Until then, the chain of command appears to include a satellite operator with a settings menu."
+      ],
+      "topics": [
+        "starlink",
+        "ukraine",
+        "spacex",
+        "drones"
+      ],
+      "image_query": "satellite dish antenna",
+      "id": "2026-10-22-1608-technology3-report-musk-ordered-starlink-slowdown-in-ukraine-then-blamed",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/"
+        }
+      ],
+      "wire_headline": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-21T18:35:38+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Satellite_dish_in_Austria.JPG/1280px-Satellite_dish_in_Austria.JPG",
+        "width": 1280,
+        "height": 937,
+        "title": "Satellite dish in Austria",
+        "creator": "High Contrast",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:High_Contrast",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Satellite_dish_in_Austria.JPG",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Google Cloud Restores London Region After Power Event Briefly Reminds Britain Where Its Money Lives",
+      "dek": "A power problem at one London data centre zone disrupted Revolut, Lloyds, Royal Mail, DPD and court video hearings before Google declared services restored.",
+      "catch_up": "Google Cloud reported an issue with multiple services in its London region, europe-west2, early on Tuesday. By evening it said a power event at a third-party facility had been resolved and services restored.",
+      "why_it_matters": "Banking apps, parcel booking and court hearings all turned out to share a dependency most customers had never heard of. For small firms without spare capacity, an outage of a few hours can mean lost sales and delayed perishable orders.",
+      "body": [
+        "Google Cloud said on Tuesday that it had resolved a disruption at its UK cloud site that knocked out or degraded services at British banks, delivery firms and the courts, the BBC reported. The company attributed it to a \"power event\" at a third-party facility in its europe-west2 region, which is its London data centre complex. Services, it said, have been restored.",
+        "Translation: a region is a cluster of data centres that a cloud company rents out by the slice, so that customers do not have to own buildings full of computers. A zone is a smaller part of that cluster. Google said the trouble began in one smaller zone, europe-west2-b. That a problem in one zone could be felt by so many customers is the sort of detail that tends to appear in a post-incident report and not in a sales brochure.",
+        "The list of affected services was long. Revolut, Lloyds Bank and HSBC confirmed disruption, according to the BBC, and customers also flagged problems with Royal Mail, DPD and an e-bike service called Forest. HM Courts and Tribunals Service said it knew of an issue with the video platform used for remote hearings. Google's dashboard described \"elevated errors and intermittent network failures,\" which is how engineers say that things were not working, but only some of the time.",
+        "The human cost was ordinary and inconvenient. Rachael Ellen, a Revolut customer in Glasgow, told the BBC she could not pay for parking because her account was not working properly, and the app's help bot told her there were no pending incoming transactions. Revolut said services were fully restored and that customers' money and data \"remained safe throughout.\" Translation: the money was fine, merely unreachable, which is a distinction that is cold comfort at a car park barrier.",
+        "Small businesses felt it more sharply. Guy Baybutt of The Veg Box Company in Preston said the firm could not access its website to process orders, could not book parcels onto DPD's system, and lost sales while customers could not order. He noted that a small firm cannot easily absorb lost revenue, especially with fresh produce that has to arrive promptly. Lloyds did not confirm the cause of its own problems but said it understood the root issues had been resolved.",
+        "The BBC noted the outage came exactly one year after an outage at AWS's largest cloud site took more than 1,000 sites offline, including UK banks. Prof Feng Li of Bayes Business School said it was a reminder of how deeply economies depend on a handful of cloud providers. He added that failures will happen in complex systems, and that what matters is how far they spread, how fast services recover and whether customers have workable alternatives. He also said it was not yet clear what caused the power problem.",
+        "Google says it will publish an analysis of the incident on its service health dashboard. Readers hoping for an explanation of the power event should check there, and those hoping that every bank has a backup plan should perhaps check with the bank."
+      ],
+      "topics": [
+        "google cloud",
+        "outage",
+        "uk banking",
+        "cloud computing"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-22-1608-technology4-google-cloud-outage-hits-uk-banks-and-websites-including-rev",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Google resolves cloud outage affecting UK banks and websites",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-20T18:03:19+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Data_centre.jpg",
+        "width": 1280,
+        "height": 914,
+        "title": "Data centre",
+        "creator": "Earthranger",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:Earthranger&action=edit&redlink=1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_centre.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Oil Tops $111 as Washington Plans Iran Strikes After Voters Finish Voting",
+      "dek": "Brent crude jumped 2.8% to $111.81 as the U.S. ordered some staff out of Saudi Arabia and reports surfaced of post-midterm strike plans.",
+      "catch_up": "The Iran conflict is entering its ninth month, with Gulf oil exports largely recovered but Iranian volumes near zero and Houthi attacks on Saudi targets escalating. Oil has swung around $100 a barrel for weeks.",
+      "why_it_matters": "Expensive oil feeds into fuel, shipping and food costs, and the next move depends on decisions that appear to be scheduled around an election calendar. Households are better cushioned than in past oil shocks, but the cushion has limits.",
+      "body": [
+        "Oil prices rose Thursday after reports that the United States plans to resume strikes against Iran. CNBC reported that Brent crude futures gained 2.8% to $111.81 a barrel and nearly touched $113 earlier in the session, while U.S. West Texas Intermediate rose 1.7% to $98.83 after briefly breaking $100. The market, in other words, reacted to a plan that has not happened yet, which is what markets are for.",
+        "The trigger was a New York Times report, citing unnamed U.S. officials, that the U.S. and Israeli militaries have drawn up specific plans for renewed strikes after next month's midterm elections. The officials described a \"short but intensive\" operation. Translation: a war with a start date, an end date and, apparently, a polling-place buffer zone.",
+        "President Donald Trump said the U.S. is not negotiating with Iran and that something will \"happen fairly soon,\" without elaborating. Asked about timing, he said, \"Most people seem to think it's after the election.\" That is a notable way to describe a military timetable, as though it were a rumor about a restaurant opening.",
+        "On the ground, the picture is less abstract. The State Department ordered non-emergency government employees and their families out of Saudi Arabia, citing escalating Houthi attacks on civilian targets. According to Saudi state media, at least two people were killed and eight injured in an attack on King Fahd International Airport in Dammam. Reuters reported that Saudi Aramco told staff to evacuate its Dhahran headquarters and work remotely. Spokesman Tommy Pigott said the order applies only to Saudi Arabia, rejecting reports of a wider Gulf directive.",
+        "The oil flow itself is a more complicated story. MarketWatch reported that October flows out of the Persian Gulf nearly returned to pre-war levels, though traders are wary of a fragile recovery. A CNBC energy column adds that Iranian volumes are almost nonexistent, and that the paper price, the futures contract on traders' screens, can sit far below the price of physical barrels, which in some cases may be double. Translation: the number on the screen is the polite version.",
+        "Official data compiled alongside the sources put Brent at $115.22 as of October 20, so the Thursday level is a pullback from that figure, not a record. The same data show CPI inflation at 3.74% year over year as of September, and the 10-year Treasury yield at 5.12%. Higher oil lands on top of an economy that is already not short of price pressure.",
+        "Analyst David Wagner of Aptus Capital Advisors told CNBC that $100 oil is \"very different\" from 20 or 30 years ago. He noted that gasoline took roughly 5% of disposable income a decade ago and about half that now, and that prices remain below inflation-adjusted highs. That is true and mildly reassuring, as long as one does not live in Europe, where the same column notes diesel prices that have been sky-high without yet destroying demand.",
+        "The immediate calendar is earnings. SLB reports October 23, followed by Baker Hughes and Cheniere, with ExxonMobil and Chevron on October 30. The CNBC column expects big numbers but little guidance, since even companies that buy the world's best intelligence cannot forecast what a missile launcher will do. Watch for the one sentence executives will say the most: it depends."
+      ],
+      "topics": [
+        "oil",
+        "iran",
+        "saudi arabia",
+        "energy stocks"
+      ],
+      "image_query": "oil refinery",
+      "id": "2026-10-22-1608-markets0-brent-crude-tops-111-as-trump-hints-at-iran-action-and-us-or",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories"
+        }
+      ],
+      "wire_headline": "Brent crude tops $111 after Trump hints at action on Iran, U.S. orders staff to leave Saudi Arabia",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-22T15:36:13+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg/1280px-Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        "width": 1280,
+        "height": 373,
+        "title": "Blue hour fog over Preemraff oil refinery by Brofjorden",
+        "creator": "W.carter",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:W.carter",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "CoreWeave Stock Sinks as Investors Discover AI Clouds Come With Debt",
+      "dek": "The biggest neocloud has lost roughly two-thirds of its peak value, carries 15% yield debt, and awaits a rescue from its largest shareholder, who says none is needed.",
+      "catch_up": "CoreWeave rents out Nvidia chips to AI customers and has funded its data center buildout largely with borrowed money. Rising interest rates and doubts about AI spending have hit the whole neocloud sector this month.",
+      "why_it_matters": "If the companies building AI capacity cannot borrow at tolerable rates, the buildout slows, and so do the earnings forecasts that have supported much of the stock market. Investors in tech debt and AI-linked shares are being reminded that leverage works in both directions.",
+      "body": [
+        "CoreWeave shares are down 35% this month, according to CNBC, after an 8% drop on Thursday, leaving the company valued at about $31 billion. That compares with a peak of roughly $90 billion three months after its March IPO last year. Its unsecured bonds now yield about 15%, which is the market's way of saying it would like to be paid generously for its optimism.",
+        "Translation: a yield is the annual return a bond buyer demands, and when it climbs, borrowing gets more expensive for the issuer. CoreWeave's five-year credit default swaps, which are insurance against default, trade at 1,115 basis points, or 11.15%. Translation: a basis point is one hundredth of a percentage point, and 1,115 of them is what insurers charge when they have read the balance sheet.",
+        "The pain is not confined to one company. CNBC reported that Nebius is down 32% this month and IREN is down 39%. Australia's NextDC fell 40% in a day after cutting its earnings forecast, and Firmus scrapped its IPO citing market volatility. Nscale, which filed to list in New York last month, now has to decide whether to proceed. Investing.com reported that short sellers, who profit when stocks fall, are sitting on about $6 billion in unrealized gains.",
+        "The backdrop is not friendly. The 10-year Treasury yield stood at 5.12% on October 20, and the 2-year at 4.79%. Barclays credit analyst Andrew Keches told clients sentiment is \"decidedly negative,\" citing how fast \"AI vibes\" shift. It is a notable development when a bank analyst puts the word vibes in a research note about corporate credit.",
+        "CoreWeave's exposure is specific. More than two-thirds of last year's revenue came from Microsoft, and Nvidia owns about 9% of the company. It has about $20.7 billion of debt due through 2030 and $14.9 billion after that, against $5.5 billion of cash at the end of the second quarter. Analysts surveyed by FactSet expect negative free cash flow of $10.1 billion in the third quarter, the worst since it began reporting. Baird's Rob Oliver estimates it needs roughly $30 billion in 2027.",
+        "Credit desk sources told CNBC the high-yield market is effectively on hold until after the midterm elections in two weeks, because of political pushback against data centers. One source said bond investors want permitting and regulatory questions \"substantially resolved\" before lending. Janus Henderson's Seth Meyer said pausing \"makes sense.\" In other words, the money is waiting for a politician to say where the power plants may go.",
+        "CEO Mike Intrator sent employees a memo saying the company's financing mixes infrastructure-backed borrowing, corporate debt, equity and customer prepayments. He added that it has flexibility to raise equity over time. Translation: if borrowing gets too expensive, it can sell more shares, which existing shareholders tend to find less comforting than the CEO does.",
+        "Nvidia's own position is awkward. It invested $2 billion in January at $87.20 a share, and the stock now trades at $61.82. Jensen Huang said last week that CoreWeave does not need a backstop, and on Thursday told CNBC neocloud demand is \"off the charts\" but that \"there's a scarcity of capital.\" That is a coherent view: customers are lining up, the money is not. It is also the view of a man who sells the chips those customers rent.",
+        "Not everyone is gloomy. Goldman Sachs upgraded CoreWeave to buy, with JPMorgan and Barclays also issuing bullish notes, pointing to its GPU-backed loans and investment-grade customers such as Microsoft and Meta. Goldman wrote that not all neoclouds are created equal. The market, for now, is treating them as if they are.",
+        "The next test is CoreWeave's third-quarter report next month, where investors will look for a financing plan. Oliver notes the capital is not needed until the first quarter, which gives management a few months to find buyers for its debt. The midterms, conveniently, arrive first."
+      ],
+      "topics": [
+        "coreweave",
+        "nvidia",
+        "ai infrastructure",
+        "credit markets"
+      ],
+      "image_query": "data center server racks",
+      "id": "2026-10-22-1608-markets1-ai-debt-fears-hit-neoclouds-coreweave-sinks-credit-spreads-w",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/short-sellers-pocket-6-billion-in-profits-as-neoclouds-slide-on-ai-debt-fears-4966395"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html"
+        }
+      ],
+      "wire_headline": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-22T15:35:55+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Datacenter Server Racks (22370909788)",
+        "creator": "Carl Lender from Sunrise, USA",
+        "creator_url": "https://www.flickr.com/people/43547797@N00",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Chip Stocks Slide as Investors Remember Memory Can Be Oversupplied, Briefly Forget Again",
+      "dek": "Tesla's lower spending target and Lam Research's weak forecast hit chipmakers on Thursday, while Nvidia's Jensen Huang said he sees no memory glut by 2029.",
+      "catch_up": "Memory stocks have fallen for a week after a South Korean opinion column warned the AI boom could slow and flood the market with supply by 2029. On Thursday, MarketWatch said Tesla's spending cut and Lam Research's guidance added to the pressure.",
+      "why_it_matters": "Memory chips are a core part of AI hardware, so falling prices would squeeze the profits of Micron, Samsung and SK Hynix. Anyone with an index fund is exposed to how long this AI trade keeps its nerve.",
+      "body": [
+        "Chip stocks fell Thursday, with MarketWatch pointing to two causes: Tesla's cut to its near-term spending target and a weaker-than-expected forecast from Lam Research. Lam makes chipmaking equipment, so when it guides low, investors infer that its customers are planning to buy fewer machines. Translation: the shovel seller says fewer people are digging, and the market took note.",
+        "CNBC reported that memory stocks had already been battered over the past week. The trigger was an Oct. 15 opinion column in a prominent South Korean publication urging the government to brace for a slowdown in the AI boom. It cited two experts who expected a 'flood of new supply' that would turn memory into 'a red ocean' by 2029, per CNBC's translation.",
+        "Translation: a glut means too many chips chasing too few buyers, which pushes prices down and squeezes profit margins at SK Hynix, Samsung and Micron. Elon Musk added to the mood by saying China 'will be making a LOT of RAM in 2028.' The selloff was also fed by China's ChangXin Memory Technologies, or CXMT, announcing a new design architecture that could make it more efficient and let it take share from the incumbents.",
+        "Nvidia's Jensen Huang, whose chips depend on memory, offered a different view in a CNBC interview at GTC Berlin. 'You can always use more of it,' he said, which is the sort of forecast one expects from a company that buys the memory. He said HBM, a high-performance type of RAM, will be used for years, and that Nvidia is putting phone-style LPDDR memory into data centers.",
+        "Huang also said Chinese manufacturing deserves to be taken very seriously, and that US regulation had 'definitely accelerated' China's chip ambitions. That is a notable admission about export controls, which restrict Beijing's access to top Nvidia chips. CNBC noted that some Chinese firms still reach that computing power through data centers in Southeast Asia.",
+        "The wider market showed the same unease. CNBC's Investing Club recap said another wave of selling hit the AI trade, with Huang's remark about a 'scarcity of capital' for neoclouds like CoreWeave, Meta's AI funding comments and Lam's guidance all possibly contributing. GE Vernova, whose gas turbines power the AI buildout, fell almost 10% a day after rising on bullish comments from SpaceX. As one portfolio director put it, the market has 'no memory from one day to the next,' which is an unusual flaw in a memory-focused sell-off.",
+        "Money moved into defensive sectors, with healthcare and consumer staples the best performers in the S&P 500. Bond yields fell even as oil rose, which CNBC described as a flight to safety. Meta dropped nearly 6% despite strong revenue growth, with the club suggesting its plan to create a new class of non-voting stock to help fund AI spending might be the overhang.",
+        "For context, the 10-year Treasury yielded 5.12% as of Oct. 20, and the S&P 500 tracker SPY closed at 764.95 on Oct. 22. With safe assets paying that much, investors have a fresh reason to ask whether a 2029 chip glut is worth worrying about now. Watch whether Lam's caution spreads to other equipment makers, and whether anyone outside Nvidia's earnings call agrees that memory demand has no ceiling."
+      ],
+      "topics": [
+        "chip stocks",
+        "memory",
+        "nvidia",
+        "ai trade"
+      ],
+      "image_query": "semiconductor memory chips",
+      "id": "2026-10-22-1608-markets2-chip-and-ai-stocks-fall-on-tesla-spending-cut-and-lam-resear",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/investingclub/2026/10/22/ai-stocks-tumble-as-the-defensives-rise-what-it-says-about-this-uneasy-market.html"
+        }
+      ],
+      "wire_headline": "Two big reasons Micron and other chip stocks are falling on Thursday",
+      "wire_source": "MarketWatch",
+      "published": "2026-10-22T15:33:00+00:00"
+    },
+    {
+      "headline": "Central Banks Brace to Raise Rates Into Slumping Housing, Frozen Hiring, and Fuel Bills",
+      "dek": "UK inflation hit 3.5% and US housing data sank, yet markets still expect both central banks to hike, because prices are the problem that currently has a mandate.",
+      "catch_up": "An oil-supply shock tied to the U.S.-Iran war and disruption in the Strait of Hormuz has pushed fuel prices sharply higher, reviving inflation on both sides of the Atlantic. Central banks that had hoped to be cutting rates are now weighing increases.",
+      "why_it_matters": "Higher policy rates tend to push up mortgage and borrowing costs just as housing is already weak and hiring is soft. Anyone with a variable-rate loan, a house to sell, or a budget to balance should expect no relief soon.",
+      "body": [
+        "UK inflation rose to 3.5% in the 12 months to September, the Office for National Statistics said Wednesday, above the 3.4% economists polled by Reuters had forecast, according to CNBC. It was the third straight monthly rise, after 2.9% in July and 3.1% in August. The main cause was motor fuel, which rose 29.8% over the year, the sharpest jump since the aftermath of Russia's full-scale invasion of Ukraine in 2022.",
+        "Translation: Britain imports much of its energy, so when a distant war makes oil hard to move, British drivers receive the invoice. Markets now price a 98% chance that the Bank of England raises rates by 25 basis points (a quarter of a percentage point) to 4% next month, per LSEG data cited by CNBC. Most traders also expect another such hike in December.",
+        "The central bank is not only looking at petrol. J.P. Morgan Personal Investing strategist Scott Gardner noted that services inflation has accelerated, raising concern about so-called second-round effects. Translation: that is when higher energy costs leak into wages and prices elsewhere, and a one-time shock becomes a habit.",
+        "This lands awkwardly on the Chancellor, John Healey, who unveils his first Autumn Budget next week. Separate data showed national debt exceeded £3 trillion for the first time in September, and the cost of servicing it has risen sharply. Healey promised to maintain fiscal discipline while giving families breathing space, which is a commitment to two things that currently cost money in opposite directions. The Institute of Chartered Accountants' Suren Thiru called the Budget a perilous high-wire act.",
+        "In the United States, the Federal Reserve faces its own version of the problem. CNBC reported that pending home sales fell 7.3% in September to the lowest level in records going back to 2001, against a forecast drop of 0.4%. Housing starts fell 5.2% versus an expected 0.4% decline, and single-family permits, at 845,000, were the lowest since 2023. Mortgage rates ended September near 7.6%, according to Mortgage News Daily, against about 3% five years ago.",
+        "Normally, a housing slump would encourage a central bank to cut rates. But wholesale goods prices rose 2.6%, the fastest pace in a data series going back to 2009, and the latest official CPI reading stands at 3.74%. Goldman Sachs economist Ronnie Walker pointed to the lock-in effect: more than 95% of mortgage borrowers hold a rate below the current market, so they stay put. Translation: homeowners will not trade a cheap loan for an expensive one, so no one sells, and no one can buy what no one sells.",
+        "The labor market offers little counterweight. Initial jobless claims fell to 194,000, near the lowest since 1969, yet payrolls grew only 29,000 in September. Employers are neither hiring nor firing, a state economists call low-hire, low-fire and workers call staying exactly where they are. Markets expect the Fed to hold steady next week, with a quarter-point hike likely in December and another in March 2027, per CME's FedWatch tool.",
+        "One hopeful note came from NAR chief economist Lawrence Yun, who suggested mortgage rates may be topping out, since they have already risen more than the Fed's own moves. If so, buyers and sellers may emerge from hiding. Until then, the central banks will keep fighting inflation, and housing will keep serving as the collateral damage."
+      ],
+      "topics": [
+        "bank of england",
+        "federal reserve",
+        "inflation",
+        "housing market"
+      ],
+      "image_query": "suburban houses for sale",
+      "id": "2026-10-22-1608-markets3-uk-inflation-jumps-to-3-5-on-fuel-costs-us-housing-weakens-a",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+        }
+      ],
+      "wire_headline": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+      "wire_source": "CNBC Economy",
+      "published": "2026-10-21T07:50:10+00:00"
+    },
+    {
+      "headline": "American Airlines Posts Record Revenue, Still Expects to Lose Money, Blames Jet Fuel",
+      "dek": "The carrier widened its 2026 loss forecast to as much as $1.60 a share and will slow growth next year, as fuel costs swallowed the best sales in its history.",
+      "catch_up": "Jet fuel prices have jumped since the start of the Iran war, and airlines have been cutting profit forecasts all month. American is the fourth major U.S. carrier to do so, after Delta, United and Southwest.",
+      "why_it_matters": "Fuel is the largest airline expense after labor, and airfares are already up more than 20% from last year, according to airline reports and federal data. Slower capacity growth at American could mean fewer new seats and fewer new routes, and so less downward pressure on fares.",
+      "body": [
+        "American Airlines said Thursday that it now expects an adjusted 2026 loss of between $1 and $1.60 a share, CNBC reported. In July, its range ran from a loss of 65 cents to a profit of 65 cents. Translation: the best case in the old forecast was a profit, and the best case in the new one is a smaller loss.",
+        "The cause is jet fuel. American's fuel bill rose 67.5% in the third quarter from a year earlier, to $4.64 billion. Fuel is the biggest cost for an airline after labor, so a spike of that size is less a line item than a change of business model, from selling flights to subsidizing them.",
+        "The odd part is that sales were excellent. Third-quarter revenue rose 19.3% to $16.34 billion, above the $16.22 billion analysts expected, according to LSEG estimates cited by CNBC. CEO Robert Isom called it the strongest year-over-year revenue growth of his career. The adjusted loss was 28 cents a share, better than the 35 cents expected, which in earnings season counts as good news. The net loss was $269 million, up from $114 million a year earlier.",
+        "Ordinary travelers have been funding some of this. Airfare is up more than 20% from last year, and the company still lost money, which suggests the fuel increase has outrun even the price increases. Delta, United and Southwest all cut their outlooks this month, so American has company, though not the kind it wanted. Delta and United have been profitable rivals, and American has trailed them considerably.",
+        "The company's response is to slow capacity growth next year. For the fourth quarter, it forecasts a loss of 50 cents to $1.10 a share, with revenue up as much as 22.5% and capacity up 5.5% to 6.5%. Translation: capacity means seats flown, and growing it more slowly means fewer new seats chasing the same expensive fuel.",
+        "Isom said he has great confidence in a return to profitability in 2027. That rests partly on premium travel, which executives said remains strong, and on strategy: new lounges, cabins with more premium seats, seat-back screens returning to narrow-body jets, and a deeper tie-up with Alaska Airlines in trans-Atlantic and trans-Pacific joint businesses. The airline has also named a new network chief this month, part of a management shake-up. It is also close to ordering wide-body planes, and CFO Devon May said the Boeing 787 and the Airbus A330 and A350 are under consideration.",
+        "Market data shows why the confidence is a bet rather than a plan. Brent crude was at $115.22 as of Oct. 20. Whether 2027 is profitable depends less on lounges than on where that number goes."
+      ],
+      "topics": [
+        "american airlines",
+        "jet fuel",
+        "airlines",
+        "iran war"
+      ],
+      "image_query": "airplane at airport gate",
+      "id": "2026-10-22-1608-markets4-american-airlines-widens-2026-loss-forecast-and-p-g-warns-of",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/pg-flags-bigger-hit-to-annual-profit-from-higher-commodity-costs-beats-revenue-estimates-4965501"
+        }
+      ],
+      "wire_headline": "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-22T14:52:09+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gate_A1_jet_bridge_at_CVG_Concourse_A.jpg/1280px-Gate_A1_jet_bridge_at_CVG_Concourse_A.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Gate A1 jet bridge at CVG Concourse A",
+        "creator": "Stinger20",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Stinger20",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Gate_A1_jet_bridge_at_CVG_Concourse_A.jpg",
+        "source": "Wikimedia Commons"
+      }
+    }
+  ],
+  "wire": {
+    "geopolitics": [
+      {
+        "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Real Madrid’s complaint over La Liga chief’s Nazi slant sent to tribunal",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/22/real-madrids-complaint-over-la-liga-chiefs-nazi-slant-sent-to-tribunal?traffic_source=rss"
+      },
+      {
+        "title": "Controversial US-backed vaccine trial in African newborns halted",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
+      },
+      {
+        "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
+        "source": "NPR World",
+        "url": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino"
+      },
+      {
+        "title": "At least four dead after storm brings flooding to southern France",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "16-year-old Malaysian student attacks his teacher with axe",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/16-year-old-malaysian-student-attacks-his-teacher-with-axe?traffic_source=rss"
+      },
+      {
+        "title": "Severely ill ICE detainees face imminent deportation to unknown African states, advocates say",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida"
+      },
+      {
+        "title": "Are Europeans putting profits over human rights in Vietnam?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/are-europeans-putting-profits-over-human-rights-in-vietnam/a-79732812?maca=en-rss-en-world-4025-rdf"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Spotify’s current AI bet is about being the music service that agents choose",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
+      },
+      {
+        "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records"
+      },
+      {
+        "title": "The Download: computing’s next leap and permafrost’s climate threat",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/"
+      },
+      {
+        "title": "Recursive shows first result of its AI-driven research process with Flint",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/"
+      },
+      {
+        "title": "Making the case for context-aware AI",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
+      },
+      {
+        "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/"
+      },
+      {
+        "title": "The new human-crafted Apple Music brand matters in an AI world",
+        "source": "Ars Technica AI",
+        "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/"
+      },
+      {
+        "title": "Nirva raises $33M for a pendant that only listens to you",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/"
+      },
+      {
+        "title": "Trump says Sundar Pichai talked him out of renaming the Atlantic Ocean",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/policy/1016751/trump-rename-atlantic-ocean-sundar-pichai-google"
+      },
+      {
+        "title": "What is PHP and why did it spark a global cyber-security scramble?",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Google cleared 300 hectares of Finnish forest",
+        "source": "Hacker News",
+        "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html"
+      },
+      {
+        "title": "Microsoft shuts down its beloved maker space",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1016389/microsoft-garage-closure-hackathon-notepad"
+      },
+      {
+        "title": "Zoe Kleinman: PHP is the cyber equivalent of an unexploded bomb",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/cw98z6qlyvg3o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Quad9 (DNS Resolver) to Exit France",
+        "source": "Hacker News",
+        "url": "https://quad9.net/news/blog/au-revoir-france/"
+      },
+      {
+        "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/"
+      }
+    ],
+    "markets": [
+      {
+        "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+      },
+      {
+        "title": "Apex funding talks value satellite maker at $4 billion - Bloomberg",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/apex-funding-talks-value-satellite-maker-at-4-billion--bloomberg-93CH-4966952"
+      },
+      {
+        "title": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+      },
+      {
+        "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+        "source": "CNBC Economy",
+        "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
+      },
+      {
+        "title": "Investors’ recent money moves show a preference for lowering risks over boosting rewards",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Gucci’s sales drop 5% in third quarter as weak Chinese demand dampens turnaround hopes",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/guccis-sales-drop-5-in-third-quarter-as-weak-chinese-demand-dampens-turnaround-hopes-4966939"
+      },
+      {
+        "title": "Moderna has a plan to revolutionize how certain cancers are treated. We’re about to find out its potential in melanoma.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
+        "source": "CNBC Economy",
+        "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
+      }
+    ]
+  }
+}
