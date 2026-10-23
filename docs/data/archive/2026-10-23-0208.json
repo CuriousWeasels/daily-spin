@@ -1,0 +1,1882 @@
+{
+  "generated_at": "2026-10-23T02:08:19.075234+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.3456,
+  "indicators": [
+    {
+      "id": "SPY",
+      "label": "SPY",
+      "kind": "usd",
+      "unit": "",
+      "unit_label": "US dollars per share",
+      "value": 763.96,
+      "change": -9.12,
+      "change_pct": -1.18,
+      "as_of": "2026-10-22",
+      "history": [
+        738.18,
+        738.93,
+        739.09,
+        740.86,
+        729.46,
+        741.69,
+        747.03,
+        757.67,
+        771.33,
+        769.79,
+        768.56,
+        773.26,
+        773.03,
+        770.56,
+        772.49,
+        777.88,
+        776.34,
+        772.67,
+        767.45,
+        769.06,
+        762.6,
+        765.72,
+        763.47,
+        765.91,
+        766.08,
+        771.1,
+        769.35,
+        767.05,
+        761.78,
+        765.16,
+        773.17,
+        770.19,
+        765.96,
+        762.4,
+        757.83,
+        764.29,
+        760.88,
+        757.39,
+        754.05,
+        762.6,
+        761.69,
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96
+      ],
+      "since": "2026-07-23",
+      "session": null
+    },
+    {
+      "id": "NASDAQCOM",
+      "label": "Nasdaq",
+      "kind": "index",
+      "value": 26702.86,
+      "change": 278.04,
+      "change_pct": 1.05,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        25837.21,
+        25690.9,
+        25137.69,
+        24975.82,
+        24932.08,
+        24876.91,
+        24442.94,
+        25122.18,
+        25373.85,
+        25913.9,
+        26584.99,
+        26363.44,
+        26348.35,
+        26690.62,
+        26605.36,
+        26445.45,
+        26588.49,
+        26803.03,
+        26729.16,
+        26644.91,
+        26289.71,
+        26331.09,
+        26067.17,
+        26180.45,
+        25980.19,
+        26151.3,
+        26130.2,
+        26541.35,
+        26402.42,
+        26370.89,
+        26099.77,
+        26217.83,
+        26584.06,
+        26506.99,
+        26421.41,
+        26253.34,
+        26081.72,
+        26333.04,
+        26186.41,
+        25981.57,
+        25978.42,
+        26418.3,
+        26522.55,
+        27122.09,
+        27244.28,
+        26936.04,
+        26939.37,
+        27068.72,
+        26820.38,
+        26797.54,
+        26861.06,
+        26871.6,
+        27190.86,
+        27477.31,
+        27599.89,
+        27538.69,
+        27193.34,
+        27366.17,
+        27245.9,
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03,
+        26430.89,
+        26424.82,
+        26702.86
+      ],
+      "since": "2026-07-21"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "kind": "level",
+      "value": 16.68,
+      "change": -0.63,
+      "change_pct": -3.64,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        16.64,
+        18.7,
+        18.58,
+        18.67,
+        18.21,
+        20.66,
+        17.09,
+        15.99,
+        15.86,
+        16.5,
+        15.81,
+        15.15,
+        14.9,
+        15.46,
+        15.28,
+        14.55,
+        14.63,
+        14.25,
+        15.19,
+        15.84,
+        14.89,
+        16.01,
+        15.13,
+        15.85,
+        15.45,
+        15.21,
+        14.51,
+        14.43,
+        14.92,
+        16.34,
+        15.2,
+        14.32,
+        14.53,
+        15.3,
+        15.72,
+        16.46,
+        17.84,
+        15.84,
+        17.1,
+        17.2,
+        17.71,
+        15.44,
+        14.81,
+        14.87,
+        14.21,
+        15.18,
+        15.67,
+        14.87,
+        16.07,
+        16.04,
+        16.34,
+        16.39,
+        15.31,
+        15.52,
+        15.01,
+        15.08,
+        15.41,
+        14.84,
+        15.21,
+        15.27,
+        16.87,
+        16.46,
+        19.99,
+        18.44,
+        17.31,
+        16.68
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DCOILBRENTEU",
+      "label": "Brent crude",
+      "kind": "usd",
+      "value": 115.22,
+      "change": -3.6,
+      "change_pct": -3.03,
+      "unit": "",
+      "unit_label": "US dollars per barrel",
+      "as_of": "2026-10-20",
+      "history": [
+        86.99,
+        93.85,
+        94.12,
+        105.32,
+        100.31,
+        91.82,
+        85.51,
+        91.95,
+        91.91,
+        96.95,
+        88.9,
+        86.47,
+        86.65,
+        89.65,
+        87.62,
+        92.74,
+        93.26,
+        92.52,
+        92.03,
+        92.02,
+        92.43,
+        95.29,
+        92.37,
+        94.0,
+        96.92,
+        92.71,
+        88.24,
+        87.77,
+        90.18,
+        89.75,
+        96.02,
+        97.59,
+        100.52,
+        102.24,
+        104.47,
+        106.12,
+        109.51,
+        120.98,
+        118.06,
+        121.25,
+        130.8,
+        127.84,
+        121.18,
+        119.66,
+        116.15,
+        114.89,
+        117.45,
+        120.92,
+        116.01,
+        119.97,
+        113.96,
+        115.91,
+        114.82,
+        135.51,
+        125.51,
+        125.44,
+        126.0,
+        130.18,
+        130.03,
+        129.95,
+        125.78,
+        126.55,
+        126.35,
+        119.33,
+        118.82,
+        115.22
+      ],
+      "since": "2026-07-20"
+    },
+    {
+      "id": "DTWEXBGS",
+      "label": "Dollar index",
+      "kind": "index",
+      "value": 121.4,
+      "change": -0.16,
+      "change_pct": -0.14,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-16",
+      "history": [
+        120.309,
+        120.331,
+        120.531,
+        120.54,
+        120.578,
+        120.574,
+        120.907,
+        120.71,
+        120.774,
+        120.625,
+        120.789,
+        119.675,
+        119.703,
+        119.695,
+        119.598,
+        119.388,
+        119.511,
+        119.065,
+        119.119,
+        119.179,
+        119.118,
+        119.185,
+        118.903,
+        118.814,
+        118.983,
+        118.333,
+        118.255,
+        118.063,
+        118.32,
+        118.228,
+        118.446,
+        118.358,
+        118.748,
+        118.568,
+        118.657,
+        118.53,
+        118.127,
+        118.073,
+        117.913,
+        117.883,
+        118.079,
+        118.213,
+        118.692,
+        118.882,
+        118.921,
+        119.349,
+        119.513,
+        119.401,
+        119.593,
+        120.117,
+        120.552,
+        120.33,
+        120.696,
+        121.03,
+        120.969,
+        121.788,
+        121.385,
+        121.271,
+        120.898,
+        121.256,
+        121.447,
+        121.602,
+        121.443,
+        122.004,
+        121.569,
+        121.405
+      ],
+      "since": "2026-07-15"
+    },
+    {
+      "id": "DGS2",
+      "label": "2Y Treasury",
+      "kind": "rate",
+      "value": 4.81,
+      "change": 0.02,
+      "change_pct": 0.42,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        4.21,
+        4.26,
+        4.31,
+        4.37,
+        4.33,
+        4.31,
+        4.26,
+        4.22,
+        4.23,
+        4.28,
+        4.25,
+        4.2,
+        4.18,
+        4.25,
+        4.19,
+        4.25,
+        4.22,
+        4.2,
+        4.15,
+        4.17,
+        4.19,
+        4.19,
+        4.19,
+        4.19,
+        4.24,
+        4.24,
+        4.17,
+        4.19,
+        4.2,
+        4.34,
+        4.34,
+        4.39,
+        4.39,
+        4.34,
+        4.37,
+        4.39,
+        4.43,
+        4.56,
+        4.63,
+        4.65,
+        4.67,
+        4.74,
+        4.67,
+        4.76,
+        4.76,
+        4.71,
+        4.85,
+        4.87,
+        4.81,
+        4.92,
+        4.89,
+        4.88,
+        4.78,
+        4.83,
+        4.84,
+        4.79,
+        4.77,
+        4.75,
+        4.8,
+        4.79,
+        4.82,
+        4.77,
+        4.74,
+        4.77,
+        4.79,
+        4.81
+      ],
+      "since": "2026-07-20"
+    },
+    {
+      "id": "DGS10",
+      "label": "10Y Treasury",
+      "kind": "rate",
+      "value": 5.13,
+      "change": 0.01,
+      "change_pct": 0.2,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        4.6,
+        4.63,
+        4.67,
+        4.71,
+        4.69,
+        4.65,
+        4.61,
+        4.67,
+        4.68,
+        4.75,
+        4.7,
+        4.63,
+        4.63,
+        4.69,
+        4.65,
+        4.72,
+        4.7,
+        4.68,
+        4.63,
+        4.68,
+        4.72,
+        4.71,
+        4.65,
+        4.69,
+        4.74,
+        4.7,
+        4.64,
+        4.66,
+        4.67,
+        4.73,
+        4.75,
+        4.79,
+        4.79,
+        4.77,
+        4.78,
+        4.8,
+        4.83,
+        4.95,
+        4.96,
+        4.97,
+        5.0,
+        5.01,
+        4.94,
+        5.01,
+        4.96,
+        4.96,
+        5.11,
+        5.18,
+        5.17,
+        5.24,
+        5.26,
+        5.29,
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15,
+        5.12,
+        5.13
+      ],
+      "since": "2026-07-20"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds",
+      "kind": "rate",
+      "value": 3.88,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-21",
+      "history": [
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+      ],
+      "since": "2026-08-17"
+    },
+    {
+      "id": "CPIAUCNS",
+      "label": "CPI inflation (YoY)",
+      "kind": "rate",
+      "value": 3.74,
+      "change": 0.34,
+      "change_pct": 10.04,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        2.441,
+        2.598,
+        2.749,
+        2.888,
+        3.0,
+        2.822,
+        2.391,
+        2.311,
+        2.355,
+        2.669,
+        2.705,
+        2.916,
+        3.013,
+        2.735,
+        2.677,
+        2.386,
+        2.414,
+        3.256,
+        3.811,
+        4.249,
+        3.531,
+        3.365,
+        3.397,
+        3.738
+      ],
+      "since": "2024-09-01"
+    },
+    {
+      "id": "UNRATE",
+      "label": "Unemployment",
+      "kind": "rate",
+      "value": 4.2,
+      "change": 0.1,
+      "change_pct": 2.44,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+      ],
+      "since": "2024-09-01"
+    }
+  ],
+  "briefing": {
+    "lead_index": 0,
+    "five_things": [
+      "The US and Israel are reportedly planning a possible attack on Iran for early November, after the midterms, so the war calendar has apparently been cleared with the election calendar.",
+      "Trump says Musk has restored Ukraine's Starlink access after speed caps hobbled its drones, though Musk, Rubio and the White House each pointed to someone else's hand on the switch.",
+      "Russia has proposed a Trump-Putin-Xi meeting at the APEC summit in Shenzhen on November 18-19 with Ukraine and the EU not invited, a peace conference where the main subject stays in the hallway.",
+      "Two AI-discovered PHP flaws knocked government and media sites offline worldwide as the NSA told users to patch or unplug, which is a bold way to learn what your website is made of.",
+      "Brent crude sits at $115.22 and Wall Street is starting to price in a wider regional war, while the Nasdaq fell 2.6% and 10-year Treasury yields dropped below 5%, so investors are nervous in two directions at once."
+    ],
+    "number_of_the_day": {
+      "figure": "43 attacks",
+      "explanation": "The BBC counted at least 43 attacks on el-Fasher's health sites, a figure that makes the RSF's 'propaganda' defense hard to pass off as rounding."
+    }
+  },
+  "articles": [
+    {
+      "headline": "U.S. and Israel Reportedly Schedule Possible Iran Attack for After the Midterms, Out of Courtesy to the Ballot",
+      "dek": "An anonymous source told NPR the two allies are planning for a possible early-November strike, while Iran says it is prepared.",
+      "catch_up": "NPR reported that the U.S. and Israel are preparing plans for a possible attack on Iran in early November, citing a person briefed on war planning. The report follows suggestions from President Trump and Prime Minister Benjamin Netanyahu that military action is on the table.",
+      "why_it_matters": "A possible strike on Iran would carry risks for regional stability, energy markets and U.S. forces in the Middle East, and the reported timing suggests domestic politics may shape when such a decision is made. For now it is a plan attributed to one unnamed source, not an announced decision.",
+      "body": [
+        "The United States and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections, according to a person briefed on war planning who spoke to NPR. Iran, for its part, said it is prepared. The source was not named, which is standard practice when discussing things governments would rather not be asked about on the record.",
+        "The timing is the detail that stands out. Early November falls after the midterms, which means that, if the report is accurate, the schedule leaves the voting finished before the shooting might start. Translation: a possible war is being slotted around the election calendar, the way a company avoids announcing layoffs the week before a shareholder meeting.",
+        "NPR's explainer on the planning notes that President Trump and Prime Minister Benjamin Netanyahu have both been suggesting that an attack is on the table. That is a notable thing about this story: the leaders have been hinting publicly, while the dates come from a private source. Public ambiguity is a tool in its own right, since it keeps an adversary guessing and keeps a domestic audience from asking follow-up questions.",
+        "It is worth being clear about what is and is not known. The sources describe planning, not a decision. Militaries draw up plans for many contingencies, and having one on file is not the same as ordering it. The word doing the heavy lifting in every headline here is \"possible.\" Translation: the plan exists, the decision may not, and the difference is the entire story.",
+        "Iran's statement that it is prepared is the sort of reply that costs nothing to say and would be alarming to omit. Neither side has an obvious incentive to sound relaxed. Each statement is aimed partly at the other government and partly at its own public, and it is difficult to tell from outside which audience gets the larger share.",
+        "For ordinary people, the practical stakes sit in the usual places: oil prices, regional security and the safety of troops stationed in the area. None of those have moved because of one anonymous source, but markets and governments tend to pay attention to a date once someone has written it down.",
+        "NPR's companion newscast pairs this report with word that Elon Musk is considering merging SpaceX and Tesla. The two stories have little in common, other than both being plans that have been discussed and not yet done. What to watch next: whether any official confirms, denies or declines to comment, since in Washington the third option is often the most informative."
+      ],
+      "topics": [
+        "iran",
+        "israel",
+        "us midterms",
+        "middle east"
+      ],
+      "image_query": "capitol building washington",
+      "id": "2026-10-23-0208-geopolitics0-us-and-israel-reportedly-planning-possible-attack-on-iran-af",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla"
+        }
+      ],
+      "wire_headline": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+      "wire_source": "NPR World",
+      "published": "2026-10-22T08:56:58+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1280px-Capitol_Building_Full_View.jpg",
+        "width": 1280,
+        "height": 549,
+        "title": "Capitol Building Full View",
+        "creator": "Noclip",
+        "creator_url": "https://en.wikipedia.org/wiki/User:Noclip",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg",
+        "source": "Wikimedia Commons"
+      },
+      "comic": {
+        "file": "comics/2026-10-23-0208-geopolitics0-us-and-israel-reportedly-planning-possible-attack-on-iran-af.svg",
+        "caption": "Out of respect for democracy, the possible war will wait until the voters have finished weighing in.",
+        "alt": "A smiling official in a suit reaches across a large November wall calendar with a pencil. He is filling in a red square labeled PLAN, right next to a square labeled VOTE. A ballot box stands at left, and the official's speech bubble says 'After you.'"
+      }
+    },
+    {
+      "headline": "Ukraine's Internet Returns After Three Officials Explain Nobody Was in Charge of Turning It Off",
+      "dek": "Trump says Musk 'put it back' after Starlink speed caps hobbled Ukrainian drones, while Musk, Rubio and the White House each describe a different owner of the switch.",
+      "catch_up": "Ukrainian officials reported sudden Starlink restrictions on October 13, leaving the military scrambling. Trump now says Elon Musk has restored access, though Zelensky said speeds were not yet fully back.",
+      "why_it_matters": "A war effort that depends on one private company's satellites, and a government that cannot say who controls them, is a vulnerability for Ukraine and a lesson for every military that outsources its connectivity.",
+      "body": [
+        "US President Donald Trump said on Thursday that Elon Musk has restored Ukraine's access to Starlink, the satellite internet service its military relies on. The BBC and Al Jazeera both reported the remarks, which followed days of restrictions that hampered Kyiv's forces. Ukraine thus learned that its communications can be switched off and on again, which is the standard first step in tech support and an unusual one in warfare.",
+        "The sequence matters. Ukrainian officials announced sudden restrictions on October 13, according to Al Jazeera, and Ukraine first reported an interruption to US intelligence sharing on October 14, according to the BBC. The Wall Street Journal reported that speeds were capped at around 160 km/h, and that Trump was frustrated by this. Translation: the internet had been slowed to the point that Ukraine's offensive drones and interceptors were, in the Journal's account, powerless against Russian attacks.",
+        "Earlier on Thursday, Zelensky told reporters speeds had not yet returned to 400 km/h, adding: \"We are working on it.\" He said he was waiting to hear from Secretary of State Marco Rubio, who had promised information within about 48 hours. The Journal then reported that Trump had called Musk and that service looked more normal afterward. The BBC said it had not confirmed that report.",
+        "Asked about the call, Trump declined to say who phoned whom. \"Bottom line, he put it back,\" he said. This is a notable admission by implication: if Musk could put it back, Musk could have taken it away, which is a position the Trump administration and Musk have spent the week disputing.",
+        "On who flipped the switch, the accounts differ in an instructive way. Rubio said on Wednesday that speeds are governed by a private commercial contract. Musk said on October 14 that Starshield, the military-grade version of Starlink, is owned and controlled by the US government, and that limits are decided by the military and ultimately the president. The White House has repeatedly said it did not order restrictions. Trump said on Friday that it was not him and he did not think it was Musk. Translation: the system has an owner, a controller and a contractor, and each is confident it is one of the other two.",
+        "The backdrop is not subtle. Trump has been pressing Zelensky to stop attacking Russian oil refineries, which he argues have pushed up prices. The BBC notes that with midterm elections next month he has waived some sanctions on Russia and agreed to import Russian diesel, which Ukraine and European allies have criticised. Al Jazeera adds that the fuel price problem follows his decision to join Israel in a war on Iran. Critics have worried, according to Al Jazeera, that Starlink caps could be used as leverage on Kyiv, though no source here establishes that they were.",
+        "The technical dependence is simple. The networks use some 10,000 satellites in low Earth orbit, and modern drones need fast connections to operate. Ukraine uses civilian Starlink and the more secure Starshield depending on the task. A battlefield strategy built on that arrangement works well until the question of who is in charge comes up.",
+        "What to watch next is whether speeds return fully to 400 km/h, and whether anyone is willing to put in writing who owns the switch. Until then, Ukraine has internet, a promise from Rubio, and a presidential assurance that it is the same as it has always been."
+      ],
+      "topics": [
+        "ukraine",
+        "starlink",
+        "elon musk",
+        "donald trump"
+      ],
+      "image_query": "satellite dish",
+      "id": "2026-10-23-0208-geopolitics1-trump-says-musk-restored-ukraine-s-starlink-access",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/trump-says-musk-restored-ukraines-starlink-access-amid-russia-war?traffic_source=rss"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6010616/kara-swisher-elon-musk-tesla-spacex-political-influence"
+        }
+      ],
+      "wire_headline": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "wire_source": "BBC World",
+      "published": "2026-10-22T21:42:39+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Satellite_dish_-_Bell_Canada.jpg/1280px-Satellite_dish_-_Bell_Canada.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Satellite dish - Bell Canada",
+        "creator": "Cantons-de-l'Est",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Cantons-de-l%27Est",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Satellite_dish_-_Bell_Canada.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "BBC Finds Sudan's Hospitals Were Hit 43 Times, Which Is Not a Rounding Error",
+      "dek": "A BBC investigation documents at least 43 attacks on health sites in el-Fasher; the RSF calls it propaganda, and international law calls the act illegal.",
+      "catch_up": "Sudan's army and the paramilitary Rapid Support Forces (RSF) have been at war since April 2023. The RSF besieged the Darfur city of el-Fasher and took it in October 2025.",
+      "why_it_matters": "If health facilities can be struck repeatedly with little consequence, the rule protecting them exists mostly on paper, and civilians in Sudan and in other wars pay for that. The findings may also feed UN and legal scrutiny of possible war crimes.",
+      "body": [
+        "A BBC investigation has concluded that RSF fighters systematically destroyed the healthcare system of el-Fasher during the siege and capture of the Darfur city. Using sources on the ground, the BBC documented at least 43 separate attacks on hospitals and health sites between May 2024 and October 2025, some of them hit more than once. The RSF rejects the findings. Its health minister called them propaganda, which is one way to describe a list of 43 attacks.",
+        "Under international law it is illegal to attack health facilities or their staff during conflict. Translation: hospitals are supposed to be the one place in a war where everyone agrees to stop aiming. UN human rights chief Volker Türk called the findings \"deeply disturbing\" and said the attacks were serious violations of international humanitarian law that may amount to war crimes.",
+        "The human toll among medical workers, according to the BBC's data, runs from April 2023 to October 2025: 120 injured, 55 killed and 10 forcibly disappeared or abducted. The BBC's timeline traces how the system was dismantled step by step. The main Teaching Hospital closed within weeks of the war starting, and services moved to South Hospital. South Hospital was shelled in late May and early June 2024 and was raided on 8 June. Its director, Dr Izzeldin Ahmed Dawaud Asow, told the BBC he survived a beating by pretending to be dead.",
+        "Then the pattern repeated. Staff moved to the Saudi Maternity Hospital, which the BBC says was struck on some days up to 25 times with shelling and drones. The Specialised Children's Hospital relocated twice and was shelled and closed both times. The main dialysis centre was hit, relocated, and hit again. Six doctors described this to the BBC as systematic targeting. A surgeon, Dr Muhamed Suliman, said the aim was to push civilians out: \"It was deliberate. It was planned.\"",
+        "The RSF's defence is that South Hospital was a military base. Its health minister, Dr Alaa Eldin Nugud, told the BBC missile launchers were on the grounds and showed a video of weapons remains filmed more than a year after the hospital closed. Translation: hospitals lose protection if used to commit an \"act harmful to the enemy,\" so the argument is that the building stopped being a hospital. The BBC says it found no independent evidence for this, and doctors told it the facility was not part of the base.",
+        "The picture is not one-sided on the broader question. Both sides have been accused of attacking health facilities. In March 2026 the WHO condemned the bombing of al-Daein hospital in RSF-held eastern Darfur, which killed dozens; the army is believed to have carried out the drone strikes but denies it. Still, the WHO told the BBC that el-Fasher is among the clearest and most severe examples of the conflict's effect on health care in Sudan. UN investigators have also reported that fighting there bore the \"hallmarks of genocide.\"",
+        "The rule that hospitals are off limits is among the most widely accepted in the laws of war. The BBC's chronology suggests it has been tested to destruction. What to watch is whether a detailed timeline from a news organisation produces anything a courtroom would recognise."
+      ],
+      "topics": [
+        "sudan",
+        "rsf",
+        "el-fasher",
+        "war crimes"
+      ],
+      "image_query": "damaged hospital building",
+      "id": "2026-10-23-0208-geopolitics2-bbc-investigation-finds-sudan-s-rsf-deliberately-targeted-ho",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "wire_source": "BBC World",
+      "published": "2026-10-22T23:16:16+00:00"
+    },
+    {
+      "headline": "Russia Proposes Peace Summit on Ukraine, Invites Everyone Except Ukraine, Europe",
+      "dek": "Moscow wants Trump and Xi at a Shenzhen table on November 18-19, with Kyiv and Brussels left to read about it afterward.",
+      "catch_up": "The Trump administration has spent the autumn trying to revive stalled talks to end Russia's war in Ukraine, offering Moscow concessions including a diesel export deal and temporary sanctions easing. Moscow has responded with a counterproposal about who should be in the room.",
+      "why_it_matters": "A deal on Ukraine's future negotiated without Ukraine or the EU would set a precedent for how wars are settled, and Europe, which funds much of Kyiv's resistance, would be asked to pay for a result it didn't help write.",
+      "body": [
+        "The Wall Street Journal reported this week that Russia has proposed a three-way meeting of Donald Trump, Vladimir Putin and Xi Jinping on the sidelines of the APEC summit in Shenzhen, China, scheduled for November 18-19. Ukraine and the European Union are not on the guest list. This is the sort of peace conference where the country being discussed is treated as a topic rather than an attendee.",
+        "According to the Journal, Putin sees the gathering as a possible new Yalta, a reference to the 1945 meeting of the American, British and Soviet leaders on the postwar order. Translation: Moscow would like history to remember this as a conference of great powers deciding things, and would prefer it not mention the smaller country involved. Kremlin aide Yury Ushakov said Putin shared thoughts on the idea with US envoy Steve Witkoff in St. Petersburg on October 21, and that Beijing is already preparing the meeting.",
+        "The same meeting produced a more modest announcement. Ushakov said Putin agreed to resume US-mediated talks after November 10, possibly in Abu Dhabi, with a focus on what he called \"building the security system for Russia and Ukraine after the end of the war.\" DW noted that the Kremlin appears in no hurry for meaningful talks, and that the next round would be technical, which in diplomacy means people with folders in a room while the leaders decide whether to start.",
+        "The Journal reported that Chinese officials signaled through diplomatic channels that they would not object to the format if Trump agrees to attend. Trump, whose relations with Kyiv have deteriorated significantly in recent weeks, according to DW, has expressed openness. Volodymyr Zelenskyy said in Oslo on October 20 that talks on Ukraine's future are acceptable only if Ukraine has a seat at the table, a position that is, at least, consistent with how tables work.",
+        "Why would Beijing say yes? The experts DW consulted disagree. Temur Umarov of the Carnegie Russia Eurasia Center argues China would be a symbolic participant: \"Beijing has no intention of taking responsibility for Ukraine's future.\" He expects China to seek vague, noncommittal language in any joint statement so it could describe almost any later development as consistent with it. Translation: a communique drafted to be reread favorably in any weather.",
+        "Yurii Poita of MERICS sees more overlap. He argues Moscow and Beijing share an interest in reducing Western military presence and weakening NATO, and that persuading Washington to cut military aid to Ukraine would hand Russia battlefield advantages and erode European trust in the US. Michael Kimmage of the Kennan Institute adds that what matters most to China is Putin's political survival, since Russia supplies cheap energy and a partner that rarely stands in Beijing's way. He does not expect China to press Putin to end the war.",
+        "The excluded parties have their own theory of the case. Kateryna Krasina of the New Geopolitics Network reads the format as a sign that China doesn't regard Ukraine as an independent player and considers Europe relatively weak. Kimmage counters that Europe's financial aid and defense industrial cooperation give it leverage, and says European efforts around the 2025 Alaska summit helped head off outcomes unfavorable to the continent. In his words: \"And that support equals leverage.\"",
+        "NPR meanwhile noted that Witkoff visited Moscow after meeting Zelenskyy, and asked former US ambassador to Ukraine William Taylor about Trump's embrace of Russia. The shuttle itinerary is its own summary of the format: Kyiv gets a meeting, Moscow gets the planning. Whether Shenzhen happens will depend on whether Trump accepts an invitation to a conference whose main feature is an empty chair he is not obliged to fill."
+      ],
+      "topics": [
+        "ukraine",
+        "russia",
+        "china",
+        "trump"
+      ],
+      "image_query": "conference table flags",
+      "id": "2026-10-23-0208-geopolitics3-russia-pushes-for-trump-putin-xi-summit-on-ukraine-without-k",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-world-4025-rdf"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6010509/former-u-s-ambassador-to-ukraine-william-taylor-on-trumps-embrace-of-russia"
+        }
+      ],
+      "wire_headline": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+      "wire_source": "DW",
+      "published": "2026-10-21T19:32:00+00:00"
+    },
+    {
+      "headline": "North Korea Prepares to Restart Border Loudspeakers, Reviving Sixteen-Month Pause in Shouting",
+      "dek": "Kim Yo-jong says speakers will be ready within days along the whole border, while Seoul, which dismantled its own, weighs a 'proportional measure.'",
+      "catch_up": "North and South Korea have long blasted propaganda across their border, but Seoul halted its broadcasts in June 2025 and removed the speakers that August. Ties have since worsened, including a September landmine blast that injured three South Korean soldiers.",
+      "why_it_matters": "Loudspeaker duels are low-tech, but they signal how far inter-Korean relations have deteriorated and raise the odds of friction along a border packed with soldiers, mines and wire. Seoul's response will show whether it stays conciliatory or returns to tit-for-tat.",
+      "body": [
+        "North Korea says it will restart propaganda loudspeakers aimed at South Korea along the entire border, with Kim Yo-jong, the sister of leader Kim Jong-un, saying they would be ready within days. The Guardian reported that the statement was carried by the state news agency KCNA on Thursday, a day after she said the speakers would run along the whole frontier from some time in October. It is a modest technology to be the centerpiece of a diplomatic crisis, but the Korean peninsula has never been in a hurry to modernize its grievances.",
+        "Some background. Both Koreas have historically used giant loudspeakers to broadcast at each other across the border. The North in recent years has favored haunting bestial howls. The South has gone with K-pop and news criticizing Pyongyang. Translation: one side plays what it believes will unsettle the other, and the other side plays what the first side most fears, which is a catchy chorus.",
+        "If the broadcasts resume, they would be the first loudspeaker exchange across the border in 16 months. South Korean president Lee Jae Myung suspended Seoul's broadcasts just days into his presidency in June 2025 to ease tensions, and the military dismantled the speakers that August. That leaves South Korea in the awkward position of having disarmed first in a contest whose entire premise is volume.",
+        "Seoul's defence ministry said on Thursday that if the North goes ahead, 'naturally there would have to be a proportional measure,' while making clear no decision had been made. Translation: a response is coming, but nobody has yet found the receipt for the speakers. South Korea's joint chiefs of staff added that they had observed routine maintenance of the North's loudspeakers before Kim Yo-jong's statements, which suggests the announcement was at least preceded by a sound check.",
+        "Relations have been sliding since September, when a landmine blast south of the military demarcation line injured three South Korean soldiers, two of them seriously. Seoul and the UN command, which oversees the 1953 armistice that halted but did not end the Korean war, concluded it was a North Korean anti-personnel mine and an armistice violation. Pyongyang denied responsibility and called the incident a 'self-staged farce.'",
+        "Beneath the noise is construction. Since Kim Jong-un declared in December 2023 that the two Koreas were 'two states hostile to each other,' the North has laid mines, strung barbed wire and erected anti-tank barriers along the border. On Wednesday, Kim Yo-jong inspected fortification points with Pak Jong-chon, a marshal and adviser to Pyongyang's defence ministry, and said the border had been 'clearly blocked and turned into a fortress more thoroughly.' She added that Kim Jong-un had told her it 'should be a permanent line never to be crossed.'",
+        "Seoul says that line is, in practice, crossed rather often, by North Korean troops doing the construction work. South Korean soldiers have responded with warnings over loudspeakers and warning shots. North Korea calls those broadcasts and shots provocations by 'armed rogues,' which means that at least one set of loudspeakers is already in use and already offending someone.",
+        "What to watch next: whether Seoul decides a 'proportional measure' means reinstalling speakers it took down in August, and whether anyone on either side finds a way to be heard without being shot at."
+      ],
+      "topics": [
+        "north korea",
+        "south korea",
+        "kim yo-jong",
+        "korean border"
+      ],
+      "image_query": "loudspeakers border fence",
+      "id": "2026-10-23-0208-geopolitics4-north-korea-to-resume-propaganda-loudspeaker-broadcasts-towa",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea"
+        }
+      ],
+      "wire_headline": "North Korea says it will resume propaganda broadcasts across border into South Korea",
+      "wire_source": "NPR World",
+      "published": "2026-10-22T06:36:07+00:00"
+    },
+    {
+      "headline": "OpenAI Seeks $30 Billion More Before Going Public, Which Is Apparently What Private Means Now",
+      "dek": "The ChatGPT maker is reportedly negotiating a round at a $1.25 trillion pre-money valuation, led by Coatue and UAE investors, with an IPO still pending.",
+      "catch_up": "OpenAI filed confidential IPO paperwork in June, after a March round valued it at $852 billion. CNBC and Bloomberg now report it is working on yet another private raise before listing.",
+      "why_it_matters": "A record private valuation raises the price tag the public markets will be asked to accept, for OpenAI and for rival Anthropic. If the numbers hold, ordinary investors may get their first chance to buy in at a level private investors spent months reaching.",
+      "body": [
+        "OpenAI is reportedly working on a new private funding round of up to $30 billion at a $1.25 trillion pre-money valuation, according to CNBC, which cited sources. TechCrunch reported that the round would be led by Coatue and investors in the United Arab Emirates. OpenAI declined to comment, which in fundraising is the traditional way of saying the spreadsheet is still open.",
+        "Translation: pre-money valuation is what a company is deemed to be worth before the new cash arrives. Post-money is that figure plus the cash. The distinction matters because it is the difference between a very large number and a very large number with a bonus. OpenAI's March round, for scale, produced an $852 billion post-money valuation.",
+        "The numbers are not settled. Bloomberg reported a month earlier that OpenAI was seeking $30 billion at a $1.4 trillion valuation, so the two outlets disagree by $150 billion, a gap most people would call an error and this market calls a negotiating position. Both outlets say terms are still being worked out and could change.",
+        "CNBC also reported that the UAE money could come paired with a deal to secure more computing capacity for OpenAI from the UAE. Translation: the investor may also be the landlord for the machines the money will be spent on. This is a tidy arrangement, in that the cash has a short commute.",
+        "If the round clears $1 trillion, it would make OpenAI the most valuable private company ever, according to TechCrunch. It would also raise the bar for the IPO it filed confidentially for in June. A company that has been valued privately at over a trillion dollars cannot easily go public at a discount without someone asking questions in a quarterly call.",
+        "Anthropic is watching, with interest and presumably a calculator. TechCrunch reports it raised $65 billion at a $965 billion valuation in May, widely thought to be its last big round before an IPO. It also filed confidentially in June, and CNBC reports it is seeking a $1.5 trillion to $2 trillion valuation for its public debut. The rumor, per TechCrunch, is that its public S-1 filing could arrive any day.",
+        "Translation: an S-1 is the registration document a company files publicly before listing, the point at which it must disclose its finances to people who are not already on its cap table. Until now the valuations have been set by a small circle of enthusiastic investors. Soon a much larger circle will get to react.",
+        "What to watch: whether the final round lands nearer $1.25 trillion or $1.4 trillion, and whether either company's IPO price can match numbers that were agreed upon in private. The phrase going public, it turns out, is a promise about disclosure rather than about timing."
+      ],
+      "topics": [
+        "openai",
+        "anthropic",
+        "ipo",
+        "ai funding"
+      ],
+      "image_query": "stock exchange trading floor",
+      "id": "2026-10-23-0208-ai0-openai-working-on-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+        }
+      ],
+      "wire_headline": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-22T22:08:24+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 01",
+        "creator": "Ank Kumar",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Ank_gsx",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_01.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "AI Finds Decade-Old PHP Flaw; Hackers, Reading Same Calendar, Arrive Four Days Early",
+      "dek": "OpenAI and Google models helped uncover the PHP2Shell vulnerabilities, but Amazon says attackers tried to exploit them four days before the public heard about it.",
+      "catch_up": "Two serious flaws in PHP, a programming language behind much of the web, were found with the help of AI models from OpenAI and Google after going unnoticed for more than a decade. Patches were released Wednesday, and officials are urging operators to update immediately.",
+      "why_it_matters": "Any organization running PHP, which includes a large share of the world's websites, now has to patch or go offline, while exploitation is already underway. It also shows that AI can speed up defenders and attackers alike, and the gap between the two can be a matter of days.",
+      "body": [
+        "The developers who maintain PHP released software updates on Wednesday to fix two vulnerabilities that, according to Ars Technica, had gone undetected for more than a decade. The same day, the US National Security Agency told every organization using PHP to update immediately or take its systems offline. Translation: patch it now, or unplug it, which is the IT equivalent of choosing between a fire extinguisher and a smaller building.",
+        "The flaws, collectively nicknamed PHP2Shell, were uncovered with help from AI. The Decoder reported that OpenAI's GPT-5.6 Sol found the issue as part of an effort called Patch-the-Planet, which OpenAI describes as one of the \"most impactful security issues in recent memory.\" Security firm Wiz said it found the same flaws independently, using its own platform alongside Google's Gemini 4 Argon and GPT-5.6 Sol. Two companies and several models arriving at the same hole is a reassuring sign of thoroughness, and also a sign that the hole was quite findable.",
+        "The reassurance ends there. Amazon said Wednesday that it had spotted an attempt to exploit the bug four days before it was publicly disclosed, and that the flaws were now \"broadly exploited in the wild,\" per Ars Technica. Translation: exploited in the wild means criminals are using it on real targets, not just researchers in a lab. The responsible-disclosure process, in which a flaw is kept quiet while a fix is prepared, appears to have had at least one attendee who was not on the invite list.",
+        "Wiz explained why AI makes this worse. An exploit written for one specific PHP installation used to take significant effort to adapt to other versions, configurations and memory layouts. Large language models can do that adaptation automatically, which Wiz says \"significantly lowers the barrier to scaling attacks.\" In other words, vulnerabilities once too fiddly to be worth an attacker's afternoon are now worth it, because the fiddling is outsourced.",
+        "The response was coordinated over two months in five phases, according to The Decoder, involving PHP developers, Wiz, Cloudflare, and US agencies including CISA and the White House. Ars Technica added that UK authorities issued warnings and that some European governments were reportedly taking sites offline while they patched. OpenAI wants this process to become a repeatable framework for future AI-found flaws, and expects discoveries on this scale to \"increase sharply in the coming months.\" A GitHub tool now lets server operators check whether their PHP version is affected.",
+        "The episode feeds a months-long argument over AI's cyber capabilities. Ars Technica noted that new models from Anthropic and OpenAI earlier this year drew warnings from politicians and financial regulators and led the US government to temporarily limit their rollout. Defenders now have a strong case that these tools find bugs first. Attackers have a strong case that they only needed to find them second, as long as second was four days early.",
+        "What to watch: how quickly operators actually patch, since a fix only protects the people who install it. The next batch of AI-discovered flaws, by OpenAI's own forecast, is already on its way."
+      ],
+      "topics": [
+        "php2shell",
+        "cybersecurity",
+        "openai",
+        "google"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-23-0208-ai1-openai-and-google-ai-models-found-critical-php-vulnerability",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+        }
+      ],
+      "wire_headline": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+      "wire_source": "The Decoder",
+      "published": "2026-10-21T19:45:01+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Microsoft's Diagnostic AI Beats Doctors, Provided Doctors Skip Reference Books and Specialists",
+      "dek": "A study in Science says Microsoft's system diagnosed hard cases 83 percent of the time versus 36 percent for generalists, but it has only treated the past.",
+      "catch_up": "Microsoft AI says its multi-agent system, called MAI-DxO or Diagnostic Orchestrator, outperformed physicians on cases drawn from NEJM reports and Boston emergency data. The results appeared in Science, with real-hospital testing planned next.",
+      "why_it_matters": "Hospitals face a shortage of medical expertise, and AI diagnosis is being pitched as the fix, so who validates these systems and how matters to every future patient. For now the evidence comes from old case files, not live patients.",
+      "body": [
+        "Microsoft reported Thursday in Science that its AI diagnostic system correctly diagnosed about 83 percent of complex cases taken from New England Journal of Medicine reports, according to The Verge and TechCrunch. Generalist physicians using reference materials got roughly 36 percent, and those without them about 22 percent, The Verge reported. This is a strong result for the software and, depending on your view of the test, a modest one for the people it was tested against.",
+        "The system works by coordinating several AI agents that behave like a panel of doctors: they question the patient, order tests and argue toward a diagnosis. Translation: it is a committee, which in medicine is also how the hard cases are normally handled. TechCrunch noted that cases this complex are usually dealt with by specialists or physician teams, who were not in the comparison.",
+        "On emergency department cases from Beth Israel Deaconess Medical Center in Boston, The Verge reported the system scored 80 percent against an average of 47 percent for human physicians. It also reached diagnoses at a lower estimated cost. Translation: the cost figure is the estimated expense of the AI's testing choices, and TechCrunch separately reported the AI's own running cost on one baseline at about $8,400 per case.",
+        "That raises the question of what Microsoft actually built. TechCrunch's reading of the study's data is that much of the improvement comes from more powerful underlying models, with the orchestration adding gains on top. Using GPT-5 alone, a basic prompt scored 78.9 percent on complex cases; the orchestrator cut about $3,000 in cost and added only about four points. On emergency cases, TechCrunch said, there was little improvement in either accuracy or cost.",
+        "With GPT-5.5, the orchestrator lifted accuracy on complex cases from 72 percent to nearly 87 percent, but again showed no gain in the emergency setting, where both scored about 85 percent. It helped weaker models most: Gemini 2.5 Flash rose from 46.4 percent to nearly 69 percent. Microsoft's researchers said gains naturally shrink as models approach the maximum, which is true and also a convenient thing to have in the footnotes. The Verge added that the peer-reviewed paper does not include some of the newest rival models.",
+        "Microsoft concedes the system has been tested only on past cases. Mustafa Suleyman, Microsoft AI's CEO, told The Verge, \"It needs clinical validation.\" A study with Beth Israel is meant to supply it: patients will receive standard care while consenting patients also interact with the system, and Microsoft will compare its recommendations with the human doctors'. Dominic King, Microsoft's AI health lead, told The Verge the work would likely start within a couple of months, though no one would commit to a firm timeline.",
+        "The commercial ambitions are not hidden. Microsoft already sells dictation and radiology tools to clinicians, and Suleyman told TechCrunch the company needs a top clinical decision support product within a few years. He also predicts something \"indistinguishable from human performance\" in a couple of years while insisting clinicians will keep a central role, and hopes AI removes some of \"the drudgery\" of medicine. He acknowledged that doctors might instead be handed more work, which is how most labor-saving technology has historically been received.",
+        "Microsoft is not alone. TechCrunch noted that Google and OpenAI have made similar claims, and that Google published its own study with Beth Israel in The Lancet this month on its AMIE system in urgent care. The race is now for the first credible evidence from real patients, which is a higher bar than winning a benchmark that the winner designed and plans to open-source.",
+        "Watch for the Beth Israel trial. A system that beats generalists on a case file is a good paper; one that survives a Boston emergency department on a Friday evening, a scenario King himself invoked, is a product."
+      ],
+      "topics": [
+        "microsoft",
+        "ai healthcare",
+        "mustafa suleyman"
+      ],
+      "image_query": "hospital emergency room",
+      "id": "2026-10-23-0208-ai2-microsoft-claims-ai-diagnostic-tool-outperforms-doctors-on-h",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
+        }
+      ],
+      "wire_headline": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+      "wire_source": "The Verge AI",
+      "published": "2026-10-22T18:00:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/A_hospital_emergency_department_entrance_in_the_United_States.jpg/1280px-A_hospital_emergency_department_entrance_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "A hospital emergency department entrance in the United States",
+        "creator": "Harrison Keely",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Hkeely",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:A_hospital_emergency_department_entrance_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Google Cloud Adds OpenAI Models, Now Sells Its Own Rivals Under One Roof",
+      "dek": "Google becomes the only major cloud provider offering Gemini, Claude and GPT on a single bill, a convenience that also funds the competition.",
+      "catch_up": "Google Cloud has added OpenAI's GPT-6 and 6.1 models (Astra, Sol and Luna) to a catalog that already carried Google's Gemini and Anthropic's Claude. OpenAI says Microsoft remains its primary cloud partner.",
+      "why_it_matters": "Businesses with existing Google Cloud contracts can try rival models without new vendor paperwork, which lowers the cost of switching away from Gemini. It also shows that the biggest AI labs now compete and rent each other computers at the same time.",
+      "body": [
+        "Google Cloud announced that it now offers OpenAI's models alongside its own Gemini and Anthropic's Claude, which Google says makes it the only large cloud provider carrying all three leading closed models. According to The Decoder, three models are available: GPT-6 Astra for demanding work such as coding and research, GPT-6.1 Sol as a cheaper option with similar performance, and GPT-6 Luna as a fast, low-cost choice for everyday tasks. Google, in other words, has opened a store that sells its competitors' best products, and it expects to be thanked for the selection.",
+        "The rollout is a private preview for select enterprise customers, with sign-ups open, The Decoder reported. Ars Technica said the models will reach Google's Model Garden in the coming weeks. Translation: Model Garden is a catalog of more than 200 AI models, and it has fewer flowers than the name suggests and more invoices. The sources differ slightly on timing: one says availability starts today for preview users, the other says wider arrival comes over the coming weeks.",
+        "The models will also appear in Gemini for Business and in Antigravity, Google's agent-powered coding tool. Ars Technica called the Antigravity arrival perhaps the more important part. Translation: an agent-powered coding tool is software that writes and edits code on its own, and Google has decided it should be able to do so using someone else's brain if the customer prefers.",
+        "The billing is where the pitch gets practical. Charges run through a single Google Cloud bill and count toward existing spending commitments, according to The Decoder, and Ars Technica notes that transactions go through the Google Cloud Marketplace. Translation: many companies have promised Google a certain amount of annual spending, and anything bought through the marketplace helps them meet it. A company can therefore adopt GPT without opening a new vendor relationship, which procurement departments regard as the real technological breakthrough. Google also says customer data will not be used for training.",
+        "Ars Technica adds that Astra will naturally cost the most to run, but Google's system can shift workloads between models based on performance, latency and efficiency. In plain terms, the platform can send easy jobs to cheap models and hard jobs to expensive ones, much like a law firm sending the photocopying to an intern.",
+        "The strategic awkwardness is not hidden. The Decoder noted a recurring tension at Google: computing capacity used to serve cloud customers can strengthen the biggest rivals of its own Gemini team. It said this conflict reportedly even pushed researcher Noam Shazeer, described as a two-billion-dollar talent, back to OpenAI. That detail was reported as hearsay, and the sources do not elaborate.",
+        "The logic for Google Cloud is that a landlord does not need to like every tenant, only to collect rent. The logic for Gemini is less comfortable, since every customer who tries GPT on Google's servers is a customer Gemini has to win back. Watch whether the preview turns into broad availability, and whether Google's own model gets any shelf space in the cloud it built."
+      ],
+      "topics": [
+        "google cloud",
+        "openai",
+        "gemini",
+        "cloud computing"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-23-0208-ai3-google-cloud-to-offer-openai-models-alongside-gemini-and-cla",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+        }
+      ],
+      "wire_headline": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+      "wire_source": "The Decoder",
+      "published": "2026-10-21T17:44:22+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg/1280px-NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg",
+        "width": 1280,
+        "height": 923,
+        "title": "NOIRLab HQ Server Racks (6V6A0375-CC)",
+        "creator": "NOIRLab/NSF/AURA/T. Slovinský",
+        "creator_url": "",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Server_Racks_(6V6A0375-CC).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Chinese Hackers Use AI Agents to Rummage Through 2,250 Organizations at Once",
+      "dek": "Microsoft says state-aligned attackers stole credentials from ConnectWise's cloud backup service and tried nearly 3,000 sign-ins a minute.",
+      "catch_up": "ConnectWise makes IT management and remote access software, and its cloud backup service connects to customers' Microsoft-hosted environments. Microsoft researchers say China state-aligned hackers broke into that backup service, TechCrunch reported.",
+      "why_it_matters": "When a vendor that holds the keys to thousands of companies is breached, those companies are exposed whether or not their own security was any good. It also suggests AI tools are letting attackers work faster than defenders can notice.",
+      "body": [
+        "Chinese state-aligned hackers broke into ConnectWise's cloud backup service and used stolen credentials to access around 2,250 organizations, according to Microsoft security researchers cited by TechCrunch. ConnectWise sells IT management and remote access software, which is to say it is the company other companies trust with the master keys. This is the sort of business where a bad day is rarely confined to one customer.",
+        "The mechanism is simple. The hackers took application credentials, the digital passes that let ConnectWise's backup service talk to its customers' Microsoft-hosted environments. Translation: instead of picking the lock on each company's front door, they stole the delivery driver's key ring. With those credentials, according to Microsoft, they could log in as if they were authorized users and read emails and other files.",
+        "The speed is where the story turns. Microsoft said the attackers used AI agents, meaning software that carries out tasks on its own, to try almost 3,000 sign-ins per minute. Microsoft said that pace leaves defenders \"little time to detect and respond.\" Human security teams, who are famously well rested and fully staffed, are presumably thrilled.",
+        "The software involved was ARTEX, an open source AI framework that works with AI models to stress-test cyber defenses. Translation: it is a tool built to check whether security holds up, which is also a fine way to find out that it does not. According to TechCrunch, the same software was used in a recent compromise of South Korea's financial systems, many of which had weak security and lacked multi-factor authentication. That is the extra login step most people know as the text message code they resent.",
+        "The sources do not say what the hackers took beyond access to emails and files, or how many of the 2,250 organizations lost data. They also do not say how the hackers got into ConnectWise in the first place.",
+        "ConnectWise said it has paused access to its cloud backup system and is investigating. As of Thursday, it said it was working on restoring the service. Customers who rely on the backup to protect their data are, for the moment, in the novel position of having neither the backup nor much certainty about who else has read it.",
+        "TechCrunch framed this as another entry in a bad week for cybersecurity. The practical lesson for companies is unglamorous: turn on multi-factor authentication, and ask your vendors what happens to the keys they hold. The lesson for the vendors is that they are now the target, and the target has been reading the same AI product announcements as everyone else."
+      ],
+      "topics": [
+        "cybersecurity",
+        "china",
+        "microsoft",
+        "ai agents"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-23-0208-ai4-china-aligned-hackers-used-ai-agents-to-breach-connectwise-a",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        }
+      ],
+      "wire_headline": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-22T16:47:17+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Internet Discovers It Runs on PHP, Responds by Switching Itself Off",
+      "dek": "Two flaws found by AI in the language behind roughly 70% of websites, per Wiz, sent governments and broadcasters offline while they patched.",
+      "catch_up": "Researchers using advanced AI tools found two critical flaws, nicknamed php2shell, in the PHP programming language that had gone unnoticed for more than a decade. After details leaked on social media, the PHP Foundation rushed out a fix on Wednesday and agencies worldwide urged operators to patch or take sites offline.",
+      "why_it_matters": "Most readers need do nothing, but anyone with a website, especially a small business on WordPress, must ask their host whether PHP itself has been patched. Attackers are already probing, and security agencies say the full impact could take months to appear.",
+      "body": [
+        "The BBC reported that websites around the world went dark on Wednesday and Thursday after the developers of PHP disclosed two critical vulnerabilities in the language. Finland shut its government web services, the Dutch cyber-security agency took down its own site, and parts of Wikipedia became unavailable. Security agencies had advised that if you cannot fix the problem, you should turn the thing off, which is the digital equivalent of dealing with a gas leak by leaving the house.",
+        "PHP is a back-end language that runs on web servers and turns stored data into the pages you read. Translation: it is the kitchen of the website, and most people have never seen it. According to Wiz, one of the firms that found the flaws, it powers about 70% of the world's websites, though the BBC said it could not verify that figure. It sits under WordPress, Drupal, Joomla and Magento, plus a good deal of software that never mentions it, Huntress noted.",
+        "The flaws, nicknamed php2shell, could allow what CERT-EU described as unauthenticated remote code execution. Translation: a stranger on the internet could run commands on your server without a password. Wiz said the bugs are inherent in the language itself and had gone undetected for more than a decade. A Calif researcher, Ryan Austin, called it the most serious vulnerability he had ever found.",
+        "The discoverer was artificial intelligence. Calif and the PHP Foundation took part in an OpenAI program called Patch the Planet, which gave them advanced AI tools, and within weeks the flaws surfaced. Wiz said the models let it develop working exploits across multiple applications in hours. OpenAI called the find one of the most impactful security issues in recent memory, which is a notable thing for a company to say about a product it also sells.",
+        "The schedule then went wrong in the usual way. The PHP Foundation had planned to publish its findings later this month with a complete fix, but details leaked on social media on Tuesday and forced an early announcement. Cloudflare's Matthew Prince wrote that attempts to exploit the flaws went from thousands in the 10 hours before disclosure to tens of thousands within 45 minutes, hundreds of thousands within two hours, and millions by Thursday. Amazon also reported attempts, though its sites ran normally.",
+        "In Britain, tech minister Baroness Lloyd told the House of Lords that 32 government services were unavailable and four partially so, largely from precautionary measures. The government said this did not mean they were hacked, and the NCSC's Olly Whitehouse called the event unprecedented but reported no indications of successful breaches. A Chepstow garage owner, Dean Presley, said his MOT system had been down since Wednesday morning, so he was writing certificates on paper, a technology the flaw cannot reach.",
+        "The hard part is not installing the patch but finding every place PHP lurks, Sophos's Don Smith said, since it can sit beneath hosting platforms and third-party products without the owner knowing. The fix is also issued only for recent versions, with PHP 8.1 users and older told to upgrade. Ethical hacker Ken Munro compared patching to running a Windows update, which is reassuring until you recall how many people postpone those.",
+        "NCC Group's Matt Hull said the window between a flaw and its exploitation has shrunk from weeks to days or hours, and warned that responders may already be burned out. The lesson is that AI finds bugs faster than anyone can fix them, and attackers have the same tools. Watch whether the scans showing slow patching speed up before the exploit attempts, now in the millions, start to succeed."
+      ],
+      "topics": [
+        "php",
+        "cybersecurity",
+        "openai",
+        "vulnerabilities"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-23-0208-technology0-critical-php-vulnerabilities-found-by-ai-trigger-global-cybe",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Websites taken down worldwide as critical cyber-security update issued",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-21T19:54:57+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg/1280px-NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg",
+        "width": 1280,
+        "height": 923,
+        "title": "NOIRLab HQ Server Racks (6V6A0375-CC)",
+        "creator": "NOIRLab/NSF/AURA/T. Slovinský",
+        "creator_url": "",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Server_Racks_(6V6A0375-CC).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Musk Considers Merging His Two Trillion-Dollar Companies, Asks Himself for Opinion",
+      "dek": "Special committees at Tesla and SpaceX are studying a combination that would be one of the largest mergers ever, though Musk says he is not on either one.",
+      "catch_up": "Elon Musk said on SpaceX's earnings call that he is actively considering merging Tesla, valued at about $1.5 trillion, with SpaceX, valued at $2 trillion. Both companies have formed special committees to examine the idea, and Tesla shareholders would have to approve it.",
+      "why_it_matters": "Tesla shareholders could end up owning a smaller slice of a far more complex AI-and-rockets business, and Musk would gain more voting control. Tesla drivers are unlikely to notice much, since analysts say cars are increasingly an afterthought.",
+      "body": [
+        "Elon Musk confirmed this week that he is considering merging Tesla and SpaceX, the two largest companies he runs. \"Do I think it would be a good idea? Yes,\" he told analysts on SpaceX's earnings call, according to the BBC. He then added that nothing is agreed, which is the standard way to announce something that is mostly agreed in spirit.",
+        "The process is more formal than the enthusiasm suggests. Musk said special committees have been formed at both companies to examine the deal. Translation: a special committee is a group of directors who are supposed to negotiate on behalf of shareholders when the boss sits on both sides of the table. Musk said he is not a member of either, describing himself as a \"conflicted party\" as chief executive of both. He compared commenting at all to \"tap dancing through a minefield\", a phrase he repeated on Tesla's call a day later, when he had nothing further to add.",
+        "The scale is difficult to overstate, though the BBC and analysts tried. Tesla is valued at roughly $1.5 trillion and SpaceX at $2 trillion, so a combination would rank among the largest mergers in history. At least 50% of Tesla's shareholders would need to approve it, a threshold Musk called \"quite a high hurdle\". Shareholders did approve a pay package for him worth around $1tn last year, so the hurdle has been cleared by people in similar positions before.",
+        "The case for the deal depends on whom you ask. Musk says there is merit in combining work on chips, artificial intelligence and software. The Verge notes that the story runs through self-driving cars and humanoid robots at Tesla, and AI models and data centers at SpaceX. Sceptics might note a simpler benefit: AI infrastructure attracts enormous amounts of money, and a single company can pitch all of it at once. The Verge also points out that Musk's companies compete for the same scarce Nvidia chips, so merging them settles an argument he is currently having with himself.",
+        "The numbers show where the business is heading. SpaceX's AI and compute arm generated about $7.5bn of revenue in the quarter, up from $813m a year earlier, according to the BBC. That outgrew Starlink, whose revenue rose to $5.2bn from $3bn. The Verge says much of the AI revenue likely comes from renting computing capacity to Anthropic and Google, which makes it look more like CoreWeave, a company that rents out computing power, than like an AI lab. SpaceX lost $1.1bn over nine months on $27bn in revenue, though it reported a $4.4bn profit for the latest quarter.",
+        "Tesla, meanwhile, reported third-quarter sales of $28.05 billion against $28.1 billion a year earlier, and the Verge says profits fell for a second straight quarter. The company is shifting resources toward robots, including Optimus humanoids built at a California plant, and it is competing with BYD, which overtook it as the world's biggest EV maker in January. Analyst David Nicholson told the BBC the odds of a merger are \"100%\" and the only question is when. Musk said calling it certain would be \"overstating\" things.",
+        "Investors reacted promptly. SpaceX shares rose 8% in after-hours trading and Tesla shares rose 2%. Analyst Dan Sheehan of Telos Wealth Advisors told the BBC the deal would leave Tesla shareholders with a \"smaller slice of a much larger and more complex business\", and that there is \"no real precedent\" for pricing such a company. He also said the deal would not add to Musk's wealth but would concentrate it in one stock, and the BBC reports it would give him more voting control than he has at Tesla today.",
+        "There are loose ends. The Verge notes that Terafab, the planned Tesla-SpaceX chip venture, was described in SpaceX's S-1 filing as being in very early stages, with financial terms and intellectual property rights unfinalized. Musk said it would reach volume production in the second half of 2028, and when an analyst asked whether he had ordered the needed equipment, he did not answer. Regulators and a possible change in the US Congress after next month's midterms could also complicate matters, Nicholson told the BBC.",
+        "The committees now have to decide what a fair price looks like for a deal the chief executive of both companies has already called a good idea. Watch for terms, and for whether Tesla shareholders are asked to clear that high hurdle."
+      ],
+      "topics": [
+        "elon musk",
+        "tesla",
+        "spacex",
+        "mergers"
+      ],
+      "image_query": "rocket launch pad",
+      "id": "2026-10-23-0208-technology1-musk-confirms-tesla-and-spacex-forming-special-committees-to",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-21T08:42:49+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg/1280px-Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg",
+        "width": 1280,
+        "height": 851,
+        "title": "Sound suppression water system test at KSC Launch Pad 39A",
+        "creator": "NASA",
+        "creator_url": "",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Meta Fined $25 Billion by New Mexico After Declining Group Discount",
+      "dek": "A judge ordered the maximum penalty under state law after a jury found nearly 44 million violations, and Meta says it will appeal.",
+      "catch_up": "New Mexico sued Meta over its public statements about Facebook, and a jury found the company had repeatedly misled users. Other states joined a multistate settlement, but New Mexico went to trial and the judge has now set the penalty.",
+      "why_it_matters": "The ruling shows that a state willing to go to trial can extract a far larger penalty than a negotiated deal, which may change how other attorneys general weigh settling against suing. Whether it survives appeal will signal how much consumer-protection law can actually cost a tech giant.",
+      "body": [
+        "A US district court judge, Francis J. Mathew, ordered Meta to pay $25 billion for deceiving Facebook users, according to Ars Technica. New Mexico had asked for up to $40 billion, so the state technically left money on the table, which is the closest anyone in this story comes to modesty.",
+        "The judge said there is no \"bright line rule\" for setting such a penalty, then chose the highest level the state's Unfair Practices Act allows. The reasoning rested on a jury finding of nearly 44 million violations, which, according to the judge, arose from repeated public statements over more than 11 years. Translation: this was not one bad press release. It was a long-running communications strategy.",
+        "The trial record, Mathew wrote, showed that top leadership, including Mark Zuckerberg, knew the company was making misleading representations. One internal message quoted in the opinion described a plan to \"Give them a chance to change their privacy settings but obviously don't encourage it.\" That is a rather precise description of how a privacy setting can exist without anyone using it.",
+        "The opinion also said Meta flagged only two of 2,000 unique apps tied to data misuse, after deciding to narrow its internal definition of misuse to avoid the operational burden of notifying people. Translation: the easiest way to reduce the number of data misuse incidents is to redefine data misuse. Mathew also found that Meta buried internal research on false and misleading content, and told users they received equal treatment while some celebrities and influencers got warnings before strikes and more decisions overturned.",
+        "Meta had hoped for something closer to its $5 billion Federal Trade Commission settlement over Cambridge Analytica, and expected to pay at most $3.4 billion, AP News reported. The judge replied that this settlement \"cannot be viewed in a vacuum,\" and that penalties and consent agreements have not deterred Meta from deceptive practices. In other words, the earlier fine was treated as evidence that fines like it do not work, which is an awkward thing for a defendant to have cited as a benchmark.",
+        "Meta plans to appeal and argues the penalty is unconstitutional. Legal experts told Reuters the company has a decent chance of cutting the fine on those grounds. The company's spokesperson also said the case seeks \"to impose a tax on speech,\" and that the ruling makes it \"all but impossible to do business\" in New Mexico, a state of about 2 million people. The statement closed with a nod to helping the country keep its competitive edge, which Ars read as a signal to the Trump administration that an AI-minded ally might be useful on appeal.",
+        "Critics say the fine is a drop in the bucket for a company that earns $200 billion a year. Meta's own accounting is less relaxed: the Verge noted that its third-quarter report showed close to $10 billion paid for the multistate settlement, and that without that expense operating income would have been $22 billion higher. A one-time charge that large tends to get noticed even by companies that consider such sums rounding errors.",
+        "Attorney General Raúl Torrez, whom the source identifies only as Torrez, called the ruling historic and said he will use the case as a blueprint for future enforcement. Nidhi Hegde of the American Economic Liberties Project told AP News that states should stay watchful as AI products grow, citing Meta's Muse assistant. For now the lesson for attorneys general is simple: settling gets you a check, but a trial gets you a larger one, at least until the appeals court weighs in."
+      ],
+      "topics": [
+        "meta",
+        "new mexico",
+        "privacy",
+        "antitrust"
+      ],
+      "image_query": "courthouse gavel",
+      "id": "2026-10-23-0208-technology2-meta-hit-with-25b-fine-in-new-mexico-after-refusing-multista",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/"
+        }
+      ],
+      "wire_headline": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-22T17:04:31+00:00"
+    },
+    {
+      "headline": "PC Shipments Fall 21 Percent as Memory Costs Teach Buyers Patience",
+      "dek": "Counterpoint Research says global PC shipments dropped sharply in Q3 2026 on component price hikes, and expects a steeper fall in Q4.",
+      "catch_up": "Counterpoint Research reported that global PC shipments fell 21 percent year over year in the third quarter of 2026, matching earlier estimates from IDC and Omdia. Smartphone shipments also hit a 14-year low in the same quarter, according to The Verge.",
+      "why_it_matters": "If you were planning to buy a laptop, the price has probably gone up, the cheap models have probably shrunk in number, and the analysts say waiting may not help. Companies that make and sell computers are heading into a weak holiday quarter.",
+      "body": [
+        "Global PC shipments fell 21 percent year over year in the third quarter of 2026, according to Counterpoint Research, as reported by The Verge. That matches earlier figures from IDC and Omdia, so the industry's three major counters of boxes have independently confirmed that fewer boxes are being bought. Until the second quarter, shipments had grown for more than two years straight.",
+        "The stated cause is component prices. RAM, SSDs, and chips from Intel, AMD, and Qualcomm have all become more expensive in recent months, and the increases have flowed into products ranging from MacBooks to Raspberry Pis. Translation: the parts inside the computer cost more, so the computer costs more, so people are buying fewer computers. Economists call this a demand curve. Everyone else calls it checking the price tag and closing the tab.",
+        "Counterpoint senior analyst Minsoo Kang noted that some companies are shifting to \"prioritize configurations that can better absorb component inflation.\" Translation: manufacturers are steering toward pricier models where a rising memory bill is easier to hide, which leaves fewer affordable options for price-sensitive buyers. The people most sensitive to price are, by definition, the ones who notice first.",
+        "Some companies are going the other direction and reviving older technology, including DDR4 RAM and 4GB GPUs, to hold prices down. This is the hardware equivalent of responding to a grocery price spike by dusting off the pantry. It works, in the sense that a product exists, and the sense in which it is new is mostly legal.",
+        "There is a statistical wrinkle. Counterpoint says Q3 2025 was inflated by purchases ahead of the Windows 10 support deadline and by tariff-related inventory adjustments, which makes the year-over-year comparison look worse. In other words, part of the 21 percent drop is that last year's quarter was unusually strong. Part of it is that this year's quarter is simply weak. The report does not say what share belongs to which.",
+        "The outlook is not cheerful. Counterpoint associate director David Naranjo expects global shipments to plunge 27 percent in Q4 2026 and stay broadly flat in 2027, adding that \"stabilization should not be mistaken for recovery.\" That is a polite way of saying the bottom may be flat rather than a bounce.",
+        "For buyers, the practical advice implied by the data is unglamorous: the old laptop will be asked to serve a while longer. For the industry, the quarter offers a lesson in how a market can grow for two years and then shrink by a fifth once the parts get expensive enough that the customers decline to participate."
+      ],
+      "topics": [
+        "pcs",
+        "ram prices",
+        "counterpoint research",
+        "smartphones"
+      ],
+      "image_query": "computer memory modules",
+      "id": "2026-10-23-0208-technology3-global-pc-shipments-fall-21-in-q3-on-ram-price-hikes-smartph",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram"
+        }
+      ],
+      "wire_headline": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "wire_source": "The Verge",
+      "published": "2026-10-22T21:30:39+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/DDR2_DIMM_Memory.jpg/1280px-DDR2_DIMM_Memory.jpg",
+        "width": 1280,
+        "height": 605,
+        "title": "DDR2 DIMM Memory",
+        "creator": "SaltyCruton",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:SaltyCruton&action=edit&redlink=1",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:DDR2_DIMM_Memory.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "FCC Uses New Chip-Blocking Power for First Time, Targets Camera Component",
+      "dek": "Six weeks after granting itself authority to block gadgets containing chips from blacklisted firms, the agency has blocked two devices, though it won't say which.",
+      "catch_up": "On October 13th, the FCC under Brendan Carr gave itself the power to block devices containing chips made by any company on its Covered List of national security threats. The Verge reports it has now used that power for the first time.",
+      "why_it_matters": "Cheap cameras and dashcams often rely on components most buyers never see, so a ban on a chip can quietly remove products from shelves. Whether this improves security or just reshuffles the market is a question the agency has so far declined to discuss.",
+      "body": [
+        "The Federal Communications Commission has blocked two gadgets on the grounds that they contain what it calls \"foreign surveillance chips,\" according to The Verge. It is the first use of a power the agency granted itself on October 13th. The agency did not say which two gadgets were blocked, which makes this an enforcement action in the way a locked door with no sign on it is a policy.",
+        "The chip it did name is the HiVision Hi3516CV610 UHD Smart Vision SoC. Translation: an SoC, or system on a chip, is a single piece of silicon that does the work of several, and this one turns a raw camera sensor into a home security camera, a dashcam, or something similar. The Verge says it is often sold in a bundle with a Sony sensor and sometimes a lens, according to listings viewed on AliExpress.",
+        "The FCC's reasoning has two parts. First, HiVision advertises the chip as designed for the surveillance market, with built-in detection algorithms for human faces, the agency explains. Second, HiVision is a subsidiary of Huawei, which was among the first telecom companies the US government labeled a national security risk. Translation: a surveillance camera chip was described by its maker as being for surveillance, which the FCC has chosen to treat as a confession.",
+        "Huawei is on the FCC's Covered List, a roster of companies whose equipment the agency considers a threat. The new power is meant to close a loophole in which a banned company's parts arrive inside another company's finished product. The Verge notes the agency did something similar when it gave itself the power to retroactively ban gadgets and to block modular radio transmitters. The pattern is clear: each time a gap appears, the rulebook grows a patch over it.",
+        "The practical effect lands on makers and buyers of inexpensive cameras, who may not know whose silicon sits inside the box. A manufacturer that once needed to check its own supply chain now also needs to check its suppliers' suppliers, against a list that can change.",
+        "The Verge raises the question it has asked before, about the router ban and the Roomba ban: is the FCC keeping people safer, or picking winners and losers while making a show of enforcement? The outlet says it has asked the agency repeatedly to discuss its efforts, and the agency will not engage. For now, the best evidence of the policy's wisdom is the policy's own assurance, delivered without comment."
+      ],
+      "topics": [
+        "fcc",
+        "huawei",
+        "surveillance",
+        "tech regulation"
+      ],
+      "image_query": "security camera",
+      "id": "2026-10-23-0208-technology4-fcc-first-blocks-gadgets-containing-foreign-surveillance-chi",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole"
+        }
+      ],
+      "wire_headline": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
+      "wire_source": "The Verge",
+      "published": "2026-10-22T20:23:48+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Security_Camera-04-Vandal_Dome.jpg/1280px-Security_Camera-04-Vandal_Dome.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Security Camera-04-Vandal Dome",
+        "creator": "Myotus",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Myotus",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Security_Camera-04-Vandal_Dome.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Treasury Yields Fall Below 5% as Investors Rediscover Government Debt as a Hiding Place",
+      "dek": "The 10-year yield dropped more than 17 basis points to 4.972% on Thursday, its biggest one-day decline since the March 2023 banking crisis, as AI worries and oil prices sent investors looking for cover.",
+      "catch_up": "Earlier this month, 10- and 30-year Treasury yields reached their highest levels in more than two decades on worries about inflation and energy prices. This week, a sell-off in tech stocks and rising oil prices pushed money back into bonds.",
+      "why_it_matters": "The 10-year yield is used to price mortgages, auto loans and credit card debt, so a sharp move in it eventually reaches household budgets. Whether the drop lasts depends on oil, inflation and how much the Fed feels it must do about both.",
+      "body": [
+        "The 10-year Treasury yield fell more than 17 basis points on Thursday to 4.972%, dipping below 5% for the first time since Sept. 23, CNBC reported. Translation: a basis point is one-hundredth of a percentage point, so 17 of them is a large move for an asset whose main selling point is that nothing exciting happens to it. Yields and prices move in opposite directions, so a falling yield means investors were buying bonds in volume.",
+        "The 2-year yield, which closely tracks expectations for Federal Reserve policy, fell more than 16 basis points to 4.659%. The 30-year, which CNBC describes as most sensitive to geopolitical developments, fell more than 14 basis points to 5.296%. According to CNBC and MarketWatch, it was the biggest one-day decline in the 10-year since March 10, 2023, in the middle of the collapse of Silicon Valley Bank. That comparison sounds alarming, though one strategist did not read it that way.",
+        "That strategist was PGIM's Tipp, quoted by MarketWatch calling it a \"take-back trade,\" not an all-out fear of recession type of situation. Translation: investors sold bonds too hard earlier this month, drove yields to two-decade highs, and are now buying some back because the price looked better. CNBC reported that above 5%, yields began to look like an attractive entry point, even with inflation above 3%.",
+        "The immediate trigger was stock market stress. Investors have been asking about the billions being spent to build artificial intelligence networks. Mitch Goldberg of ClientFirst Strategy said people are \"terrified\" of the amount of bond issuance by AI-related companies. Nvidia CEO Jensen Huang told CNBC that demand for neoclouds, specialized cloud providers built for AI workloads, is \"off the charts,\" but that capital is scarce. Demand that is off the charts and money that is hard to find are, in finance, the two ingredients of a bond sale.",
+        "Oil supplied the second push. West Texas Intermediate futures closed up 2.39% at $99.47 a barrel, and Brent rose 4% to $113.17, after the New York Times reported, citing unnamed U.S. officials, that the U.S. and Israel are weighing resuming strikes on Iran in a \"short but intensive\" operation after the Nov. 3 midterm elections. Note the scheduling: even the contemplated military operation is waiting for the vote count, which is a rare case of the calendar being treated as a strategic asset.",
+        "Not everyone sees a clean story. Gregory Faranello of South Street Securities told CNBC that there is no single risk at the moment, and that geopolitics matters most. He warned that a pinched consumer complicates life for central bankers, and that if energy prices stay elevated it could force the Fed to do even more, which would not be good for bonds. In other words, the safe haven is safe provided that the thing driving people into it does not also force the Fed to hike.",
+        "Official data points to why the Fed is in a bind. The 10-year yield stood at 5.13% as of Oct. 21 and the 2-year at 4.81%, against a fed funds rate of 3.88%. Annual CPI inflation was 3.74% as of Sept. 1, and Brent was at 115.22 as of Oct. 20, a bit above Thursday's close. Unemployment was 4.2%. Those figures differ from Thursday's intraday numbers because they come from different dates.",
+        "Watch the 5% line next. MarketWatch described a stock market splitting into two camps, with CNN's Fear & Greed index signaling fear. If oil keeps climbing, bond buyers may find that the haven has a mortgage rate attached to it."
+      ],
+      "topics": [
+        "treasury yields",
+        "oil prices",
+        "ai stocks",
+        "federal reserve"
+      ],
+      "image_query": "Wall Street trading floor",
+      "id": "2026-10-23-0208-markets0-10-year-treasury-yield-plunges-below-5-in-biggest-daily-drop",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories"
+        }
+      ],
+      "wire_headline": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-22T20:05:13+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Main_Entrance_to_the_New_York_Stock_Exchange%2C_18_Broad_Street%2C_Manhattan%2C_New_York_%287236979828%29.jpg/1280px-The_Main_Entrance_to_the_New_York_Stock_Exchange%2C_18_Broad_Street%2C_Manhattan%2C_New_York_%287236979828%29.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "The Main Entrance to the New York Stock Exchange, 18 Broad Street, Manhattan, New York (7236979828)",
+        "creator": "Ken Lund from Reno, Nevada, USA",
+        "creator_url": "https://www.flickr.com/people/75683070@N00",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:The_Main_Entrance_to_the_New_York_Stock_Exchange,_18_Broad_Street,_Manhattan,_New_York_(7236979828).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Chip Stocks Slide as AI Boom Discovers It Needs Money From Other People",
+      "dek": "Meta's negative free cash flow, a record credit-risk reading and a shelved Solidigm IPO sent the Nasdaq to its worst session since June.",
+      "catch_up": "Big technology companies have committed enormous sums to AI data centers and chips, and investors have mostly cheered. On Thursday, a run of earnings and financing news made them ask who is actually paying for all of it.",
+      "why_it_matters": "If the AI build-out depends on outside financing, then borrowing costs and investor patience matter as much as demand for chatbots. That affects tech-heavy retirement accounts, index funds and anyone whose portfolio is quietly an AI bet.",
+      "body": [
+        "The Nasdaq Composite fell 2.6% on Thursday, its worst session since June, according to CNBC. Nvidia dropped 4.4%, Advanced Micro Devices fell 8.1%, and MarketWatch said Micron and other chip stocks fell hard. Its three explanations were Tesla's lower spending target, a weaker forecast from Lam Research and a reminder that the AI boom relies on outside funding. The third reason is the interesting one, since it suggests the boom was less self-sustaining than advertised.",
+        "Meta supplied the clearest example. Its shares sank nearly 7% after third-quarter results showed free cash flow of negative $2.12 billion, CNBC reported. Translation: free cash flow is the money left after a company pays for its operations and its equipment. Negative means the company spent more than it earned, which is normally what a household calls a problem and a corporation calls an investment cycle.",
+        "Revenue was not the issue. Sales rose 26% from a year earlier to $64.60 billion, ahead of the $63.37 billion analysts expected. The trouble is spending: Meta now expects full-year capital expenditures of $135 billion to $145 billion, raising the bottom of its range from $130 billion. Translation: capex is money spent on physical things like servers and buildings. Meta moved its minimum spending up by $5 billion, the sort of adjustment most people make to a grocery budget.",
+        "Credit markets noticed. The spread on Meta's five-year credit default swaps hit an all-time high, CNBC said. Translation: a credit default swap is insurance against a borrower failing to pay, and the spread is the price. A record price does not mean Meta is about to default, but it does mean buyers of that insurance feel more nervous than they ever have before.",
+        "Meta also announced a new class of nonvoting Class C stock, which it said would preserve its founder-led structure and let it finance growth. In the same filing, it noted that Mark Zuckerberg could leave California if the state's proposed wealth tax passed, since he could face a multibillion-dollar bill on his stock. The filing added that the new stock plan convinced him to stay. Shareholders may take comfort that the governance arrangements and the tax planning were solved by the same document.",
+        "The financing theme reached South Korea on Friday. SK Hynix shares fell as much as 3% after it halted a review of a possible U.S. IPO for its Solidigm subsidiary, citing capital market conditions and share price trends. The decision also followed a warning from South Korea's financial regulator, reported by Reuters, that a U.S. listing could violate dual-listing rules. SK Hynix said Solidigm's investment needs are unchanged and that it will look for other ways to pay for a new U.S. fabrication plant.",
+        "Elsewhere, CoreWeave fell 10% on Thursday and is down 36% for the month, while Australia's NextDC tumbled nearly 40% on Wednesday after cutting its earnings forecast. Nvidia's Jensen Huang told CNBC he does not expect a memory chip oversupply by 2029. That is a reassuring forecast from the person who sells the most chips, and it is also a long way off.",
+        "The backdrop is not generous. The 10-year Treasury yield stands at 5.13% and the 2-year at 4.81%, so the money these companies want to borrow is not cheap. The AI build-out has always run on the belief that demand would outrun the bills. This week's lesson is that the bills arrive first."
+      ],
+      "topics": [
+        "ai spending",
+        "meta",
+        "chip stocks",
+        "nasdaq"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-23-0208-markets1-chip-and-ai-stocks-fall-hard-as-meta-free-cash-flow-turns-ne",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html"
+        }
+      ],
+      "wire_headline": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+      "wire_source": "MarketWatch",
+      "published": "2026-10-22T21:19:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Oil Nears War Highs as Tanker Rates Add Second Squeeze",
+      "dek": "Brent crude sits at $115.22 while Wall Street, per MarketWatch, begins pricing in a full regional conflict, and the VIX remains calm at 16.68.",
+      "catch_up": "Oil prices have climbed toward their highs since the Iran war began, and MarketWatch reports that soaring tanker rates are adding a second layer of energy costs. Investors are starting to weigh a wider regional conflict that could further restrict global supply.",
+      "why_it_matters": "Higher oil and shipping costs tend to feed through to fuel, goods and food prices, which matters when inflation is already at 3.74% and bond yields are elevated. If a wider war does arrive, the market's current calm may turn out to have been optimistic.",
+      "body": [
+        "Oil prices are approaching their highs since the Iran war began, and MarketWatch reports that rising tanker rates are creating what it calls a second energy squeeze. The latest data show Brent crude at $115.22 a barrel as of October 20. Wall Street, the outlet says, may be starting to price in the scenario everyone fears: a full-scale regional conflict that chokes off more global energy supply.",
+        "The first squeeze is the price of the oil itself. The second is the price of moving it. Translation: tanker rates are what shipowners charge to carry crude from where it is to where it is needed, and when a region gets dangerous, ships become scarcer, insurance gets pricier, and the bill lands on whoever wanted the oil in the first place. A barrel is only useful once it has arrived, a fact markets tend to rediscover during wars.",
+        "For ordinary people, this is how a conflict thousands of miles away reaches a gas pump, a delivery fee and a grocery receipt. Oil is an input to nearly everything, and shipping is the thing that gets it there. The most recent inflation figure, 3.74% year over year as of September 1, was published before this latest leg higher, so it does not yet tell us how much of this is coming.",
+        "The backdrop is not especially forgiving. The 10-year Treasury yield stands at 5.13% and the 2-year at 4.81%, while the Fed funds rate is 3.88%. Translation: the market is demanding more to lend money for ten years than the central bank charges overnight, which is the kind of gap that usually signals investors expect inflation to be sticky or the government to borrow a great deal. The central bank, meanwhile, would prefer not to cut rates into an energy shock, and not to raise them into one either.",
+        "Stocks, curiously, are not panicking. The SPY, a fund tracking the S&P 500, was at 763.96 as of October 22, the Nasdaq at 26,702.86 on October 21, and the VIX at 16.68. Translation: the VIX measures how much volatility options traders expect, and 16.68 is roughly the reading of a person who has heard the smoke alarm and is checking whether it is just the toast. The sources do not say what the VIX was earlier in the conflict, so it is hard to call this complacency, but it is hard to call it alarm either.",
+        "The dollar index, at 121.4 as of October 16, adds another wrinkle. Oil is priced in dollars, so a strong dollar makes crude more expensive for much of the rest of the world, which would compound the squeeze outside the United States. Unemployment at 4.2% suggests the labor market has not cracked, which gives households some cushion but also gives the Fed less reason to rush to their aid.",
+        "What to watch next is whether tanker rates keep climbing and whether Brent clears its war high. If both do, the market's current serenity will be tested by a scenario it has apparently only half priced in. Investors have, to be fair, been given plenty of time to prepare, which is traditionally when they stop."
+      ],
+      "topics": [
+        "oil",
+        "iran",
+        "energy markets",
+        "inflation"
+      ],
+      "image_query": "oil tanker ship",
+      "id": "2026-10-23-0208-markets2-oil-prices-approach-iran-war-highs-as-tanker-rates-soar",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories"
+        }
+      ],
+      "wire_headline": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "wire_source": "MarketWatch",
+      "published": "2026-10-22T20:46:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Crude_oil_tanker_Eagle_San_Diego.jpg/1280px-Crude_oil_tanker_Eagle_San_Diego.jpg",
+        "width": 1280,
+        "height": 486,
+        "title": "Crude oil tanker Eagle San Diego",
+        "creator": "Jordanroderick",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:Jordanroderick&action=edit&redlink=1",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Crude_oil_tanker_Eagle_San_Diego.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Britain and Japan Discover Inflation Is Also Available in Their Currencies",
+      "dek": "UK inflation hit 3.5% and Japan's core rate reached 2.1%, and both central banks now appear ready to raise rates, though for different reasons and with different tax plans.",
+      "catch_up": "Energy prices have surged since the U.S.-Iran war disrupted oil shipments through the Strait of Hormuz. That shock is now showing up in consumer price data in Britain and Japan, two countries that import much of their energy.",
+      "why_it_matters": "If the Bank of England raises rates to 4% as markets expect, mortgages and business loans in Britain are likely to get more expensive. In Japan, higher inflation and a weak yen mean that imported fuel and goods cost more, even as the government cuts taxes.",
+      "body": [
+        "UK consumer prices rose 3.5% in the 12 months to September, the Office for National Statistics said on Wednesday, above the 3.4% economists polled by Reuters had expected. CNBC reported that the figure follows 3.1% in August and 2.9% in July, and is the highest annual reading in almost a year. Motor fuel prices rose 29.8% over the year, a pace not seen since August 2022, so drivers are once again learning that a pump is a very effective way to read macroeconomic data.",
+        "Britain is a net energy importer. Translation: it buys more energy than it sells, so when the world price jumps, it pays the difference personally. The cause cited is the U.S.-Iran war and the struggle to move oil through the Strait of Hormuz, which is a long way from a Tesco forecourt but not from its price board.",
+        "The Bank of England is not expected to stop at the headline number. Scott Gardner of J.P. Morgan Personal Investing said services inflation has accelerated, which raises concern about \"second round inflationary effects beyond energy prices.\" Translation: the worry is that higher fuel costs leak into wages, rents and everything else, and prices begin rising simply because everyone expects them to. Markets price a 98% chance of a 25 basis point hike to 4% next month, according to LSEG data. Translation: a basis point is one hundredth of a percentage point, so this is a quarter-point increase, and traders consider it nearly settled.",
+        "Chancellor John Healey has to present his first Autumn Budget next week, and the numbers are not helping. Separate data showed national debt exceeded £3 trillion for the first time in September, while the cost of servicing it has risen sharply and growth is weak. Healey promised to maintain \"fiscal discipline\" while giving families and businesses \"breathing space.\" Those two goals are in tension, which is why Suren Thiru of the Institute of Chartered Accountants in England and Wales called the Budget \"a perilous high-wire act.\" Higher inflation adds pressure for cost-of-living support and also pushes up borrowing costs, shrinking what Treasury officials call headroom, which is the gap between the government's plans and its self-imposed limits.",
+        "Japan's version is milder in size but similar in discomfort. Core inflation, which excludes fresh food, reached 2.1% in September, up from 1.7% in August, its highest this year. The Bank of Japan's preferred gauge, which also strips out energy, came in at 2.4%, above the central bank's 2% target. Capital Economics' Abhijit Surya noted that this happened even as rice prices fell 20.6% and energy prices fell 0.6%, thanks to subsidies from the Takaichi administration.",
+        "The pressure comes from imports. A weak yen makes oil and other goods more expensive, and Japan is buying energy from costlier U.S. sources as it moves away from Middle Eastern suppliers. Surya sees another rate hike in December after September's quarter-point increase to 1.25%, a three-decade high. For a country that spent decades trying to produce inflation, getting it must feel like receiving a long-awaited package with the wrong contents.",
+        "Meanwhile, Finance Minister Satsuki Katayama told parliament that Japan was \"on the cusp of shifting to a period of sustained inflation driven by rising wages.\" Asked whether a plan to cut the consumption tax on food from 8% to 1% for two years clashes with rate hikes, he said he saw \"no gap\" between the government and the central bank, Reuters reported. One side is making food cheaper while the other makes borrowing dearer to cool prices, and they have apparently agreed this is coordination.",
+        "Watch the Budget next week, then the Bank of England's November meeting. Both governments want to cushion consumers from higher prices, and both central banks are preparing to do the opposite."
+      ],
+      "topics": [
+        "uk inflation",
+        "bank of england",
+        "bank of japan",
+        "oil prices"
+      ],
+      "image_query": "petrol station prices",
+      "id": "2026-10-23-0208-markets3-uk-inflation-jumps-to-3-5-fueling-rate-hike-expectations-jap",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html"
+        }
+      ],
+      "wire_headline": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+      "wire_source": "CNBC Economy",
+      "published": "2026-10-21T07:50:10+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/BP_petrol_station_in_Semaphore%2C_South_Australia_during_the_2026_Iran_war_fuel_crisis_%28DSCF4256%29.jpg/1280px-BP_petrol_station_in_Semaphore%2C_South_Australia_during_the_2026_Iran_war_fuel_crisis_%28DSCF4256%29.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "BP petrol station in Semaphore, South Australia during the 2026 Iran war fuel crisis (DSCF4256)",
+        "creator": "Yu Chu Chin",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Pangalau",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:BP_petrol_station_in_Semaphore,_South_Australia_during_the_2026_Iran_war_fuel_crisis_(DSCF4256).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Moderna Cancer Vaccine Works; Moderna Stock Falls 25% Anyway, Having Already Celebrated",
+      "dek": "Leaked partial data sent shares down as much as 25% even though full results showed a 42% cut in recurrence or death risk in melanoma patients.",
+      "catch_up": "Moderna and Merck are developing a personalized cancer vaccine, intismeran autogene, designed to be paired with Merck's immunotherapy Keytruda. Partial phase 3 data leaked on Thursday before the companies released the full results.",
+      "why_it_matters": "The episode shows how a stock priced for perfection can fall on good news, while patients and doctors judge the same data by a different standard. Investors in richly valued biotech names should note how little room expectations leave for anything short of a miracle.",
+      "body": [
+        "Moderna shares fell as much as 25% on Thursday after partial data from its melanoma vaccine trial leaked, CNBC reported. The full data, released later that day, showed the shot paired with Keytruda cut the risk of recurrence or death by 42% compared with Keytruda alone. The market, having reviewed a result that doctors called a huge development, sold the stock.",
+        "Some numbers for those who prefer them to adjectives. About 82% of patients on the combination were alive without their melanoma returning at two years, versus 70% on Keytruda alone, according to the companies. The risk of the cancer spreading to distant parts of the body or death fell 38%. After the full six-month vaccine regimen, a separate analysis showed a 58% reduction in risk of recurrence or death.",
+        "Dr. Hussein Tawbi, a trial investigator at MD Anderson, called the results \"a huge development for our patients,\" and noted the added benefit came with much milder side effects, such as injection-site pain. Translation: the treatment worked, it was tolerable, and the people most qualified to judge it were pleased. The people qualified to price it were not.",
+        "The explanation, offered by several analysts, is expectations. BMO Capital Markets analyst Evan Seigerman wrote that the reaction likely reflected \"inflated expectations into the full data release,\" not a true indictment of the therapy. UBS likewise called it a strong data set and blamed the drop on massive expectations. Translation: a sell-the-news reaction, in which investors buy a stock for months in anticipation of good news and sell it the moment the news arrives, because nobody is left to buy.",
+        "The expectations had a visible address. Moderna shares had risen more than 530% this year as of Thursday afternoon, so even after a drop of up to 25%, the stock was presumably still living well. Merck, a much larger company, fell about 1% and is up nearly 41% this year. Size, it turns out, is a sedative.",
+        "There is also genuine caution in the science, and the executives said so. The companies say it is too early to know whether the treatment helps patients live longer overall. Merck research chief Dr. Dean Li said one result was like knocking down one tree, which \"does not give you a cabin or a village.\" The vaccine is being tested in lung, bladder and kidney cancers, and UBS said these data increase confidence in the kidney and bladder studies.",
+        "Manufacturing is the other practical hurdle. Because each shot is built around the mutations in an individual patient's tumor, production can take six weeks. Merck CEO Robert Davis told CNBC the company believes it can shorten that timeline. Patients with melanoma are not in a position to be impressed by a leak; they would like the six weeks to be fewer.",
+        "The detailed results are due at the European Society for Medical Oncology conference this weekend. Watch whether the full presentation changes any minds on Monday, or whether the market simply finds a new figure to be disappointed by."
+      ],
+      "topics": [
+        "moderna",
+        "merck",
+        "biotech stocks",
+        "cancer vaccine"
+      ],
+      "image_query": "laboratory vials research",
+      "id": "2026-10-23-0208-markets4-moderna-shares-plunge-after-cancer-vaccine-data-leak-despite",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/modernas-stock-tumbles-after-reported-leak-of-data-for-cancer-vaccine-dcc897c1?mod=mw_rss_topstories"
+        }
+      ],
+      "wire_headline": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-22T21:52:02+00:00"
+    }
+  ],
+  "wire": {
+    "geopolitics": [
+      {
+        "title": "Will ICE agents play a role in the 2026 US midterm elections?",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/23/will-ice-agents-play-a-role-in-the-2026-us-midterm-elections?traffic_source=rss"
+      },
+      {
+        "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix"
+      },
+      {
+        "title": "Albania's student protests are only getting bigger",
+        "source": "DW",
+        "url": "https://www.dw.com/en/albania-s-student-protests-are-only-getting-bigger/a-79735213?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Controversial US-backed vaccine trial in African newborns halted",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
+      },
+      {
+        "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
+        "source": "NPR World",
+        "url": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino"
+      },
+      {
+        "title": "Are the French police the most violent in the EU?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/are-the-french-police-the-most-violent-in-the-eu/a-79732855?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Thousands protest across Poland for access to free and legal abortions",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Left alone with nothing to do, AI agents started playing",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+      },
+      {
+        "title": "Canva’s first AI image model plans designs before generating them",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+      },
+      {
+        "title": "Designing an AI serving harness built to last",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+      },
+      {
+        "title": "Major US banks are locking out AI agents that log in with customer credentials",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/"
+      },
+      {
+        "title": "Meta’s AI could still scrape news sites, legal experts say",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+      },
+      {
+        "title": "The Foundations of Scalable AI",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+      },
+      {
+        "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/"
+      },
+      {
+        "title": "The new human-crafted Apple Music brand matters in an AI world",
+        "source": "Ars Technica AI",
+        "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/"
+      },
+      {
+        "title": "Etsy is cracking down on AI slop listings",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing"
+      },
+      {
+        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "The foolishness of \"natural language programming\" (1978)",
+        "source": "Hacker News",
+        "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html"
+      },
+      {
+        "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+      },
+      {
+        "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes"
+      },
+      {
+        "title": "Mapping the Northern Sky",
+        "source": "Hacker News",
+        "url": "https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/"
+      },
+      {
+        "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/"
+      }
+    ],
+    "markets": [
+      {
+        "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+        "source": "CNBC Economy",
+        "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+      },
+      {
+        "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Hang Seng oversold at 22,858 in descending channel: Live levels",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/hang-seng-rejected-at-241075-with-bear-flag-forming-live-93CH-4956207"
+      },
+      {
+        "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html"
+      },
+      {
+        "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+        "source": "CNBC Economy",
+        "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
+      },
+      {
+        "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Microsoft develops AI tool that can diagnose ’sequentially’ like a doctor",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor-4967877"
+      },
+      {
+        "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html"
+      }
+    ]
+  }
+}
