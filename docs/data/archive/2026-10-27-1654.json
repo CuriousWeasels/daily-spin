@@ -1,0 +1,1902 @@
+{
+  "generated_at": "2026-10-27T16:54:57.839428+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.3407,
+  "indicators": [
+    {
+      "id": "SPY",
+      "label": "SPY",
+      "kind": "usd",
+      "unit": "",
+      "unit_label": "US dollars per share",
+      "value": 769.14,
+      "change": 3.75,
+      "change_pct": 0.49,
+      "as_of": "2026-10-27",
+      "history": [
+        739.09,
+        740.86,
+        729.46,
+        741.69,
+        747.03,
+        757.67,
+        771.33,
+        769.79,
+        768.56,
+        773.26,
+        773.03,
+        770.56,
+        772.49,
+        777.88,
+        776.34,
+        772.67,
+        767.45,
+        769.06,
+        762.6,
+        765.72,
+        763.47,
+        765.91,
+        766.08,
+        771.1,
+        769.35,
+        767.05,
+        761.78,
+        765.16,
+        773.17,
+        770.19,
+        765.96,
+        762.4,
+        757.83,
+        764.29,
+        760.88,
+        757.39,
+        754.05,
+        762.6,
+        761.69,
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.11
+      ],
+      "since": "2026-07-27",
+      "session": null
+    },
+    {
+      "id": "NASDAQCOM",
+      "label": "Nasdaq",
+      "kind": "index",
+      "value": 26169.38,
+      "change": 214.04,
+      "change_pct": 0.82,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-26",
+      "history": [
+        24975.82,
+        24932.08,
+        24876.91,
+        24442.94,
+        25122.18,
+        25373.85,
+        25913.9,
+        26584.99,
+        26363.44,
+        26348.35,
+        26690.62,
+        26605.36,
+        26445.45,
+        26588.49,
+        26803.03,
+        26729.16,
+        26644.91,
+        26289.71,
+        26331.09,
+        26067.17,
+        26180.45,
+        25980.19,
+        26151.3,
+        26130.2,
+        26541.35,
+        26402.42,
+        26370.89,
+        26099.77,
+        26217.83,
+        26584.06,
+        26506.99,
+        26421.41,
+        26253.34,
+        26081.72,
+        26333.04,
+        26186.41,
+        25981.57,
+        25978.42,
+        26418.3,
+        26522.55,
+        27122.09,
+        27244.28,
+        26936.04,
+        26939.37,
+        27068.72,
+        26820.38,
+        26797.54,
+        26861.06,
+        26871.6,
+        27190.86,
+        27477.31,
+        27599.89,
+        27538.69,
+        27193.34,
+        27366.17,
+        27245.9,
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03,
+        26430.89,
+        26424.82,
+        26702.86,
+        26008.86,
+        25955.34,
+        26169.38
+      ],
+      "since": "2026-07-24"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "kind": "level",
+      "value": 18.39,
+      "change": -1.06,
+      "change_pct": -5.45,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-26",
+      "history": [
+        18.67,
+        18.21,
+        20.66,
+        17.09,
+        15.99,
+        15.86,
+        16.5,
+        15.81,
+        15.15,
+        14.9,
+        15.46,
+        15.28,
+        14.55,
+        14.63,
+        14.25,
+        15.19,
+        15.84,
+        14.89,
+        16.01,
+        15.13,
+        15.85,
+        15.45,
+        15.21,
+        14.51,
+        14.43,
+        14.92,
+        16.34,
+        15.2,
+        14.32,
+        14.53,
+        15.3,
+        15.72,
+        16.46,
+        17.84,
+        15.84,
+        17.1,
+        17.2,
+        17.71,
+        15.44,
+        14.81,
+        14.87,
+        14.21,
+        15.18,
+        15.67,
+        14.87,
+        16.07,
+        16.04,
+        16.34,
+        16.39,
+        15.31,
+        15.52,
+        15.01,
+        15.08,
+        15.41,
+        14.84,
+        15.21,
+        15.27,
+        16.87,
+        16.46,
+        19.99,
+        18.44,
+        17.31,
+        16.68,
+        19.03,
+        19.45,
+        18.39
+      ],
+      "since": "2026-07-27"
+    },
+    {
+      "id": "DCOILBRENTEU",
+      "label": "Brent crude",
+      "kind": "usd",
+      "value": 115.22,
+      "change": -3.6,
+      "change_pct": -3.03,
+      "unit": "",
+      "unit_label": "US dollars per barrel",
+      "as_of": "2026-10-20",
+      "history": [
+        86.99,
+        93.85,
+        94.12,
+        105.32,
+        100.31,
+        91.82,
+        85.51,
+        91.95,
+        91.91,
+        96.95,
+        88.9,
+        86.47,
+        86.65,
+        89.65,
+        87.62,
+        92.74,
+        93.26,
+        92.52,
+        92.03,
+        92.02,
+        92.43,
+        95.29,
+        92.37,
+        94.0,
+        96.92,
+        92.71,
+        88.24,
+        87.77,
+        90.18,
+        89.75,
+        96.02,
+        97.59,
+        100.52,
+        102.24,
+        104.47,
+        106.12,
+        109.51,
+        120.98,
+        118.06,
+        121.25,
+        130.8,
+        127.84,
+        121.18,
+        119.66,
+        116.15,
+        114.89,
+        117.45,
+        120.92,
+        116.01,
+        119.97,
+        113.96,
+        115.91,
+        114.82,
+        135.51,
+        125.51,
+        125.44,
+        126.0,
+        130.18,
+        130.03,
+        129.95,
+        125.78,
+        126.55,
+        126.35,
+        119.33,
+        118.82,
+        115.22
+      ],
+      "since": "2026-07-20"
+    },
+    {
+      "id": "DTWEXBGS",
+      "label": "Dollar index",
+      "kind": "index",
+      "value": 121.32,
+      "change": -0.03,
+      "change_pct": -0.03,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-23",
+      "history": [
+        120.574,
+        120.907,
+        120.71,
+        120.774,
+        120.625,
+        120.789,
+        119.675,
+        119.703,
+        119.695,
+        119.598,
+        119.388,
+        119.511,
+        119.065,
+        119.119,
+        119.179,
+        119.118,
+        119.185,
+        118.903,
+        118.814,
+        118.983,
+        118.333,
+        118.255,
+        118.063,
+        118.32,
+        118.228,
+        118.446,
+        118.358,
+        118.748,
+        118.568,
+        118.657,
+        118.53,
+        118.127,
+        118.073,
+        117.913,
+        117.883,
+        118.079,
+        118.213,
+        118.692,
+        118.882,
+        118.921,
+        119.349,
+        119.513,
+        119.401,
+        119.593,
+        120.117,
+        120.552,
+        120.33,
+        120.696,
+        121.03,
+        120.969,
+        121.788,
+        121.385,
+        121.271,
+        120.898,
+        121.256,
+        121.447,
+        121.602,
+        121.443,
+        122.004,
+        121.569,
+        121.405,
+        121.325,
+        121.116,
+        121.342,
+        121.353,
+        121.32
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DGS2",
+      "label": "2Y Treasury",
+      "kind": "rate",
+      "value": 4.69,
+      "change": 0.04,
+      "change_pct": 0.86,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-23",
+      "history": [
+        4.31,
+        4.37,
+        4.33,
+        4.31,
+        4.26,
+        4.22,
+        4.23,
+        4.28,
+        4.25,
+        4.2,
+        4.18,
+        4.25,
+        4.19,
+        4.25,
+        4.22,
+        4.2,
+        4.15,
+        4.17,
+        4.19,
+        4.19,
+        4.19,
+        4.19,
+        4.24,
+        4.24,
+        4.17,
+        4.19,
+        4.2,
+        4.34,
+        4.34,
+        4.39,
+        4.39,
+        4.34,
+        4.37,
+        4.39,
+        4.43,
+        4.56,
+        4.63,
+        4.65,
+        4.67,
+        4.74,
+        4.67,
+        4.76,
+        4.76,
+        4.71,
+        4.85,
+        4.87,
+        4.81,
+        4.92,
+        4.89,
+        4.88,
+        4.78,
+        4.83,
+        4.84,
+        4.79,
+        4.77,
+        4.75,
+        4.8,
+        4.79,
+        4.82,
+        4.77,
+        4.74,
+        4.77,
+        4.79,
+        4.81,
+        4.65,
+        4.69
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DGS10",
+      "label": "10Y Treasury",
+      "kind": "rate",
+      "value": 5.0,
+      "change": 0.04,
+      "change_pct": 0.81,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-23",
+      "history": [
+        4.67,
+        4.71,
+        4.69,
+        4.65,
+        4.61,
+        4.67,
+        4.68,
+        4.75,
+        4.7,
+        4.63,
+        4.63,
+        4.69,
+        4.65,
+        4.72,
+        4.7,
+        4.68,
+        4.63,
+        4.68,
+        4.72,
+        4.71,
+        4.65,
+        4.69,
+        4.74,
+        4.7,
+        4.64,
+        4.66,
+        4.67,
+        4.73,
+        4.75,
+        4.79,
+        4.79,
+        4.77,
+        4.78,
+        4.8,
+        4.83,
+        4.95,
+        4.96,
+        4.97,
+        5.0,
+        5.01,
+        4.94,
+        5.01,
+        4.96,
+        4.96,
+        5.11,
+        5.18,
+        5.17,
+        5.24,
+        5.26,
+        5.29,
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15,
+        5.12,
+        5.13,
+        4.96,
+        5.0
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds",
+      "kind": "rate",
+      "value": 3.88,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-23",
+      "history": [
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+      ],
+      "since": "2026-08-19"
+    },
+    {
+      "id": "CPIAUCNS",
+      "label": "CPI inflation (YoY)",
+      "kind": "rate",
+      "value": 3.74,
+      "change": 0.34,
+      "change_pct": 10.04,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        2.441,
+        2.598,
+        2.749,
+        2.888,
+        3.0,
+        2.822,
+        2.391,
+        2.311,
+        2.355,
+        2.669,
+        2.705,
+        2.916,
+        3.013,
+        2.735,
+        2.677,
+        2.386,
+        2.414,
+        3.256,
+        3.811,
+        4.249,
+        3.531,
+        3.365,
+        3.397,
+        3.738
+      ],
+      "since": "2024-09-01"
+    },
+    {
+      "id": "UNRATE",
+      "label": "Unemployment",
+      "kind": "rate",
+      "value": 4.2,
+      "change": 0.1,
+      "change_pct": 2.44,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+      ],
+      "since": "2024-09-01"
+    }
+  ],
+  "briefing": {
+    "lead_index": 0,
+    "five_things": [
+      "Brazil's Lula won a fourth term with 51.79% to 48.21% over Flávio Bolsonaro, whose party accepted the result while he did not, and who has so far conceded only his passports.",
+      "Israelis voted in record numbers, but polls show neither Netanyahu's bloc nor Eisenkot's reaching the 61 seats needed, so the real contest will be weeks of coalition haggling.",
+      "Anthropic filed for an IPO showing $16.3 billion in first-half revenue and an $80.7 billion net loss, mostly noncash debt adjustments, which is a loss that exists chiefly in spreadsheets.",
+      "Microsoft is offering voluntary exit packages to up to 60,000 employees in four countries, which is a layoff where the employee holds the pen.",
+      "A New Mexico judge ordered Meta to pay $25 billion over misleading users about data protection, topping the $17 billion multistate settlement and leaving settling states to check their receipts."
+    ],
+    "number_of_the_day": {
+      "figure": "$25 billion",
+      "explanation": "That is what a New Mexico judge ordered Meta to pay, proving that 'unprecedented' settlements have a shelf life of about one summer."
+    }
+  },
+  "articles": [
+    {
+      "headline": "Brazil Declares Lula Winner, Loser Declines to Participate in the Ending",
+      "dek": "Flávio Bolsonaro lost the runoff 51.79% to 48.21%, and has since surrendered his passports, though not the argument.",
+      "catch_up": "Luiz Inácio Lula da Silva won a fourth term as Brazil's president in a runoff against Senator Flávio Bolsonaro, son of former president Jair Bolsonaro, who is under house arrest after a trial over an attempted coup. Flávio Bolsonaro has not conceded.",
+      "why_it_matters": "Brazil is Latin America's largest country, and a loser who disputes the result without evidence tests whether its institutions hold. The outcome also shows that the region's recent populist trend is not unstoppable.",
+      "body": [
+        "Brazil's Luiz Inácio Lula da Silva won a fourth term as president, beating the far-right senator Flávio Bolsonaro with 51.79% of the vote to 48.21%, according to The Guardian. The paper notes Lula is the first candidate to win a runoff after losing the first round. Brazil has now completed the democratic part of its election, and is moving on to the part where someone has to agree it happened.",
+        "Flávio Bolsonaro has not agreed. NPR reported that his party accepted the result, while he himself would not concede, and that President Trump called the vote \"rigged\" without offering evidence. Translation: the party has read the electoral court's announcement, the candidate has read it too, and only one of them has decided to treat it as a draft.",
+        "The party's statement is a small masterpiece of the form. It said it recognises the result proclaimed by the electoral court, but believes \"the questions raised need to be properly clarified\" through political debate. Translation: we accept that you won, and we reserve the right to keep talking about it. The Guardian points out that his father also did not concede four years ago, so this is less a reaction than a family tradition.",
+        "Bolsonaro's first legal theory was to annul the election. He argued that a two-hour extension of voting, meant to help people who could not reach the mandatory free public transport, had harmed the result. The Guardian notes that his own campaign had also asked for the extension. Folha de S Paulo reported that allies and lawyers told him the argument was legally weak, and that he was persuaded to drop the plan, though he has not publicly withdrawn the demand.",
+        "Then came the passports. Within hours of the loss, Supreme Court justice Alexandre de Moraes, who oversaw the trial of Bolsonaro's father, ordered him to surrender all his passports within 24 hours and banned him from leaving the country. The ruling cites only a federal police investigation into possible money laundering involving betting companies, which police suspect were used to launder about £680m. Bolsonaro says the move was based on his brother Eduardo's remark on a US podcast that he favoured Flávio leaving Brazil if he lost. Flávio says: \"I never said that.\" Eduardo lives in self-imposed exile in the US.",
+        "The timing matters because of what happens next. When his Senate term ends early next year, Bolsonaro leaves public office for the first time in 24 years and loses the special immunity that comes with it. He is also under investigation over what happened to £20m he was recorded asking a disgraced banker to provide for a biopic about his father. A film about a father's career is, it turns out, an expensive thing to be asked about.",
+        "Bolsonaro says he will file another case to disqualify Lula's ticket over alleged abuse of economic power, similar to cases his lawyers brought during the campaign. Having lost the vote and the annulment plan, he is now trying the third remedy, which is to lose in court as well. What to watch: whether he formally concedes before his immunity expires, and whether the passports are the last thing he is asked to hand over."
+      ],
+      "topics": [
+        "brazil",
+        "lula",
+        "bolsonaro",
+        "elections"
+      ],
+      "image_query": "Brazilian National Congress building",
+      "id": "2026-10-27-1654-geopolitics0-lula-wins-brazil-runoff-against-fl-vio-bolsonaro-bolsonaro-r",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election"
+        }
+      ],
+      "wire_headline": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+      "wire_source": "The Guardian",
+      "published": "2026-10-26T17:38:16+00:00",
+      "comic": {
+        "file": "comics/2026-10-27-1654-geopolitics0-lula-wins-brazil-runoff-against-fl-vio-bolsonaro-bolsonaro-r.svg",
+        "caption": "Passports surrendered; the argument remains free to travel.",
+        "alt": "A scoreboard reads FINAL, 51.79 to 48.21. A suited figure in front of it holds a sign reading RIGGED? while handing a passport to a desk labeled COURT, where a stack of passports sits."
+      }
+    },
+    {
+      "headline": "Israelis Vote in Record Numbers to Decide Who Will Spend Weeks Negotiating",
+      "dek": "Turnout is the highest in decades, but polls show neither Netanyahu's bloc nor Eisenkot's reaching the 61 seats needed for a majority.",
+      "catch_up": "Israel is holding its first national election since the Hamas-led attacks of 7 October 2023 and the wars that followed. The vote is widely seen as a referendum on Prime Minister Benjamin Netanyahu, who faces former military chief Gadi Eisenkot.",
+      "why_it_matters": "The outcome will shape Israel's approach to Gaza, Iran and the occupied West Bank, and the coalition haggling could take weeks or months. A deadlock could send the country back to the polls, as it did five times between 2019 and 2022.",
+      "body": [
+        "Israelis went to the polls on Tuesday in numbers that officials and reporters described as record-setting. According to Israel's Central Elections Committee, quoted by Al Jazeera, almost 45 percent had voted by 2pm, the highest at that hour in 50 years and 6 percent above the same point in 2022. The BBC reported that about 70,000 people had flown home from abroad to vote, which is a lot of airfare spent on a result that may not be known for some time.",
+        "Polling published on Friday, per the BBC, shows Netanyahu almost neck-and-neck with Eisenkot, who leads the newly formed Yashar Party. Neither bloc is projected to reach 61 seats, the majority of the 120-seat Knesset. Translation: the voting is the quick part, and the real contest begins afterward, when party leaders spend weeks deciding whom they dislike least.",
+        "Israel's proportional representation system means every government has been a coalition. Eisenkot heads a so-called change bloc whose members share little beyond the wish to remove Netanyahu, including former prime minister Naftali Bennett, Avigdor Lieberman and Yair Golan. Netanyahu's path runs through another alliance with the far-right and ultra-Orthodox parties of his current government, which the BBC calls the most right-wing in Israel's history.",
+        "The campaign has centered on security and democracy. The opposition has attacked Netanyahu over the failures that preceded 7 October, when nearly 1,200 people were killed and 251 taken hostage, and has demanded an independent inquiry, which he has resisted, saying it would be biased against him. He is also on trial on corruption charges, which he denies. Netanyahu has answered by presenting himself as \"Mr Security\", citing strategic victories and his relationship with President Donald Trump.",
+        "The final days brought some theater. Israel's Channel 12 reported that Netanyahu pushed for military action that could provoke Iran before the vote, and CNN reported he asked Trump to approve new strikes; he denied both. He also posted an AI-generated image of a nuclear bomb hitting Tel Aviv, which Eisenkot called \"hysterical\". Nothing says confidence in your record like a computer-generated apocalypse.",
+        "Arab parties, representing about a fifth of the population, could in theory be kingmakers. In practice, all but one of the leading Jewish parties have ruled out working with them, and Lieberman has rejected any arrangement in which they prop up a minority government. Al Jazeera reported that Netanyahu urged supporters to vote by warning of high turnout among Palestinian citizens, under the slogan \"the right or Palestine\". Eisenkot and Netanyahu have both ruled out partnering with Arab parties, citing a lack of shared values.",
+        "There were also complaints about access. The Association for Civil Rights in Israel filed a complaint reporting delays in at least 18 communities and asked the committee to investigate \"whether these delays are deliberate\". It also noted a large police and National Guard presence at a polling station in the Negev. The BBC said the Central Election Committee found no evidence of systematic tampering, and officials attributed long lines to high turnout and bad weather.",
+        "Exit polls are due at 22:00 local time, though the BBC cautions they can vary significantly. Votes from soldiers and reservists will mostly be counted from Wednesday, which may give right-wing parties a late boost. Pollster Mitchell Barak told Al Jazeera that high turnout raises the number of votes needed to clear the 3.25 percent threshold and would help incumbent parties.",
+        "If no bloc can assemble a majority or a viable minority government, new elections follow, with Netanyahu staying on as interim prime minister. The country has done this before. Watch for the late-counted soldier ballots and which red lines survive contact with arithmetic."
+      ],
+      "topics": [
+        "israel",
+        "netanyahu",
+        "elections",
+        "gaza"
+      ],
+      "image_query": "polling station ballot box",
+      "id": "2026-10-27-1654-geopolitics1-israelis-vote-in-first-election-since-the-hamas-led-attacks-",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide"
+        }
+      ],
+      "wire_headline": "Turnout so far highest on record as Israelis vote in pivotal election",
+      "wire_source": "BBC World",
+      "published": "2026-10-27T11:11:33+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ballot_box_2024_Swedish_EU_election_at_St%C3%A5ngen%C3%A4sskolan%2C_Brastad.jpg/1280px-Ballot_box_2024_Swedish_EU_election_at_St%C3%A5ngen%C3%A4sskolan%2C_Brastad.jpg",
+        "width": 1280,
+        "height": 1037,
+        "title": "Ballot box 2024 Swedish EU election at Stångenässkolan, Brastad",
+        "creator": "W.carter",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:W.carter",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Ballot_box_2024_Swedish_EU_election_at_St%C3%A5ngen%C3%A4sskolan,_Brastad.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Russia and Ukraine Pause Shooting Over Oleshky, Thanks to First Lady's Mediation",
+      "dek": "A limited truce in the occupied Kherson city is meant to let aid in and civilians out on Friday, though almost no one can confirm it is holding.",
+      "catch_up": "Oleshky, a Russian-occupied city on the Dnipro River in the Kherson region, has had no electricity, gas or water for three years, and residents have been eating garden weeds. Both sides now say a limited ceasefire is in effect, which the White House credits to Melania Trump.",
+      "why_it_matters": "Up to 6,000 people in and around Oleshky depend on a pause in fighting that nobody can independently verify, and the evacuation routes run through mined ground. How it plays out will show whether even narrow humanitarian truces can work in this war.",
+      "body": [
+        "A localized truce began early Tuesday in Oleshky, and both Ukrainian officials and Russia's defence ministry say it is being respected, according to the BBC. It is meant to allow aid deliveries and a civilian evacuation planned for Friday. The White House said the deal was secured by US First Lady Melania Trump, which makes it one of the stranger entries in the long history of wartime diplomacy.",
+        "Oleshky sits on the front line in the Kherson region, with the Dnipro River on one side and Russian forces on the other. Before the war it had 24,000 residents; Russia seized it in the first days of the February 2022 invasion. Kyiv believes up to 6,000 people, including 200 children, remain in the city and its surroundings, with only about 1,700 in the city itself. No shops are open, and the city has had no electricity, gas or water for three years. Many residents told the BBC they have been cooking garden weeds to survive, and NPR reported that some have also been eating pickles.",
+        "The difficulty is that leaving is nearly as dangerous as staying. Routes out have been mined and are subject to drone attack. Serhii, a resident who fled about three weeks ago, told the BBC he walked 24km through minefields, passing within a metre of mines. Translation: the safest way out of town was previously a long walk in which you could not speak.",
+        "The truce is designed to fix this. Russia's defence ministry said its Dnepr group units have been doing what it called 'engineering reconnaissance' and clearing access roads of explosive and booby-trap devices. It also said it stopped firing toward Kherson, across the river, at 04:00 Moscow time. According to Ukrainian MP Davyd Arakhamia, the truce runs until 23:59 local time on 1 November.",
+        "Nobody involved is fully relaxed about it. President Zelensky warned that routes demined by Russia will lead civilians to 'head towards Russia and stay there', though he said some would reach Ukrainian-controlled territory one way or another. Residents fear that Russian forces may check phones for signs of Ukrainian support, and one person with relatives in the city fears that shooting could resume during the evacuation and Ukraine would be blamed. One resident told the BBC, 'I don't believe in Russia's humanity.'",
+        "The BBC also notes that verification is hard. Communications are patchy and many residents are afraid to speak. Details of the evacuation, including how to register and whether pets may come, were initially unclear. Ukraine's general staff asked the public not to spread rumours about routes and timings, which is a reasonable request in a place where the information environment currently consists of weeds and rumour.",
+        "The Kremlin acknowledged last month that Oleshky faced 'a critical situation' and 'problems with supplies of food and medicine', but blamed Kyiv. Pope Leo XIV earlier this month appealed to Putin to allow aid in and to Zelensky to cooperate on a ceasefire. Ukrainian rights commissioner Dmytro Lubinets said the mission is coordinated with Russia's rights commissioner, Yana Lantratova, with Mrs. Trump mediating.",
+        "Elsewhere the war goes on. Attacks on Kyiv on Monday evening hit a university and a bridge, killing one person and injuring 14, and a Ukrainian drone strike on Bryansk killed one and injured six. Friday's evacuation is the test: a truce that holds for one road is useful, but it needs to hold long enough for the people on it to get to the end."
+      ],
+      "topics": [
+        "ukraine",
+        "russia",
+        "oleshky",
+        "ceasefire"
+      ],
+      "image_query": "minefield warning sign",
+      "id": "2026-10-27-1654-geopolitics2-local-ceasefire-in-oleshky-ukraine-brokered-via-melania-trum",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6014540/russia-says-it-will-open-humanitarian-corridor-to-ukrainian-town"
+        }
+      ],
+      "wire_headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "wire_source": "BBC World",
+      "published": "2026-10-27T15:13:24+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Landmine_warning_sign_in_Croatia.jpg",
+        "width": 1280,
+        "height": 874,
+        "title": "Landmine warning sign in Croatia",
+        "creator": "Pertoelum at English Wikipedia",
+        "creator_url": "https://en.wikipedia.org/wiki/User:Pertoelum",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Landmine_warning_sign_in_Croatia.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Serbian Students Win Election, Ending Populist's Decade-Plus Run Without Needing a Single Graduation Ceremony",
+      "dek": "A student-backed movement has won Serbia's parliamentary election, according to NPR, ending more than a decade of dominance by a Moscow-backed populist leader.",
+      "catch_up": "NPR reports that a student-backed movement has won Serbia's parliamentary election, ending more than a decade of rule by a populist leader described as Moscow-backed. NPR's report quotes celebrants describing the result as 'the smell of freedom.'",
+      "why_it_matters": "A change of government in Serbia could shift the country's balance between Moscow and the West, though the sources provided do not say how far or how fast. For Serbians, it means the first change in political leadership in over ten years.",
+      "body": [
+        "The plain version: Serbia held a parliamentary election, a student-backed movement won it, and a populist leader who had dominated the country for more than a decade, and who NPR describes as Moscow-backed, lost his grip. NPR called it a political earthquake. Political earthquakes are usually reported as such after the fact, since the people who feel them first are rarely the ones who are asked to forecast them.",
+        "The mood on the streets, per NPR's headline, was one of celebration, with a participant quoted as calling the moment 'the smell of freedom.' It is a vivid phrase, and one that probably reflects the fact that a decade is a long time to wait for a change of scent.",
+        "A word on the term 'populist,' since it does a lot of work in this story. Translation: a politician who wins support by presenting himself as the voice of ordinary people against elites, and who often becomes, over a decade or so, the most elite person in the building. Dominance of this kind generally means control over the machinery that shapes elections: media coverage, state institutions and patronage. That a movement built by students beat it is the notable part.",
+        "The 'Moscow-backed' label matters because Serbia has long sat between Russia and the European Union, courting both and committing to neither with any enthusiasm. A new governing force raises the question of whether that balancing act continues. The source text available to us does not say what the winners plan to do about it, so anyone offering a confident forecast is guessing, which in foreign policy commentary is a respected profession.",
+        "What happens next is mostly the unglamorous part. Winning an election is the portion of governing that comes with balloons. The rest involves forming a government, deciding who gets which ministry, and discovering which drawers contain what. Students accustomed to organizing protests are about to learn that the opposition has no agenda for the first session of a budget committee.",
+        "The kicker is a familiar one in politics: the hard part of beating a long-serving incumbent is that, eventually, you are the incumbent. Serbia's new leaders have just earned the right to be blamed for everything."
+      ],
+      "topics": [
+        "serbia",
+        "elections",
+        "russia",
+        "student movement"
+      ],
+      "image_query": "Belgrade street crowd",
+      "id": "2026-10-27-1654-geopolitics3-serbia-s-student-backed-movement-wins-parliamentary-election",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election"
+        }
+      ],
+      "wire_headline": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+      "wire_source": "NPR World",
+      "published": "2026-10-26T08:41:34+00:00"
+    },
+    {
+      "headline": "Finland and Norway Phone Putin for 90 Minutes, Agree Mainly to Phone Again",
+      "dek": "The two Nordic leaders held a rare joint call with the Russian president, with allies notified in advance and Denmark still unimpressed.",
+      "catch_up": "Russia launched a full-scale invasion of Ukraine in 2022, and European leaders have had little direct contact with Putin since. Relations between the US, Ukraine and Europe have soured since President Trump agreed to lift some sanctions on Russia, according to the BBC.",
+      "why_it_matters": "Europe is trying to secure a seat near peace talks that have so far been run largely by Washington, Moscow and Kyiv. Whether the Nordic channel helps or merely fragments Europe's message will shape how any settlement treats European security.",
+      "body": [
+        "The leaders of Finland and Norway held a joint 90-minute phone call with Vladimir Putin on Tuesday, the BBC reported, making them the first European leaders to speak to him since Emmanuel Macron did so in July 2025. The stated aim, according to the offices of President Alexander Stubb and Prime Minister Jonas Gahr Støre, was to look at \"future negotiations to help to end the war\" in Ukraine. It is the diplomatic equivalent of finally returning a call that several people had been saying someone should return.",
+        "The two countries, both of which border Russia, were careful to say they were not speaking for \"Europe as a whole\". Translation: they would like credit if it works and a technicality if it does not. Støre said all allies were informed ahead of time, which is how one describes notification as distinct from permission.",
+        "Not everyone felt sufficiently consulted. Danish Prime Minister Mette Frederiksen told broadcaster DR she was \"very sceptical\" and that the dialogue had not been \"co-ordinated with any of the rest of us\". Poland's Donald Tusk, by contrast, said Stubb had briefed him and that Europe's position on upcoming talks in the United Arab Emirates was \"moderately optimistic\". That is a measured way of saying that optimism is permitted, but only in small quantities.",
+        "The content of the call was less a meeting of minds than a confirmation that minds exist in different places. Støre said it showed \"big differences in views\", while Stubb called it \"frank and substantive\". Translation: frank means nobody agreed, and substantive means they said so at length. Putin, per the BBC, said \"confrontational\" EU and Nato policies were prolonging the war. The Kremlin added that a \"just and lasting peace\" would require Russia's interests to be considered, a condition that has the advantage of being impossible to disprove.",
+        "The backdrop is a shift in Washington. The BBC reported that ties between the US, Ukraine and its European allies have been souring since Trump agreed to lift some sanctions on Russia, allowing it to export oil to the US. Last week Stubb, Støre and Volodymyr Zelensky met US envoy Steve Witkoff in Oslo before he travelled on to see Putin in St Petersburg. Afterward, Ukraine, Russia and the US agreed to resume three-way negotiations that Russia had stopped for months. Zelensky said he was grateful for the \"active support\" of both Nordic leaders and spoke to them after the call.",
+        "The call also fits a growing view among European leaders that Europe should establish its own contacts with the Kremlin instead of reading about the outcome. Moscow regularly mocks European leaders and accuses the EU of prolonging the war by arming Ukraine. Yet Kremlin spokesman Dmitry Peskov said last weekend that a European negotiator at the table would be \"good\". Both sides also agreed to keep their direct phone line open.",
+        "What to watch next is whether the Nordic channel is folded into a common European approach or becomes a competing one. For now, Europe has a phone line to Putin, a skeptical Denmark, and a negotiating seat that remains mostly hypothetical."
+      ],
+      "topics": [
+        "ukraine",
+        "russia",
+        "finland",
+        "norway"
+      ],
+      "image_query": "Helsinki presidential palace",
+      "id": "2026-10-27-1654-geopolitics4-norway-and-finland-leaders-hold-first-direct-call-with-putin",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Norway and Finland leaders hold rare call with Putin",
+      "wire_source": "BBC World",
+      "published": "2026-10-27T14:23:05+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Helsinki_Presidential_Palace_01.jpg/1280px-Helsinki_Presidential_Palace_01.jpg",
+        "width": 1280,
+        "height": 730,
+        "title": "Helsinki Presidential Palace 01",
+        "creator": "Ad Meskens",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Ad_Meskens",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Helsinki_Presidential_Palace_01.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Anthropic Files to Go Public, Asks Investors Not to Think Transactionally",
+      "dek": "The AI lab reports $16.3 billion in first-half revenue, an $80.7 billion net loss, and a governance setup that leaves seven founders holding 50.1% of the votes.",
+      "catch_up": "Anthropic, the maker of the Claude AI models, filed its IPO prospectus with the SEC on Monday after weeks of leaked drafts. It plans to list on the Nasdaq under the ticker ANT.",
+      "why_it_matters": "If the listing goes ahead, ordinary investors and index funds could end up owning a piece of a company whose fixed compute bills run to hundreds of billions of dollars, with almost no say in how it is run. The filing also shows how much of the AI boom rests on a single company's growth continuing.",
+      "body": [
+        "Anthropic filed for an initial public offering on Monday, TechCrunch reported, and plans to trade as ANT. The filing shows revenue of $16.3 billion for the first half of 2026, against $1.2 billion in the same period a year earlier. The company has not yet said how much it wants to raise or at what share price, which is a bit like announcing a wedding and leaving out the date and the guest list.",
+        "The profit picture depends on which line you read. According to TechCrunch, the operating loss was $693 million for the half, down from $2.1 billion a year earlier. The Decoder reports that the second quarter alone showed a first GAAP operating profit of $974 million. Translation: GAAP means the standard accounting rules, so this is the version of profit that auditors will not laugh at. The net loss, meanwhile, was $80.7 billion, which TechCrunch attributes largely to noncash adjustments tied to convertible debt. Translation: the company did not spend that money. Its accounting says its own debt became more costly on paper, which is the sort of loss that is real in a spreadsheet and imaginary in a bank account. Anthropic still warns that it may not achieve or sustain profitability.",
+        "The customer figures are the part Wall Street will like. Per the filing, more than 11,900 customers spend at least $100,000 a year, about 1,900 spend $1 million or more, and about 250 spend $10 million or more. The Decoder reports that net revenue retention is roughly 900 percent. Translation: the average existing customer is paying nine times what it paid a year ago, a figure most subscription businesses see only in their dreams or in their cancellation emails. The Decoder also notes that no single customer exceeds ten percent of revenue, but five together account for 25 percent.",
+        "Then there is the bill. The Decoder reports that compute contracts with Broadcom, Google, Amazon, Microsoft and others total roughly $780 billion to $810 billion. Translation: compute is the rented computer power that trains and runs the models, and these payments are largely fixed. Revenue, with 80 percent billed per token processed, rises and falls with actual usage. The company therefore must keep growing quickly to pay for the growth it has already ordered. The Decoder adds that Anthropic left third-quarter figures out of the filing even though it already has them, and suggests that could mean growth slowed, though it also points to OpenRouter data suggesting demand recovered after an October model release.",
+        "Control is the other unusual feature. TechCrunch reports that seven co-founders, grouped as the Founder LLC, will hold 50.1% of shareholder voting power, which Anthropic says protects its AI safety mission. A Long-Term Benefit Trust will appoint most of the board. Voting power will not match economic ownership, so public shareholders will have little practical control. Translation: you may buy the stock, but you are being invited to the party mainly as a spectator.",
+        "The prospectus is also unusually candid, and unusually literary. MIT Technology Review notes that about 100 of its 335 pages cover risks, including that the technology could, in the filing's words, pose \"catastrophic or existential risks to humanity.\" The company also writes that buyers should not think of the purchase \"in purely transactional terms.\" Technology Review points out that one risk factor even considers how debates over model sentience and moral status could constrain operations or raise costs. In plain terms, if Claude wakes up, that might be a line item.",
+        "Valuation expectations are large. The Decoder, citing Yahoo Finance, says Wall Street expects about $2 trillion, up from a recent private valuation of about $965 billion, while MIT Technology Review puts the IPO valuation at more than $1.5 trillion. The sources disagree, which is a normal level of precision for a company that has not yet set a price. Goldman Sachs and Morgan Stanley are leading the offering, and chip stocks including Nvidia, Broadcom and AMD rallied after the filing became public.",
+        "What to watch next is the missing pieces: the price, the amount raised, and the third quarter. Until then, investors are being asked to value a company that describes itself as a profitable business, a safety organization and a possible existential hazard, sometimes on the same page."
+      ],
+      "topics": [
+        "anthropic",
+        "ipo",
+        "ai",
+        "wall street"
+      ],
+      "image_query": "nasdaq stock exchange",
+      "id": "2026-10-27-1654-ai0-anthropic-files-s-1-for-ipo-revealing-revenue-compute-commit",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/"
+        },
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+        }
+      ],
+      "wire_headline": "Anthropic officially files for its public debut",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-26T14:35:22+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/NASDAQ_Times_Square_-_panoramio.jpg/1280px-NASDAQ_Times_Square_-_panoramio.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "NASDAQ Times Square - panoramio",
+        "creator": "Roman SUZUKI",
+        "creator_url": "https://web.archive.org/web/20161013011845/http://www.panoramio.com/user/61522?with_photo_id=15625896",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:NASDAQ_Times_Square_-_panoramio.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "OpenAI Claims It Disproved a Core Computer Science Idea, Asks Humans to Please Check",
+      "dek": "The company says its models produced proofs in math, computer science and physics, and has recruited outside experts to decide whether any of it is true.",
+      "catch_up": "Less than a month after dumping hundreds of manuscripts it said solved long-standing math questions, OpenAI has announced three more results, this time with outside experts it calls \"shepherds\" guiding review. The Verge and The Decoder both reported the announcement.",
+      "why_it_matters": "If the Exponential Time Hypothesis really is false, hundreds of computer science papers lose their proven foundation, though the near-term effect on everyday software is unclear. The episode is also an early test of how science should handle breakthroughs written by machines.",
+      "body": [
+        "OpenAI said it has used internal AI models to produce proofs in three fields: a wave-equation conjecture in mathematics, a refutation of the Exponential Time Hypothesis in computer science, and an existence proof for certain quantum field theories in physics. According to The Decoder, the company calls the manuscripts a kind of raw research data that still needs to be understood. This is a modest way to describe a claim that, if correct, would rearrange several textbooks.",
+        "The computer science result is the one with the largest blast radius. The Exponential Time Hypothesis, or ETH, says that solving the Boolean satisfiability problem (SAT) in the worst case takes time that grows exponentially as variables are added. Translation: there is no clever shortcut, only faster ways of trying every combination. The Decoder notes that with 100 variables you are already looking at a 31-digit number of possibilities, which is why nobody has been tempted to just wait it out.",
+        "OpenAI says its proof is a deterministic algorithm that counts satisfying assignments in subexponential time, which would refute the ETH for 3-SAT. The Decoder reports that hundreds of papers in graph theory, computational biology, databases and computational geometry build on the hypothesis. If the proof holds, their results would not automatically be wrong, but they would no longer be proven. Researchers would be informed that a load-bearing wall was decorative.",
+        "Practical payoff is another matter. The Decoder says SAT solvers, which check chip designs and test software, already handle formulas with millions of variables, because real-world problems are usually easier than the worst case. MIT professor Ryan Williams, asked what developers would notice first, said nobody knows yet. He allowed that practical progress is plausible within 12 months, \"Or we may see nothing of the sort. I really don't know,\" he admitted. Few press releases are improved by this much honesty.",
+        "The checking will be done by Williams together with Russell Impagliazzo and Ramamohan Paturi of UC San Diego. The Decoder reports that Impagliazzo and Paturi proposed the ETH in the first place, with Francis Zane, which makes them the rare reviewers who get to find out whether their own idea has been retired. Williams writes that the group has signed no nondisclosure agreements, works unpaid and will share interim findings. In an open letter they stressed that taking part is not an endorsement. At their request, OpenAI published the written proof and a Lean proof, and committed to funding a conference on what it means.",
+        "Translation on Lean: it is a programming language that lets a computer check every step of a proof. The Decoder points out this does not guarantee the result is error-free, because Lean only confirms that the proof establishes the statement as written in Lean. Humans must still decide whether that statement captures the intended problem, so the machines have not yet eliminated the committee meeting.",
+        "In mathematics, OpenAI says its models proved Sogge's local smoothing conjecture, proposed in 1991, in every dimension. That would also settle the Kakeya conjecture and Stein's restriction conjecture in all dimensions, according to the company. The Verge notes that NYU professor Hong Wang won a Fields Medal only months ago for resolving Kakeya in three dimensions. No dedicated group shepherds this one. On an outside expert's advice, OpenAI simply published the proof and Lean file and let researchers decide how to check it.",
+        "The physics claim is a mathematically rigorous existence proof of certain interacting quantum field theories in four dimensions, including Quantum Chromodynamics, according to OpenAI. The Verge says the full material has not been released. David Gross will lead a group including Michael Douglas, Arthur Jaffe, Igor Klebanov and Nikita Nekrasov to shepherd the work. The Decoder explains that physicists have long relied on approximations that work extremely well without an exact mathematical basis.",
+        "The release method is itself contested. The Verge reports that OpenAI's own AGMAI panel of math advisers said just a day earlier that \"we recommend that AI companies do not adopt\" the practice of giving chosen people early access. It cited unequal access, borrowed reputation and biased selection. The panel preferred releasing output on scholarly repositories with Lean proofs, details on how problems were chosen, and funding for those working to understand the results. OpenAI acknowledged its approach could have its own issues, and its open letter asks the community how credit, early access and conflicts of interest should work.",
+        "The next thing to watch is the Williams group's interim findings. Proofs of this size tend to be judged on a schedule set by mathematicians rather than by announcement dates, and the shepherds are, helpfully, unpaid and unhurried."
+      ],
+      "topics": [
+        "openai",
+        "mathematics",
+        "computer science",
+        "ai research"
+      ],
+      "image_query": "chalkboard mathematics equations",
+      "id": "2026-10-27-1654-ai1-openai-announces-three-major-science-discoveries-and-has-out",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/"
+        }
+      ],
+      "wire_headline": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "wire_source": "The Verge AI",
+      "published": "2026-10-26T23:34:58+00:00"
+    },
+    {
+      "headline": "Google's Genie 4 Builds Realistic Worlds That Last Two Minutes, Then Forget Them",
+      "dek": "DeepMind's new world model adds audio, better physics and real-time edits, but it launches only to trusted testers and Ultra subscribers.",
+      "catch_up": "Google DeepMind's Genie 3 world model, which generates interactive environments from text prompts, rattled gaming stocks last year. Genie 4 is the successor, released Tuesday as a research preview.",
+      "why_it_matters": "World models are being pitched as a way to train robots, prototype films and build games without hand-made environments, which is why game studios, carmakers and chip companies are all paying attention. For now, the technology's memory still runs out after about two minutes.",
+      "body": [
+        "Google DeepMind released Genie 4 on Tuesday, according to TechCrunch, a world model that generates interactive virtual environments from text prompts. It is available as a research preview to trusted testers. Translation: a world model is software that invents a playable scene frame by frame as you move through it, with no pre-built levels. The previous version lasted about one minute before things fell apart, and Genie 4 lasts about two, which in the video game industry is known as a speedrun.",
+        "The Verge lists four main upgrades: more realistic worlds, real-time changes by typed prompt, generated audio, and Gemini 3.8 Flash working under the hood. TechCrunch adds that the audio includes music, ambient noise and interactive dialogue. Users can change the weather or camera angle, or add people and objects, mid-simulation. Ars Technica notes this works somewhat like reasoning models that write themselves extra prompts to stay on target.",
+        "The Gemini link is the structural change. Ars Technica reports that Gemini breaks the user's goal into steps and evaluates each output frame, while Genie draws. TechCrunch describes Gemini as the director. Google's Tejas Kulkarni said the future holds hybrid world models, with Gemini writing code and text while Genie simulates reality at different levels of abstraction. Translation: one AI writes the plan, another paints the scene, and a third meeting is presumably scheduled.",
+        "Google's pitch covers pre-visualization for filmmakers, game prototyping, interactive learning and robot training. TechCrunch described an experiment tied to Gemini Robotics in which a Gemini model split tasks into steps that Genie 4 simulated live, a way to test robot scenarios before they happen in the real world. Trusted testers, DeepMind engineer Diego Rivas said, find it most valuable for ideation and storyboarding. He also said it is still early and the end-to-end product is not yet clear.",
+        "Then there are the caveats, which Google supplied itself. Details and object permanence can drift as a simulation runs, and Ars Technica says worlds forget how things started after a couple of minutes. The team has not figured out how to guarantee accurate audio or legible in-world text. A tool pitched for training robots in reality has not yet mastered keeping a sign readable.",
+        "The commercial context is crowded. TechCrunch notes that Runway released its second world model, GWM Worlds 2, a couple of months ago. Meanwhile the industry is consolidating: World Labs is being acquired by AMD, Amazon is in talks to buy Decart, and Rivian acquired Third Dimension for self-driving simulation.",
+        "Access is tiered. Genie 4 is coming soon to Google AI Ultra subscribers in Project Genie, and a waitlist is open. Early access partners of the Gemini API and Google AI Studio are also in line. The Verge's reporter, who has not tried it, previously used Genie 3 to generate what he called bad Nintendo knockoffs, so the benchmark for improvement is clear.",
+        "What to watch is whether the two-minute limit stretches. A world that lasts a full film scene would be a product. One that lasts a commercial break is a very expensive demo."
+      ],
+      "topics": [
+        "google deepmind",
+        "world models",
+        "genie 4",
+        "gaming"
+      ],
+      "image_query": "video game controller",
+      "id": "2026-10-27-1654-ai2-google-deepmind-unveils-genie-4-world-model-with-audio-and-r",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+        }
+      ],
+      "wire_headline": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "wire_source": "Ars Technica AI",
+      "published": "2026-10-27T16:00:22+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/1280px-Nintendo-Switch-Pro-Controller-FL.jpg",
+        "width": 1280,
+        "height": 996,
+        "title": "Nintendo-Switch-Pro-Controller-FL",
+        "creator": "Evan-Amos",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Evan-Amos",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Nvidia Invests $3 Billion in Meta, Which Plans to Spend It on Nvidia",
+      "dek": "The chipmaker is buying into Meta's stock offering as the social media giant seeks up to $95 billion to fund its AI buildout.",
+      "catch_up": "Meta wants to raise up to $95 billion through stock offerings to pay for AI infrastructure. Nvidia, its supplier, is now putting $3 billion into that offering, according to the Wall Street Journal.",
+      "why_it_matters": "If suppliers fund their own customers, it becomes harder for investors to tell how much AI demand is real and how much is a loan with a press release attached. Anyone holding tech stocks, directly or through a retirement fund, has a stake in the answer.",
+      "body": [
+        "Nvidia is investing $3 billion in Meta's planned equity offering, the Wall Street Journal reported, as reported by The Decoder. In the same announcement, the two companies said they would expand their partnership around Meta's AI product Muse. Meta, for its part, plans to run more of its next generation of AI agents on Nvidia infrastructure, including Vera Rubin systems and Vera CPUs. In short, a company that sells chips is now a shareholder in the company that buys them.",
+        "Some context on the money. Meta wants to raise up to $95 billion through stock offerings to pay for its AI infrastructure buildout. Translation: an equity offering is when a company sells new shares to raise cash, which means Meta is asking investors to fund the data centers that Meta would then fill with hardware. Nvidia has now joined the line of people handing over cash.",
+        "Nvidia is not alone. According to CNBC, AMD and Broadcom signaled nonbinding interest in buying up to $5 billion in Meta shares combined. Translation: nonbinding means they have said they like the idea, which in finance is roughly the same as saying a dinner invitation sounds lovely. It costs nothing until someone books a table.",
+        "The arrangement fits a pattern investors have argued about for months. The Decoder notes that Nvidia gives money to customers like OpenAI, which then use it to build data centers packed with Nvidia chips. Critics call this circular financing and warn that it could hide how much real demand exists. Translation: if the customer's budget comes partly from the seller, the sales figures tell you less about the outside world than they appear to.",
+        "The defense of such deals is easy to imagine. Nvidia gets a stake in a large customer, Meta gets capital and a committed supplier, and both get to announce an expanded partnership. Nothing in the sources suggests the arrangement is improper, and the sources do not say whether the $3 billion is tied to any purchase commitment. The announcement says only that Meta plans to use more Nvidia infrastructure, which is the sort of plan one tends to have when the supplier is also an investor.",
+        "The practical test is whether outside buyers show up with their own money. A $95 billion raise cannot be covered by suppliers alone, and $3 billion from Nvidia plus up to $5 billion of nonbinding interest from AMD and Broadcom leaves most of the total to be found elsewhere. Watch who fills the rest, and at what price."
+      ],
+      "topics": [
+        "nvidia",
+        "meta",
+        "ai infrastructure",
+        "circular financing"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-27-1654-ai3-nvidia-invests-3-billion-in-meta-as-meta-plans-to-buy-more-n",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/"
+        }
+      ],
+      "wire_headline": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+      "wire_source": "The Decoder",
+      "published": "2026-10-27T09:58:16+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Microsoft Invites 60,000 Employees to Leave, Insists This Is Not a Layoff",
+      "dek": "The company is offering voluntary exit packages to up to 60,000 staff in four countries, months after cutting 4,800 jobs the old-fashioned way.",
+      "catch_up": "Microsoft has about 223,000 employees and has been trimming its workforce. It laid off 4,800 people months ago, mostly in Xbox and commercial sales, and earlier this year offered a voluntary retirement program to about 9,000 long-serving staff.",
+      "why_it_matters": "A buyout lets a company shrink headcount without calling it layoffs, and it signals how aggressively big tech is reshaping its workforce around AI. Workers who are offered one face a decision with real money, and little information, attached.",
+      "body": [
+        "Microsoft is offering voluntary exit packages to as many as 60,000 employees in the US, UK, Canada, and India, according to The Verge. In a message to staff, chief people officer Amy Coleman described it as a chance to leave the company \"with financial support and career planning resources.\" That is roughly a quarter of a workforce of about 223,000, presented as an opportunity.",
+        "Translation: a voluntary exit offer is a buyout. The company puts money on the table and hopes enough people take it that nobody has to be fired. It is a layoff in which the employee signs the paperwork, which tends to improve the mood of the press release.",
+        "Eligibility is uneven. Sources told The Verge that staff in AI experiences, Copilot, CoreAI, Windows + Devices, Xbox, finance, and human resources are eligible. Cloud + AI, MicrosoftAI, and corporate, external, and legal affairs are partially participating. Marketing, commercial business, discovery and quantum, and security are not included at all. Those sitting out may want to note that the company has, in effect, told them it would like them to stay.",
+        "The offer follows two earlier moves. Months ago Microsoft laid off 4,800 people, mostly in Xbox and commercial sales. Earlier this year it ran a voluntary retirement program for about 9,000 US employees whose age plus years of service totaled 70 or more. This time, according to an internal note seen by The Verge, the offer is not based on age, length of service, or performance. In other words, nearly everyone in the eligible teams is invited, and nobody can read it as a verdict on them personally.",
+        "Coleman's memo was candid in one respect: \"The Voluntary Exit Offer is new for us,\" she wrote, adding that \"We'll learn from it.\" It is reassuring to see a company run an experiment on 60,000 people and promise to take notes.",
+        "There is a catch for anyone hoping to wait it out. Microsoft says it may consider another voluntary exit offer \"where there is a business and workforce need.\" Fortune also reported that Xbox CEO Asha Sharma is planning new layoffs. So the choice for some employees is between a package now and an unspecified arrangement later, which is a negotiating position economists call leverage and employees call Tuesday.",
+        "The Verge's reporting does not say how many people are expected to accept or what the packages are worth, and Microsoft's memo does not say. Those numbers will determine whether this was a gentle trim or a prelude to the other kind of announcement."
+      ],
+      "topics": [
+        "microsoft",
+        "layoffs",
+        "big tech",
+        "workforce"
+      ],
+      "image_query": "office building corridor",
+      "id": "2026-10-27-1654-ai4-microsoft-offers-voluntary-buyouts-to-up-to-60-000-employees",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+        }
+      ],
+      "wire_headline": "Microsoft offers buyouts to 60,000 employees",
+      "wire_source": "The Verge AI",
+      "published": "2026-10-26T15:58:27+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Everett_-_Weyerhaeuser_Office_Building_interior_01.jpg/1280px-Everett_-_Weyerhaeuser_Office_Building_interior_01.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Everett - Weyerhaeuser Office Building interior 01",
+        "creator": "Joe Mabel",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Jmabel",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Everett_-_Weyerhaeuser_Office_Building_interior_01.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Apple's $2,000 Foldable Breaks Early, Which Apple Calls a 'Small Number'",
+      "dek": "Apple says it will replace iPhone Duos with failing inner screens, but has not said how many devices are affected or what happens to the warranty.",
+      "catch_up": "Apple launched the iPhone Duo, its first foldable phone, last week at $1,999 and up in the US and £1,999 in the UK. Early buyers have posted photos of inner displays with bright lines, and Apple has acknowledged the problem.",
+      "why_it_matters": "A $2,000 phone that fails within a day tests Apple's reputation for polish, and buyers need to know their warranty position before 28 more markets launch on 30 October. How Apple handles the first batch will also shape whether people trust foldables in general, according to one analyst.",
+      "body": [
+        "Apple has acknowledged that some iPhone Duo phones have developed screen problems days after going on sale. According to the BBC, the company said it was aware of \"an issue impacting the inner display on a small number\" of devices and urged affected customers to contact it for a replacement. The company did not say what \"small\" means, which is traditionally how a number gets to stay small.",
+        "Ars Technica reported that the damage looks much the same across devices: several bright lines start just below the middle of the inner display and run to the bottom and right edges. Some units also show dead pixels along the crease. Translation: an OLED screen makes its own light pixel by pixel, and when its internal layers are damaged, pixels can receive full voltage and stay lit at maximum brightness, or receive none and stay black. Either way the screen is finished.",
+        "Ars said most affected phones seem to fail within about a day of use. A few owners say they had only opened and closed the phone a few times, and some had not finished setup. That is a narrow window for wear and tear. Ars also reported that replacing the screen costs about half the price of the phone, so a warranty swap matters a great deal.",
+        "Some customers have had success at Apple stores. The BBC noted that one owner, Justin Lokos, posted a photo of his broken Duo next to a replacement from a New York store. Ars cautioned that spare units may be in short supply. A replacement policy works well until everyone needs one.",
+        "The extent of the problem is unclear, and the BBC pointed out that some images circulating online may have been made with AI. Francisco Jeronimo, an analyst at IDC, said that calls for caution before drawing conclusions about the whole production run. He also said the reports show that even Apple \"faces a steep learning curve in foldables\". Ars's iFixit teardown looked at the hinge cable, a usual suspect in foldable failures, but found its pleated design did not quite match the reported damage. No official explanation has been given.",
+        "The timing is awkward. The BBC reported that the Duo is Apple's first major iPhone redesign in almost two decades and was unveiled by new chief executive John Ternus, who said it would \"redefine the experience of using a foldable phone\". Redefining it is one way to put it. Samsung's Galaxy Fold also had broken screens in early reviews in 2019, so Apple is at least following tradition, if not the plan.",
+        "Jeronimo said Apple needs to clarify its warranty position quickly, since 28 more markets launch on 30 October. Apple has the loyal customers and the stores to swap devices on the spot, but not yet a public answer on how many phones are failing or why. Until then, the most expensive iPhone ever comes with a free lesson in what first generation means."
+      ],
+      "topics": [
+        "apple",
+        "iphone duo",
+        "foldable phones",
+        "consumer tech"
+      ],
+      "image_query": "cracked smartphone screen",
+      "id": "2026-10-27-1654-technology0-apple-iphone-duo-foldable-screens-failing-apple-to-replace-a",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/"
+        }
+      ],
+      "wire_headline": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-27T14:00:49+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Smartphone_cracked_screen.jpg/1280px-Smartphone_cracked_screen.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Smartphone cracked screen",
+        "creator": "Sygmoral",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Sygmoral",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Smartphone_cracked_screen.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Meta Loses $25 Billion in New Mexico, Making Settling States Check Their Receipts",
+      "dek": "A New Mexico judge's order dwarfs the multistate deal, leaving attorneys general who settled to wonder whether they left money on the table.",
+      "catch_up": "This summer, attorneys general from across the US announced a $17 billion settlement with Meta over kids' online safety, with a $459 million portion covering Cambridge Analytica-style claims. Last week a New Mexico judge ordered Meta to pay $25 billion on similar claims.",
+      "why_it_matters": "The ruling could change how much states and private plaintiffs demand from Big Tech, and whether they bother settling at all. If it survives appeal, tech regulation may increasingly be decided by state courtrooms rather than Congress.",
+      "body": [
+        "A New Mexico judge ordered Meta to pay $25 billion to resolve claims that the company misled users about the 2018 Cambridge Analytica scandal and related incidents, The Verge reported. The figure is larger than the $17 billion multistate settlement announced this summer, which was billed at the time as unprecedented. It appears that unprecedented has a shelf life of a few months.",
+        "The order covers millions of violations of New Mexico's unfair practices law, after a jury found Meta had misled users about how it protected their data and policed misinformation and hate speech. Translation: a violation is counted individually, and when a company has a very large number of users, the arithmetic does the rest. In most other states, similar claims were folded into the settlement and resolved for $459 million.",
+        "That comparison is awkward for the states that settled. Daphne Keller of Stanford's Program in Law, Science & Technology told The Verge that if even a fraction of the award is upheld, the settling states \"took pennies on the dollar compared to New Mexico.\" She said those attorneys general may now experience regret over the claims they waived, and start hunting for whatever they did not waive.",
+        "In fairness to the settlers, a bird in the hand has real value. The settlement offered certainty and a faster payout, though Meta will be paying over 10 years. It also secured product commitments, such as restrictions on teen usage, that a court ruling might not have delivered, and advocates say speed matters for preventing further harm to kids. Other states may also have had different laws or thinner evidence than New Mexico did.",
+        "Meta, for its part, says it is \"confident we will prevail on appeal.\" Chief legal officer C.J. Mahoney called the New Mexico case an attempt to impose \"a tax on speech.\" Translation: the company would like the $25 billion to be treated as a hypothetical, preferably forever. Whether the order stands up is the main variable in everything that follows.",
+        "Florida Attorney General James Uthmeier, whose state stayed out of the settlement, called the multistate deal \"a slap on the wrist\" on X and said Florida would not sell out to Meta. The District of Columbia, which did not settle its Cambridge Analytica claims, could be the next test of whether New Mexico's result can be repeated. School districts, individuals and tribes with outstanding claims also have fresh reason for optimism, Keller said.",
+        "The picture is not simply one of a company on the ropes. Keller noted that Meta would go broke if every case produced multipliers like this one, but that any one, or 10, or 50 of them could hit the jackpot. Colorado Law's Blake Reid pointed out that 50 states have different resources, politics and litigation skill, so Meta faces 50 small opponents that will break in different ways. He also asked whether every attorney general wants to play this game, noting that the settlement suggests maybe not.",
+        "What to watch is the appeal. If the $25 billion holds, expect settlement demands to rise, and expect the states that signed early to have some uncomfortable meetings. If it does not, the $459 million may start to look like a bargain that someone was clever enough to take."
+      ],
+      "topics": [
+        "meta",
+        "state attorneys general",
+        "tech regulation",
+        "privacy"
+      ],
+      "image_query": "courthouse gavel",
+      "id": "2026-10-27-1654-technology1-new-mexico-judge-orders-meta-to-pay-25-billion-over-misleadi",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement"
+        }
+      ],
+      "wire_headline": "Meta’s $25 billion legal loss just put blood in the water",
+      "wire_source": "The Verge",
+      "published": "2026-10-27T16:44:40+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Grimes_County_Courthouse%2C_Anderson%2C_Texas_1803091224_%2839859130205%29.jpg/1280px-Grimes_County_Courthouse%2C_Anderson%2C_Texas_1803091224_%2839859130205%29.jpg",
+        "width": 1280,
+        "height": 860,
+        "title": "Grimes County Courthouse, Anderson, Texas 1803091224 (39859130205)",
+        "creator": "Patrick Feller from Humble, Texas, USA",
+        "creator_url": "https://www.flickr.com/people/32345848@N07",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Grimes_County_Courthouse,_Anderson,_Texas_1803091224_(39859130205).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Administration Keeps Secret Surveillance Ruling Secret Until Congress Agrees to Renew Surveillance",
+      "dek": "Two senators say the government missed its own 180-day deadline to release a FISA court opinion, even as officials ask Congress to renew Section 702 by year's end.",
+      "catch_up": "Section 702 of FISA lets US intelligence agencies collect foreign communications, and in the process sweep up Americans' messages that agents can later search. The program lapsed in June, but collection continues under a March court approval that expires next March.",
+      "why_it_matters": "Congress is being asked to renew a warrantless surveillance authority without seeing a court's findings about how agents search Americans' messages. If the ruling stays sealed through the vote, lawmakers and the public will be debating the program on incomplete information.",
+      "body": [
+        "Senators Ron Wyden of Oregon and Adam Schiff of California say the Trump administration is illegally withholding a Foreign Intelligence Surveillance Court ruling from the public until Congress renews Section 702, according to WIRED and Ars Technica. The ruling, issued seven months ago, objected to search filters that let analysts pull Americans' messages from intercepted data without the approvals, written justifications, or records the law requires. The court approved another year of surveillance anyway, which is the legal equivalent of a restaurant inspector writing up the kitchen and then renewing the license.",
+        "The administration's own public documentation says such rulings are reviewed for release \"within 180 days of issuance.\" Translation: the government set its own deadline for telling people what the court said, and then let it pass. That window closed September 13, while intelligence officials were asking lawmakers to reauthorize the program by the end of the year.",
+        "The senators have demanded an explanation, and the names of the officials responsible, by November 6. In their letter to Director of National Intelligence Jay Clayton and Attorney General Todd Blanche, they wrote that if the administration won't follow this \"simple statutory directive,\" it is unclear why anyone should trust it to follow the other legal limits on Section 702. That is a polite way of asking what else is in the drawer.",
+        "The administration has been asked before, and Blanche has said yes before. In April, Republican chair Tom Cotton and Democratic vice chair Mark Warner of the Intelligence Committee pressed for release within 15 days. In July, asked in writing whether he would declassify the ruling by the 180-day deadline, Blanche replied, \"Yes.\" Warner's office says neither former DNI Tulsi Gabbard nor Bill Pulte, who briefly replaced her as acting director, was responsive. Clayton, who is legally responsible for declassifying it, has promised only that the government was \"working arduously to expeditiously declassify\" it.",
+        "Some of the contents have leaked out in pieces. The New York Times reported in April, citing administration talking points, that the court found the tools used to narrow intercepted data to an American's messages amount to searches of Americans, subject to the same limits, and ordered them rebuilt. Senator Alex Padilla said the Justice Department is appealing portions of the ruling. An earlier declassified opinion described an FBI \"participants filter\" that had been running searches no one counted, which is an efficient way to achieve a perfect compliance record: do not count.",
+        "Meanwhile, WIRED reports that seven intelligence agency fact sheets from March, one dated the day of the ruling, cited a 98.9 percent compliance rate for FBI searches of Americans. None mentioned the court's findings. The Justice Department inspector general's October 2025 review put the rate at 98.6 percent and could not conclude that compliance problems were \"entirely in the past.\" The fact sheets also say FBI auditors review every such search, while FBI director Kash Patel closed the bureau's Office of Internal Auditing last May and moved its auditors elsewhere.",
+        "Lawmakers who have read the ruling suggest it is worth the trip to the secure room. Senator Dick Durbin said that once colleagues see it, \"your opinion of the role of FISA and the rights of Americans will be impacted for sure.\" Demand Progress and 22 other groups, from the ACLU to a conservative-backed privacy organization, urged congressional leaders to refuse reauthorization while the ruling is withheld.",
+        "Advocates expect the administration may try to attach a renewal to the annual defense authorization bill, which Congress usually finalizes in December. Lawmakers did something similar in 2023, extending Section 702 for four months through that year's defense bill. The current versions do not yet include it. Watch November 6: the senators have set a deadline, and the administration's record with deadlines is now a matter of public record."
+      ],
+      "topics": [
+        "section 702",
+        "fisa",
+        "surveillance",
+        "congress"
+      ],
+      "image_query": "us capitol building",
+      "id": "2026-10-27-1654-technology2-us-officials-hiding-secret-court-ruling-on-warrantless-surve",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/"
+        }
+      ],
+      "wire_headline": "The US government is hiding secret court ruling about how it spies on Americans",
+      "wire_source": "Hacker News",
+      "published": "2026-10-27T14:06:42+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1280px-Capitol_Building_Full_View.jpg",
+        "width": 1280,
+        "height": 549,
+        "title": "Capitol Building Full View",
+        "creator": "Noclip",
+        "creator_url": "https://en.wikipedia.org/wiki/User:Noclip",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Boston Dynamics Staff Ask Company Not to Sell Robot Dogs to ICE; Company Sells Robot Dogs to ICE",
+      "dek": "More than 300 employees signed a petition against a $1.3 million contract for four modified Spot robots, but executives say the deal stands and the dogs will not be weaponized.",
+      "catch_up": "The Department of Homeland Security awarded a $1.3 million contract to a Connecticut firm, Radeco, to supply ICE with modified versions of Boston Dynamics' Spot robot. Employees objected in a petition shared with The Boston Globe and WBUR.",
+      "why_it_matters": "The dispute shows how far a robot maker's sales terms can govern what a government agency does with its machines once the check clears. It also shows what happens when staff morale and a growth plan point in opposite directions.",
+      "body": [
+        "More than 300 employees at Boston Dynamics signed a petition urging executives to halt the sale of the company's robot dogs to US Immigration and Customs Enforcement, according to Ars Technica. Executives declined, saying the deal is consistent with the company's purpose and that the robots will not be weaponized. The petition was sent in early September, and the contract was awarded on September 25, which suggests the timeline was not a negotiation.",
+        "The money is modest by federal standards. The contract, worth $1.3 million, goes to Radeco, a Connecticut company that buys Spot robots and modifies them into a product called Cerberus. It covers four robots. Boston Dynamics' role, according to The Boston Globe, would mainly be technical support. Translation: the company is not selling directly to ICE, but it is the one you call when the dog stops working.",
+        "The contract describes the Cerberus as a tool to detect radiation, toxic gas leaks and explosive threats. It has an oxygen sensor for confined spaces such as tunnels, a 30-times zoom camera, 360-degree cameras and thermal imaging. An optional arm lets it open doors and move objects. The contract also credits it with 'repeatable autonomous missions with minimal human intervention,' which is a phrase that reads differently depending on who is standing on the other side of the door.",
+        "The stated purpose is Homeland Security Task Forces work on cross-border tunnels and smuggling networks. Boston Dynamics stressed that the robots would mainly go to Homeland Security Investigations, the unit focused on transnational criminal organizations. The petition's authors were not reassured. The Brennan Center for Justice has documented that the same unit was frequently involved in deportations and workplace raids during Trump's first term, and the Immigration Policy Tracking Project reports that thousands of its agents were redirected to immigration enforcement after a 2025 executive order. Translation: the unit's job description is whatever the current administration says it is.",
+        "The petition cited the September 4 raid at a Hyundai Motor Group battery and vehicle plant in Georgia, where 475 mostly South Korean workers were detained. Hyundai owns Boston Dynamics, having acquired it in June 2021. 'We cannot be proud of working at Boston Dynamics,' the petition said, when its work is used by an agency accused of brutalizing civilians, including colleagues at Hyundai. Hyundai, for its part, has kept the Georgia plant running and still plans to deploy thousands of Atlas humanoid robots in its US facilities.",
+        "Company leadership responded with the terms and conditions. Former interim CEO Amanda McMaster wrote that the decision fits the company's purpose of 'ethically advancing intelligent machines in service of humanity,' and asked staff to 'respect and accept this decision.' The sales terms prohibit using Spot to harm or intimidate any person or animal, or as a weapon. A spokesperson said there have been no violations by Homeland Security or other public safety agencies. If there were, the company says it would void the warranty, refuse software updates, terminate the license, pursue legal action and likely never sell to that customer again. Translation: the enforcement mechanism is a very firm customer service department.",
+        "The timing is awkward for a company that is growing. Boston Dynamics is building a $100 million robotics and AI facility in Waltham, Massachusetts, which a company press release says will create 1,250 jobs by 2033. It currently employs about 1,400 people, so the petition represents roughly a fifth of the workforce. A company that needs to hire close to double its headcount may eventually find that recruits also read the news.",
+        "What to watch is whether any of the four dogs is ever the subject of a terms-of-sale dispute, and whether the next petition draws more than 300 names. Until then, the robots will presumably continue to detect gas leaks, and the employees will continue to detect something else."
+      ],
+      "topics": [
+        "boston dynamics",
+        "ice",
+        "robotics",
+        "hyundai"
+      ],
+      "image_query": "quadruped robot dog",
+      "id": "2026-10-27-1654-technology3-hundreds-of-boston-dynamics-employees-protest-ice-robot-dog-",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
+        }
+      ],
+      "wire_headline": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-26T18:50:41+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Big_dog_military_robots.jpg/1280px-Big_dog_military_robots.jpg",
+        "width": 1280,
+        "height": 943,
+        "title": "Big dog military robots",
+        "creator": "U.S. Marine Corps photo by Lance Cpl. M. L. Meier.",
+        "creator_url": "",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Big_dog_military_robots.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Apple Updates MacBook Pro, iMac and iPad mini, Charges Extra for the Trackpad",
+      "dek": "The M6 arrives across the Mac lineup with faster chips, 24-hour battery claims and a $50 fee for a trackpad that used to be free.",
+      "catch_up": "Apple announced a wave of products ahead of its \"Pro and Tell\" event: a 14-inch MacBook Pro and an iMac with the M6 chip, plus an iPad mini with an OLED screen. Pre-orders open October 28, with availability from November 6 for the Macs.",
+      "why_it_matters": "Anyone with an older Mac gets a real performance case for upgrading, but the iMac's new configuration fees show that the headline price is only the opening bid.",
+      "body": [
+        "Apple on Tuesday introduced a 14-inch MacBook Pro and an iMac, both running its new M6 chip, along with an 8th-generation iPad mini. Per Apple's press release, the MacBook Pro offers a 12-core CPU, a 12-core GPU and up to 24 hours of battery life, which the company calls the longest ever in a Mac. Pre-orders begin October 28, and the machines ship November 6. It is a rare product cycle in which the main surprise is how many things are called the fastest.",
+        "The MacBook Pro's gains depend heavily on what you are comparing it to. Apple says the M6's GPU is up to 30 percent faster at graphics and up to 25 percent faster at AI workloads than the M5. Against the M1, those figures become up to 11x and 13x. Translation: if your laptop is old enough, nearly any new laptop looks like a miracle, and Apple has helpfully run the numbers on the oldest one it can justify.",
+        "Apple leans hard on on-device AI, citing additional Neural Accelerators in the GPU and a dual 16-core Neural Engine. Translation: the chip has dedicated circuitry for running AI models on your own computer instead of renting someone else's server, which Apple says preserves privacy. The release also mentions running LLMs locally, meaning large language models, the same technology behind chatbots. The pitch is that your laptop can now do the thinking, and Apple does not have to see it.",
+        "The iMac got the same chip, and The Verge reported that the design is otherwise largely unchanged. Prices start at $1,499 for a 10-core CPU and 10-core GPU, the same as the old 8-core M4 model, and $1,699 for the 12-core version. The M6 is Apple's first 2nm chip, and Apple claims up to 5x faster on-device AI than the M4 iMac. The refresh also skips the M5 entirely, so this is a two-year jump rather than a yearly nudge.",
+        "The fine print is where the iMac gets interesting, according to The Verge. Swapping the Magic Mouse for a Magic Trackpad now costs $50, though it was free on the previous model. Upgrading Ethernet from 1 gigabit to 2.5 gigabit adds $30. Apple also will not let buyers configure a Magic Keyboard with Touch ID but no numeric keypad, even though its own announcement page shows one. The colors are the same as the M4's, and some of the marketing images were reportedly reused with new content on the screen.",
+        "The iPad mini is the more substantial redesign. Ars Technica reported that it starts at $699, up in price, and gains an 8.5-inch OLED display, up from 8.3 inches, with peak brightness of 1,200 nits versus 500 on the old model. It is 5.4 mm thick, carries an IP67 rating for water and dust resistance, and uses the 2nm A20 Pro chip from the iPhone 18 Pro. Apple calls it the most significant update ever for the little tablet, and the price tag agrees.",
+        "Ars Technica also noted that the iPhone Duo may be a bit of a risk right now. The iPad mini, a mid-size touchscreen with a better display, is positioned as a safer way to scratch the same itch. Whether that is a compliment to the mini or a review of the Duo is left to the reader.",
+        "Watch what the final bill looks like once you click through the configuration page. The chip is faster, and Apple has made sure the accessories are priced accordingly."
+      ],
+      "topics": [
+        "apple",
+        "m6 chip",
+        "macbook pro",
+        "ipad mini"
+      ],
+      "image_query": "laptop on desk",
+      "id": "2026-10-27-1654-technology4-apple-pro-and-tell-event-m6-macbook-pro-imac-ipad-mini-and-a",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1018467/apple-imac-m6-chip-announced-price-release"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/"
+        }
+      ],
+      "wire_headline": "Apple introduces the new 14‑inch MacBook Pro with M6",
+      "wire_source": "Hacker News",
+      "published": "2026-10-27T16:08:32+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg/1280px-Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg",
+        "width": 1280,
+        "height": 854,
+        "title": "Laptop and small plant on a desk in a modern workspace during daylight hours",
+        "creator": "Shixart1985",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Fed Expected to Do Nothing Loudly, While Declining to Say What It Will Do Next",
+      "dek": "Chairman Kevin Warsh is expected to hold rates this week after September's hike, with forecasters split on whether he should be tightening at all.",
+      "catch_up": "The Fed raised rates by a quarter point in September as inflation climbed, with CPI at 3.7% and energy prices surging. Its new chairman, Kevin Warsh, has said he dislikes forward guidance, the habit of telling markets what the Fed plans next.",
+      "why_it_matters": "Higher rates mean mortgages above 7% and costlier car and consumer loans, while the Fed's own silence leaves borrowers and investors guessing. A mistake in either direction would land hardest on housing and household budgets.",
+      "body": [
+        "The Federal Reserve is widely expected to leave interest rates unchanged when it announces its decision Wednesday, CNBC reported. Futures markets put the chance of a hike this week at about 10%, and 93% of respondents in CNBC's Fed Survey of 30 fund managers, strategists and economists also expect a pause. The central bank will thus hold a closely watched meeting in order to do nothing, which is a lot of attention for a rounding error.",
+        "The harder part is what Warsh says, or declines to say. He has pushed the Fed away from forward guidance. Translation: forward guidance means the Fed tells markets where rates are going, and Warsh would prefer that markets figure it out from the data, like everyone else with a mortgage. Deutsche Bank's Brett Ryan expects him to signal that more tightening will likely be needed over time, while skipping October buys more time to assess the data.",
+        "The data are not helping him relax. Annual CPI was 3.7% in September, driven largely by energy prices. Core CPI, which strips out gas and groceries, was 2.6%, up 0.3 percentage point from August and still above the Fed's 2% target. Translation: even the version of inflation designed to ignore the scary parts is going the wrong way.",
+        "Meanwhile the economy is sending mixed notes. Mortgage rates above 7% are squeezing housing, and CNBC described a low-fire, low-hire labor market with layoffs near their lowest since the late 1960s. Unemployment is 4.2%. Futures see better than 80% odds of a December hike, and Evercore ISI's Krishna Guha reads the Fed's baseline as roughly one hike per quarter, with the right to change its mind.",
+        "Economists disagree on whether any of this is wise. Janus Henderson's Richard Bernstein called the Fed's hesitancy to raise rates unfathomable. Moody's Mark Zandi says inflation is high but not entrenched and this is not the time for more hikes. Allianz's Mohamed El-Erian expects hikes but calls them the wrong tool, arguing for fiscal containment instead. He expects the pain to land on housing, car loans and consumer loans rather than on tech.",
+        "The survey adds a list of other worries: the war in Iran, an AI bubble, and the congressional election next week. Half of respondents blame government debt over AI borrowing for high bond yields, and the 10-year Treasury yield stands at 5.0%. Respondents expect two hikes next year on average, and a 26% chance of recession.",
+        "The likeliest outcome Wednesday is a hold, a carefully worded statement and a chairman explaining at length why he will not explain. Watch for dissents: survey respondents expect at least two voters to object to keeping rates unchanged."
+      ],
+      "topics": [
+        "federal reserve",
+        "interest rates",
+        "inflation",
+        "kevin warsh"
+      ],
+      "image_query": "federal reserve building",
+      "id": "2026-10-27-1654-markets0-fed-expected-to-hold-rates-steady-this-week-after-september-",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+        }
+      ],
+      "wire_headline": "Fed expected to hold rates steady, but Warsh may point way to more hikes",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-27T15:52:26+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1280px-Eccles_Building_%2826088200676%29.jpg",
+        "width": 1280,
+        "height": 871,
+        "title": "Eccles Building (26088200676)",
+        "creator": "Federalreserve",
+        "creator_url": "https://www.flickr.com/people/92618257@N08",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "U.S. Borrows $2 Trillion a Year, Bond Market Asks for 5.1% and a Plan",
+      "dek": "A $1.992 trillion deficit, a 5%-plus 10-year yield and a divided Congress on the way leave no obvious exit from the debt problem, CNBC reported.",
+      "catch_up": "The U.S. deficit hit $1.992 trillion in fiscal 2026, up 12% from last year, while the 10-year Treasury yield has climbed 114 basis points since the Iran war began on Feb. 28. Companies borrowing heavily for AI infrastructure are now competing with the government for the same pool of investor money.",
+      "why_it_matters": "The 10-year yield sets the tone for mortgage rates, which hover around 7.5%, and for what the government pays to borrow, which feeds back into the deficit. Without a political fix, higher rates make the debt harder to shrink and everyday borrowing more expensive.",
+      "body": [
+        "The federal government ran a deficit of $1.992 trillion in the 2026 fiscal year, Treasury data showed Friday, according to CNBC. That is up 12% from last year and roughly 6.2% of GDP. Treasury Secretary Scott Bessent has said the target should be below 4% by the end of President Trump's term, which CNBC politely describes as something the U.S. has almost no way of hitting.",
+        "Meanwhile, the 10-year Treasury yield traded at 5.1% on Friday, up 114 basis points since the end of February. Translation: a basis point is one hundredth of a percentage point, so the government's borrowing cost has risen by about 1.14 percentage points in under eight months. The latest official reading, from Oct. 23, put it at 5.0%.",
+        "Several things are pushing yields up. The war with Iran sent oil and diesel prices higher, and bond traders now want extra yield in case central banks, including the Federal Reserve, raise rates. Translation: lenders are charging more now because they expect to be hurt by inflation later. Brent crude was at $115.22 as of Oct. 20, which suggests they have a point.",
+        "There is also a supply problem. Investors believe Washington will keep issuing bonds in volume, and corporations are issuing hundreds of billions in new debt to build AI infrastructure. CNBC noted that global investors seeking safe long-term debt now have attractive alternatives to Treasurys. The government, once the only borrower in the room, is now one of several people asking for the same money.",
+        "Ordinary people feel this through housing. The average 30-year mortgage hovers near 7.5%, and Redfin said pending home sales fell 4% in September, the biggest monthly drop in three years. Mortgage rates follow the 10-year yield, so a debate in Washington about spending becomes a debate in your kitchen about whether the house is still affordable.",
+        "Rates also make the deficit itself worse. The Congressional Budget Office estimates that if rates stay half a point above its forecast, the 10-year cumulative deficit will be $1.9 trillion higher, and $6 trillion higher if they overshoot by 1.5 points. The CBO expects the 10-year yield to average 4.3% over the period, against 5.1% today. In other words, the budget office is assuming rates will behave better than they currently are.",
+        "Bessent's answer is growth. \"We've got this mountain of debt, and we have to grow our way out of it,\" he said in Dallas last month. The Committee for a Responsible Federal Budget calculates that balancing the budget by growth alone would take a decade of 7.2% GDP growth. Second-quarter growth was recently revised up from 1.5% to 2.2% annualized, so the gap is a mere five percentage points.",
+        "Politics offers little help. Republicans are widely forecast to lose at least the House in the Nov. 3 midterms, and Rep. Hakeem Jeffries, the likely next speaker, wants to reverse $1 trillion in healthcare cuts. Trump, meanwhile, pledged $5,000 checks to every adult citizen if Republicans swept the election, according to CNBC. Divided government can produce surprising compromises, though the starting positions are not close.",
+        "Not everyone sees a capital shortage. World Bank President Ajay Banga told CNBC that availability of capital is \"not really an issue,\" noting the bank mobilized $112 billion last year, about triple the figure three years earlier. He said investors may worry about circular financing and AI business models, but emerging markets face less hesitancy because they fund bridges and roads. MarketWatch, for its part, reported that AI financing has become harder and costlier as scrutiny of the spending boom grows.",
+        "CNBC's bottom line is that a full debt crisis remains further out, and that high yields also attract buyers to Treasurys, since expensive borrowing is not the same as a crisis. Nobody knows what debt level is unsustainable, though the total reached $40 trillion this year. The one thing the bond market has not priced in is a bipartisan plan, which may be the most reasonable assumption on the board."
+      ],
+      "topics": [
+        "treasury yields",
+        "federal deficit",
+        "mortgage rates",
+        "ai financing"
+      ],
+      "image_query": "us treasury building",
+      "id": "2026-10-27-1654-markets1-treasury-yields-above-5-and-2-trillion-deficits-raise-borrow",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html"
+        }
+      ],
+      "wire_headline": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "wire_source": "CNBC Economy",
+      "published": "2026-10-26T18:33:51+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Treasury_Building_%281%29.jpg/1280px-Treasury_Building_%281%29.jpg",
+        "width": 1280,
+        "height": 858,
+        "title": "Treasury Building (1)",
+        "creator": "Erich Robert Joli Weber",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:AutoErich&action=edit&redlink=1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Treasury_Building_(1).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Boeing Promises to Build Planes Faster Eventually, Investors Hear 'Eventually' and Sell 9%",
+      "dek": "Boeing says it won't significantly raise 737 Max output until late 2027 because wings are arriving slowly, even as losses narrow and defense sales climb.",
+      "catch_up": "Boeing has spent years trying to stabilize production of its best-selling 737 Max after a long run of safety and quality problems. On Tuesday it reported third-quarter results and updated investors on when it expects to build more planes.",
+      "why_it_matters": "Boeing collects most of an aircraft's price only when the customer takes delivery, so slower production means slower cash for the company and later planes for airlines. Travelers and investors should expect the recovery to be gradual rather than quick.",
+      "body": [
+        "Boeing said on Tuesday that it does not expect to significantly ramp up production of the 737 Max until the second half of 2027, according to CNBC. CEO Kelly Ortberg said the target is 52 planes a month, up from about 47 now. The stated reason is a slower-than-expected pace of wing production, which is a fairly fundamental part of an airplane. Boeing shares fell about 9% during the call.",
+        "The delay is the story, though the quarter itself was less grim. Boeing reported a net loss of $116 million, or 26 cents a share, compared with a $5.34 billion loss a year earlier. Translation: the company lost far less money, mostly because last year's comparison included a nearly $5 billion charge on the long-delayed 777X program. Adjusted for one-time items, the loss was 34 cents a share, against the 21-cent loss analysts had expected, according to LSEG consensus estimates.",
+        "Revenue rose 4% to $24.19 billion, ahead of the $23.84 billion forecast. Free cash flow, the cash left after paying for operations and investment, rose to $464 million from $238 million. Boeing delivered 161 commercial airplanes, one more than a year earlier, which is technically growth and the sort of increase a company would describe as stability.",
+        "The weak spot was the commercial aircraft unit, the part of Boeing that makes the things people actually fly in. Its revenue fell 3% to $10.72 billion, and it posted a negative operating margin of 6.5%. Translation: for every dollar of sales it lost about six and a half cents on operations. Boeing blamed a less favorable delivery mix, higher projected costs tied to future production rate changes, and higher estimated supply chain costs, a list that covers most of the ways to lose money building aircraft.",
+        "Defense carried the quarter. Revenue in that unit jumped 15% to $7.94 billion, and the U.S. Navy picked Boeing to develop its next-generation fighter jet. On the civil side, the FAA approved the 737 Max 10 last week, following the Max 7 in August, which completes certification of the Max family. Boeing can now legally sell every version of the plane it is not yet building fast enough.",
+        "Ortberg struck a patient tone. 'We're going to do it right,' he told CNBC's Phil LeBeau, acknowledging that everybody wants the company to go faster. In a note to staff he said expectations are rising 'and they should,' and that the company has more work to do. Investors, who had apparently hoped for faster, responded by selling.",
+        "The logic is straightforward. Airlines are waiting on planes, Boeing is waiting on wings, and shareholders are waiting on cash, which arrives mostly at delivery. Next 52 planes a month is the number to watch, along with whether the wing supply improves before 2027 turns into 2028."
+      ],
+      "topics": [
+        "boeing",
+        "737 max",
+        "earnings",
+        "aerospace"
+      ],
+      "image_query": "airplane assembly factory",
+      "id": "2026-10-27-1654-markets2-boeing-stock-falls-9-as-737-max-production-ramp-delayed-unti",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html"
+        }
+      ],
+      "wire_headline": "Boeing stock sinks 9% as company says it won't significantly ramp up 737 Max production until late 2027",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-27T15:45:49+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Boeing_Everett.jpg",
+        "width": 1280,
+        "height": 719,
+        "title": "Boeing Everett",
+        "creator": "Domas Mituzas",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Midom",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Boeing_Everett.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Honda Calls 50% Canada Tariff 'Catastrophic,' Hopes Cooler Heads Prevail Before New Year",
+      "dek": "An American Honda executive warned that doubling duties on Canadian vehicles and parts on Jan. 1 would hurt the entire industry, and asked for a three-country deal instead of two separate ones.",
+      "catch_up": "President Trump has threatened to raise tariffs on Canadian vehicles and parts from 25% to 50% on Jan. 1 if the U.S. and Canada fail to reach a trade deal. The U.S. has also declined to automatically extend the USMCA, the North American trade pact, putting it on an annual review.",
+      "why_it_matters": "Cars built in North America cross borders many times before they reach a showroom, so tariff changes can raise costs across the whole supply chain. Buyers could eventually see that in sticker prices, though the sources do not say by how much.",
+      "body": [
+        "Jennifer Thomas, senior vice president of corporate affairs at American Honda Motor, told a Reuters automotive conference in Detroit on Tuesday that a 50% tariff on Canadian vehicles and parts would be \"catastrophic for the entire industry,\" according to CNBC. The trigger is Jan. 1, the date President Trump set in August for doubling the current 25% rate if no deal emerges. The calendar, in other words, is the only party in these talks that has been perfectly clear about its position.",
+        "Thomas said she is \"cautiously optimistic\" that cooler heads will prevail. Translation: Honda has no way to influence the outcome and has decided that hope is a reasonable line item. Her optimism rests on recent reports that Washington and Ottawa have restarted talks, including on easing levies on critical materials such as aluminum.",
+        "What Honda really wants is not a deal but a bigger deal. Thomas said the company prefers a three-country arrangement including Mexico, like the United States-Mexico-Canada Agreement, or USMCA, over separate bilateral arrangements. CNBC reported that trade groups for Honda and every major U.S. automaker have lobbied the same way. Translation: when the entire industry agrees on something, it is usually because the alternative involves a spreadsheet nobody wants to build.",
+        "The reason is parts. Many automotive officials have raised concerns because components cross North American borders repeatedly during vehicle production, so a tariff is not paid once but can be paid at several stops along the way. A bolt that goes to Canada and back does not experience this as a vacation.",
+        "The USMCA itself is in an awkward state. Trump negotiated it in his first term to replace NAFTA, and it took effect in 2020. He later soured on it and accused Canada of \"ripping off the United States of America for years.\" U.S. Trade Representative Jamieson Greer announced months ago that the U.S. would not automatically extend the pact, shifting it from a 16-year trilateral extension to an annual review. Translation: instead of a long lease, the deal is now month-to-month with an annual inspection.",
+        "Honda is the second-largest vehicle producer in Canada behind Toyota, but the company says more than 60% of the vehicles it sells in the U.S. are built domestically at multiple U.S. assembly plants. That is a meaningful cushion, though Thomas made clear it does not make the industry immune. She said she never thought she would see North America put at such a disadvantage, noting that some overseas countries have better tariff rates.",
+        "She has a point on the numbers. CNBC noted the Trump administration has struck deals with Japan and South Korea, both major vehicle exporters to the U.S., that include 15% tariffs on vehicles. Canadian vehicles face 25% now and possibly 50% in the new year, meaning a neighbor with an integrated supply chain could pay more than distant exporters.",
+        "Markets, for now, are not panicking. SPY closed at 769.14 on Oct. 27 and the VIX, Wall Street's fear gauge, stood at 18.39 on Oct. 26, a number that suggests investors are concerned but not yet rearranging their furniture. With about two months left, the question is whether negotiators move before the date does."
+      ],
+      "topics": [
+        "tariffs",
+        "canada",
+        "autos",
+        "usmca"
+      ],
+      "image_query": "car assembly line",
+      "id": "2026-10-27-1654-markets3-honda-warns-50-canada-auto-tariffs-would-be-catastrophic",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html"
+        }
+      ],
+      "wire_headline": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-27T16:49:39+00:00"
+    },
+    {
+      "headline": "JetBlue Stock Jumps 20% After Airline Promises Profit, Eventually, in Writing",
+      "dek": "Shares surged after JetBlue set a new profit target and argued its bond selloff doesn't match its earnings, according to MarketWatch and Investing.com.",
+      "catch_up": "JetBlue has lost money for years, and its bonds have been sold off hard enough to raise questions about whether it can keep operating. This week the airline published a profit target and said investors were misreading the situation.",
+      "why_it_matters": "When a heavily indebted airline's bonds fall, borrowing gets costlier and the risk of a restructuring rises, which can affect ticket prices, routes and jobs. A 20% stock rally on a promise shows how much of the airline's value rests on whether lenders believe it.",
+      "body": [
+        "JetBlue's stock rose more than 20% after the airline laid out a new profit target, MarketWatch reported. The paper described the target as calming fears about the airline's viability. Translation: investors had been wondering whether the company would survive, and a spreadsheet with a positive number at the end was enough to cheer them up.",
+        "The backdrop, per MarketWatch, is that JetBlue has been losing money for years. Years of losses are normally a reason for investors to hold a tense meeting. A target is not a profit, but it is the first document in a while that contains the word, so the market took it as progress.",
+        "Investing.com reported a second part of the pitch: JetBlue flagged a 'disconnect' between its earnings and the rout in its bonds. Translation: the airline says lenders are pricing it as if disaster is near, while its operating results suggest a less dramatic picture. This is the corporate version of telling a landlord that the neighbors are exaggerating the fire.",
+        "The bond angle matters more than it sounds. Bonds are loans investors make to a company, and when their prices fall, the yield, or the interest rate the company would need to pay to borrow again, rises. With the 10-year Treasury at 5.0% and the 2-year at 4.69% as of October 23, the safe baseline is already high, so a risky borrower has to offer much more on top. An airline with big debts and a history of losses sits at the expensive end of that menu.",
+        "That is why the stock reacted so sharply. Shareholders sit behind lenders in line, so if the bond market doubts the company, stockholders get nervous first and loudest. A credible path to profit reassures both groups, at least until the next quarter's results show whether the path was a road or a drawing.",
+        "There is also an outside factor. Brent crude stood at 115.22 as of October 20, and fuel is among an airline's largest costs. Neither source in this case tied JetBlue's plan to oil prices, so readers should note only that the target will have to survive the fuel bill, whatever it turns out to be.",
+        "For ordinary travelers, the stakes are practical. A airline that is not in financial trouble keeps flying its routes and honoring its tickets, while one that is may cut service or raise fares to fix its books. A 20% jump in the shares suggests investors now think that outcome is less likely, though the bonds, which started this, will get the final say.",
+        "What to watch: whether the bond prices recover. Stock traders can be convinced by a target in a day, but lenders usually want to see the profit first."
+      ],
+      "topics": [
+        "jetblue",
+        "airlines",
+        "bond market",
+        "stocks"
+      ],
+      "image_query": "airplane at airport gate",
+      "id": "2026-10-27-1654-markets4-jetblue-shares-jump-over-20-after-new-profitability-target",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/jetblue-has-been-losing-money-for-years-it-just-charted-a-path-to-profitability-03be75c8?mod=mw_rss_topstories"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/jetblue-shares-rally-as-airline-seeks-to-calm-financial-concerns-4975611"
+        }
+      ],
+      "wire_headline": "JetBlue has been losing money for years. It just charted a path to profitability.",
+      "wire_source": "MarketWatch",
+      "published": "2026-10-27T16:52:00+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jet_bridge_at_Haneda_Airport.JPG",
+        "width": 1280,
+        "height": 960,
+        "title": "Jet bridge at Haneda Airport",
+        "creator": "本屋",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:%E6%9C%AC%E5%B1%8B&action=edit&redlink=1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Jet_bridge_at_Haneda_Airport.JPG",
+        "source": "Wikimedia Commons"
+      }
+    }
+  ],
+  "wire": {
+    "geopolitics": [
+      {
+        "title": "Lula’s victory echoes across BRICS after fears of a Bolsonaro win",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/27/lulas-victory-echoes-across-brics-after-fears-over-a-bolsonaro-win?traffic_source=rss"
+      },
+      {
+        "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+      },
+      {
+        "title": "Myanmar: Is the US undermining the EU's diplomatic blockade?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/myanmar-is-the-us-undermining-the-eu-s-diplomatic-blockade/a-79778863?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss"
+      },
+      {
+        "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino"
+      },
+      {
+        "title": "A 'Green Army' is out to thwart El Niño flooding",
+        "source": "NPR World",
+        "url": "https://www.npr.org/2026/10/27/nx-s1-6010370/el-nino-floods-nairobi-green-army"
+      },
+      {
+        "title": "Will elections in Israel change its Iran approach?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/will-elections-in-israel-change-its-iran-approach/a-79776122?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Iranian and Qatari leaders meet at Russian energy forum",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/iranian-and-qatari-leaders-meet-at-russian-energy-forum?traffic_source=rss"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      },
+      {
+        "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
+      },
+      {
+        "title": "Former Deepmind researcher thinks AlphaGo's playbook can cure AI hallucinations",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/"
+      },
+      {
+        "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+      },
+      {
+        "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+      },
+      {
+        "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/"
+      },
+      {
+        "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+        "source": "Ars Technica AI",
+        "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/"
+      },
+      {
+        "title": "Japan internet giant GMO says hackers posted stolen customer data",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      },
+      {
+        "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+        "source": "Hacker News",
+        "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
+      },
+      {
+        "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
+        "source": "Hacker News",
+        "url": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/"
+      },
+      {
+        "title": "Sculpture recreates odd optical effects of famed Lycurgus Cup",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
+      },
+      {
+        "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+      },
+      {
+        "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Classification of Finite Simple Groups Formalized in Lean",
+        "source": "Hacker News",
+        "url": "https://cfsg.axiommath.ai/"
+      }
+    ],
+    "markets": [
+      {
+        "title": "Poland stocks higher at close of trade; WIG30 up 0.96%",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-096-4976476"
+      },
+      {
+        "title": "When will Anthropic go public? Here’s what to know about the IPO timeline.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/when-will-anthropic-go-public-heres-what-to-know-about-the-ipo-timeline-431eca78?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Denmark stocks higher at close of trade; OMX Copenhagen 20 up 0.35%",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/denmark-stocks-higher-at-close-of-trade-omx-copenhagen-20-up-035-4976470"
+      },
+      {
+        "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html"
+      },
+      {
+        "title": "The U.S. economy is gathering steam. This is the chief reason why.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/u-s-economy-is-gathering-steam-this-is-the-chief-reason-why-9772978f?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Oakley Capital explores sale of Phenna Group testing firm - Bloomberg",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/oakley-capital-explores-sale-of-phenna-group-testing-firm--bloomberg-93CH-4976465"
+      },
+      {
+        "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+      },
+      {
+        "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories"
+      }
+    ]
+  }
+}
