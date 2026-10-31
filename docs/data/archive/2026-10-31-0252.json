@@ -1,0 +1,1924 @@
+{
+  "generated_at": "2026-10-31T02:52:46.846344+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.3396,
+  "indicators": [
+    {
+      "id": "SPY",
+      "label": "SPY",
+      "kind": "usd",
+      "unit": "",
+      "unit_label": "US dollars per share",
+      "value": 755.72,
+      "change": -13.62,
+      "change_pct": -1.77,
+      "as_of": "2026-10-30",
+      "history": [
+        747.03,
+        757.67,
+        771.33,
+        769.79,
+        768.56,
+        773.26,
+        773.03,
+        770.56,
+        772.49,
+        777.88,
+        776.34,
+        772.67,
+        767.45,
+        769.06,
+        762.6,
+        765.72,
+        763.47,
+        765.91,
+        766.08,
+        771.1,
+        769.35,
+        767.05,
+        761.78,
+        765.16,
+        773.17,
+        770.19,
+        765.96,
+        762.4,
+        757.83,
+        764.29,
+        760.88,
+        757.39,
+        754.05,
+        762.6,
+        761.69,
+        773.5,
+        773.38,
+        767.81,
+        767.18,
+        771.35,
+        765.61,
+        764.2,
+        762.63,
+        763.99,
+        769.64,
+        774.83,
+        779.09,
+        777.22,
+        773.93,
+        778.57,
+        778.1,
+        778.01,
+        769.6,
+        771.79,
+        763.25,
+        766.48,
+        769.05,
+        773.09,
+        763.96,
+        759.97,
+        765.37,
+        769.66,
+        772.31,
+        769.36,
+        755.72
+      ],
+      "since": "2026-07-31",
+      "session": null
+    },
+    {
+      "id": "NASDAQCOM",
+      "label": "Nasdaq",
+      "kind": "index",
+      "value": 26184.72,
+      "change": -365.13,
+      "change_pct": -1.38,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-29",
+      "history": [
+        24442.94,
+        25122.18,
+        25373.85,
+        25913.9,
+        26584.99,
+        26363.44,
+        26348.35,
+        26690.62,
+        26605.36,
+        26445.45,
+        26588.49,
+        26803.03,
+        26729.16,
+        26644.91,
+        26289.71,
+        26331.09,
+        26067.17,
+        26180.45,
+        25980.19,
+        26151.3,
+        26130.2,
+        26541.35,
+        26402.42,
+        26370.89,
+        26099.77,
+        26217.83,
+        26584.06,
+        26506.99,
+        26421.41,
+        26253.34,
+        26081.72,
+        26333.04,
+        26186.41,
+        25981.57,
+        25978.42,
+        26418.3,
+        26522.55,
+        27122.09,
+        27244.28,
+        26936.04,
+        26939.37,
+        27068.72,
+        26820.38,
+        26797.54,
+        26861.06,
+        26871.6,
+        27190.86,
+        27477.31,
+        27599.89,
+        27538.69,
+        27193.34,
+        27366.17,
+        27245.9,
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03,
+        26430.89,
+        26424.82,
+        26702.86,
+        26008.86,
+        25955.34,
+        26169.38,
+        26477.81,
+        26549.85,
+        26184.72
+      ],
+      "since": "2026-07-29"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "kind": "level",
+      "value": 17.2,
+      "change": 0.29,
+      "change_pct": 1.71,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-29",
+      "history": [
+        17.09,
+        15.99,
+        15.86,
+        16.5,
+        15.81,
+        15.15,
+        14.9,
+        15.46,
+        15.28,
+        14.55,
+        14.63,
+        14.25,
+        15.19,
+        15.84,
+        14.89,
+        16.01,
+        15.13,
+        15.85,
+        15.45,
+        15.21,
+        14.51,
+        14.43,
+        14.92,
+        16.34,
+        15.2,
+        14.32,
+        14.53,
+        15.3,
+        15.72,
+        16.46,
+        17.84,
+        15.84,
+        17.1,
+        17.2,
+        17.71,
+        15.44,
+        14.81,
+        14.87,
+        14.21,
+        15.18,
+        15.67,
+        14.87,
+        16.07,
+        16.04,
+        16.34,
+        16.39,
+        15.31,
+        15.52,
+        15.01,
+        15.08,
+        15.41,
+        14.84,
+        15.21,
+        15.27,
+        16.87,
+        16.46,
+        19.99,
+        18.44,
+        17.31,
+        16.68,
+        19.03,
+        19.45,
+        18.39,
+        17.52,
+        16.91,
+        17.2
+      ],
+      "since": "2026-07-30"
+    },
+    {
+      "id": "DCOILBRENTEU",
+      "label": "Brent crude",
+      "kind": "usd",
+      "value": 123.1,
+      "change": -5.02,
+      "change_pct": -3.92,
+      "unit": "",
+      "unit_label": "US dollars per barrel",
+      "as_of": "2026-10-27",
+      "history": [
+        91.82,
+        85.51,
+        91.95,
+        91.91,
+        96.95,
+        88.9,
+        86.47,
+        86.65,
+        89.65,
+        87.62,
+        92.74,
+        93.26,
+        92.52,
+        92.03,
+        92.02,
+        92.43,
+        95.29,
+        92.37,
+        94.0,
+        96.92,
+        92.71,
+        88.24,
+        87.77,
+        90.18,
+        89.75,
+        96.02,
+        97.59,
+        100.52,
+        102.24,
+        104.47,
+        106.12,
+        109.51,
+        120.98,
+        118.06,
+        121.25,
+        130.8,
+        127.84,
+        121.18,
+        119.66,
+        116.15,
+        114.89,
+        117.45,
+        120.92,
+        116.01,
+        119.97,
+        113.96,
+        115.91,
+        114.82,
+        135.51,
+        125.51,
+        125.44,
+        126.0,
+        130.18,
+        130.03,
+        129.95,
+        125.78,
+        126.55,
+        126.35,
+        119.33,
+        118.82,
+        115.22,
+        117.37,
+        125.39,
+        128.3,
+        128.12,
+        123.1
+      ],
+      "since": "2026-07-27"
+    },
+    {
+      "id": "DTWEXBGS",
+      "label": "Dollar index",
+      "kind": "index",
+      "value": 121.32,
+      "change": -0.03,
+      "change_pct": -0.03,
+      "unit": "",
+      "unit_label": null,
+      "as_of": "2026-10-23",
+      "history": [
+        120.574,
+        120.907,
+        120.71,
+        120.774,
+        120.625,
+        120.789,
+        119.675,
+        119.703,
+        119.695,
+        119.598,
+        119.388,
+        119.511,
+        119.065,
+        119.119,
+        119.179,
+        119.118,
+        119.185,
+        118.903,
+        118.814,
+        118.983,
+        118.333,
+        118.255,
+        118.063,
+        118.32,
+        118.228,
+        118.446,
+        118.358,
+        118.748,
+        118.568,
+        118.657,
+        118.53,
+        118.127,
+        118.073,
+        117.913,
+        117.883,
+        118.079,
+        118.213,
+        118.692,
+        118.882,
+        118.921,
+        119.349,
+        119.513,
+        119.401,
+        119.593,
+        120.117,
+        120.552,
+        120.33,
+        120.696,
+        121.03,
+        120.969,
+        121.788,
+        121.385,
+        121.271,
+        120.898,
+        121.256,
+        121.447,
+        121.602,
+        121.443,
+        122.004,
+        121.569,
+        121.405,
+        121.325,
+        121.116,
+        121.342,
+        121.353,
+        121.32
+      ],
+      "since": "2026-07-22"
+    },
+    {
+      "id": "DGS2",
+      "label": "2Y Treasury",
+      "kind": "rate",
+      "value": 4.61,
+      "change": -0.06,
+      "change_pct": -1.28,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-29",
+      "history": [
+        4.26,
+        4.22,
+        4.23,
+        4.28,
+        4.25,
+        4.2,
+        4.18,
+        4.25,
+        4.19,
+        4.25,
+        4.22,
+        4.2,
+        4.15,
+        4.17,
+        4.19,
+        4.19,
+        4.19,
+        4.19,
+        4.24,
+        4.24,
+        4.17,
+        4.19,
+        4.2,
+        4.34,
+        4.34,
+        4.39,
+        4.39,
+        4.34,
+        4.37,
+        4.39,
+        4.43,
+        4.56,
+        4.63,
+        4.65,
+        4.67,
+        4.74,
+        4.67,
+        4.76,
+        4.76,
+        4.71,
+        4.85,
+        4.87,
+        4.81,
+        4.92,
+        4.89,
+        4.88,
+        4.78,
+        4.83,
+        4.84,
+        4.79,
+        4.77,
+        4.75,
+        4.8,
+        4.79,
+        4.82,
+        4.77,
+        4.74,
+        4.77,
+        4.79,
+        4.81,
+        4.65,
+        4.69,
+        4.68,
+        4.7,
+        4.67,
+        4.61
+      ],
+      "since": "2026-07-28"
+    },
+    {
+      "id": "DGS10",
+      "label": "10Y Treasury",
+      "kind": "rate",
+      "value": 4.98,
+      "change": -0.07,
+      "change_pct": -1.39,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-29",
+      "history": [
+        4.61,
+        4.67,
+        4.68,
+        4.75,
+        4.7,
+        4.63,
+        4.63,
+        4.69,
+        4.65,
+        4.72,
+        4.7,
+        4.68,
+        4.63,
+        4.68,
+        4.72,
+        4.71,
+        4.65,
+        4.69,
+        4.74,
+        4.7,
+        4.64,
+        4.66,
+        4.67,
+        4.73,
+        4.75,
+        4.79,
+        4.79,
+        4.77,
+        4.78,
+        4.8,
+        4.83,
+        4.95,
+        4.96,
+        4.97,
+        5.0,
+        5.01,
+        4.94,
+        5.01,
+        4.96,
+        4.96,
+        5.11,
+        5.18,
+        5.17,
+        5.24,
+        5.26,
+        5.29,
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15,
+        5.12,
+        5.13,
+        4.96,
+        5.0,
+        5.0,
+        4.99,
+        5.05,
+        4.98
+      ],
+      "since": "2026-07-28"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds",
+      "kind": "rate",
+      "value": 3.88,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-10-29",
+      "history": [
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+      ],
+      "since": "2026-08-25"
+    },
+    {
+      "id": "CPIAUCNS",
+      "label": "CPI inflation (YoY)",
+      "kind": "rate",
+      "value": 3.74,
+      "change": 0.34,
+      "change_pct": 10.04,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        2.441,
+        2.598,
+        2.749,
+        2.888,
+        3.0,
+        2.822,
+        2.391,
+        2.311,
+        2.355,
+        2.669,
+        2.705,
+        2.916,
+        3.013,
+        2.735,
+        2.677,
+        2.386,
+        2.414,
+        3.256,
+        3.811,
+        4.249,
+        3.531,
+        3.365,
+        3.397,
+        3.738
+      ],
+      "since": "2024-09-01"
+    },
+    {
+      "id": "UNRATE",
+      "label": "Unemployment",
+      "kind": "rate",
+      "value": 4.2,
+      "change": 0.1,
+      "change_pct": 2.44,
+      "unit": "%",
+      "unit_label": null,
+      "as_of": "2026-09-01",
+      "history": [
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+      ],
+      "since": "2024-09-01"
+    }
+  ],
+  "briefing": {
+    "lead_index": 6,
+    "five_things": [
+      "Binance says hackers accessed about $6.3bn in a record heist, with North Korea's Lazarus Group suspected, and it has offered two different figures for how much it has recovered, which is one more than a crisis usually needs.",
+      "Israel's election ended in deadlock with neither Netanyahu's bloc nor Eisenkot's able to reach a governing majority, so the old government stays on because voters declined to hire a new one.",
+      "The US approved a $2.1bn sale of 500 PAC-3 Patriot missiles to Ukraine, paid for by European allies and Canada, but they are new builds, so delivery may take years.",
+      "Big Tech has planned more than $740bn in AI spending, and Alphabet lost about $500bn in market value, Intel fell 29% and the Nasdaq dropped 2.9%, as investors asked when the payoff arrives.",
+      "Two Fed presidents said rates must rise soon, days after the Fed held steady, while the ECB held at 2.5% despite 3.8% inflation, so the pause is mostly in the press releases."
+    ],
+    "number_of_the_day": {
+      "figure": "$740 billion",
+      "explanation": "It is how much Big Tech plans to spend on AI, and the market has noticed that a very large number is not the same thing as a business plan."
+    }
+  },
+  "articles": [
+    {
+      "headline": "Binance Loses $6.3 Billion to Hackers, Promises Everything Is Fine",
+      "dek": "The world's largest crypto exchange says it has frozen about half the stolen funds, while analytics firms point to North Korea's Lazarus Group.",
+      "catch_up": "Binance, the largest cryptocurrency exchange, reported a hack that accessed about $6.3bn in assets, which the BBC describes as a record heist. Two analytics firms, TRM Labs and Chainalysis, say they have high confidence that a North Korean state-backed hacking unit is responsible.",
+      "why_it_matters": "Millions of users keep money on exchanges that promise to cover losses, but experts say such promises may not be legally binding. The episode also shows how a sanctioned state can fund itself by stealing from the private sector.",
+      "body": [
+        "Binance, the world's largest cryptocurrency exchange, said this week that about $6.3bn (£4.7bn) was accessed in a hack that the BBC describes as a record heist. The company says it has secured about $3bn, which it puts at roughly half, though a spokesperson later cited 80% of stolen assets as secured. The BBC's reporting contains both figures and does not reconcile them, which is a useful reminder that in a crisis, arithmetic is also a communications strategy.",
+        "Binance's first explanation was that an engineer's laptop had been compromised, allowing unauthorised withdrawals. It later said the attack was wider. Co-CEO Richard Teng said the incident was \"not carried out by one person\" and that the investigation had \"uncovered additional points of breach.\" Translation: the first answer was a single laptop, the second answer was several problems, and the third answer is still being compiled.",
+        "The attackers also reportedly used a self-destruct mechanism that wiped out tooling and traces as they went, according to Teng. This is what security professionals call making the investigation harder, and what everyone else calls cleaning up after yourself. TRM Labs said it is likely the attacker gained access to Binance's hot wallet signing system. Translation: a hot wallet is the internet-connected account used for day-to-day transfers, and a signing system is what approves them, so the thieves reached the part that says yes.",
+        "Attribution points to the Lazarus Group, also known as TraderTraitor, which TRM Labs and Chainalysis both identified \"with high confidence.\" Chainalysis also said the laundering patterns were ones it had \"not seen before.\" The BBC notes that several elements resembled the Bybit hack, which the FBI blamed on North Korea last year, when $1.5bn was stolen. North Korea has long denied involvement in crypto theft, though the BBC says the evidence from cryptocurrency flow analysis and defector interviews is compelling.",
+        "The incentives are straightforward. North Korea is a heavily sanctioned country with very little industry, and experts quoted by the BBC say the regime uses cybercrime to bring money in. Reports say it recruits promising university students into hacking groups overseen by its intelligence agency. It is, in effect, the only state with a recruiting pipeline from the math department to the heist.",
+        "Binance told users that \"your money is safe, and we're covering every loss,\" and said it had set aside more than $6.34bn in company funds. The BBC points out that crypto history watchers noted FTX's Sam Bankman-Fried offered similar reassurance before FTX collapsed in 2022. Daniel Tunkel of the law firm Edwin Coe said recovery would come down to what customers were promised in their contracts. Translation: a reassuring tweet and a binding contract are different documents, and only one of them can be taken to court.",
+        "Markets reacted with their usual composure. Bitcoin fell 5% to $76,800 on Friday afternoon in New York, Coinbase dropped 12% (partly on earnings that slightly missed expectations), and Robinhood slid 7.8%. The US Secret Service said it was working around the clock to identify, freeze, trace and recover the funds, and Binance said it is working with the FBI. Binance has more than 300 million registered users and said in 2024 that it held over $160bn in assets, so the next thing to watch is whether the promise to cover every loss survives contact with the other half of the ledger."
+      ],
+      "topics": [
+        "north korea",
+        "binance",
+        "cryptocurrency",
+        "cybercrime"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-31-0252-geopolitics0-binance-6-3bn-hack-linked-to-north-korea",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "wire_source": "BBC World",
+      "published": "2026-10-30T21:13:14+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Poland Sends Riot Police to Protect Rule of Law From Its Own Judges",
+      "dek": "Prime Minister Tusk's government moves to strip the Constitutional Court's two top judges of immunity, and President Nawrocki turns his plane around to join the standoff.",
+      "catch_up": "Poland's Constitutional Court has been contested since the Law and Justice (PiS) party took power in 2015 and installed judges to gain a majority there. Donald Tusk's government, in office since the PiS era ended, says it is restoring the rule of law, but it has been blocked by presidential vetoes.",
+      "why_it_matters": "A court that cannot agree on who runs it cannot reliably settle what the law is, and that uncertainty reaches every Polish business and citizen. The dispute also tests how far a government may go to fix a broken institution before the fix becomes part of the problem.",
+      "body": [
+        "Riot police were deployed at Poland's Constitutional Court in Warsaw, the BBC reported, amid an escalating standoff between Prime Minister Donald Tusk's government and the court's senior judges. Justice Minister Waldemar Żurek said he had asked to lift the immunity from prosecution of court President Bogdan Święczkowski and Vice-President Bartłomiej Sochański so they can face criminal charges. The police were there to keep demonstrators out of the building, which is a notable way to defend an institution whose purpose is to check the state.",
+        "Translation: lifting immunity means removing the legal shield that normally stops prosecutors from charging a senior official. Żurek's stated reason is that the two judges have refused to let certain colleagues hear cases. Those colleagues are five judges elected by parliament since March, whom President Karol Nawrocki has declined to swear in, citing alleged flaws in how they were selected.",
+        "Nawrocki, who is backed by PiS, cancelled a trip mid-air to the Summer Youth Olympic Games in Dakar, Al Jazeera and the BBC reported, and has since entered the court, according to his chief of staff. PiS supporters gathered outside in protest. The court, for its part, posted online that the two judges remain its legally appointed senior justices, and that everyone taking part in these actions is committing \"the crime of a coup d'etat.\" Tusk posted that restoring the rule of law is a duty and \"a difficult, sometimes painful process.\"",
+        "The background is a genuine mess, and both sides can cite it. After PiS took office in 2015 it moved quickly to appoint judges and win a majority on the court, which can rule on whether legislation is legal. The European Court of Human Rights and the Court of Justice of the European Union later found that three of those judges were improperly elected because they occupied seats already validly filled by the previous parliament. The European courts concluded the tribunal was no longer an independent and impartial one, and Tusk's government used that as grounds to stop publishing its rulings.",
+        "Tusk has not been able to undo the changes by ordinary legislation, partly because Nawrocki and his predecessor Andrzej Duda used presidential vetoes to block him. Anna Korwin-Piotrowska, one of the judges Nawrocki has declined to swear in, has now been placed in temporary charge of the court. Earlier this month the Venice Commission, the Council of Europe's advisory body on constitutional matters, said Nawrocki should swear in the judges so they can sit on the bench.",
+        "Even people who dislike the court's leadership are uneasy. Lawyer Marcin Matczak, a critic of the PiS-era judicial changes who calls Święczkowski the court's worst president, said the suspension has no legal basis \"for a million reasons.\" He warned that images of armed police and a justice minister removing a court president by decree will cause a backlash against the rule of law \"for years to come.\" Some of Tusk's own supporters, meanwhile, have accused him of not acting decisively enough, and with parliamentary elections due next year, some see the move as a bid for popularity. The BBC also noted criticism of Tusk's September pick of Maciej Berek, a lawyer who served in his cabinet, as a court candidate.",
+        "The structure of the dispute is tidy in its own way. One side says the court was captured, so it must be removed by force of law. The other says the removal is the capture. Both say they are defending the constitution, and both are standing in front of the same building, one of them with riot shields.",
+        "What to watch next is whether parliament and prosecutors actually lift the judges' immunity, and who ends up in the courtroom first."
+      ],
+      "topics": [
+        "poland",
+        "constitutional court",
+        "donald tusk",
+        "rule of law"
+      ],
+      "image_query": "Warsaw court building",
+      "id": "2026-10-31-0252-geopolitics1-poland-constitutional-crisis-police-deployed-at-top-court-as",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/polands-president-joins-protest-amid-constitutional-crisis-at-top-court?traffic_source=rss"
+        }
+      ],
+      "wire_headline": "Police deployed during stand-off over control of top Poland court",
+      "wire_source": "BBC World",
+      "published": "2026-10-31T01:11:43+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Former_military_court_building_in_Warsaw%2C_2021.jpg/1280px-Former_military_court_building_in_Warsaw%2C_2021.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Former military court building in Warsaw, 2021",
+        "creator": "Szczecinolog",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Szczecinolog",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Former_military_court_building_in_Warsaw,_2021.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Israel Votes, Counts, and Learns Nobody Has 61 Seats",
+      "dek": "With Netanyahu's bloc ahead but short of a majority, Israel faces long coalition talks while Germany, among others, waits and says as little as possible.",
+      "catch_up": "Israel held a parliamentary election this week, and with roughly 90 percent of votes counted, neither Prime Minister Benjamin Netanyahu's right-wing bloc nor the opposition bloc led by former military chief Gadi Eisenkot has a clear path to a majority in the Knesset. Netanyahu's government stays in office on an interim basis while the bargaining begins.",
+      "why_it_matters": "Until a government forms, decisions on Gaza aid and the West Bank may stall, and foreign capitals are holding back on policy. The Arab-majority parties' strong showing could make them decisive, which is a problem for a bloc that has ruled out working with them.",
+      "body": [
+        "Israel's election has ended in deadlock, according to NPR, with neither side able to claim a majority. Even with the right-wing bloc led by Prime Minister Benjamin Netanyahu ahead of the opposition bloc led by Gadi Eisenkot, DW reported that neither has a clear route to a governing majority in the Knesset. Translation: being ahead is not the same as being able to govern, a distinction that matters a great deal in parliamentary systems and not at all on election night television.",
+        "The practical result is coalition building, a process in which the winner is whoever can persuade enough smaller parties to agree on everything at once. DW describes this as likely to be extremely difficult. In the meantime, Netanyahu's government remains in office on an interim basis, which means the old government keeps its job precisely because the voters did not clearly hire a new one.",
+        "The arithmetic is complicated by the Arab-majority parties, led by Palestinian citizens of Israel, which made large gains, DW reported. They are usually counted in the opposition camp, and the results could make them kingmakers. Translation: kingmaker means the party whose votes the others need but would prefer not to be seen needing. Netanyahu's bloc has ruled out working with them.",
+        "Eisenkot's bloc has not said whether it would do so. One of the parties, United Arab List/Ra'am, which featured a Jewish candidate, has said it is willing to work with Eisenkot's bloc to unseat Netanyahu. Jürgen Hardt, a foreign policy expert for Germany's CDU, told DW that a minority government led by Eisenkot and backed by parties representing Arab Israelis is conceivable. A minority government is one that governs without a majority and relies on others not to vote it out, which is a stable arrangement until it is not.",
+        "Hardt also offered an assessment of how the situation arose: Netanyahu's campaign, aimed primarily against Arab Israelis, greatly mobilized the opposition, to the point where his camp no longer has a majority. In other words, the strategy worked on voters, just not the ones intended.",
+        "Berlin, meanwhile, has chosen the diplomatic art of saying something without saying it. A spokesperson for Foreign Minister Johann Wadephul declined to comment on the results, though Wadephul said Germany would do everything it can to work well with any future government. Germany has also been distancing itself from Netanyahu's policies in its public rhetoric, DW reported, and does not intend to recognize a Palestinian state for now. The CDU's hope for a more centrist government, without figures such as Finance Minister Bezalel Smotrich, is expressed politely and as a hope, not a request. Green politician Omid Nouripour called the outcome good news for Israeli democracy.",
+        "The deadline that coalition math does not respect is humanitarian. Development Minister Reem Alabali Radovan told Politico that winter in Gaza will be difficult and that aid cannot wait for coalition negotiations. She also urged an end to radical settler violence, noting that the interim Netanyahu government is still in office. Settlement activity in the occupied Palestinian territories is considered illegal under international law.",
+        "Next comes the traditional phase of Israeli politics in which everyone negotiates, nobody concedes, and the calendar keeps moving. Watch whether the Arab-majority parties are courted, ignored, or both."
+      ],
+      "topics": [
+        "israel",
+        "netanyahu",
+        "knesset",
+        "germany"
+      ],
+      "image_query": "Knesset building Jerusalem",
+      "id": "2026-10-31-0252-geopolitics2-israel-election-ends-in-political-deadlock",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/germany-takes-cautious-approach-on-israeli-election-results/a-79805184?maca=en-rss-en-world-4025-rdf"
+        }
+      ],
+      "wire_headline": "Israel is in a political deadlock. What comes next?",
+      "wire_source": "NPR World",
+      "published": "2026-10-30T09:00:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Jerusalem_Knesset_Building_%282067268685%29.jpg/1280px-Jerusalem_Knesset_Building_%282067268685%29.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "Jerusalem Knesset Building (2067268685)",
+        "creator": "Chris Yunker from St. Louis, United States",
+        "creator_url": "https://www.flickr.com/people/99785739@N00",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Jerusalem_Knesset_Building_(2067268685).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "US Approves 500 Patriot Missiles for Ukraine, Delivery Date Listed as 'Eventually'",
+      "dek": "The $2.1bn sale is paid for entirely by European allies and Canada, and Zelensky says the missiles could take several years to arrive.",
+      "catch_up": "Russia has intensified aerial attacks on Ukraine's energy grid ahead of winter, and Ukraine says it is running critically low on Patriot interceptors. Relations with Washington were strained this month after a row over eased sanctions on Russia and Donald Trump's call for a new Ukrainian leader.",
+      "why_it_matters": "Patriots are the only weapon Ukraine says can reliably shoot down Russian ballistic missiles, so the gap between approval and delivery decides how much of the power grid stays on this winter. The deal also shows who now pays for American-made defence: not the American taxpayer.",
+      "body": [
+        "The United States has approved the sale of 500 PAC-3 Patriot interceptor missiles to Ukraine, the BBC reported, at a cost of $2.1bn. The State Department said the purchase would be funded entirely by Kyiv's allies in Europe and Canada. It is a large order, which is a different thing from a delivered one.",
+        "Translation: approval means Washington has agreed that Ukraine may buy the missiles. It does not mean the missiles exist. According to the BBC, it is understood the order is for new builds rather than stock already on shelves, so nobody should expect a quick handover.",
+        "President Volodymyr Zelensky welcomed the announcement on X but said the deliveries could take \"several years\" to arrive. He said Ukraine needs the missiles \"right now\", and that Russia has carried out more than 30 strikes on critical parts of the Ukrainian power grid in the past two weeks. Winter, unlike the production schedule, keeps to its timetable.",
+        "The arithmetic is unhelpful. The BBC cites the US Department of Defence as saying only 600 Patriots are produced per year, so this single order is most of a year's output. There is also a global shortage, which the BBC attributes to heavy use of the interceptors in the US war against Iran. Everyone wants the same product from the same factory.",
+        "The financing is the tidiest part. The State Department said Ukraine will pay with donations from Canada, Germany and Norway through the JUMPSTART program, plus national funds financed by the European Union's Ukraine Support Loan. Lockheed Martin is the principal contractor, and the department stressed that \"no US funds are involved in this sale\". In effect, Europe and Canada supply the money, America supplies the paperwork and the factory, and Ukraine supplies the need.",
+        "The politics have been less orderly. Earlier this month the US eased sanctions on Russia as part of a deal to secure Russian diesel, and Trump said it was time for Ukraine to get a new leader. Tensions eased after Zelensky met US envoys in Oslo on 20 October. In July, Trump said Washington had \"not agreed\" to license Ukraine to produce Patriots, three weeks after offering such a right. Ukraine built a grid worth defending and was told it could build the defence, then that it could not.",
+        "Meanwhile, at the G20 foreign ministers' meeting in Atlanta, hosted by Secretary of State Marco Rubio, European diplomats refused to stand for the official photograph over the presence of Russian Foreign Minister Sergei Lavrov. The BBC reported the family photo was cancelled. UK Foreign Secretary Ed Miliband told Lavrov: \"We all know who the aggressor in this war is.\" It was a protest conducted by declining to be photographed, a diplomatic tool whose range is limited to the lobby.",
+        "What to watch next is the production schedule, which the BBC says is unclear. Until it is published, the sale is best understood as a very expensive place in a very long queue."
+      ],
+      "topics": [
+        "ukraine",
+        "patriot missiles",
+        "united states",
+        "russia"
+      ],
+      "image_query": "missile launcher",
+      "id": "2026-10-31-0252-geopolitics3-us-approves-sale-of-500-patriot-missiles-to-ukraine",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "US approves sale of 500 Patriot missiles to Ukraine",
+      "wire_source": "BBC World",
+      "published": "2026-10-31T00:40:43+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/PNY_NSM_launcher_on_JELCZ_chassis_at_Radom-2023.jpg",
+        "width": 1280,
+        "height": 960,
+        "title": "PNY NSM launcher on JELCZ chassis at Radom-2023",
+        "creator": "Boevaya mashina",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Boevaya_mashina",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:PNY_NSM_launcher_on_JELCZ_chassis_at_Radom-2023.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Canada and EU Form 'Alliance for the Future,' Define Membership Status as 'Later'",
+      "dek": "Carney and von der Leyen announce a partnership open to like-minded countries, a Ukraine loan contribution and AI deals, while the 'associate membership' they keep naming still has no legal meaning.",
+      "catch_up": "Canada has been looking for new partners amid a trade war with the United States and worry about relying on American firms, especially for defence technology. EU and Canadian leaders met in Montreal on Friday to deepen ties.",
+      "why_it_matters": "Canada is trying to cut its dependence on its largest trading partner while avoiding a fight with it, and the EU is testing a status that does not yet exist. Supply chains, AI access and defence technology are the practical stakes.",
+      "body": [
+        "Canada and the European Union on Friday announced the Alliance for the Future, a partnership of like-minded countries that other nations may join, according to The Guardian. Prime Minister Mark Carney and European Commission President Ursula von der Leyen presented it in Montreal at the end of a two-day summit. It is described as a \"protective canopy\", which is a roof, but for geopolitics.",
+        "The concrete items were more modest than the canopy. Canada agreed to contribute to a €90bn support loan for Ukraine, and leaders said future talks would produce a more integrated market worth tens of billions of dollars, fewer trade and travel restrictions, and new educational opportunities. Brussels and Ottawa also agreed to bring Canada into Europe's supercomputing network, giving Canadian researchers access to European machines for training AI models. Translation: Canada rents computing power from friends rather than from the American companies it is trying to depend on less.",
+        "The motive is not subtle. A trade war with the United States has sent Carney looking for new partners, and The Guardian reported that reliance on American companies, especially in defence, has given Ottawa pause. It cited a report that Elon Musk throttled Starlink and Starshield speeds over Ukraine in mid-October, disrupting Ukrainian military operations. Carney has argued that defence technology could end up at the whim of political actors or companies with opposing interests. Carney also pointed to a planned merger between Canada's Cohere and Germany's Aleph Alpha, with headquarters in Berlin and Toronto and a Canadian federal stake of up to C$1.6bn.",
+        "Then there is \"associate membership.\" Von der Leyen first floated the term and called it uncharted territory. DW reported that no other country holds the status and that Chancellor Friedrich Merz's government resists the label. The Guardian reported that Germany and others worked behind the scenes to remove the phrase from a draft statement, since some members fear a legally meaningless designation could confuse countries that actually want to join. Both leaders used it anyway, and a clearer definition is promised at a 2027 summit. Translation: the title has been awarded, and the job description is coming.",
+        "Carney told DW the term means \"the closest possible partnership\" short of full membership, since Canada is not in Europe and cannot accede. European Council president Antonio Costa called Canada \"by far the most European of the non-European countries,\" a sentence that is both a compliment and a geography lesson.",
+        "Carney was careful to say the arrangement is not aimed at Washington. He told DW it is about diversifying partnerships, that the two sides are both close partners of the United States, and that the pact is \"not against somebody. It's for.\" He also conceded that the scale of the US relationship would be \"very hard to replace.\" Asked about the risk of further tariffs, he said Canada has been living with that for some time. This is the diplomatic version of building a second front door while insisting the first is still very much in use.",
+        "At home, the summit produced its own friction. Quebec's premier, Paul St-Pierre Plamondon of the separatist Parti Québécois, skipped it after Ottawa declined to let him speak publicly. He wrote that being allowed to serve shrimp cocktails at a reception was not adequate influence for Quebec. Canada, in short, is courting a bloc of 27 members while negotiating seating with one province.",
+        "What to watch: the 2027 summit, where the leaders are expected to explain what associate membership is. Until then, Canada holds a status that every participant can pronounce and none can define."
+      ],
+      "topics": [
+        "canada",
+        "european union",
+        "mark carney",
+        "trade"
+      ],
+      "image_query": "Montreal harbour",
+      "id": "2026-10-31-0252-geopolitics4-canada-and-eu-announce-alliance-for-the-future",
+      "section": "geopolitics",
+      "section_title": "Geopolitics",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/canadian-pm-mark-carney-discusses-talks-with-the-eu-overdependence-on-the-us-and-how-to-deal-with-donald-trump-in-a-dw-interview/a-79811469?maca=en-rss-en-world-4025-rdf"
+        }
+      ],
+      "wire_headline": "Canada and EU announce new alliance open to like-minded countries",
+      "wire_source": "The Guardian",
+      "published": "2026-10-30T19:42:15+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Harbour%2C_Montreal_%28I0001598%29.tif/lossy-page1-960px-Harbour%2C_Montreal_%28I0001598%29.tif.jpg",
+        "width": 1280,
+        "height": 973,
+        "title": "Harbour, Montreal (I0001598)",
+        "creator": "",
+        "creator_url": "",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Harbour,_Montreal_(I0001598).tif",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Fake Claude Extension Spends Half a Day in Cursor Marketplace, Politely Asks for Everything",
+      "dek": "A tampered version of Anthropic's Claude extension reached up to 5,000 Cursor users before the marketplace was pulled offline, and the two sources disagree on who was responsible for what.",
+      "catch_up": "Cursor is a maker of AI-assisted coding tools whose marketplace hosts VS Code extensions, including one for Anthropic's Claude. A malicious version of that extension was published there and later removed.",
+      "why_it_matters": "Developers install extensions on machines holding source code, credentials and company access, so one poisoned update can reach far more than one laptop. Auto-update, a convenience, is also the delivery route.",
+      "body": [
+        "A malicious version of the Claude Code extension was available in Cursor's extension marketplace for roughly eleven to twelve hours, affecting at most 5,000 users, according to Cursor. Ars Technica reported the figure Friday, and The Decoder reported a similar window. The reports differ slightly on timing: Ars says nearly 12 hours, The Decoder says about eleven, and says the tampered version appeared Thursday.",
+        "The sources also differ on how the package got there. Ars Technica reported that researcher Kevin Beaumont and Luke Roberts, CTO and co-founder of security firm Phorian, said version 2.1.313 was distributed through Anthropic's official account on Cursor. The Decoder, citing Cursor, said Anthropic had no involvement in developing it. Both can be true: the account can be official while the author is not. Neither Cursor nor Anthropic has explained how attackers gained control of the account, according to Ars.",
+        "Roberts described it to Ars as a supply-chain compromise. Translation: instead of breaking into thousands of computers one at a time, the attacker broke into the one place everyone trusts and let the software update do the delivery. Extensions in Cursor auto-update by default, though users can change that setting. The malicious version replaced 2.1.312, and Anthropic pushed a clean 2.1.314 several hours later, per Beaumont.",
+        "As for what the code tried to do, Cursor said it attempted to install a persistent SSH backdoor by adding an attacker-controlled SSH key, enabling the local SSH service and opening a reverse SSH tunnel. Translation: it tried to leave a key under the mat and then call the burglar to say the door was open. It was written to work on Windows, macOS and Linux, which is inclusive of it. The Decoder added that it tried to collect hostname, username, operating system and public IP address.",
+        "The damage may be limited. Cursor told The Decoder the remote access piece likely would not have worked on most machines because it requires admin privileges. Ars noted, however, that because extensions run with the permissions of the development environment, a backdoored version would likely reach local files, source code and developer tooling. Both statements can be reassuring or alarming depending on how your laptop is set up.",
+        "Once the problem was found, Cursor pulled the extension and took the entire marketplace offline. It reinstated the marketplace after working with providers to neutralize the malware and confirming no further risk, and says no other extensions were affected. Ars reported that Anthropic had not yet issued a public notice to customers.",
+        "The next thing to watch is the explanation. Until someone says how the account was taken over, the official channel remains the one thing users were told to trust and cannot yet verify."
+      ],
+      "topics": [
+        "anthropic",
+        "cursor",
+        "cybersecurity",
+        "supply chain attack"
+      ],
+      "image_query": "laptop code screen",
+      "id": "2026-10-31-0252-ai0-backdoored-anthropic-claude-code-extension-on-cursor-marketp",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/"
+        }
+      ],
+      "wire_headline": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "wire_source": "Ars Technica AI",
+      "published": "2026-10-30T21:09:54+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lines_of_code_%28Unsplash%29.jpg/1280px-Lines_of_code_%28Unsplash%29.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Lines of code (Unsplash)",
+        "creator": "Artem Sapegin sapegin",
+        "creator_url": "https://unsplash.com/@sapegin",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Lines_of_code_(Unsplash).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Big Tech Spends $740 Billion on AI, Investors Ask Where the Money Went",
+      "dek": "Alphabet, Amazon and Meta are burning cash, Nvidia is weighing co-signing a customer's loans, and Intel just lost 28% in a day.",
+      "catch_up": "Alphabet, Amazon, Meta and Microsoft have said they will spend more than $740 billion in capital expenditures this year, mostly on AI data centers and chips. After years of rewarding such outlays, investors are now selling off the companies and their suppliers.",
+      "why_it_matters": "If the AI buildout runs on borrowed money and circular guarantees, a stumble could hit retirement portfolios holding these stocks, and rising memory prices are already making PCs more expensive.",
+      "body": [
+        "Wall Street spent the past week discovering that spending $740 billion is not, by itself, a business plan. According to TechCrunch, Alphabet, Amazon, Meta and Microsoft laid out capital expenditure plans above that figure for this year. Translation: capital expenditure is money spent on things like data centers and chips that you hope will someday pay for themselves. On Friday the Nasdaq fell 2.9%, and Nvidia, Broadcom and Qualcomm fell 4%, more than 5% and 11% respectively.",
+        "Alphabet supplied the clearest case study. Its stock fell 12% on Thursday, its worst day on record, erasing $500 billion in market value, and then fell again. The company reported negative free cash flow of $9.1 billion in the third quarter, its second straight quarter in the red. Translation: free cash flow is what is left after paying for everything, and negative means the company spent more than it earned. Capex rose to $51.4 billion for the quarter, and Alphabet expects to spend up to $205 billion this year, with more to come in 2027.",
+        "Google's problem has a certain elegance. Its AI Mode chatbot is a hit, and TechCrunch reports it is eating into Search, the business that supplies roughly half of revenue. Search ad growth slowed to 12%, its weakest in five quarters. The company is spending billions to build the thing that may undercut the thing that pays for it.",
+        "Amazon reported negative free cash flow of $42.4 billion over twelve months, versus positive $14.8 billion the year before, and expects $220 billion in capex. Its cloud arm AWS grew 39%, and the stock still fell 7%. Meta reported negative free cash flow of $2.1 billion and guided to as much as $145 billion in capex. Its ad revenue grew 26%, and the stock fell 10% anyway. Microsoft was the exception, with $18.6 billion in positive free cash flow, partly because capex of $45.2 billion came in under its $50 billion projection. It blamed delayed capacity from third-party providers, not a change of heart.",
+        "Cash from operations is not covering the bills, so borrowing is. S&P Global Market Intelligence figures cited by TechCrunch show Microsoft, Alphabet, Amazon, Meta and Oracle raised a combined $326 billion in debt in 2026, triple last year's amount.",
+        "Further down the chain, the arrangements get creative. The Information reported, and Bloomberg corroborated, that Nvidia is in talks to guarantee billions in debt for Nscale's planned West Virginia data center for Anthropic. Translation: the company that sells the chips would co-sign the loan of a customer building the facility that will buy the chips. Under a residual value guarantee, Nvidia would step in if Nscale defaulted on construction payments, take over the site temporarily and help find a new tenant.",
+        "Nscale is seeking an IPO valuation of up to $35 billion. It had about 25,000 advanced chips running in August against a plan of nearly 500,000. Runoff from its West Virginia construction site has flooded nearby homes more than once, and Microsoft pulled out of a planned English site after grid power slipped into the 2030s. Nvidia has extended roughly $170 billion in investments and credit support to neoclouds and large customers, according to The Information. Neoclouds, which rent out computing power without a cash-rich core business, saw CoreWeave, Nebius and IREN each fall more than 30% in October, per CNBC.",
+        "Anthropic's contract for the first building alone is $44.6 billion, according to Nscale's IPO filing. Anthropic itself filed to go public this week, and the Financial Times reported that Blackstone warned investors it may not get an investment-grade rating. Translation: a junk rating means higher borrowing costs, and more dependence on stronger partners to back its debt.",
+        "Intel offered the week's bluntest bill. Its stock fell around 28% Friday after it guided fourth-quarter revenue of $15 billion to $16 billion, against analyst expectations of about $17 billion, and a gross margin falling to 37% from 43%. The cut $12 billion from the value of the government's 10% stake, per CNBC. The stake is still up, as the stock has gained more than 70% this year.",
+        "The cause is a neat bit of ecosystem accounting. AI demand is absorbing memory and other components, raising PC prices and hurting PC sales. CEO Lip-Bu Tan said customers signaled a slowdown because of memory prices and availability. Intel's data center revenue grew 78%, but its next Arizona fab is not expected online until 2028.",
+        "The industry's central claim remains that demand for computing is strong, and the cloud numbers support it. The open question is whether anyone can be paid back at the prices being charged. Watch Anthropic's credit rating, because it will show how much faith lenders have in a business that needs a chipmaker to co-sign."
+      ],
+      "topics": [
+        "ai spending",
+        "nvidia",
+        "alphabet",
+        "intel"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-31-0252-ai1-cracks-emerging-in-ai-spending-boom-amid-debt-negative-cash-",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+        }
+      ],
+      "wire_headline": "Cracks are emerging in the AI spending boom",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-30T21:17:40+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      },
+      "comic": {
+        "file": "comics/2026-10-31-0252-ai1-cracks-emerging-in-ai-spending-boom-amid-debt-negative-cash-.svg",
+        "caption": "Collateral? Oh, it's the chips he's buying with this loan. I'm co-signing.",
+        "alt": "A suited banker at a loan desk asks about collateral. A worried data center with legs stands at the left, while a smirking chip character labeled chipmaker signs the loan paper as co-signer."
+      }
+    },
+    {
+      "headline": "Anthropic Heads for IPO With Credit Rating Best Described as 'Almost Respectable'",
+      "dek": "Blackstone now expects a high junk rating after the AI lab's listing, reversing its earlier forecast of investment grade before 2027, the Financial Times reported.",
+      "catch_up": "Anthropic, maker of the Claude chatbot, filed to go public this week after a year of enormous deals for computing power. Blackstone anchored a recent $63 billion financing of the company's chips.",
+      "why_it_matters": "A worse credit rating means Anthropic pays more to borrow, and the company's business depends on borrowing for very expensive computing power. How the market prices that risk will shape how freely the whole AI industry can fund its growth.",
+      "body": [
+        "Anthropic is expected to receive a high \"junk\" rating from credit rating agencies after its initial public offering, according to the Financial Times, as relayed by TechCrunch. The source of the forecast is Blackstone, the anchor investor in a $63 billion deal to finance Anthropic's chips. Blackstone reportedly told investors in that deal what it now expects.",
+        "Translation: a credit rating is a letter grade for how likely a borrower is to repay its debts. Investment grade means lenders consider you safe. Junk, more politely called speculative grade, means they would like extra interest as compensation for their anxiety. The expected rating is in the double-B range, which the FT describes as the top tier of junk. It is the honors section of the remedial class.",
+        "The notable part is the reversal. According to the FT, Blackstone previously told investors that Anthropic would reach investment grade before 2027. It has now moved from \"safe\" to \"speculative\" without, as far as the sources say, any public explanation. TechCrunch reached out to both Anthropic and Blackstone. Both declined to comment, which is how companies say \"we have read the headline.\"",
+        "Blackstone's view is a prediction, not a verdict. The agencies have not rated anything yet. But the mechanism is straightforward. A lower rating makes borrowing costlier and harder, and Anthropic has spent the past 12 months signing large compute power deals, a spending spree TechCrunch notes has worried investors. Translation: compute means the chips and data centers that run AI models, and it is the line item that does not shrink when the mood does.",
+        "Meanwhile, the competition is being conducted in a more cheerful currency. The Decoder reported that OpenAI has doubled usage limits on its Pro 100 and Pro 500 plans for Work and Codex. On the Pro 200 plan, it doubled the lower quota and reversed a planned cut after user pushback. The Plus plan stays the same. Translation: subscribers get more allowance to use the product, and in the case of Pro 200, were briefly going to get less.",
+        "OpenAI also cautioned that doubling a quota does not mean twice as many completed tasks, since consumption varies by model, task type, and settings. That is the software equivalent of an all-you-can-eat buffet noting that appetite varies. The company said it will keep shipping better models and efficiency gains, and pointed to its recent 6.1 models, Terra and Sol, which it says are much more efficient while matching or beating their predecessors.",
+        "The Decoder framed the move as coming while Anthropic prepares for its IPO, with both companies competing hard for business customers. One lab is handing out extra capacity, the other is being told by its own financiers that borrowing will be pricey. Capacity is generous when someone else's chips pay for it.",
+        "What to watch next is the actual ratings, once the agencies weigh in. Until then, Anthropic's debt is graded by the opinion of a lender who also happens to be a large investor. That is useful information, in the way a restaurant review from the owner's landlord is useful."
+      ],
+      "topics": [
+        "anthropic",
+        "ipo",
+        "openai",
+        "credit ratings"
+      ],
+      "image_query": "stock exchange trading floor",
+      "id": "2026-10-31-0252-ai2-anthropic-expected-to-get-junk-credit-rating-after-ipo-as-op",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/"
+        }
+      ],
+      "wire_headline": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "wire_source": "TechCrunch AI",
+      "published": "2026-10-30T21:52:03+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_01.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 01",
+        "creator": "Ank Kumar",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Ank_gsx",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_01.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "AI Giants Agree to Honor One 'No' Instead of Four Separate Ones",
+      "dek": "OpenAI, Google, Microsoft and Anthropic back a shared robots.txt token that lets publishers opt out of AI training once, with most of them promising to comply sometime soon.",
+      "catch_up": "Websites use a file called robots.txt to tell automated crawlers what they may and may not collect, but AI training preferences currently must be declared company by company. A proposed standard at the Internet Engineering Task Force would create one shared signal.",
+      "why_it_matters": "If the companies follow through, publishers get a single switch for refusing AI training instead of a growing list of crawler-specific rules. Whether Meta honors it, and how quickly the others adopt it, will decide how useful that switch is.",
+      "body": [
+        "OpenAI, Google, Microsoft and Anthropic said they will adopt a new standard that lets publishers opt out of AI scraping across multiple companies at once, The Verge reported, citing earlier coverage by Search Engine Roundtable. Until now, a publisher wanting to say no had to say it separately to each company, like a homeowner posting a different No Trespassing sign for every neighbor.",
+        "The mechanism is a shared \"policy token,\" proposed by Kevin Kelley, a standards technical lead at Anthropic, through the Internet Engineering Task Force (IETF). Translation: the IETF is the body that writes the technical rules of the internet, and a token is a single agreed-upon phrase that crawlers are meant to recognize. It lives in robots.txt, the plain text file that has long told crawlers whether they may index, archive or train on a site.",
+        "The companies say they will keep their AI crawlers away from any site that carries the token. Microsoft added that it will offer finer controls, letting publishers opt out of AI training, of AI grounding, or both. Translation: grounding means pointing a model at a verified source to reduce hallucinations, so a publisher can now object to being used for training while still being cited as the answer key, or vice versa.",
+        "Microsoft also noted that sites will still appear in Bing search results regardless of their preferences. Google, The Verge noted, already lets sites control whether content appears in AI search features or is used for training without affecting search visibility. The arrangement reflects a long-standing industry principle: you may leave the AI, but you may not leave the index.",
+        "The rollout schedule is where the enthusiasm meets the calendar. Anthropic has already adopted the signal. Google and Microsoft plan to support it next year, and OpenAI says it will implement it in the \"coming months.\" The proposal's author, in other words, is the first company to comply with it.",
+        "Meta's position is more careful still. Communications head Andy Stone signaled support, saying a common signal for multiple providers is \"an important step,\" but the company did not say whether it will honor the token. Support for the idea of a standard and obedience to the standard are, as any publisher knows, separate line items.",
+        "The backdrop is a publishing industry facing a steady flow of AI crawlers. Other defenses already exist: the Really Simple Licensing standard lets publishers charge crawlers that visit, and Cloudflare blocks AI crawlers by default. The new token is the polite option, relying on the honor system, which robots.txt has always done.",
+        "Watch for the dates. A single universal opt-out is only as good as the last company to implement it, and at present that company has not named one."
+      ],
+      "topics": [
+        "ai scraping",
+        "robots.txt",
+        "openai",
+        "anthropic"
+      ],
+      "image_query": "server racks",
+      "id": "2026-10-31-0252-ai3-openai-google-microsoft-and-anthropic-adopt-shared-standard-",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        }
+      ],
+      "wire_headline": "The biggest names in AI are backing a new way to opt out of scraping",
+      "wire_source": "The Verge AI",
+      "published": "2026-10-30T20:26:10+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Front_of_server_racks_at_NERSC.jpg/1280px-Front_of_server_racks_at_NERSC.jpg",
+        "width": 1280,
+        "height": 850,
+        "title": "Front of server racks at NERSC",
+        "creator": "Derrick Coetzee from Berkeley, CA, USA",
+        "creator_url": "https://www.flickr.com/people/29507259@N02",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Front_of_server_racks_at_NERSC.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Free AI Model Reads Firefox's Disguised Security Fixes, Builds Exploit for $1,000",
+      "dek": "Epoch AI researchers say open-weight GLM 5.3 turned the gap between a published patch and an installed one into a working attack, with no human help and no refusals.",
+      "catch_up": "Software vendors often publish security fixes in public code before users receive the update, creating a window known as the patch gap. Epoch AI tested whether a freely available Chinese model, GLM 5.3, could exploit that window against Firefox.",
+      "why_it_matters": "If a roughly $1,000 budget can turn a public patch into an attack, the delay between a fix being written and installed becomes a real risk for anyone using a browser, phone or router. Software that updates slowly is exposed the longest.",
+      "body": [
+        "Researchers at Epoch AI reported that GLM 5.3, an open-weight model from China, autonomously built working exploit chains against Firefox across 6 versions released between September 17 and October 26, according to The Decoder. Each successful attack cost about $1,000 in API fees. Translation: an open-weight model is one anyone can download or rent, and API fees are what you pay to rent the brain by the hour.",
+        "The weakness is the patch gap, which is the period when a security fix is visible in public code but has not yet reached users. Think of a locksmith posting a notice reading 'we have repaired the back door' on the front door, and then taking several weeks to visit each customer. The researchers say this window exists across browsers, mobile operating systems and router firmware.",
+        "Firefox developers try to cope by disguising security fixes as routine improvements, in the hope that attackers will not notice which changes matter. According to the report, GLM 5.3 noticed anyway. In one case it spotted a memory safety bug from an upcoming fix and worked out how to read and alter browser memory. When Firefox's defenses blocked access to the target file, it chained several more stages to get around them.",
+        "The finished product was a webpage that could read local files from a visitor's computer and send them to an attacker's server as soon as the page loaded. Firefox has over 200 million active users, and the researchers note that saved passwords, authentication cookies and private documents would have been within reach. The fastest success took 12 hours, against a 48-hour limit the researchers set.",
+        "The researchers designed the setup to resemble what a low-skill attacker with limited resources could manage. They supplied the Firefox version, basic tools and public information in an offline environment, plus basic instructions to investigate the patch gap. The model did the rest. Every successful attack on current versions relied on a previously unknown vulnerability that the model independently rediscovered each time, which let it bypass the browser's sandbox. Translation: the sandbox is the walled room that keeps web pages away from your files, and the model found the same unlocked window every time.",
+        "The safety systems did not interfere. Neither Z.ai nor other API providers triggered any guardrails or refusals, even though the researchers describe their actions as 'indistinguishable from those of someone attempting to target real users.' The researchers disclosed the flaw to Mozilla, which patched it in Firefox 159.0 on October 27, 2026. They suspect attacks are now 'at least substantially more difficult,' but have not confirmed it.",
+        "Chrome fared better, though the researchers decline to call it a win. Roughly $100,000 in API fees produced no equivalent exploit, and the team cautions that better methods or stronger models might still succeed. They also point to limited benchmark data suggesting Kimi K3.1 Pro could outperform GLM 5.3 on offensive cyber tasks, though they did not test it.",
+        "The report says the problem is already live. Patch-gap exploits targeted Chrome in September 2026, and that month a vendor released patched PHP builds more than six hours before the coordinated release of fixes for two critical vulnerabilities. Citing external reporting, the researchers say that early release may have contributed to thousands of exploit attempts beforehand, rising into the millions afterward.",
+        "The suggested remedies are modest. Keep fixes private until they are ready to ship, move them from beta to general release faster, and avoid patching several chainable vulnerabilities at once. Firefox and Chrome have already started weekly updates. The researchers add that giving defenders stronger closed models does not fix the structure, since a public fix points attackers at the bug regardless of who has the better chatbot.",
+        "Anthropic's restricted-access programs, including Glasswing and Daybreak, were built on the idea that a gatekeeper could limit who gets dangerous capability. Epoch AI's finding is that the gate has a side entrance, and it is a download link. The next test is whether vendors can ship fixes faster than a $1,000 model can read them."
+      ],
+      "topics": [
+        "cybersecurity",
+        "firefox",
+        "open-weight models",
+        "epoch ai"
+      ],
+      "image_query": "laptop browser security",
+      "id": "2026-10-31-0252-ai4-open-weight-glm-5-3-autonomously-built-firefox-exploit-chain",
+      "section": "ai",
+      "section_title": "AI",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/"
+        }
+      ],
+      "wire_headline": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+      "wire_source": "The Decoder",
+      "published": "2026-10-30T12:22:18+00:00"
+    },
+    {
+      "headline": "Google's AI Answers Questions So Well Nobody Clicks the Ads; Investors Lose $500bn",
+      "dek": "Alphabet fell 12% after admitting its AI search is eating its ad business, and by Friday Intel, Reddit and Amazon had joined the sell-off.",
+      "catch_up": "Big tech companies are spending hundreds of billions of dollars on AI infrastructure. This week's earnings reports from Alphabet, Amazon, Microsoft and Intel gave investors their first sustained look at what that spending is doing to the businesses that pay for it.",
+      "why_it_matters": "Index funds and pension funds hold these companies, so a wobble in AI spending confidence reaches ordinary savers. The question of whether AI earns back its cost, or merely replaces products that already made money, will shape tech valuations and jobs.",
+      "body": [
+        "Alphabet lost just over $500bn in market value on Thursday, according to the BBC, after saying its AI summaries were cutting into the search advertising revenue that has long paid for most of Google. Its shares fell more than 12% to a six-month low, taking its market value from $3.97 trillion to $3.46 trillion. Put plainly, Google built a product that answers questions so well people stop clicking on the ads beside the answers, and the market noticed.",
+        "The numbers were not bad in the ordinary sense. Revenue rose 25% to $127.6bn in the quarter to September. The trouble is that analysts had predicted more, especially in advertising. Translation: the company grew very fast, just not as fast as people who had already spent the money in their heads.",
+        "Philipp Schindler, Google's chief business officer, said the company's AI mode was eating into ad money, yet he felt \"very good about our trajectory\". Kim Scott, a former head of Google's advertising business, told the BBC the company would rather eat its own lunch than let someone else eat it. This is the corporate version of burning down your own house to stop a rival from buying it.",
+        "Alphabet expects to spend up to $205bn this year, almost all of it on AI, the BBC reported. Forrester analyst Tracy Woo said the results highlight the challenge of funding massive AI investments while keeping established businesses strong. That is analyst language for paying for a new restaurant with the profits of the old one, while the new one is open next door and gives away the food.",
+        "Amazon offered a more vivid example. Sales grew 11% to $201bn, but free cash flow came in at negative $42bn, meaning it spent far more than it brought in, with spending up six-fold in three months. Translation: the company is borrowing against the future. Chief executive Andy Jassy said two businesses could each reach $1 trillion, and conceded it \"would be more convenient\" if the spending were spread over 25 years. \"That's not the world we live in,\" he added. Amazon has committed to $220bn this year, and its shares fell about 6% in after-hours trading before recovering to a 1.4% decline on Friday.",
+        "Microsoft got the gentlest treatment. Shares slipped less than 1% after revenue rose 19% to $92.3bn, cloud revenue grew 30%, and AI-related investment was about $5bn lower than before. It also announced plans to cut thousands of workers. Usually lower spending and rising sales earn applause, so the muted reaction shows investors have shifted from asking whether AI is being bought to asking who ends up keeping the money.",
+        "On Friday the damage spread. Intel fell 28%, shedding more than $130bn, after saying it would not generate more cash than it spends this year and forecasting weak fourth-quarter revenue. Its finance chief, David Zinsner, expects the PC slowdown to last \"at least through the first half of next year\", yet Intel plans to spend more on equipment. Reddit fell 29% after warning that Google's AI-driven search was hurting referral traffic, and Roblox fell 18% as daily users dropped. The Nasdaq closed 2.8% lower and ended October with its worst monthly slide since March 2025.",
+        "The BBC noted that Meta, Alphabet, Oracle, Amazon and Microsoft have committed to roughly $800bn of spending between them in 2026. XTB's Kathleen Brookes said investors \"have turned ruthless\" toward any earnings disappointment. Context helps: the Nasdaq is still up 7.8% over the past year, and Amazon is up nearly 8%, while Alphabet is down 1.3%. Brookes also noted that November is typically a strong month for stocks, so the verdict on whether this is a bubble or a bad week arrives soon."
+      ],
+      "topics": [
+        "alphabet",
+        "ai bubble",
+        "tech stocks",
+        "amazon"
+      ],
+      "image_query": "data center servers",
+      "id": "2026-10-31-0252-technology0-google-stock-plunges-500bn-as-ai-search-summaries-hurt-ad-re",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-30T12:04:02+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Data_center_infrastructure_in_the_United_States.jpg/1280px-Data_center_infrastructure_in_the_United_States.jpg",
+        "width": 1280,
+        "height": 828,
+        "title": "Data center infrastructure in the United States",
+        "creator": "DOE/National Renewable Energy Laboratory (NREL)",
+        "creator_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Energy",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "GM Pays $220 Million to Settle Claims It Sold Drivers' Habits to Insurers",
+      "dek": "General Motors reached a settlement with 35 states and the District of Columbia over Smart Driver data that ended up with insurance companies, and a third party will now check its homework.",
+      "catch_up": "GM marketed Smart Driver as a tool for monitoring teen drivers or one's own habits, but in 2024 it emerged that the data was being shared with brokers who sold it to insurers. GM and OnStar settled with the FTC last year, and the deal was finalized in January.",
+      "why_it_matters": "Data collected by your car can end up in the hands of the company that sets your insurance premium, often without you knowing you agreed to it. The settlement suggests regulators are willing to treat that as a legal problem rather than a feature.",
+      "body": [
+        "General Motors will pay $220 million to settle a lawsuit brought by the District of Columbia and 35 states, whose attorneys general joined forces over the company's handling of data from its Smart Driver system, according to Ars Technica. The feature was sold as a way for parents to watch teen drivers or for adults to examine their own habits. It turned out that a third audience had been watching the whole time.",
+        "According to Ars Technica, GM shared that data with brokers, who then sold it to insurance companies. Some drivers found their insurance became more expensive as a result. Many of them said they had no idea they had agreed to any of this, which is a reasonable thing to say about a permission buried somewhere in a vehicle's enrollment process.",
+        "Translation: a data broker is a middleman that collects information from one company and resells it to another. The driver is not a party to the transaction, though the driver is the product, and also, eventually, the person billed for it.",
+        "This is not GM's first reckoning. Last year GM and its OnStar subsidiary reached a settlement with the FTC, finalized in January, that bars them from sharing geolocation or driver behavior data for five years. At that time GM also discontinued Smart Driver across its entire range, which is one way of resolving a product problem: stop selling the product.",
+        "GM said in a statement that \"safer, more helpful and personalized experiences are enabled by connected vehicle data.\" It added that it is committed to being clear about what information is used, how it is protected, and what choices customers have. The statement does not say whether the clarity was scheduled to begin before or after the lawsuits.",
+        "One detail stands out. According to TechCrunch, as cited by Ars Technica, the state settlement is notable because it requires a third party to assess GM's compliance with the new privacy program. Translation: GM will no longer be the only one grading its own privacy practices, which is the arrangement that produced the lawsuits.",
+        "The sources do not say how the $220 million will be divided among the states or whether affected drivers will receive anything. Readers hoping for a refund on a premium that rose because of their own commute should watch for those details."
+      ],
+      "topics": [
+        "general motors",
+        "data privacy",
+        "insurance",
+        "ftc"
+      ],
+      "image_query": "car dashboard",
+      "id": "2026-10-31-0252-technology1-gm-to-pay-220-million-over-sale-of-smart-driver-data-to-insu",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/"
+        }
+      ],
+      "wire_headline": "GM to pay $220 million after selling customer Smart Driver data",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-30T13:53:20+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Car_Dashboard_at_Night.JPG",
+        "width": 1280,
+        "height": 956,
+        "title": "Car Dashboard at Night",
+        "creator": "ParentingPatch",
+        "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:ParentingPatch&action=edit&redlink=1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Car_Dashboard_at_Night.JPG",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Justice Department Finds Thousands of Students Who Attend Class Flawlessly and Do Not Exist",
+      "dek": "Five people are charged in the first broad federal crackdown on \"ghost students,\" with officials flagging 830,000 suspect aid accounts and more than $32 million in confirmed losses.",
+      "catch_up": "The Justice Department announced charges against five individuals accused of using stolen identities and AI to pose as college students and collect federal aid. The Department of Education says it has flagged more than 830,000 potentially fraudulent aid accounts.",
+      "why_it_matters": "People whose identities were stolen may learn of it only when collectors demand repayment on loans for colleges they never attended. The new fraud checks also risk slowing aid for real students, particularly low-income ones without a driver's license.",
+      "body": [
+        "The US Department of Justice has charged five individuals in what it calls the first broad federal crackdown on \"ghost students,\" according to Ars Technica. Ghost students are fake enrollees built from stolen identities, whose main academic achievement is receiving financial aid. By the standards of modern higher education, this is a student who pays attention, never complains and is never on campus.",
+        "The scheme, as officials described it at a press conference, begins with buying personal information of Americans, most often high school graduates who went straight to work and never attended college. Translation: the ideal victim is someone with a clean record and no reason to check whether they are enrolled somewhere. Fraudsters then file the Free Application for Federal Student Aid, or FAFSA, and apply to universities and community colleges.",
+        "If accepted, aid goes first to the school for tuition and fees. Whatever is left over lands in bank accounts controlled by the fraudsters, the DOJ said, some of them opened by Americans acting as money mules. Translation: a money mule is a person who lends their bank account to a crime and is later surprised to be involved in it.",
+        "Artificial intelligence keeps the enterprise running. Officials said it is used to fill out applications, complete coursework and even create the appearance of a student attending virtual sessions. \"It looks like the ghost student is actually completing the class,\" said Assistant Attorney General Colin McDonald. The goal, he said, is to keep the ghost enrolled \"semester after semester after semester,\" which is also the stated goal of many real students and nearly every registrar's office.",
+        "The numbers are large. The Education Department has identified more than 830,000 potentially fraudulent aid accounts, and the DOJ said that if all of them are ghosts, losses approach $130 million. Officials said they have identified more than $32 million in actual loss tied to these specific defendants and believe the true figure is substantially higher. In one case, a defendant allegedly used multiple accounts to receive over 700 fraudulent refund deposits totaling about $1,439,548. The DOJ also seized more than $750,000 in cryptocurrency from a network associated with Kenyan nationals, which McDonald called the first international seizure of its kind in Kenya.",
+        "The victims are the awkward part. Many will not discover the fraud until the government comes to collect years later, by which time their credit may be damaged. The DOJ said known victims are shocked by their faked attendance at an institution hundreds of miles away. McDonald conceded that unraveling it is \"a mess that no one should have to endure,\" which is a candid description for a press conference.",
+        "Officials also found time for politics. Undersecretary of Education Nicholas Kent said the Biden administration had turned off nearly every fraud detection measure, while the current department has introduced online identity verification. FTC Chairman Andrew Ferguson said of the automated approach: \"The computers help us find it, and we keep the money in the agency.\" The DOJ suspects the scam has run since at least 2021, so credit for the discovery may be disputed for some time.",
+        "The fix has its own risks. Students must hold government ID up to a camera, and automated systems assign a risk rating, rejecting anyone flagged as high risk. Advocates warn that false flags burden schools and delay aid. MorraLee Keller of the National College Attainment Network told Inside Higher Ed that many low-income young people may not have a driver's license. In August, the department also confirmed a glitch that kept fraud results from reaching certain FAFSA forms for a week, after which it reprocessed them.",
+        "So the government has answered AI-generated fake students with AI-reviewed real ones, and is hoping the software can tell the difference. Ghost students never complain about being wrongly rejected. The real ones will."
+      ],
+      "topics": [
+        "student loans",
+        "fraud",
+        "artificial intelligence",
+        "justice department"
+      ],
+      "image_query": "university lecture hall",
+      "id": "2026-10-31-0252-technology2-doj-cracks-down-on-ai-driven-ghost-student-student-loan-frau",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
+        }
+      ],
+      "wire_headline": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "wire_source": "Ars Technica",
+      "published": "2026-10-30T16:53:49+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Large_lecture_hall_at_Brown_University.jpg/1280px-Large_lecture_hall_at_Brown_University.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Large lecture hall at Brown University",
+        "creator": "Kenneth C. Zirkel",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Kzirkel",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Large_lecture_hall_at_Brown_University.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Ofcom Lists Ways to Prove You Are Over 16, Asks Tech Firms to Pick One",
+      "dek": "The regulator's age-check menu for the UK's March social media ban is subject to government approval, and Ofcom concedes some children will still get through.",
+      "catch_up": "The UK plans to bar under-16s from ten major platforms, including Instagram, TikTok and Snapchat, from March next year. Ofcom has now set out which age-checking methods it considers effective, and the government will decide by the end of the year.",
+      "why_it_matters": "Many adults, not just teenagers, will likely have to prove their age to keep using their accounts, which means handing over a face, a bank record or an ID. Who carries the burden of checking, the platforms or Apple and Google, is still unsettled.",
+      "body": [
+        "Ofcom, the UK communications regulator, has published its recommendations for how social media companies should work out which users are over 16. According to the BBC, the ban takes effect in March next year and covers ten of the biggest platforms. The recommendations are subject to government approval, so the menu has been written before the restaurant has agreed to open.",
+        "Ofcom named four methods it calls \"highly effective\", in addition to traditional ID. The first is photo ID matching, meaning a passport is compared with a live image taken during the check. Second is banking-based checks, which use the age a bank already has on file. Third is face age estimation, which the regulator says has recently improved. Fourth is digital ID services. Translation: a passport, a bank, a camera or a digital wallet will soon be asked to vouch for you, and you will have to choose which one you trust least.",
+        "The difficulty, the BBC notes, is that 16 and 17 year olds often lack credit cards, full driving licences or passports, and can look much older or younger than they are. Age checks for adults are easy because adults own things. Age checks for teenagers depend on a camera guessing, which is the reason Ofcom spent so long on the section about cameras guessing.",
+        "Notably, Ofcom is not telling companies which method to use. Chief executive Dame Melanie Dawes told the BBC that other countries were \"very prescriptive and it didn't work\". Her approach is to say what can work, insist on privacy and data protection, and leave the rest to the firms. Translation: the regulator sets the exam, and the students write the syllabus.",
+        "Meta would prefer a different arrangement. It has called for checks at device level, so that an under-age user is blocked from installing social apps via app stores. Meta told the BBC this would spare people from verifying their age repeatedly on multiple platforms. It would also move responsibility to Apple and Google, which between them run most of the world's smartphones. Ofcom replied that social networks would still have to do their own checks, so the plan reduces nobody's workload in the sense Meta might hope.",
+        "The scale is a problem of its own. Ofcom has no firm number for how many adults will have to prove they are not children, but conceded it would be a \"large number of accounts\". It also acknowledged that \"the risk of circumvention cannot be entirely eliminated\". This is a notable admission given that Australia introduced a similar ban last year and, the BBC reports, many children there found ways around it. The UK says it will be tougher.",
+        "Campaigners welcomed the guidance with reservations. The NSPCC's Rani Govender said firms must be held accountable for meeting standards. Andy Burrows of the Molly Rose Foundation cited what he called Ofcom's \"dire track record\" enforcing the Online Safety Act. Dawes, for her part, pointed to the longer prize: eight to 10 year olds starting secondary school without a class group chat on Snap or sports fixtures organised on Instagram.",
+        "Next comes the government's decision, due by the end of the year. After that, the ten platforms find out whether they are to be inspected on results rather than methods, and the nation's teenagers begin their own independent assessment of the methods."
+      ],
+      "topics": [
+        "ofcom",
+        "social media ban",
+        "age verification",
+        "uk"
+      ],
+      "image_query": "teenager smartphone social media",
+      "id": "2026-10-31-0252-technology3-ofcom-outlines-age-check-methods-ahead-of-under-16-social-me",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wire_headline": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "wire_source": "BBC Technology",
+      "published": "2026-10-29T09:31:44+00:00"
+    },
+    {
+      "headline": "Apple Intelligence Arrives in China, Bringing Everything Except the Part Everyone Was Waiting For",
+      "dek": "Apple will ship notification summaries, translation and photo tools with an iOS 27.3 beta on November 4th, but not the new Siri AI, and Alibaba's Qwen will fill the chatbot slot.",
+      "catch_up": "Apple Intelligence, the company's suite of AI features, has been unavailable in China since it debuted elsewhere. The Verge reports it was approved in China in July, and Reuters reported in August that Apple had trained its own language model specifically for the market.",
+      "why_it_matters": "China is one of Apple's largest markets, and AI features are now a standard part of the pitch for a new phone. Apple's choice of a local chatbot partner also shows how a global product gets rebuilt to fit one country's rules.",
+      "body": [
+        "Apple said on its Chinese newsroom website that it will launch Apple Intelligence in China with iOS 27.3, according to The Verge, citing MacRumors. A beta containing the features is scheduled for November 4th, with a full release planned for December. Chinese iPhone owners, who have watched the feature list from the sidelines for a long while, may now watch it from slightly closer.",
+        "The first batch is the older material. The Verge reports it includes notification summaries, real-time translation, rewriting and proofreading tools, visual intelligence, and the ability to remove objects from photos. Translation: these are the features that already exist elsewhere, now arriving in a market where they did not.",
+        "What is missing is the new Siri AI, which the launch does not bring to China, according to The Verge. Customers will receive the AI assistant's supporting cast without the lead. It is the technology equivalent of a film premiere that includes the trailers, the credits and a very capable catering team.",
+        "For the chatbot slot, Apple says it worked with Alibaba to support its Qwen chatbot in some experiences. The Verge notes this sounds similar to the integration with OpenAI's ChatGPT that launched in 2024. Translation: Apple has once again decided that the best way to build a chatbot is to let someone else's chatbot appear in the menu.",
+        "The timeline was not exactly a surprise. Apple Intelligence was approved in China in July, which the Verge says signalled the launch was getting near. Reuters reported in August that Apple had trained its own large language model, or LLM, specifically for China. Translation: an LLM is the text-predicting engine behind a chatbot, and in this case it was built to order for one country's regulatory environment.",
+        "The sequence is instructive. A company with a famously tight grip on its products spent months obtaining approval, building a local model and lining up a local partner, all to deliver features that are, by now, a few steps behind. That is not a criticism so much as a description of what the cost of entry looks like.",
+        "Next to watch is the November 4th beta, and whether the new Siri AI follows in a later release. Apple has not said it will, which leaves it as the one feature in China still described as a future event."
+      ],
+      "topics": [
+        "apple",
+        "china",
+        "artificial intelligence",
+        "ios"
+      ],
+      "image_query": "iPhone in hand",
+      "id": "2026-10-31-0252-technology4-apple-intelligence-launching-in-china-with-ios-27-3",
+      "section": "technology",
+      "section_title": "Technology",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+        }
+      ],
+      "wire_headline": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "wire_source": "The Verge",
+      "published": "2026-10-30T22:32:53+00:00",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bridge-gadget-hand-iPhone-macro-1845364_1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "title": "Bridge-gadget-hand-iPhone-macro-1845364 1280",
+        "creator": "Jeremy Levin",
+        "creator_url": "",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Bridge-gadget-hand-iPhone-macro-1845364_1280.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Intel Stock Falls 29%, Worst Day Since 1970s, Dragging Government Stake Down With It",
+      "dek": "A weak forecast, a shuttered Israeli plant and a PC market squeezed by memory prices erased about $12 billion from the U.S. government's holding in a single session.",
+      "catch_up": "Intel shares had risen about 150% this year on demand for processors used in AI workloads. Then the company gave a forecast that came in well below what analysts expected.",
+      "why_it_matters": "Intel is the only U.S.-based maker of advanced logic chips, and the government and Nvidia both own large stakes. A sharp drop shows how much pension funds, taxpayers and index investors now depend on one turnaround story.",
+      "body": [
+        "Intel shares fell 29% on Friday, their worst day since the 1970s, after the chipmaker issued a forecast weaker than Wall Street expected, CNBC reported. The company blamed a plant shutdown in Israel and continuing softness in the PC market. A stock that gained about 150% this year before earnings gave back a meaningful share of that in roughly six and a half hours.",
+        "The numbers explain the mood. Intel said it expects adjusted earnings per share of 25 cents this quarter on revenue of $15 billion to $16 billion. Analysts surveyed by LSEG had expected 43 cents and $17.1 billion. Translation: Intel did not narrowly miss the bar. It walked under it, and the bar was set by people who get paid to be right.",
+        "The PC business is the main drag. CNBC reported that soaring costs for memory and other components are hammering the market, and Counterpoint Research said global PC shipments fell 4% in the second quarter from a year earlier. MarketWatch added that corporate IT departments have less budget for laptops. In plain terms, memory got expensive, so computers got expensive, so companies are keeping the old ones a while longer. Intel's finance chief, David Zinsner, said the slowdown should last at least through the first half of next year.",
+        "The Israel plant adds a separate cost. An explosion at a fab earlier this month killed two workers and seriously injured a third. Zinsner said the shutdown will cost about $600 million in lost revenue over two quarters, and CEO Lip-Bu Tan called it an 'unfortunate and tragic accident.' The plant's extended shutdown affects shipments of 10-nanometer chips.",
+        "The share price also matters to the owners. The Trump administration steered the U.S. government into a 10% stake over a year ago, and CNBC reported that the holding lost about $12 billion in value on Friday, though it remains profitable overall. Nvidia, which also took a large stake, lost about $6 billion. Being a strategic shareholder means getting the geopolitical benefits, and also the daily quote.",
+        "Wider markets did not help. The Nasdaq Composite fell 2.9% on Friday after a week of rough tech earnings. Alphabet had its worst day on record on Thursday, down more than 12%, and fell again Friday. Amazon slipped 1.4% after missing on revenue and profit while keeping its 2026 capital spending forecast at $220 billion and reporting negative free cash flow for a second straight quarter. Nvidia fell 4%, Broadcom more than 5% and Qualcomm 11%. MarketWatch reported that AMD also slid, as investors wait to learn whether it faces the same problems.",
+        "Analysts were split on how worried to be. D.A. Davidson downgraded Intel to neutral in a report titled 'Not fixed yet,' saying the current multiple is hard to justify given the weakness. Translation: the stock was priced for a recovery and received a delay notice. Matt Orton of Raymond James told CNBC he does not see a 'moment of reckoning,' but that positioning in the sector remains crowded.",
+        "The turnaround case still rests on manufacturing. CNBC reported that Intel is in high-volume production of its 18A chip at a new Arizona fab, but it still has no external customers for its new chips. Tan said on the call that a couple of customers should be ready to announce over the next two quarters. Investors have now heard the promise and will wait to see names attached to it."
+      ],
+      "topics": [
+        "intel",
+        "semiconductors",
+        "tech stocks",
+        "pc market"
+      ],
+      "image_query": "semiconductor fabrication plant",
+      "id": "2026-10-31-0252-markets0-intel-stock-suffers-worst-day-in-decades-wiping-out-billions",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 0,
+      "sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories"
+        }
+      ],
+      "wire_headline": "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout",
+      "wire_source": "MarketWatch",
+      "published": "2026-10-30T20:48:00+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Building_of_Taiwan_Semiconductor_Manufacturing_Fab_12B_at_night.jpg/1280px-Building_of_Taiwan_Semiconductor_Manufacturing_Fab_12B_at_night.jpg",
+        "width": 1280,
+        "height": 854,
+        "title": "Building of Taiwan Semiconductor Manufacturing Fab 12B at night",
+        "creator": "曾 成訓",
+        "creator_url": "",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Building_of_Taiwan_Semiconductor_Manufacturing_Fab_12B_at_night.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Fed Holds Rates, Then Sends Two Officials to Explain Why It Will Not Hold Rates",
+      "dek": "Two regional Fed presidents said more hikes are coming, hours after the committee held steady and its chairman declined to say what he planned to do.",
+      "catch_up": "The Federal Reserve left interest rates unchanged on Wednesday, a month after raising them for the first time since 2023. Two of its officials dissented in favor of a hike, and Chairman Kevin Warsh announced plans to cancel rate votes at three future meetings.",
+      "why_it_matters": "If the Fed raises rates again, borrowing costs for mortgages, car loans and business credit stay higher for longer, with inflation near 3.7% and unemployment at 4.2%. Fewer scheduled rate votes also means fewer clues about when those costs will change.",
+      "body": [
+        "The Federal Reserve held interest rates steady on Wednesday. By Friday, two of its regional presidents were publicly explaining that rates will need to go up, according to CNBC. Nothing says a pause quite like a speaking tour about the end of the pause.",
+        "St. Louis Fed President Alberto Musalem said \"additional firming of monetary policy will be necessary, and soon.\" Translation: firming means raising rates, a word chosen because it sounds like something that happens to a mattress. Dallas Fed President Lorie Logan went further, saying the committee needs at least two more quarter-point increases. A quarter point, or 25 basis points, is the standard unit of Fed adjustment, small enough to be called gradual and large enough to appear on your mortgage statement.",
+        "Logan added that skipping a meeting does not change the destination, which is a reassuring thing to say about a road trip that has apparently lost a few exits. Traders took the hint: CME's FedWatch tool put the odds of a quarter-point hike in December at about 76%, according to CNBC.",
+        "The case for acting is fairly plain. Musalem called the economy resilient. GDP grew 3.4%, unemployment is 4.2%, and the personal consumption expenditures index, the Fed's preferred inflation gauge, showed annual inflation above 3%. The Fed's target is 2%. Latest consumer price data show inflation at 3.74%, which is not near 2% by any generous reading of the word near. Fed funds sit at 3.88%, and the 10-year Treasury yields 4.98%, so markets are already charging more for long money than the Fed is for overnight money.",
+        "Two voting members, Governor Lisa Cook and Cleveland Fed President Beth Hammack, wanted a hike this week and dissented. Former Richmond Fed President Jeffrey Lacker said he was surprised by the lack of urgency, given inflation near three to three-and-a-half percent for so long.",
+        "Why, then, did the Fed hold? CNBC's analysis suggests Warsh prefers to keep Wall Street guessing. He said that if the Fed had a firm conclusion, it would announce it with fanfare. He also said financial conditions are tighter, but that he is unwilling and unable to call them tight. Translation: it is a hike in a trench coat, not yet ready to be seen in public.",
+        "Before the meeting, a pair of top officials appeared to talk down expectations of a hike. Warsh declined to say he sent them, remarking that he is not some all-knowing person sending messages out. CNBC notes that this gives him plausible deniability, a feature that no central bank has ever listed in its mandate but most have used.",
+        "Warsh also announced that one meeting in 2027 and two in 2028 will focus on broader strategy, with no rate decision or statement expected. The Fed will still meet eight times a year. Critics are unimpressed. Former St. Louis Fed President James Bullard warned that a volatile world might force a special meeting anyway. Lacker suggested the opposite remedy: if you want less pressure on each meeting, hold more of them. MarketWatch framed the dispute as a chairman who wants the Fed to say less against officials pushing for more transparency.",
+        "PGIM economist Robert Sockin called the hold a policy mistake, arguing that a gradual Fed may have to hike higher later, raising recession risk. Warsh's defenders say the data due before December will settle things, and could even show productivity rising enough to permit growth without inflation.",
+        "The next meeting is in December. Until then, the most reliable forecasting tool at the Fed is the schedule of speeches by people who say they do not speak for the chairman."
+      ],
+      "topics": [
+        "federal reserve",
+        "interest rates",
+        "inflation",
+        "kevin warsh"
+      ],
+      "image_query": "federal reserve building",
+      "id": "2026-10-31-0252-markets1-fed-officials-signal-more-interest-rate-hikes-may-be-needed-",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 1,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
+        }
+      ],
+      "wire_headline": "Fed officials are already saying they’ll need to get back to hiking rates",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-30T21:53:10+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1280px-Eccles_Building_%2826088200676%29.jpg",
+        "width": 1280,
+        "height": 871,
+        "title": "Eccles Building (26088200676)",
+        "creator": "Federalreserve",
+        "creator_url": "https://www.flickr.com/people/92618257@N08",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Economy Grows 3.4% While Prices Also Grow, Fed Promises to Keep Looking at Both",
+      "dek": "Third-quarter GDP beat forecasts and layoffs stayed near 1960s lows, but September inflation hit 3.6% a day after the Fed held rates steady.",
+      "catch_up": "The Commerce Department reported Thursday that GDP grew at a 3.4% annualized pace in the third quarter, while its preferred inflation gauge rose 0.5% in September. The Fed had voted a day earlier to hold its benchmark rate at 3.75%-4%.",
+      "why_it_matters": "Strong growth combined with inflation well above the Fed's 2% target makes rate cuts harder to justify, which affects mortgage, loan and savings rates. Energy costs, which jumped in September, hit household budgets directly.",
+      "body": [
+        "The U.S. economy grew faster than economists expected from July through September, according to Commerce Department figures reported by CNBC. GDP rose at a seasonally adjusted annualized pace of 3.4%, against a forecast of 3.1% and 2.2% in the second quarter. The same morning, the government reported that inflation was also doing well, in the sense that it was still there.",
+        "Translation: annualized means the quarter's pace is projected across a full year, so the economy did not literally grow 3.4% in three months. It grew at a speed that would produce 3.4% if it kept going. Economists use this convention because it makes every number look like a different, larger number.",
+        "The inflation figures came from the personal consumption expenditures price index, the Fed's favored gauge. Prices rose 0.5% in September, the biggest monthly rise since March, taking the annual rate to 3.6%, a tenth below forecasts. Excluding food and energy, the so-called core measure rose 0.3% on the month and 3.1% over the year, in line with expectations. Translation: core strips out the items people actually buy most often, on the theory that it shows the underlying trend more clearly.",
+        "Energy was the culprit. Gasoline and other energy goods rose 9.2% in September, and energy goods and services overall climbed 5.4%. Economists, CNBC noted, fear this could spread to other parts of the economy. Services excluding energy and housing rose 0.4%, and housing costs rose 0.3%. Brent crude was most recently listed at $123.10 a barrel.",
+        "There was some mild good news. Measured quarterly, headline PCE prices rose 2.1% and core prices 2.5%, down from 5% and 3.3% in the second quarter. The quarterly figure says prices behaved better across the summer, and the monthly one says September did not get the memo.",
+        "Growth is being driven largely by the artificial intelligence build-out and by consumers and government. Consumer spending rose 3.8% in the quarter, and private domestic investment soared 19.4%, with equipment spending up 20.9% and intellectual property products up 8.4%. Real sales to private domestic purchasers, which the Fed treats as a gauge of underlying demand, rose 4.9%. Translation: nobody is slowing down, which is wonderful news for growth and a headache for anyone trying to cool prices.",
+        "The labor market offered no relief either. Initial jobless claims fell to 194,000 for the week ended Oct. 24, below the 200,000 estimate and near levels last seen in the late 1960s. Chris Rupkey of Fwdbonds said growth is \"powering ahead\" despite geopolitical risks and higher energy costs.",
+        "All of this landed one day after the Fed held its benchmark rate at 3.75%-4%. Chairman Kevin Warsh said Wednesday that \"the period right in front of us is information rich.\" CNBC observed that Thursday's data deluge suggests the Fed could have more work to do. Futures fell and Treasury yields slipped after the releases. The 10-year yield stood at 4.98% on Wednesday, and the Fed's next meeting will reveal how much information is too much."
+      ],
+      "topics": [
+        "federal reserve",
+        "gdp",
+        "inflation",
+        "energy prices"
+      ],
+      "image_query": "federal reserve building",
+      "id": "2026-10-31-0252-markets2-us-third-quarter-gdp-rises-a-better-than-expected-3-4-as-sep",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 2,
+      "sources": [
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        }
+      ],
+      "wire_headline": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "wire_source": "CNBC Economy",
+      "published": "2026-10-29T18:06:31+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1280px-Eccles_Building_%2826088200676%29.jpg",
+        "width": 1280,
+        "height": 871,
+        "title": "Eccles Building (26088200676)",
+        "creator": "Federalreserve",
+        "creator_url": "https://www.flickr.com/people/92618257@N08",
+        "license": "Public domain",
+        "license_url": "",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "ECB Holds Rates at 2.5%, Then Lagarde Announces She Would Like to Speak Freely",
+      "dek": "The central bank paused at 2.5% despite 3.8% inflation, and its president said she will leave in February 2027 to gain the freedom to say things.",
+      "catch_up": "The European Central Bank raised rates in June for the first time since 2023 and again in September, as energy prices rose following the outbreak of the U.S.-Israeli war with Iran in February. On Thursday it held its deposit rate at 2.5%, and Christine Lagarde announced her early exit.",
+      "why_it_matters": "Euro zone borrowers face higher financing costs while the ECB weighs another hike in December, and the next president will inherit a French bond market under strain. Whoever gets the job will decide how far the bank goes to defend a currency shared by 21 countries.",
+      "body": [
+        "The European Central Bank voted on Thursday to leave its key interest rate, the deposit facility, at 2.5%, as markets expected, according to CNBC. Euro zone inflation reached 3.8% last month, a three-year high. The bank has therefore responded to a three-year inflation high by doing nothing, which in central banking counts as a firm statement.",
+        "The Governing Council said rising energy prices threaten to push inflation up and growth down, while underlying inflation and wages have so far been broadly stable. Energy price inflation hit 18.8%. Translation: the things that are expensive are expensive for obvious reasons, and the ECB would like to see whether they make everything else expensive too.",
+        "Christine Lagarde said the council debated a hike and then decided unanimously to hold. She said the bank is not seeing \"second round effects\", which means companies and workers have not yet responded to pricier energy by raising prices and demanding higher pay. That is the behavior central banks fear most, and they prefer to watch for it rather than cause it.",
+        "Lagarde pointed to two developments since the last meeting: higher energy costs and a sharp rise in long-term financing costs, with the average 10-year sovereign yield up about 35 basis points. Translation: a basis point is one hundredth of a percentage point, so 35 of them is a third of a percent, which is a lot when governments owe trillions. She also blamed part of the rise on bond issuance by hyperscalers, the large tech companies building AI infrastructure, who are competing with governments for the same lenders.",
+        "Money markets, according to LSEG data, priced about a 67% chance of a hike in December. Deutsche Bank's Mark Wall expects one, to 2.75%, and calls it probably the end of the cycle. UBS's Dean Turner called Thursday's decision a \"hawkish pause\". Translation: the bank is stopping to catch its breath, not to put its feet up.",
+        "Then came the larger news. Lagarde will step down on Feb. 7 next year, nearly nine months before her term ends in October 2027. She said she wants the freedom of speech to engage on matters that are not monetary policy, because ECB presidents must stay neutral. She said she cannot remain comfortable in that neutrality at present. She did not name the matters, which is consistent with the neutrality she is leaving to escape.",
+        "The timing has consequences. Her exit falls before the French presidential election, where CNBC reports polling suggests Marine Le Pen is the frontrunner. Aberdeen's Felix Feather noted the new French president will have no role in choosing the next ECB head. Appointments are made by the European Council after consulting the European Parliament and euro area states, so the independent central bank is chosen by politicians, as is traditional.",
+        "The reported leading candidates are Spain's Pablo Hernández de Cos and the Netherlands' Klaas Knot. Analysts cited by CNBC see Knot as more hawkish, meaning more inclined to raise rates, and De Cos as more continuity-minded. Berenberg's Holger Schmieding said the ECB has no mandate and no appetite to fund French fiscal follies, which is a notable thing to say about a country whose bond spread over Germany is at its highest since the early 2010s sovereign debt crisis.",
+        "Chief economist Philip Lane and board member Isabel Schnabel are also due to leave next year. The bank is therefore preparing to replace much of its leadership while inflation is high and France is borrowing at rising costs. Lagarde, for her part, got a standing ovation. Whether anyone listens to what she says next, as she put it, is another story."
+      ],
+      "topics": [
+        "ecb",
+        "christine lagarde",
+        "eurozone inflation",
+        "france"
+      ],
+      "image_query": "European Central Bank building",
+      "id": "2026-10-31-0252-markets3-ecb-holds-key-rate-at-2-5-in-hawkish-pause-as-lagarde-announ",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 3,
+      "sources": [
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+        },
+        {
+          "name": "CNBC Economy",
+          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+        }
+      ],
+      "wire_headline": "European Central Bank keeps key interest rate on hold at 2.5%",
+      "wire_source": "CNBC Economy",
+      "published": "2026-10-29T14:48:01+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/1280px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+        "width": 1280,
+        "height": 672,
+        "title": "Seat of the European Central Bank and Frankfurt Skyline at dawn 20150422 1",
+        "creator": "DXR",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:DXR",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+        "source": "Wikimedia Commons"
+      }
+    },
+    {
+      "headline": "Exxon and Chevron Post Record Highs as the World Runs Short of Diesel",
+      "dek": "Both oil majors beat estimates on third-quarter profits of $15.4 billion and $9.9 billion, as wars in Iran and Ukraine squeeze refining capacity.",
+      "catch_up": "Fuel supplies have been disrupted since March, when the U.S. and Israel attacked Iran and Tehran began striking ships in the Strait of Hormuz. Attacks by Ukraine, Iran and Houthi militants on refineries in Russia and the Middle East have cut global refining capacity further, CNBC reported.",
+      "why_it_matters": "Diesel moves freight, farm equipment and construction, so a 70% jump in its price shows up in the cost of nearly everything else. The same shortage that strains household budgets is what is producing the record corporate profits.",
+      "body": [
+        "ExxonMobil and Chevron reported sharply higher third-quarter profits on Friday, and both stocks touched all-time highs, CNBC reported. Exxon's profit doubled to $15.4 billion from $7.5 billion a year earlier. Chevron's net income rose nearly 200% to $9.9 billion. Both companies beat Wall Street estimates, which is a feat when the quarter's main event is a global fuel emergency.",
+        "The cause is simple. Refineries in Russia and the Middle East have been hit by Ukrainian, Iranian and Houthi attacks, removing millions of barrels per day of capacity. Importers have turned to U.S. Gulf Coast refineries, which belong in large part to companies like these two. Exxon's Gulf Coast plants ran at 100% capacity. Chevron's U.S. refineries ran at 98% and processed just over 1 million barrels a day, a record.",
+        "Translation: when nobody else can make diesel, the people who still can get to name the price. Chevron's refining profit rose more than 300% to $4.9 billion. Exxon's refining arm earned about $7.2 billion in the quarter, narrowly beating its production business at about $7.1 billion. In other words, the part of the company that turns oil into fuel is now worth more than the part that finds the oil.",
+        "Exxon CEO Darren Woods told CNBC that diesel is the key crunch point because demand is very inelastic. Translation: people buy it at any price because trucks cannot run on optimism. AAA put the U.S. national average at $6.32 a gallon on Friday, up more than 70% from a year ago, after a record high in September.",
+        "Chevron CEO Mike Wirth said the system is under stress and the environment is fairly fragile. This is an unusual thing for the owner of a record-setting refinery to say, but it is also the business case. Fragility is what the quarterly results are made of.",
+        "Production did not share in the fun. Chevron's oil and gas output slipped to 3.9 million barrels a day from about 4 million, partly because of the conflict in the Middle East. Exxon has produced about 4.5 million barrels a day this year, down more than 2%. The profit comes from scarcity, not from pumping more.",
+        "The politics are awkward. CNBC noted that President Donald Trump said in August that the two companies were making too much money based on a shortage. Friday's numbers suggest the companies heard him and made even more.",
+        "The shipping picture explains why this may last. A second CNBC report said tankers are still moving crude through Hormuz despite a record number of attacks in October. At least 30 vessels were hit this month, according to the International Maritime Organization, and Brent traded above $117 on Friday. Ships are using a shuttle system, with transponders off, that pushed supertanker rates above $900,000 a day in early October. It works only because of U.S. air cover, and no one is sure how long Washington will stay engaged after Tuesday's midterms.",
+        "Watch whether the shuttle system holds and whether Congress changes the war's direction. If it does, diesel could get cheaper. Refiners would then have to find a new way to explain the record year."
+      ],
+      "topics": [
+        "oil",
+        "exxon",
+        "chevron",
+        "strait of hormuz"
+      ],
+      "image_query": "oil refinery",
+      "id": "2026-10-31-0252-markets4-chevron-and-exxon-hit-record-highs-as-iran-and-ukraine-war-s",
+      "section": "markets",
+      "section_title": "Markets & Economy",
+      "rank": 4,
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html"
+        },
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+        }
+      ],
+      "wire_headline": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
+      "wire_source": "CNBC Markets",
+      "published": "2026-10-30T16:44:31+00:00",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg/1280px-Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        "width": 1280,
+        "height": 373,
+        "title": "Blue hour fog over Preemraff oil refinery by Brofjorden",
+        "creator": "W.carter",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:W.carter",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "landing_url": "https://commons.wikimedia.org/wiki/File:Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        "source": "Wikimedia Commons"
+      }
+    }
+  ],
+  "wire": {
+    "geopolitics": [
+      {
+        "title": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss"
+      },
+      {
+        "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg"
+      },
+      {
+        "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
+      },
+      {
+        "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
+        "source": "NPR World",
+        "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans"
+      },
+      {
+        "title": "Smuggling, power, profit: Irregular migration out of eastern Libya",
+        "source": "DW",
+        "url": "https://www.dw.com/en/smuggling-power-profit-irregular-migration-out-of-eastern-libya/a-79808822?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Pope Leo becomes first pontiff to vote in US general election",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss"
+      },
+      {
+        "title": "What the rift within the Tsikhanouski family means for the Belarusian opposition in exile",
+        "source": "DW",
+        "url": "https://www.dw.com/en/what-the-rift-within-the-tsikhanouski-family-means-for-the-belarusian-opposition-in-exile/a-79802776?maca=en-rss-en-world-4025-rdf"
+      },
+      {
+        "title": "Fake polls expose vulnerabilities in US elections ahead of midterms",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/31/fake-polls-expose-vulnerabilities-in-us-elections-ahead-of-midterms?traffic_source=rss"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      },
+      {
+        "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/"
+      },
+      {
+        "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+        "source": "The Decoder",
+        "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
+      },
+      {
+        "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+        "source": "Ars Technica AI",
+        "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/"
+      },
+      {
+        "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"
+      },
+      {
+        "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      },
+      {
+        "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/"
+      },
+      {
+        "title": "The Download: AI agent tracking and climate feedback loops",
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+      },
+      {
+        "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+        "source": "Hacker News",
+        "url": "https://tng.episodle.com/"
+      },
+      {
+        "title": "Flesh-eating screwworms spread to third state and are attacking pets",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/"
+      },
+      {
+        "title": "Exclusive details about Akai’s MPC Sample Key",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive"
+      },
+      {
+        "title": "Linode Security Incident",
+        "source": "Hacker News",
+        "url": "https://status.linode.com/incidents/nt58zhx3pmgm"
+      },
+      {
+        "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/"
+      },
+      {
+        "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      }
+    ],
+    "markets": [
+      {
+        "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+        "source": "CNBC Economy",
+        "url": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html"
+      },
+      {
+        "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Alaska Air to cut about 200 jobs as fuel shock squeezes earnings",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/alaska-air-to-cut-200-jobs-as-fuel-costs-threaten-700-million-annual-loss-4988943"
+      },
+      {
+        "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm"
+      },
+      {
+        "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html"
+      },
+      {
+        "title": "This cybersecurity stock will be the next to join the S&P 500",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories"
+      },
+      {
+        "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-approves-21-billion-patriot-missile-sale-to-ukraine-4988538"
+      },
+      {
+        "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
+        "source": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html"
+      }
+    ]
+  }
+}
